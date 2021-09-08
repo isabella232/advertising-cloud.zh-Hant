@@ -1,0 +1,19 @@
+---
+title: Advertising Cloud政策與准則
+description: 了解Advertising Cloud DSP和Advertising Cloud Search的政策和准則。
+index: true
+exl-id: null
+source-git-commit: 2866eb13b5ddcd485e6817fb2ebe6ea3cbb43b5c
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 0%
+
+---
+
+# Advertising Cloud政策與准則
+
+了解Advertising Cloud DSP和Advertising Cloud Search的政策和准則：
+
+* [廣告需求政策](/help/policies/ad-requirements-policy.md)
+* [可接受的健康區段指南](/help/policies/health-segment-guidelines.md)
+* [DSP資料使用准則](/help/policies/data-usage-guidelines.md)

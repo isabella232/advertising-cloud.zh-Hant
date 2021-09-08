@@ -1,0 +1,96 @@
+---
+title: 已下載/已上載電子錶格中的列
+description: 參考下載和上傳的Excel QA試算表中的欄。
+feature: Placements
+exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
+source-git-commit: fcd55f882f56c9eacd82d554d30364400b99555c
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 0%
+
+---
+
+# 已下載/已上載電子錶格中的列
+
+<!-- rename -- not specific enough - I think you can download Excel files of other things too -->
+
+<!-- see notes within the table about descriptions that need to be edited -->
+
+>[!TIP]
+>
+> 在下載的試算表中，所有可編輯的欄都會以藍色強調顯示。
+
+| 區段 | 欄 | 說明 | 可編輯？ |
+|---------|--------|-------------|-----------|
+| [!UICONTROL Basic] | [!UICONTROL Placement ID] | 版位的數值ID。 | — |
+| [!UICONTROL Basic] | [!UICONTROL Placement Name] | 版位的名稱。 | 是 |
+| [!UICONTROL Basic] | [!UICONTROL Labels] | 任何已套用的標籤，用於報告。 | — |
+| [!UICONTROL Basic] | [!UICONTROL Edit Link] | 在「編輯」模式中開啟放置的連結。 | — |
+| [!UICONTROL Basic] | [!UICONTROL Status] | 版位狀態：*[!UICONTROL active]*&#x200B;或&#x200B;*[!UICONTROL inactive]*。 | 是 |
+| [!UICONTROL Basic] | [!UICONTROL Placement Type] | 版位類型。 | — |
+| [!UICONTROL Basic] | [!UICONTROL Package Name] | 父包的名稱（如果適用）。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Start Date] | 版位的開始日期。 | — |
+| [!UICONTROL Goals] | [!UICONTROL End Date] | 投放的結束日期。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Day parting] | 日時段是&#x200B;*[!UICONTROL ON]*&#x200B;還是&#x200B;*[!UICONTROL OFF]*。<br><b>注意：</b> 若要檢查實際的日分段排程，請在中開啟版位設 [!DNL DSP]定。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Budget] | 版位預算（如果有）。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Budget Interval] | 預算間隔：&lt;i[!UICONTROL >Daily]*、*[!UICONTROL Weekly]*、*[!UICONTROL Monthly]*&#x200B;或&#x200B;*[!UICONTROL All Time]*。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | 包的目標。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Optimization Target] | 目標的目標值。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Pace on] | 版位是朝&#x200B;*[!UICONTROL Budget]*&#x200B;或&#x200B;*[!UICONTROL Impressions]*&#x200B;調整。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Max Bid] | 版位的最高出價。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Pacing Fill Strategy] | 投放位置的步調填入策略：*[!UICONTROL evenly]*、*[!UICONTROL frontload]*&#x200B;或&#x200B;*[!UICONTROL aggressive frontload]*。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | 要套用的任何出價前篩選條件。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | 競標規則（已廢止）是&#x200B;*[!UICONTROL ON]*&#x200B;還是&#x200B;*[!UICONTROL OFF]*。 | — |
+| [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | 在指定[!UICONTROL Frequency Cap Interval]期間放置的主頻上限。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | 主頻上限的間隔：*[!UICONTROL Day]*、*[!UICONTROL Week]*&#x200B;或&#x200B;*[!UICONTROL Month]*。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap] | 指定[!UICONTROL Secondary Frequency Cap Interval]期間放置的次頻上限 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval] | 次頻上限的間隔類型：*[!UICONTROL Week]*、*[!UICONTROL Day]*、*[!UICONTROL Hour]*&#x200B;或&#x200B;*[!UICONTROL Minute]*。 適用的周數、天數、小時數或分鐘數由[!UICONTROL Secondary Frequency Cap Interval Value]表示。 | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | [!UICONTROL Secondary Frequency Cap]適用的周數、天數、小時數或分鐘數。 例如，如果次要次數上限是每六小時三次曝光次數，則此處的值會是<b>6&lt;/>。 | 是 |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included #] | 目標地理位置的數量，*[!UICONTROL All]*&#x200B;或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included] | 目標地理位置，以分號或&#x200B;*[!UICONTROL All Locations]*&#x200B;分隔。 | — |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded #] | 排除的地理位置或&#x200B;*[!UICONTROL None]*&#x200B;的數量。 | — |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded] | 排除的地理位置，以分號分隔，或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Included #] | 目標公共清單交易的數量（如果有），請指定&#x200B;*[!UICONTROL All]*&#x200B;或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Excluded #] | 已排除的公用庫存交易數（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Included #] | 已指定的目標專用庫存交易數（如果有）,*[!UICONTROL All]*&#x200B;或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Excluded #] | 已排除的專用庫存交易數（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | 目標[!UICONTROL On-Demand Inventory]交易的數量（如果有），則為&#x200B;*[!UICONTROL All]*&#x200B;或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | 已排除的按需庫存交易數（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Traffic Type] | 流量的目標類型：*[!UICONTROL Website]*&#x200B;和/或&#x200B;*[!UICONTROL Apps]* | — |
+| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | 排除流出流量的「庫存目標定位」選項是&lt;i[!UICONTROL >ON]*還是&#x200B;*[!UICONTROL OFF]*。<br>外流廣告通常在內容上顯示為快顯視窗或填入內容（在原生體驗中），而非視訊播放器中的一般視訊廣告。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Site Tier] | 要定位的網站品質：*[!UICONTROL Tier 1]*、*[!UICONTROL Tier 2]*、*[!UICONTROL Tier 3]*&#x200B;或&#x200B;*[!UICONTROL All Sites]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | 目標站點類別（如果已指定）的數量，或&#x200B;*[!UICONTROL All]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | 已排除的網站類別（如果有指定）的數量，或&#x200B;*[!UICONTROL All]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | 排除的站點（如果有）或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Language] | 目標網站語言。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | 是否允許在非稽核的網站上傳送廣告：*[!UICONTROL ON]*&#x200B;或&#x200B;*[!UICONTROL OFF]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | 已指定的目標站點數（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | 目標對象（若有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | 已排除的對象（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | 是否為版位（和促銷活動中的其他版位）啟用[!DNL Comscore]人口統計區段：*[!UICONTROL ON]*&#x200B;或&#x200B;*[!UICONTROL OFF]*。 只有為[!DNL Nielson]和/或[!DNL Comscore]啟用[!DNL Audience Verification]功能的促銷活動，才能啟用此功能。  這會產生額外的費用。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | 是否要跨裝置延伸廣告鎖定目標：*[!UICONTROL ON]*&#x200B;或&#x200B;*[!UICONTROL OFF]*.<!-- Whether or not the Cross Device Targeting setting is enabled for the placement : *ON* or *OFF*. Cross-device targeting extends your targeting across all of a person's known device, per the device graph specified in the campaign settings.--> | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting]  — 包含# | 目標主題代碼（如果有）的數量，或&#x200B;*[!UICONTROL All]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | 已排除的主題代碼（如果有）的數量，或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | 已指定的目標設備目標數（如果有），或&#x200B;*[!UICONTROL All]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Excluded #] | 已排除的設備目標（如果有）的數量，或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Included #] | 目標ISP提供商（如果有）的數量，或*[!UICONTROL All]/i>。 | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Excluded #] | 已排除的ISP提供者（如果有）的數量，或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Contextual Filtering #] | 套用的品牌安全性篩選器數量（如果已指定），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Pre-Bid Fraud blocking #] | 已套用的競標前欺詐封鎖篩選器數（若有指定），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Pre-Bid Viewability #] | 已套用的競標前可檢視性篩選條件數（若有指定），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | 是否啟用站點安全塊：*[!UICONTROL ON]*&#x200B;或&#x200B;*[!UICONTROL OFF]*.<!-- Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one? --> | — |
+| [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | 附加至版位的第三方事件追蹤像素數，或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | 附加至位置的轉換追蹤像素數，或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 靜態的第三方費率，可視情況以每千次曝光的不計費成本來追蹤。 | — |
+| [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | 附加至版位的廣告數（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+| [!UICONTROL Ads] | [!UICONTROL Ad Names] | 附加至版位的廣告名稱（如果有），或&#x200B;*[!UICONTROL None]*。 | — |
+
+{style=&quot;table-layout:auto&quot;}
+
+>[!MORELIKETHIS]
+>
+>* [關於使用試算表更正促銷活動的位置設定](qa-about.md)
+>* [下載行銷活動的版位設定](qa-sheet-download.md)
+>* [行銷活動的上傳位置設定](qa-sheet-upload.md)
+>* [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)
+
