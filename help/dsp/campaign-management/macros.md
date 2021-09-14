@@ -3,9 +3,9 @@ title: Advertising Cloud DSP巨集
 description: 參考可用的巨集以用於一般追蹤，以及追蹤第三方顯示廣告的點按次數。
 feature: Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: e0166dbad4fec41fdc64a65cb3a8ac97496c681f
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [音訊廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [已連接的電視廣告設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [行動廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [原生廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [前段廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 
