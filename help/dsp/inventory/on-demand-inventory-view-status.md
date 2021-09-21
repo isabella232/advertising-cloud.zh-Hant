@@ -1,9 +1,9 @@
 ---
 title: 查看 [!DNL On Demand] 交易請求和訂閱的狀態
 description: 了解如何查看您的 [!DNL On Demand] 交易要求和訂閱的狀態。
-feature: On Demand Inventory
+feature: DSP On Demand Inventory
 exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%

@@ -1,9 +1,9 @@
 ---
 title: 已連接的電視廣告設定
 description: 請參閱連線電視廣告可用廣告設定的說明。
-feature: Ads
+feature: DSP Ads
 exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%

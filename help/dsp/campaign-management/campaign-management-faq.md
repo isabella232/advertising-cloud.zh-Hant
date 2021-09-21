@@ -1,9 +1,9 @@
 ---
 title: 關於Campaign管理的常見問題集
 description: 進一步了解行銷活動管理，包括變更的延遲期間，以及在飛行期間進行預算變更時會發生什麼事。
-feature: Packages, Placements
+feature: DSP Packages, DSP Placements
 exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%

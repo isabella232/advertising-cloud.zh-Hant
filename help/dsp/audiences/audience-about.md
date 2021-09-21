@@ -1,9 +1,9 @@
 ---
 title: 關於Advertising Cloud DSP中的受眾管理
 description: 了解受眾管理功能。
-feature: Audiences, Segments
+feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 0%

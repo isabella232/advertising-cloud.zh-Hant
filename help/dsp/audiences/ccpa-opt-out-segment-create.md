@@ -1,9 +1,9 @@
 ---
 title: 建立並實作CCPA選擇退出銷售區段
 description: 了解如何建立和實作區段，以追蹤使用者ID，使其免受消費者選擇退出銷售的請求影響。
-feature: CCPA, Segments
+feature: CCPA, DSP Segments
 exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

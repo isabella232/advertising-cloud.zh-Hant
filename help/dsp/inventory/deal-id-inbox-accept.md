@@ -1,9 +1,9 @@
 ---
 title: 在[!UICONTROL Deal ID Inbox]中接受交易
 description: 了解如何使用「交易ID收件匣」，在 [!DNL Google Authorized Buyers], [!DNL FreeWheel], or [!DNL Rubicon] 上接受您已與發行商商議的私人交易。
-feature: Private Inventory, Deal IDs
+feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%

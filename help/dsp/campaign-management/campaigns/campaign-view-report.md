@@ -1,9 +1,9 @@
 ---
 title: 檢視促銷活動的詳細報表
 description: 了解如何開啟行銷活動層級的報表，其中包含「地理位置」、「裝置」、「可檢視性」和「對象效能」資料等章節。
-feature: Campaigns, Campaign Data Views
+feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: 88fd3cdc-18af-4d3c-a93e-88058d56aabc
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%

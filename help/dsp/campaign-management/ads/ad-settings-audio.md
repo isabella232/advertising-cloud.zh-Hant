@@ -1,9 +1,9 @@
 ---
 title: 音訊廣告設定
 description: 請參閱音訊廣告可用廣告設定的說明。
-feature: Ads
+feature: DSP Ads
 exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%

@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL FreeWheel] 廣告提交的錯誤代碼'
 description: 參考針對廣告提交傳回的錯誤碼至 [!DNL FreeWheel]。
-feature: Private Inventory, Deal IDs
+feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 2%

@@ -1,9 +1,9 @@
 ---
 title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單位。
-feature: Ads
+feature: DSP Ads
 exl-id: null
-source-git-commit: e2ee41c7e3e195f062ad1cc67080ed913d6d3d06
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
