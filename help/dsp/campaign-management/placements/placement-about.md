@@ -3,9 +3,9 @@ title: 關於Advertising Cloud DSP中的版位管理
 description: 了解版位管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 9d35b366122cab460e8d563b36597926ed71b6b0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 依預設，控制面板也會依位置顯示步調和傳送量度。 您可以選擇檢視版位的效能量度，並建立自訂欄集。 您可以以XLSM（啟用巨集的Excel試算表）格式的報表形式，將整個資料表下載至瀏覽器的預設下載資料夾。
 
-對於每個版位，您可以開啟詳細資訊檢視([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，其中包括效能量度、步調和傳遞量度，以及依網站和廣告的自訂欄集；和頻率量度。 您也可以在包含的網站和廣告上執行快速動作，例如排除網站或暫停廣告。 要開啟檢查器，請將游標停留在放置行上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**&#x200B;或&#x200B;**[!UICONTROL Frequency]**。 您可以將[!UICONTROL Sites]、[!UICONTROL Ads]或[!UICONTROL Frequency]標籤上的資料，以XLSM格式的報表形式，匯出至瀏覽器的預設下載資料夾。
+對於每個版位，您可以開啟詳細的檢視([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，其中包括效能量度、步調和傳送量度，以及依網站、廣告和詳細目錄的自訂欄集；和頻率量度。 您也可以對包含的網站、廣告和詳細目錄執行快速動作，例如排除網站、暫停廣告或編輯交易。 要開啟檢查器，請將游標停留在放置行上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**、**[!UICONTROL Frequency]**&#x200B;或&#x200B;**[!UICONTROL Inventory]**。 您可以將[!UICONTROL Sites]、[!UICONTROL Ads]、[!UICONTROL Frequency]或[!UICONTROL Inventory]標籤上的資料，以XLSM格式的報表形式，匯出至瀏覽器的預設下載資料夾。
 
 >[!NOTE]
 >
