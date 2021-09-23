@@ -1,9 +1,11 @@
 ---
 title: 新增功能Advertising Cloud DSP
 description: 本頁說明Advertising Cloud DSP中最近變更的新功能。
+cloud: Experience Cloud
+product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: ec21d8c18bced3fcd635df8b9b2734e028ceb118
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
