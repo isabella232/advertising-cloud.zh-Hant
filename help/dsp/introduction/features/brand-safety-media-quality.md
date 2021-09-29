@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步了解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 3cc617092f38d20bd01e487c985bb1d05c167506
+source-git-commit: cebe80fa8ed4f6410a7ea3ee7be6e0bf03631a49
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Advertising Cloud DSP提供一套品牌保護功能，確保您的每個行銷�
 
 ### 支援[!DNL Ads.txt]的清單驗證
 
-[[!DNL Ads.txt]]（代表[!DNL Authorized Digital Sellers](https://iabtechlab.com/ads-txt)）是2017年6月由[!DNL Interactive Advertising Bureau]([!DNL IAB])發起的一項舉措，旨在促進在公開市場上正確地反映庫存，從而打擊非法的流量來源和欺騙域。 參與的發行商和經銷商會借由維護網域頂層的`ads.txt`頁面（例如`example.com/ads.txt`），公開宣佈授權銷售其數位庫存的公司，以及這些關係的性質。
+[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 是由( [!DNL Interactive Advertising Bureau] [!DNL IAB])於2017年6月發起的一項舉措，旨在促進存貨在公開市場上的適當代表，從而打擊非法的流量來源及網域欺騙。參與的發行商和經銷商會借由維護網域頂層的`ads.txt`頁面（例如`example.com/ads.txt`），公開宣佈授權銷售其數位庫存的公司，以及這些關係的性質。
 
 DSP可讀取每個發佈商的`ads.txt`檔案，並提供僅向已驗證的[!DNL ads.txt]銷售商購買的選項，以支援[!DNL ads.txt]。 例如，將可存取`nytimes.com`的賣家與《紐約時報》的`ads.txt`檔案配對後，我們便可識別哪些是合法的，哪些不是，而且，如果版位設定為僅向經驗證的賣家購買，我們將阻止違規者。<!-- can we actually mention NY Times? -->
 
