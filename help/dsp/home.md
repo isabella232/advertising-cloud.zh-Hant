@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 61a5739a4f208cd0e9106015347570d66225c9bd
+source-git-commit: 4a70d7f8514531618dec257a1c0d32beabc03b51
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021年9月30日 | 品牌安全 | （9月22日發行版本）[!DNL DoubleVerify]品牌安全預先出價產品已更新為[!DNL Brand Suitability Tiers]，讓廣告商可針對特定區段在三個風險等級（低、中、高）之間進行選擇，而不會避免特定主題的所有例項。 在過去，段不包含任何容差級別。 | — |
+|  | 最佳化 | 已棄用下列最佳化目標和出價前篩選器：<ul><li>最佳化目標：<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>預先出價篩選目標：<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 請參閱「[最佳化目標及如何使用](/help/dsp/optimization/optimization-goals.md)」和「[版位層級出價前篩選器及如何使用](/help/dsp/optimization/optimization-pre-bid-filters.md)」。 |
 | 2021年9月28日 | 行銷活動管理檢視 | 「[!UICONTROL Creation date]」欄現在可用於[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]和[!UICONTROL Ads]檢視的自訂欄集。 您也可以依[!UICONTROL Creation date]篩選[!UICONTROL Placements]和[!UICONTROL Ads]檢視。 | 請參閱「[建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)」和「[篩選促銷活動資料](/help/dsp/campaign-management/reports/campaign-data-filter.md)」。 |
-|  | 程式擔保交易 | 您現在可以編輯程式化保證(PG)交易之預設位置的[!UICONTROL Max Bid]。 但是，由於PG交易一律有固定CPM，因此只有國際客戶應編輯[!UICONTROL Max Bid]以將貨幣兌換費用納入考量。 | — |
-|  |  | 擁有「[!DNL FreeWheel Programmatic Guaranteed]」權限的使用者現在可以從[!UICONTROL Ads]檢視或[!UICONTROL Placements]檢視將廣告提交至[!DNL FreeWheel Programmatic Creative API]。 您仍可從[!UICONTROL Deals]檢視提交廣告。 | —<!-- Add link to page on submitting ads to Freewheel once it's edited. --> |
+|  | 程式擔保交易 | （9月8日發行版本）您現在可以編輯程式化保證(PG)交易的預設位置[!UICONTROL Max Bid]。 但是，由於PG交易一律有固定CPM，因此只有國際客戶應編輯[!UICONTROL Max Bid]以將貨幣兌換費用納入考量。 | — |
+|  |  | （9月8日發行）擁有「[!DNL FreeWheel Programmatic Guaranteed]」權限的使用者現在可以從[!UICONTROL Ads]檢視或[!UICONTROL Placements]檢視將廣告提交至[!DNL FreeWheel Programmatic Creative API]。 您仍可從[!UICONTROL Deals]檢視提交廣告。 | —<!-- Add link to page on submitting ads to Freewheel once it's edited. --> |
 | 2021年8月11日 | 預先出價的可檢視性 | [!DNL Oracle Advertising (Moat)]的出價前可檢視性篩選器現在適用於您的版位。 | 請參閱更多關於[第三方整合的資訊，了解競標前可見度](/help/dsp/introduction/features/brand-safety-media-quality.md#pre-bid-viewability)和「[版位層級的競標前篩選器及如何使用](/help/dsp/optimization/optimization-pre-bid-filters.md)」。 |
 | 7月15日 | 說明 | 新增了有關Advertising Cloud DSP如何為客戶帳戶購買媒體和服務的詳細資訊。 | 請參閱「[帳戶資金](/help/dsp/introduction/billing/account-funding.md)」。 |
 | 2021年6月12日 | 說明 | 已更新廣告原則。 | 請參閱「[Adobe Advertising Cloud廣告需求政策](/help/policies/ad-requirements-policy.md)」。 |
