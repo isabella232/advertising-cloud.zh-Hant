@@ -2,9 +2,9 @@
 title: 可用 [!DNL Advanced Measurement Solutions]
 description: 請參閱進階測量的可用解決方案清單。
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 209dfce05228be879d9ba744590ff52ce572a807
+source-git-commit: d25e768fe5d277ef8d1c9ae7531b7a7d3c563622
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ ht-degree: 0%
 
 ## 更多資訊
 
-若要進一步了解如何運用進階測量服務來建立行銷活動的自訂學習議程，包括地區限制和定價，請前往[!DNL asg@adobe.com]聯絡[!DNL Adobe Strategic Advertising Consultants]團隊。
+若要進一步了解如何運用進階測量解決方案為您的行銷活動建立自訂學習議程，包括每個套件的可測量格式、地區限制和定價，請透過[!DNL asg@adobe.com]聯絡[!DNL Adobe Strategic Advertising Consultants]團隊。
