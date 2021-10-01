@@ -8,10 +8,10 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用Advertising Cloud DSP管理、最佳化和報告顯示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: acc5b7bb719b655d8b019eee3b5783fec49af0b9
+source-git-commit: e41938befafe54da1466e8faab08f1d7a263f4e0
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 3%
       + [廣告需求政策](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
       + [可接受的健康區段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 資料使用准則](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
-   + [可用 [!DNL Advanced Measurement Services]](/help/dsp/introduction/advanced-measurement-services.md)
+   + [可用 [!DNL Advanced Measurement Solutions]](/help/dsp/introduction/advanced-measurement-services.md)
 + 促銷活動管理{#campaign-management}
    + [促銷活動管理結構概覽](/help/dsp/campaign-management/campaign-management-overview.md)
    + 促銷活動{#campaigns}

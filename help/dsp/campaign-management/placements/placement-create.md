@@ -3,10 +3,10 @@ title: 建立版位
 description: 了解如何建立版位。
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 608774723f865c22bfdd5c911ac818600a495114
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 1%
    1. 指定[!UICONTROL Basics]設定。
 
    1. 在[!UICONTROL Goals]區段中，指定[!UICONTROL Gross Budget]，並選擇性地指定其他版位目標。
-有些欄位有您可以覆寫的預設值。
+
+      有些欄位有您可以覆寫的預設值。
 
       如果分配位置的包具有包級步調，則您的目標和步調設定將反映包設定。
 
