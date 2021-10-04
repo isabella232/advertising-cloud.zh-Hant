@@ -3,9 +3,9 @@ title: 帳戶資金
 description: 了解DSP的帳戶資金。
 feature: DSP Introduction
 exl-id: c90e88a7-78dd-402c-baba-9bac360093a4
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 4d3020701caae4218aff2ecb7e7c063afebac4d5
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,8 @@ Adobe Advertising Cloud DSP通過以下兩種方式之一為客戶購買媒體�
 ![帳戶的可用資金](/help/dsp/assets/account-usable-funds.png)
 
 Adobe保留因包括違反DSP [廣告要求政策](/help/policies/ad-requirements-policy.md)或隱私權條款的原因而阻止帳戶在DSP上花費的權利。 如果Adobe封鎖您的帳戶，則您的帳戶設定會包含封鎖的通知。 請與您的Advertising Cloud [!DNL Client Services]代表合作，判斷區塊的原因，以及如何更正錯誤。
+
+>[!MORELIKETHIS]
+>
+>* [支援的貨幣](/help/dsp/currency.md)
+

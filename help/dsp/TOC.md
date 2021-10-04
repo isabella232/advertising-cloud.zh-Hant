@@ -8,10 +8,10 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用Advertising Cloud DSP管理、最佳化和報告顯示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e41938befafe54da1466e8faab08f1d7a263f4e0
+source-git-commit: ba80cbe9d44694c75f2cf46b448130d7bd29e419
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 0%
       + [品牌安全與媒體品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [跨裝置解決方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
+   + [支援的貨幣](/help/dsp/currency.md)
    + 支援消費者隱私權 {#privacy}
       + [支援一般資料保護規範](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-gdpr.html)
       + 支援CCPA {#ccpa}
