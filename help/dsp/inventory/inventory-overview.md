@@ -3,9 +3,9 @@ title: Advertising Cloud DSP中的庫存功能概觀
 description: 了解可用的詳細目錄功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 582823095b8d41876676f3f06489030d9950173f
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ### 私人詳細目錄
 
-設定並管理私人市場交易(PMP)，這些交易是您與發佈商直接協商的1:1交易，以便您帳戶中的一個或多個廣告商可以鎖定這些交易。 透過交易ID或VAST（視訊廣告服務範本）標籤執行這些交易。 您可以設定非保證PMP，或設定程式化保證(PG)交易ID與特定SSP。
+設定並管理私人市場交易(PMP)，這些交易是您與發佈商直接協商的1:1交易，以便您帳戶中的一個或多個廣告商可以鎖定這些交易。 透過交易ID執行這些交易。 您可以設定非保證PMP，或設定程式化保證(PG)交易ID與特定SSP。
 
 ### 簡單廣告服務
 
-[!DNL Simple Ad Serving] 是經過簡化的技術，可提供保證、非決策的廣告傳送和報告。當您的發佈商無法透過交易ID執行交易時，請使用[!DNL Simple Ad Serving]。 所有鎖定目標、預算調整和上限以及頻率限定均由發佈者處理。 透過廣告標籤或事件像素執行這些交易。
+[!DNL Simple Ad Serving] 是經過簡化的技術，可提供保證、非決策的廣告傳送和報告。當您的發佈商無法透過交易ID執行交易時，請使用[!DNL Simple Ad Serving]。 所有鎖定目標、預算調整和上限以及頻率限定均由發佈者處理。 透過事件追蹤像素執行這些交易。
 
 >[!MORELIKETHIS]
 >
