@@ -3,9 +3,9 @@ title: 手動交易ID設定
 description: 請參閱手動輸入交易ID之設定的說明。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 0cd5e9e8-2b13-4b1e-a2e0-b8b492f75acf
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: c3d0783078adc8afafb55d6b6e7e48cdc875ce7c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 |  | [!UICONTROL External deal ID] | 發佈商和SSP用來識別此交易的ID。 | 是 | 否 |
 |  | [!UICONTROL Publisher] | 銷售此庫存的發佈商的名稱。 | 是 | 否 |
 |  | [!UICONTROL SSP] | 此交易將透過的供應端平台(SSP)。 | 是 | 否 |
-|  | [!UICONTROL Media type] | 通過此交易購買的媒體類型：[!UICONTROL Desktop video]、[!UICONTROL Mobile video]、[!UICONTROL Connected TV]、[!UICONTROL Display]或[!UICONTROL Audio]。 選項因SSP而異。 | 是 | 否 |
+|  | [!UICONTROL Media type] | 通過此交易購買的媒體類型：[!UICONTROL Desktop video]、[!UICONTROL Mobile video]、[!UICONTROL Connected TV]、[!UICONTROL Display]或[!UICONTROL Audio]。 選項因SSP而異。<br><br> 如果交易允許多種媒體類型，請在建立交易時為預設版位選擇媒體類型。之後，您可以選擇其他媒體類型以建立具有附加媒體類型的新位置。<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | 是 | 否 |
 |  | [!UICONTROL Deal type] | 交易承諾和定價結構：<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*:您和發佈商未承諾傳送固定數量的曝光。交易指定存貨的最低價格，但CPM可能會隨市場狀況而波動和增加。</li><li>*[!UICONTROL Non guaranteed (fixed)]*:您和發佈商未承諾傳送固定數量的曝光。定價採用議定的固定費率。</li><li>*[!UICONTROL Guaranteed (fixed)]*:您和發佈商已同意預先定義的曝光數、目標、投放日期和固定價格。<br><br><b>注意：</b> 保證交易需要投放日期以及區段中的指定曝光 [!UICONTROL Tracking] 次數。您還需要為交易建立預設的程式化保證(PG)版位，並可選擇將交易用於其他版位。</li></ul> | 是 | 否 |
 |  | [!UICONTROL CPM] | 每千次曝光的議定成本(CPM)。 | 是 | 是 |
 |  | [貨幣] | 交易的貨幣。<br><br>所有SSP都接受美元交易。當SSP接受您DSP帳戶的貨幣時，該貨幣也可供使用。 | 是 | 否 |
