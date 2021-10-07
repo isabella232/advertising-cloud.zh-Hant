@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: afdfaed21410fdd1808964d637b5210255af7d81
+source-git-commit: 30521ed6daf38235125acc1f99115bf9f94d6975
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021年10月7日 | 說明 | [!DNL Experience League]上的所有[DSP和其他Advertising Cloud檔案](https://experienceleague.adobe.com/docs/advertising-cloud.html)現在都是機器翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」功能表。<br>![變更語言](/help/dsp/assets/change-language.png) |
 | 2021年9月30日 | 品牌安全 | （9月22日發行版本）[!DNL DoubleVerify]品牌安全預先出價產品已更新為[!DNL Brand Suitability Tiers]，讓廣告商可針對特定區段在三個風險等級（低、中、高）之間進行選擇，而不會避免特定主題的所有例項。 在過去，段不包含任何容差級別。<br><br>為了與新的區段結 [!DNL DoubleVerify] 構一致，DSP將您現有的品牌安全區段移轉至其建議的新 *中級*&#x200B;區段。您可以選擇將區段層調整為&#x200B;*low*&#x200B;或&#x200B;*high*。<br><br>**注意：** 一小組區段沒有層級，但有新名稱，例如「滋擾/間諜軟體/惡意軟體、Warez」>「激勵/惡意軟體/凌亂」。 | — |
 |  | 最佳化 | 已棄用下列最佳化目標和出價前篩選器：<ul><li>最佳化目標：<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>預先出價篩選目標：<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 請參閱「[最佳化目標及如何使用](/help/dsp/optimization/optimization-goals.md)」和「[版位層級出價前篩選器及如何使用](/help/dsp/optimization/optimization-pre-bid-filters.md)」。 |
 | 2021年9月28日 | 行銷活動管理檢視 | 「[!UICONTROL Creation date]」欄現在可用於[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]和[!UICONTROL Ads]檢視的自訂欄集。 您也可以依[!UICONTROL Creation date]篩選[!UICONTROL Placements]和[!UICONTROL Ads]檢視。 | 請參閱「[建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)」和「[篩選促銷活動資料](/help/dsp/campaign-management/reports/campaign-data-filter.md)」。 |
