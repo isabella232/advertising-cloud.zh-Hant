@@ -1,18 +1,18 @@
 ---
 title: 關於[!UICONTROL Deal ID Inbox]
-description: 了解[!UICONTROL Deal ID inbox]功能，該功能可讓您接受您已與 [!DNL Google Authorized Buyers], [!DNL FreeWheel], and [!DNL Rubicon]發行者商議過的私人交易。
+description: 了解[!UICONTROL Deal ID inbox]功能，該功能可讓您接受您已與 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] （先前為 [!DNL Rubicon]）的發佈商商議的私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 8046ec79ec24f47fe33e49c6097e44dbba450f1f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # 關於[!UICONTROL Deal ID Inbox]
 
-DSP [!UICONTROL Deal ID inbox]可讓您快速設定Advertising Cloud DSP已透過供應端平台(SSP)從發佈商匯入的交易，因此您不必手動設定每筆交易。 您可以接受已與發佈商就[!DNL Google Authorized Buyers]（舊稱[!DNL AdX]）、[!DNL FreeWheel]和[!DNL Rubicon]從[!UICONTROL Deal ID inbox]磋商的有擔保和非有擔保私人庫存交易。
+DSP [!UICONTROL Deal ID inbox]可讓您快速設定Advertising Cloud DSP已透過供應端平台(SSP)從發佈商匯入的交易，因此您不必手動設定每筆交易。 您可以接受已與[!DNL FreeWheel]、[!DNL Google Authorized Buyers]（先前稱為[!DNL AdX]）和[!DNL Magnite DV+]（先前稱為[!DNL Rubicon]）的發行者就[!UICONTROL Deal ID inbox]、（先前稱為）進行協商的有擔保和非有擔保私人庫存交易。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ DSP [!UICONTROL Deal ID inbox]可讓您快速設定Advertising Cloud DSP已透�
 
 在[!UICONTROL Deal ID inbox]中，您可以在發佈商看到交易詳細資訊時查看，加快交易設定，並避免手動輸入錯誤。
 
-DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資訊。 它也會每小時重新整理所有[!DNL FreeWheel]交易，並更新[!DNL Google]和[!DNL Rubicon]的現有交易。 您也可以隨時手動重新整理交易詳細資訊以填入新交易。
+DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資訊。 它也會每小時重新整理所有[!DNL FreeWheel]交易，並更新[!DNL Google]和[!DNL Magnite DV+]的現有交易。 您也可以隨時手動重新整理交易詳細資訊以填入新交易。
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
@@ -51,13 +51,13 @@ DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資�
 
 * [!DNL Google] 不是美元的交易。
 
-* [!DNL Rubicon] 非美元交易
+* [!DNL Magnite DV+] 非美元交易
 
 * [!DNL FreeWheel] 不是你賬戶貨幣的交易。
 
 * 在今天之前具有結束日期的交易。
 
-* 舊[!DNL Rubicon]交易標示為「多媒體類型」。
+* 舊[!DNL Magnite DV+]交易標示為「多媒體類型」。
 
 交易細節包括交易無法接受的原因。
 

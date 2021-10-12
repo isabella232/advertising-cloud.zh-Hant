@@ -1,11 +1,11 @@
 ---
 title: 在[!UICONTROL Deal ID Inbox]中接受交易
-description: 了解如何使用「交易ID收件匣」，在 [!DNL Google Authorized Buyers], [!DNL FreeWheel], or [!DNL Rubicon] 上接受您已與發行商商議的私人交易。
+description: 了解如何使用「交易ID收件匣」，接受您已在 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] （前身為 [!DNL Rubicon]）與發佈商商議的私人交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 8046ec79ec24f47fe33e49c6097e44dbba450f1f
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *DSP帳戶中僅對應至SSP帳戶的使用者*
 
-使用[!UICONTROL Deal ID inbox]快速接受您已與[!DNL Google Authorized Buyers]、[!DNL FreeWheel]或[!DNL Rubicon]發行商協商的私人交易。
+使用[!UICONTROL Deal ID inbox]快速接受您已與[!DNL FreeWheel]、[!DNL Google Authorized Buyers]（前稱為[!DNL AdX]）和[!DNL Magnite DV+]（前稱為[!DNL Rubicon]）發行商協商的私人交易。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. （可選）要刷新交易詳細資訊，請按一下&#x200B;**[!UICONTROL Refresh]**。
 
-   DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資訊。 它也會每小時重新整理所有[!DNL FreeWheel]交易，並更新[!DNL Google]和[!DNL Rubicon]的現有交易。
+   DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資訊。 它也會每小時重新整理所有[!DNL FreeWheel]交易，並更新[!DNL Google]和[!DNL Magnite DV+]的現有交易。
 
 1. （如果您先前忽略了交易）按一下&#x200B;**[!UICONTROL Ignored Deals]**&#x200B;標籤。
 
