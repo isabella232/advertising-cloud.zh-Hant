@@ -3,9 +3,9 @@ title: 關於Advertising Cloud DSP中的受眾管理
 description: 了解受眾管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 578651a458ffd505573df0e9a61e26bd2176ad17
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Advertising Cloud DSP也可匯入自訂第三方區段，包括複雜的第三�
 
    >[!NOTE]
    >
-   >如需在這些解決方案中設定和收集區段資料的相關資訊，請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html)和[Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)的檔案。
+   >如需在這些解決方案中設定和收集區段資料的相關資訊，請參閱[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)、[Analytics](https://experienceleague.adobe.com/docs/analytics.html)和[Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)的檔案。
 
 ## 對象大小資料
 
