@@ -3,7 +3,7 @@ title: 關於 [!UICONTROL Deal ID Inbox]
 description: 了解 [!UICONTROL Deal ID inbox] 功能，可讓您接受您已與發佈商洽談的私人交易 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (formerly known as [!DNL AdX]), and [!DNL Magnite DV+] (原稱 [!DNL Rubicon])。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 2539d9b8ec7de7202dd6c3400dda85aa133853e3
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -19,6 +19,16 @@ DSP [!UICONTROL Deal ID inbox] 可讓您快速設定Advertising Cloud DSP透過�
 >Advertising Cloud DSP是第一個與 [!DNL FreeWheel] API。
 
 在 [!UICONTROL Deal ID inbox]，您可以在發佈商看到交易詳細資訊時查看，加快交易設定，並避免手動輸入錯誤。
+
+<!-- 
+Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
+
+For each available deal, you can review the deal details sent directly from the publisher. Some deals are grouped as proposals (packages), and you can see the individual deal details by reviewing the deal.
+   
+You can accept any available deal or move an incorrect deal to the Ignored Deals tab. You can also un-ignore deals, which moves them back to the New Deals tab so you can potentially accept them.
+
+For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
+ -->
 
 DSP每天在東部標準時間凌晨4:30自動重新整理所有交易詳細資訊。 也會重新整理所有 [!DNL FreeWheel] 交易及更新現有交易(從 [!DNL Google] 和 [!DNL Magnite DV+] 每小時。 您也可以隨時手動重新整理交易詳細資訊以填入新交易。
 
