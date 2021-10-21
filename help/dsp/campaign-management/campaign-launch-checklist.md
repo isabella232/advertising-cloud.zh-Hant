@@ -3,9 +3,9 @@ title: Campaign啟動檢查清單
 description: 在啟動行銷活動之前，了解您需要執行的工作。
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 帳戶資金
 
-請確定您的帳戶有足夠的評分來執行整個促銷活動。 您可以在[!UICONTROL Settings] > [!UICONTROL Account]中檢查並重新填入帳戶資金，或聯絡您的Adobe客戶經理。
+請確定您的帳戶有足夠的評分來執行整個促銷活動。 您可以在 [!UICONTROL Settings] > [!UICONTROL Account] 或連絡您的 [!DNL Adobe] 客戶經理。
 
 ## 促銷活動狀態
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 版位狀態
 
-請確定位置狀態為「[!UICONTROL Active]」或「[!UICONTROL Scheduled]」。 此外，請確認其他放置參數（例如網站清單、預算、目標、投放日期和頻率）是否正確。
+確認位置狀態為「[!UICONTROL Active]&quot;或&quot;[!UICONTROL Scheduled].&quot; 此外，請確認其他放置參數（例如網站清單、預算、目標、投放日期和頻率）是否正確。
 
 ## 廣告狀態
 

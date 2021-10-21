@@ -3,16 +3,16 @@ title: DSP如何最佳化您的行銷活動
 description: 了解DSP如何最佳化行銷活動中的套件。
 feature: DSP Optimization
 exl-id: 054582ef-b677-4725-b25c-b82bf3e5b43e
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # DSP如何最佳化您的行銷活動
 
-此頁面概述由[!DNL Adobe Sensei]提供技術的Advertising Cloud DSP最佳化引擎如何最佳化行銷活動中的套件。 如需手動最佳化促銷活動的秘訣和技巧，請連絡您的Adobe客戶經理。<!-- add link to trading playbook if we add it to help -->
+本頁概述Advertising Cloud DSP最佳化引擎(由 [!DNL Adobe Sensei]，會最佳化行銷活動中的套件。 如需手動最佳化行銷活動的秘訣和技巧，請連絡您的 [!DNL Adobe] 客戶經理。 <!-- add link to trading playbook if we add it to help -->
 
 套件最佳化目標分兩個層級運作：
 
@@ -32,17 +32,17 @@ DSP可透過兩種基本方式最佳化您的傳送，提供20種變數以符合
 
 * 優先確定平衡成本效率與效能率的優先順序
 
-請參閱[最佳化目標及如何使用](optimization-goals.md) ，以判斷哪個最佳化目標將可協助您達成KPI。
+請參閱 [最佳化目標及其使用方式](optimization-goals.md) 來判斷哪個最佳化目標可協助您達成KPI。
 
 ### 將效能率排為優先順序的包
 
-對於將績效率排為優先順序的最佳化目標，DSP會預測每次拍賣的績效，並一律在「最高競價」出價。 適用的最佳化目標範例包括[!UICONTROL Highest Viewability Rate]、[!UICONTROL Highest Clickthrough Rate]等。
+對於將績效率排為優先順序的最佳化目標，DSP會預測每次拍賣的績效，並一律在「最高競價」出價。 適用最佳化目標的範例包括 [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate]等。
 
 此最佳化模式在下列情況下運作良好：
 
 * 您已經知道有效/可接受的CPM層級（例如歷史基準）。
 
-* 如果您遇到縮放方面的問題，您願意手動調整每個位置的[!UICONTROL Max Bid]。
+* 您願意手動調整 [!UICONTROL Max Bid] 針對每個版位，在擴充功能方面遇到挑戰。
 
 * 你把規模置於效率之上。
 
@@ -58,15 +58,15 @@ DSP可透過兩種基本方式最佳化您的傳送，提供20種變數以符合
 
 ### 將成本效率與效能率進行優先平衡的軟體包
 
-對於某些最佳化目標，DSP會預測每次拍賣的績效並自動調整出價，絕不會超過配售的[!UICONTROL Max Bid]。 適用的最佳化目標範例包括[!UICONTROL Lowest CPM]、[!UICONTROL Lowest CPA]、[!UICONTROL Lowest Cost per View]、[!UICONTROL Lowest Cost per Click]等。
+對於某些最佳化目標，DSP會預測每次拍賣的績效並自動調整出價，絕不會超過配售 [!UICONTROL Max Bid]. 適用最佳化目標的範例包括 [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click]等。
 
 #### 步調邏輯 {#pacing-logic-balanced}
 
 * 如果支出速度加快，DSP就會變得更加敏感價格，以更低的價格來換取中獎率，與步調一致的計畫。
 
-* 如果績效量度也處於平衡狀態（[!UICONTROL Lowest CPM]以外的所有目標），則預計KPI會混合到競標金額中。 因此，你會以更高的價格競拍，而這些拍賣預計會以「每次成本」為基礎更有成效。
+* 如果效能量度也處於平衡狀態(除 [!UICONTROL Lowest CPM])，則預計KPI會混合到競標金額中。 因此，你會以更高的價格競拍，而這些拍賣預計會以「每次成本」為基礎更有成效。
 
-* 如果支出跟不上步伐，DSP就會變得不那麼敏感，並出價更高，直到[!UICONTROL Max Bid]，以取勝率與步調計畫的平衡。
+* 如果支出落後於速度，DSP就會變得對價格不那麼敏感，並出價更高，直到 [!UICONTROL Max Bid]，用步調計畫取代贏率。
 
 #### 清除價格/出價底紋 {#clearing-price-balanced}
 
@@ -80,7 +80,7 @@ DSP可透過兩種基本方式最佳化您的傳送，提供20種變數以符合
 >
 >可用的競標前篩選條件會依廣告類型而異。 例如，對於標準顯示版位，您可以依點進率和可檢視性來篩選，但不能依完成率篩選。
 
-請參閱[版位層級的預先競價篩選及使用方式](optimization-pre-bid-filters.md) ，以判斷哪個預先競價篩選可協助您達成KPI。
+請參閱 [版位層級出價前篩選器及其使用方法](optimization-pre-bid-filters.md) 來判斷哪個出價前篩選器能協助您達成KPI。
 
 >[!MORELIKETHIS]
 >

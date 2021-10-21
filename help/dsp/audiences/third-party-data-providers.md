@@ -3,9 +3,9 @@ title: Advertising Cloud DSP中可用的第三方資料提供者
 description: 查看所有可用的第三方資料提供者的清單。
 feature: DSP Audiences
 exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Advertising Cloud DSP中可用的第三方資料提供者
 
-下列第三方資料提供者的資料類別和區段可作為[!DNL DSP]中的位置目標。 這些區段主要適用於美國受眾。
+下列第三方資料提供者的資料類別和區段可作為 [!DNL DSP]. 這些區段主要適用於美國受眾。
 
 使用每個區段的費用會顯示在版位設定和已儲存對象設定中的區段名稱旁。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-如需有關匯入帳戶之自訂第三方區段的詳細資訊，請連絡您的Adobe帳戶管理員。
+如需有關為您的帳戶匯入自訂第三方區段的詳細資訊，請連絡您的 [!DNL Adobe] 客戶經理。
 
 >[!MORELIKETHIS]
 >
