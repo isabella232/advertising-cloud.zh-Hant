@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 請參閱可用供應端平台(SSP)和開放式exchange合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f,None
-source-git-commit: 962013a80a968d3c6bf761c1a5145ece0eb7924c
+source-git-commit: 3833f3339adbdd3c41750ff168de93bd2196949b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ ht-degree: 0%
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 否 | 全球 | USD |  | x |  |  |  |  |  |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD | x | x | x | x | x |  |  |
-| [!DNL Rubicon] | [!DNL Magnite DV+] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | USD | x | x | x | x | x |  | x |
+| [!DNL Rubicon] | [!DNL Magnite] (原稱 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | USD | x | x | x | x | x |  | x |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD | x | x |  | x | x | x |  |
 | [!DNL Smart Ad Server] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元，歐元 | x | x |  | x | x |  |  |
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | 否 | 歐洲、中東和非洲 | 所有貨幣 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising Cloud | 否 | 歐洲、中東和非洲 | 歐元，美元 | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising Cloud | 否 | CA | USD |  |  |  | x | x |  |  |
 | [!DNL Soundcast Audio] |  |  |  |  |  |  |  |  |  |  |  |  |
-| [!DNL SpotX] | [!DNL Magnite] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | USD | x | x | x |  |  |  |  |
+| [!DNL SpotX] | [!DNL Magnite] (原稱 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | USD | x | x | x |  |  |  |  |
 | [!DNL Stroer] |  | Adobe Advertising Cloud | 否 | 歐洲、中東和非洲 | USD | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising Cloud | 否 | 美國/加州 | USD | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 傳出影片=全域<br>顯示= NA + EMEA | USD | x | x |  | x | x |  |  |
