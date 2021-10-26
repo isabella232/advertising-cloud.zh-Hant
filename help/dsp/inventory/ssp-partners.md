@@ -3,7 +3,7 @@ title: SSP合作夥伴
 description: 請參閱可用供應端平台(SSP)和開放式exchange合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f,None
-source-git-commit: 3833f3339adbdd3c41750ff168de93bd2196949b
+source-git-commit: fb78f6d590f7a5c407788ce025800cbbe5842eb1
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -48,10 +48,10 @@ ht-degree: 0%
 | [!DNL Taboola] |  | Adobe Advertising Cloud | 否 | 美國/加州 | USD | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 傳出影片=全域<br>顯示= NA + EMEA | USD | x | x |  | x | x |  |  |
 | [!DNL Magnite CTV] | [!DNL Magnite] (原稱 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 澳元，美元 | x | x | x |  |  |  |  |
-| [!DNL Tremor] | [!DNL Rhythm One] | Adobe Advertising Cloud | 否 | 美國+歐洲、中東和非洲 | USD | x | x |  |  |  |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD |  |  |  |  |  | x |  |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD | x | x |  | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising Cloud | 否 | 全球 | USD |  |  |  |  |  |  | x |
+| [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising Cloud | 否 | 美國+歐洲、中東和非洲 | USD | x | x |  |  |  |  |  |
 | [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD |  |  |  | x | x |  |  |
 
 {style=&quot;table-layout:auto&quot;}
