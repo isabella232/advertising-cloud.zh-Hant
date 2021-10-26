@@ -3,9 +3,9 @@ title: 在FreeWheel中設定PG交易概述
 description: '了解在FreeWheel上與發佈者進行程式化保證交易廣告的必要條件和額外步驟。 '
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: dfd5992f059645622b3a75d092d3eb7fe1bfa696
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->與您的Adobe帳戶團隊合作，確保您的[!DNL DSP]帳戶具有下列權限。
+>與您的 [!DNL Adobe] 帳戶團隊，確保您的 [!DNL DSP] 帳戶具有下列權限。
 >
->1. 使用[!DNL FreeWheel]程式化保證工作流程的權限，此權限需要為程式化保證交易提交廣告至[!DNL FreeWheel]。
+>1. 使用權限 [!DNL FreeWheel] 程式化保證工作流程，需要提交廣告，以便程式化保證交易 [!DNL FreeWheel].
 >
 >1. （如果您與英國發佈商合作，後者要求每個廣告提供Clearcast時鐘號）在廣告中包含時鐘號的權限。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    對於某些英國發佈商，您的廣告必須包含Clearcast時鐘號。
 
-1. [接受您已](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 使用「交易ID收件匣」與FreeWheel上的發行商協商的交易ID。
+1. [接受交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 您已使用「交易ID收件匣」與FreeWheel上的發佈商洽談。
 
    接受交易後，請依照提示操作： 1)選取要用於交易的廣告； 2)建立程式化保證的預設版位以提供廣告。
 
@@ -37,12 +37,12 @@ ht-degree: 0%
 
    廣告必須先提交並核准，才能執行。
 
-1. [檢查廣告提交狀態](freewheel-check-status.md)。
+1. [檢查廣告提交狀態](freewheel-check-status.md).
 
 >[!MORELIKETHIS]
 >
 >* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
 >* [向FreeWheel提交程式化保證交易的廣告](freewheel-submit.md)
->* [檢查程式化保證交 [!DNL FreeWheel] 易的廣告狀態](freewheel-check-status.md)
+>* [檢查廣告的狀態 [!DNL FreeWheel] 程式化保證交易](freewheel-check-status.md)
 >* [FreeWheel廣告提交的錯誤代碼](freewheel-error-codes.md)
 
