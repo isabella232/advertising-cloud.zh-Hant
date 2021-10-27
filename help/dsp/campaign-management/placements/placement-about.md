@@ -3,9 +3,9 @@ title: 關於Advertising Cloud DSP中的版位管理
 description: 了解版位管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 4a30463e9cb5783beab0ea3fa6989089e7f90457
+source-git-commit: 0d6d5e807053f042e0da1da65fed5e33a34dd4a9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 0%
 * 音訊
 * 連接電視
 
-## [!UICONTROL Placements]控制面板
+## 此 [!UICONTROL Placements] 控制面板
 
-[!UICONTROL Placements]控制面板可集中所有版位的效能與經濟報表，提供版位在指定日期範圍內表現的快速快照。
+此 [!UICONTROL Placements] 控制面板可集中所有版位的效能與經濟報表，提供版位在指定日期範圍內執行情形的快速快照。
 
 ![版位控制面板](/help/dsp/assets/placement-dashboard.png)
 
@@ -37,16 +37,16 @@ ht-degree: 0%
 
 依預設，控制面板也會依位置顯示步調和傳送量度。 您可以選擇檢視版位的效能量度，並建立自訂欄集。 您可以以XLSM（啟用巨集的Excel試算表）格式的報表形式，將整個資料表下載至瀏覽器的預設下載資料夾。
 
-對於每個版位，您可以開啟詳細資訊檢視([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，其中包括效能量度、步調和傳遞量度，以及依網站和廣告的自訂欄集；和頻率量度。 您也可以在包含的網站和廣告上執行快速動作，例如排除網站或暫停廣告。 要開啟檢查器，請將游標停留在放置行上，按一下&#x200B;**[!UICONTROL More]**，然後按一下&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**&#x200B;或&#x200B;**[!UICONTROL Frequency]**。 您可以將[!UICONTROL Sites]、[!UICONTROL Ads]或[!UICONTROL Frequency]標籤上的資料，以XLSM格式的報表形式，匯出至瀏覽器的預設下載資料夾。
+對於每個版位，您可以開啟詳細的檢視([the [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，包括效能量度、步調和傳送量度，以及依網站、廣告和詳細目錄的自訂欄集；以及頻率量度。 您也可以對包含的網站、廣告和詳細目錄執行快速動作，例如排除網站、暫停廣告或編輯交易。 要開啟檢查器，請將游標停留在放置行上，按一下 **[!UICONTROL More]**，然後按一下 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** 或 **[!UICONTROL Inventory]**. 您可以匯出 [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]，或 [!UICONTROL Inventory]  以XLSM格式的報表形式，將標籤定位至瀏覽器的預設下載資料夾。
 
 >[!NOTE]
 >
->您可以透過[自訂報表](/help/dsp/reports/report-about.md)進一步自訂版位報表的內容和傳送。
+>您可以透過 [自訂報表](/help/dsp/reports/report-about.md).
 
 >[!MORELIKETHIS]
 >
 >* [建立版位](/help/dsp/campaign-management/placements/placement-create.md)
 >* [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)
 
-   >*[疑難排解效能](/help/dsp/optimization/troubleshooting-performance.md)
+   >*[效能疑難排解](/help/dsp/optimization/troubleshooting-performance.md)
 

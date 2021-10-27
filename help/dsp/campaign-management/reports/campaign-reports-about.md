@@ -3,9 +3,9 @@ title: 關於平台內報表
 description: 了解行銷活動管理檢視中包含的報表資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: b2393d5e66ba5d3d2dc9816825c05eda076eaad1
+source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 您可以 [自訂趨勢圖](campaign-data-visualization-manage.md) 依促銷活動，且相同量度在促銷活動的所有趨勢圖表中持續存在。
 
-### 位置檢查器
+### 版位 [!UICONTROL Inspector] {#placement-inspector}
 
 對於每個版位，您可以 [開啟（詳細資訊檢視） [!UICONTROL Inspector])](placement-details-view.md)，包含下列深入資料：
 
@@ -63,7 +63,25 @@ ht-degree: 0%
    * 在指定頻率級別上的估計曝光次數
    * 指定頻率級別的估計平均頻率。 此值等於（估計曝光數）/（估計唯一值）。
 
-![位置檢查器](/help/dsp/assets/placement-inspector-sites.png)
+* **[!UICONTROL Inventory]:** 投放位置所定位之所有交易的相關資訊。
+
+   此 [!UICONTROL Inventory] 索引標籤包含搜尋和篩選功能、首頁面上可用的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，例如 [!UICONTROL Edit] 和 [!UICONTROL View Report]. 此 [!UICONTROL Inventory] 標籤可顯示效能統計資訊，如 [!UICONTROL Auctions], [!UICONTROL Bids]，和 [!UICONTROL Win Rate].
+
+#### 疑難排解庫存
+
+| 問題 | 可能的原因 | 要採取的動作 |
+| -----------| ---------- | ---------- |
+| [!UICONTROL Zero Auctions] | 發佈商尚未開始傳送競標請求。 | 請聯絡發佈商以啟動交易。 |
+|  | 交易設定不正確，例如輸入錯誤的外部交易ID。 | 確認交易詳細資訊並編輯交易。 |
+| [!UICONTROL Auctions but no Bids] | 版位定位不符合交易傳入的競標請求。 <br><br> 例如，版位可能會鎖定不符合交易資格的地理位置。 | 視需要編輯投放目標，以避免目標不匹配。 |
+|  | 版位沒有交易所需媒體類型的作用中廣告。 | 建立廣告，並將具有正確媒體類型的廣告附加至版位。 |
+|  | 這個職位沒有足夠的預算。 | 增加投放預算，以允許對傳入的請求進行投標。 |
+|  | 版位投放日期與交易的曝光傳送日期不重疊。 | 視需要編輯版位的投放日期。 |
+| [!UICONTROL Low Win Rate] | 配售的最高出價（最低或固定）低於交易要求的最低出價。 | 增加版位 [!UICONTROL Max Bid] 視需要。 |
+|  | 刊登版位使用限制競標的預先出價篩選條件。 | 降低預先出價篩選器的臨界值，以允許更多出價。 |
+|  | 版位的對象鎖定目標限制太嚴格。 | 檢查指定的對象目標是否有足夠的作用中使用者，並盡可能展開對象。 |
+
+![位置檢查器](/help/dsp/assets/placement-inspector.png)
 
 您可以匯出 [!UICONTROL Sites], [!UICONTROL Ads]，或 [!UICONTROL Frequency] 以XLSM格式的報表形式，將標籤定位至瀏覽器的預設下載資料夾。
 
