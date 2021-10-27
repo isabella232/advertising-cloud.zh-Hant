@@ -2,9 +2,9 @@
 title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -107,11 +107,35 @@ ht-degree: 0%
 
 * *[!UICONTROL Event Timestamp]:* 系統會根據造成轉換的曝光或點按日期來報告轉換，由指定 [!UICONTROL Attribution Rule Settings].
 
-## [!UICONTROL Add Email Recipients] 區段
+## [!UICONTROL Add Report Destinations] 區段
 
-**[!UICONTROL Email]:** 如果因錯誤而取消報表，則要將已完成報表或通知傳送至的電子郵件地址。 若要指定多個地址，請以逗號或空格分隔。
+**[!UICONTROL Destination Type]:** 選擇以下目標類型之一：
 
-**[!UICONTROL Frequency]:** 報表的傳送頻率： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*，或 *[!UICONTROL Monthly]*.
+* *[!UICONTROL S3]:* 將完成的報告發送到一個或多個 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])位置，您將在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL sFTP]:* 若要將完成的報表傳送至一或多個SFTP位置，請在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL FTP]:* 若要將完成的報表傳送至一或多個FTP位置，請在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL FTP SSL]（目前為測試版）:* 若要將完成的報表傳送至一或多個FTP SSL位置，請在 **[!UICONTROL Destination Name]** 欄位。
+* *[!UICONTROL Email]:* 指定在因錯誤而取消報表時，要將已完成報表或通知傳送至其的電子郵件地址。 若要指定多個地址，請以逗號或空格分隔。
+
+>[!NOTE]
+>
+> 儲存報表後，就無法變更目的地類型。
+
+**[!UICONTROL Destination Name]:** （僅限S3、FTP、sFTP和FTP SSL目的地類型）將要傳送自訂報表的報表目的地名稱。
+
+* 要指定現有目標，請從清單中選擇目標名稱。 您可以個別選取多個目的地名稱。
+
+* 要建立新目標：
+
+   1. 按一下 **新增目的地**.
+
+   1. 輸入 [報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)，然後按一下 **儲存**.
+
+   1. 返回報表設定，按一下 **刷新目標名稱。**
+
+      現在可從現有目的地清單中取得新目的地，您也可以選擇將其新增至報表。
+
+**[!UICONTROL Frequency]:** (針對 [!UICONTROL Destination Name] 將報表傳送至目的地的頻率： *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*，或 *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] 區段
 
@@ -129,5 +153,6 @@ ht-degree: 0%
 >* [編輯自訂報表](/help/dsp/reports/report-edit.md)
 >* [執行自訂報表](/help/dsp/reports/report-run-now.md)
 >* [自訂報表設定](/help/dsp/reports/report-settings.md)
+>* [關於報表目的地](/help/dsp/reports/report-destinations/report-destination-about.md)
 
 * [可用報表欄](/help/dsp/reports/report-columns.md)

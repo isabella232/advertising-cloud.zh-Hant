@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 07687a569ba9f24a944bd899524bb2a6a4070204
+source-git-commit: 99d0e178209af42a2e2c71f57980761baf0bfb36
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021年10月28日 | 自訂報表 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳送位置，稱為 *[!DNL report destinations]*，用於自訂報表。 設定報表目的地後，您可以設定每個新的自訂報表，以傳送至單一目的地類型的一或多個位置，或傳送至電子郵件收件者。 更新至 [!DNL Amazon S3] 和FTP憑證不會中斷報表傳送。<br><br>您的現有報表仍會傳送給指定的電子郵件收件者。 若要設定傳送至不同報表目的地，請使用新目的地建立新報表。 | 請參閱「[關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot;和&quot;[自訂報表設定](/help/dsp/reports/report-settings.md).&quot; |
 | 2021年10月7日 | 說明 | 全部 [DSP和其他Advertising Cloud檔案](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 現在，機器已翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」功能表。<br>![變更語言](/help/dsp/assets/change-language.png) |
 | 2021年9月30日 | 品牌安全 | （9月22日發行） [!DNL DoubleVerify] 品牌安全預先出價產品更新至 [!DNL Brand Suitability Tiers]，廣告商可針對特定區段在三個風險等級（低、中、高）之間進行選擇，而不會避免特定主題的所有例項。 在過去，段不包含任何容差級別。<br><br>與新 [!DNL DoubleVerify] 區段結構，DSP會將您現有的品牌安全區段移轉至新的建議 *媒體*-level段。 您可以選擇將區段層調整為 *low* 或 *高*.<br><br>**注意：** 一小組區段沒有層級，但有新名稱，例如「滋擾/間諜軟體/惡意軟體、Warez」>「激勵/惡意軟體/凌亂」。 | — |
 |  | 最佳化 | 已棄用下列最佳化目標和出價前篩選器：<ul><li>最佳化目標：<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>預先出價篩選目標：<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 請參閱「[最佳化目標及其使用方式](/help/dsp/optimization/optimization-goals.md)&quot;和&quot;[版位層級出價前篩選器及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot; |
