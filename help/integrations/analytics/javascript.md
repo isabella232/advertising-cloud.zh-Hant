@@ -3,9 +3,9 @@ title: 適用於 [!DNL Analytics for Advertising Cloud]
 description: 適用於 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 26709071be0fffb43bb3fa4666c6fa52229ad5be
+source-git-commit: 594854f27d6a451167c90116b640781bbea11b63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 對於Advertising Cloud DSP, [!DNL Analytics for Advertising Cloud] 整合會追蹤閱覽和點進網站的互動。 您的網頁上的標準Adobe Analytics程式碼會追蹤點進造訪；the [!DNL Analytics] 程式碼會擷取登陸頁面URL中的AMO ID和EF ID參數，並在各自保留的eVar中追蹤這些參數。 您可以在網頁中部署兩行JavaScript程式碼，以追蹤閱覽造訪。
 
-在造訪網站的第一個頁面檢視中，Advertising Cloud JavaScript程式碼會檢查訪客之前是否曾檢視或點按過廣告。 如果使用者先前透過點進方式進入網站，或未看到廣告，則會忽略訪客。 如果訪客看過廣告，且未在 [點按回顧期間](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 在Advertising Cloud中設定，則Advertising Cloud JavaScript程式碼會使用 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 產生補充ID(`SDID`)，可將Advertising Cloud的資料匯整至訪客的Adobe Analytics點擊。 Adobe Analytics接著會查詢Advertising Cloud，找出與廣告曝光度相關聯的AMO ID和EF ID。 AMO ID和EF ID接著會填入各自的eVar中。 這些值會持續指定的期間（預設為60天）。
+在造訪網站的第一個頁面檢視中，Advertising Cloud JavaScript程式碼會檢查訪客之前是否曾檢視或點按過廣告。 如果使用者先前透過點進方式進入網站，或未看到廣告，則會忽略訪客。 如果訪客看過廣告，且未在 [點按回顧期間](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 在Advertising Cloud中設定，則Advertising Cloud JavaScript程式碼a)會使用 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 產生補充ID(`SDID`)或b)使用Adobe Experience Platform [!DNL Web SDK] 生成 `[!DNL StitchID]`. 其中一個ID可用來匯整來自Advertising Cloud的資料至訪客的Adobe Analytics點擊。 Adobe Analytics接著會查詢Advertising Cloud，找出與廣告曝光度相關聯的AMO ID和EF ID。 AMO ID和EF ID接著會填入各自的eVar中。 這些值會持續指定的期間（預設為60天）。
 
 [!DNL Analytics] 傳送網站流量量度（例如頁面檢視、造訪和逗留時間）和 [!DNL Analytics] 以EF ID為索引鍵，將自訂或標準事件每小時轉換為Advertising Cloud 。 這些 [!DNL Analytics] 然後，透過Advertising Cloud歸因系統執行量度，將轉換連結至點按和曝光記錄。
 
@@ -36,7 +36,7 @@ JavaScript程式庫包含兩行，允許 [!DNL Analytics] 和Advertising Cloud�
 
 ### 程式碼的放置位置
 
-此 [!DNL Analytics for Advertising Cloud] JavaScript函式必須位於Experience CloudID服務之後，而位於Analytics應用程式測量程式碼之前，以便提供補充ID(`SDID`)可包含在Analytics呼叫中。
+此 [!DNL Analytics for Advertising Cloud] JavaScript函式必須位於Experience CloudID服務之後，而位於Analytics應用程式測量程式碼之前，以便提供補充ID(`SDID`)或 `[!DNL StitchID]` 可包含在Analytics呼叫中。
 
 ![程式碼放置](/help/integrations/assets/a4adc-code-placement.png)
 
@@ -80,7 +80,7 @@ JavaScript程式庫包含兩行，允許 [!DNL Analytics] 和Advertising Cloud�
 1. 前往 [!UICONTROL Network] 標籤。
 1. 在 [!UICONTROL Solutions Filter] 按一下 [!UICONTROL Advertising Cloud] 和 [!UICONTROL Analytics].
 1. 在 [!UICONTROL Request URL – Hostname] 參數行，查找 `lasteventf-tm.everesttech.net`.
-1. 在 [!UICONTROL Request – Parameters*] 列，稽核產生的訊號，類似於「[如何確認程式碼 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. 在 [!UICONTROL Request – Parameters] 列，稽核產生的訊號，類似於「[如何確認程式碼 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * 檢查以確定 `SDID` 參數符合 `Supplemental Data ID` 在Adobe Analytics篩選器中。
    * 如果程式碼未產生，請檢查以確定Advertising Cloud Cookie已移除 [!UICONTROL Application] 標籤。 移除後，重新整理頁面並重複此程式。
 

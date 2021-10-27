@@ -3,9 +3,9 @@ title: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising Clou
 description: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 688aece01640647a61df730cbe464597b476b033
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 
 ## 中報告Advertising Cloud資料的需求 [!DNL Analytics]
 
-* Experience CloudIdentity服務： `visitorAPI.js` 2.0版或更高版本
+* 以下任一項：
+   * Adobe Experience Platform Web SDK: `alloy.js`
+   * Experience CloudIdentity服務： `visitorAPI.js` 2.0版或更高版本
 * 任何版本的Adobe Analytics(包括 [!DNL Prime], [!DNL Premium]，或 [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` 2.1版或更高版本
 
 >[!TIP]
 >
->若要改善資料保真度，請使用具有CNAME支援的最新版Experience CloudIdentity Service，以及最新版的Analytics AppMeasurement for JavaScript。
+>若要改善資料保真度，請使用每個程式庫的最新版本。
 
 ## 與Advertising Cloud共用Analytics區段的需求
 
