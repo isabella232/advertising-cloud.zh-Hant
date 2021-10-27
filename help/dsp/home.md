@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: b67c7641b6e96e7d1134a36519b478ae37f2b53a
+source-git-commit: aa451d4bb9005cf5fd790bc3bac2a8da5b031aff
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2021年10月28日 | 自訂報表 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳送位置，稱為 *[!DNL report destinations]*，用於自訂報表。 設定報表目的地後，您可以設定每個新的自訂報表，以傳送至單一目的地類型的一或多個位置，或傳送至電子郵件收件者。 更新至 [!DNL Amazon S3] 和FTP憑證不會中斷報表傳送。<br><br>您的現有報表仍會傳送給指定的電子郵件收件者。 若要設定傳送至不同報表目的地，請使用新目的地建立新報表。 | 請參閱「[關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot;和&quot;[自訂報表設定](/help/dsp/reports/report-settings.md).&quot; |
+| 2021年10月27日 | 自訂報表 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳送位置，稱為 *[!DNL report destinations]*，用於自訂報表。 設定報表目的地後，您可以設定每個新的自訂報表，以傳送至單一目的地類型的一或多個位置，或傳送至電子郵件收件者。 更新至 [!DNL Amazon S3] 和FTP憑證不會中斷報表傳送。<br><br>您的現有報表仍會傳送給指定的電子郵件收件者。 若要設定傳送至不同報表目的地，請使用新目的地建立新報表。 | 請參閱「[關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot;和&quot;[自訂報表設定](/help/dsp/reports/report-settings.md).&quot; |
 |  | [!UICONTROL Packages], [!UICONTROL Placements]，和 [!UICONTROL Ads] 檢視 | 當您檢視單一天的資料時，趨勢圖現在會包含每小時資料。 將游標停留在任一點上，即可查看該小時的資料。 | 請參閱「[單一促銷活動報告](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting).&quot; |
-|  | 版位 | 版位 [!UICONTROL Inspector] 現在包含 [!UICONTROL Inventory] 標籤中，此標籤會顯示所有交易及其投放位置的相關量度。 使用資訊進行快速調整或疑難排解問題，而不產生自訂報表。 | 請參閱「[版位 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector)。」 |
+|  | 版位 | 版位 [!UICONTROL Inspector] 現在包含 [!UICONTROL Inventory] 標籤中，此標籤會顯示所有交易及其投放位置的相關量度。 使用資訊進行快速調整或疑難排解問題，而不產生自訂報表。 | 請參閱「[版位 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector).&quot; |
 |  | [!UICONTROL Ads] | （有權在其廣告中加入Clearcastclock編號的使用者）如果您使用附加至其他廣告的時鐘編號，DSP不再顯示錯誤。 **附註**  最佳實務是為每個視訊廣告使用唯一的時鐘號碼。 否則，發佈者不會核准所有廣告。 | — |
-|  | [!UICONTROL Deal IDs] | 此 [!UICONTROL Deal ID] 設定和使用者介面中的其他位置會反映 [!DNL Magnite] SSP:<ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])現在為「[!DNL Magnite CTV].&quot;</li><li>[!DNL Rubicon]「 」很快將變更為「[!DNL Magnite DV+],&quot;其中 [!DNL DV+] 代表顯示、視訊和其他格式，例如音訊。</li></ul> | 請參閱「[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md).&quot; |
+|  | [!UICONTROL Deal IDs] | 此 [!UICONTROL Deal ID] 設定和使用者介面中的其他位置會反映 [!DNL Magnite] SSP:<ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])現在為「[!DNL Magnite CTV].&quot;</li><li>在接下來的幾週裡， [!DNL Rubicon]&quot;將更改為&quot;[!DNL Magnite DV+],&quot;其中 [!DNL DV+] 代表顯示、視訊和其他格式，例如音訊。</li></ul> | 請參閱「[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] 程式保證的交易 | 您現在可以找到 [!DNL Freewheel] 程式保證的交易 [!UICONTROL Ads] 檢視。 以前，您只能從 [!UICONTROL Deals] 檢視。 | 請參閱「[檢查廣告的狀態 [!DNL Freewheel] 程式化保證交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021年10月7日 | 說明 | 全部 [DSP和其他Advertising Cloud檔案](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 現在，機器已翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」功能表。<br>![變更語言](/help/dsp/assets/change-language.png) |
 | 2021年9月30日 | 品牌安全 | （9月22日發行） [!DNL DoubleVerify] 品牌安全預先出價產品更新至 [!DNL Brand Suitability Tiers]，廣告商可針對特定區段在三個風險等級（低、中、高）之間進行選擇，而不會避免特定主題的所有例項。 在過去，段不包含任何容差級別。<br><br>與新 [!DNL DoubleVerify] 區段結構，DSP會將您現有的品牌安全區段移轉至新的建議 *媒體*-level段。 您可以選擇將區段層調整為 *low* 或 *高*.<br><br>**注意：** 一小組區段沒有層級，但有新名稱，例如「滋擾/間諜軟體/惡意軟體、Warez」>「激勵/惡意軟體/凌亂」。 | — |
