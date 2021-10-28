@@ -2,7 +2,7 @@
 title: 進階測量解決方案
 description: 請參閱進階測量的可用解決方案清單。
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
+source-git-commit: 927fd18c39ff93fae6222c0376cbe41810c06ca2
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ ht-degree: 0%
 
 ## 更多資訊
 
-如需關於 [!DNL Strategic Advertising Consulting]，概述定價資訊以及每個解決方案的可用格式和地區，請連絡您的客戶成功經理。 此外，還可應要求提供解決方案專屬的案例研究。
+如需所有進階測量解決方案的相關資訊，概述定價資訊以及每個解決方案的可用格式和地區，請連絡您的 [!DNL Adobe] 客戶成功經理。 此外，還可應要求提供解決方案專屬的案例研究。
