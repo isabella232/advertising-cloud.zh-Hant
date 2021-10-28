@@ -1,26 +1,26 @@
 ---
 title: 提交PG交易的廣告以 [!DNL FreeWheel]
-description: 了解如何向FreeWheel上的發佈商申請程式化保證廣告的核准。
+description: 了解如何向發佈商申請程式化保證交易的廣告核准 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: a124f9cce3be5e68843c2d8df56640962644d5f4
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
-# 向FreeWheel提交程式化保證交易的廣告
+# 提交程式化保證交易的廣告以 [!DNL Freewheel]
 
 *帳戶 [!DNL FreeWheel] 僅限程式保證權限*
 
-一旦您 [接受與FreeWheel上的發佈商進行程式化保證的交易](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)，包括選取廣告和建立要用於交易的程式化保證預設位置，您必須將廣告提交至FreeWheel進行核准。
+一旦您 [接受與FreeWheel上的發佈商進行程式化保證的交易](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)，包括選取廣告和建立要用於交易的程式化保證預設版位，您必須將廣告提交至 [!DNL Freewheel] 供批准。
 
 >[!PREREQUISITES]
 >
 >與您的Adobe客戶團隊合作，確保您的 [!DNL DSP] 帳戶有權使用 [!DNL FreeWheel] 程式化保證的工作流程。
 
-1. 複製與FreeWheel交易搭配使用之廣告的廣告金鑰：
+1. 複製搭配使用之廣告的廣告金鑰 [!DNL Freewheel] 交易：
 
    1. 按一下促銷活動的名稱。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
 
-1. 將廣告提交至FreeWheel:
+1. 將廣告提交至 [!DNL Freewheel]:
 
    1. 執行下列任一操作：
 
@@ -49,8 +49,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [在FreeWheel中建立程式保證交易概述](freewheel-overview.md)
+>* [在中設定程式化保證交易概覽 [!DNL Freewheel]](freewheel-overview.md)
 >* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
 >* [檢查廣告的狀態 [!DNL FreeWheel] 程式化保證交易](freewheel-check-status.md)
->* [FreeWheel廣告提交的錯誤代碼](freewheel-error-codes.md)
+>* [的錯誤代碼 [!DNL Freewheel] 廣告提交](freewheel-error-codes.md)
 

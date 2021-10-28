@@ -3,9 +3,9 @@ title: 的錯誤代碼 [!DNL FreeWheel] 廣告提交
 description: 參考為廣告提交傳回的錯誤代碼 [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 {style=&quot;table-layout:auto&quot;}
 
-## FreeWheel API錯誤
+## [!DNL Freewheel] API錯誤
 
 | 程式碼 | 意義 | 說明 | 後續步驟 |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 {style=&quot;table-layout:auto&quot;}
 
-## FreeWheel API 422錯誤 {#freewheel-422-errors}
+## [!DNL Freewheel] API 422錯誤 {#freewheel-422-errors}
 
 | 程式碼 | HTTP程式碼 | 說明 |
 |--- |--- |--- |
@@ -64,8 +64,8 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [在FreeWheel中建立程式保證交易概述](/help/dsp/inventory/freewheel-overview.md)
+>* [在中設定程式化保證交易概覽 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
->* [向FreeWheel提交程式化保證交易的廣告](/help/dsp/inventory/freewheel-submit.md)
+>* [提交程式化保證交易的廣告以 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [檢查廣告的狀態 [!DNL FreeWheel] 程式化保證交易](/help/dsp/inventory/freewheel-check-status.md)
 
