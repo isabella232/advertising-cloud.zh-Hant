@@ -3,9 +3,9 @@ title: 檢查廣告的狀態 [!DNL [!DNL FreeWheel]] PG交易
 description: 了解如何尋找 [!DNL Freewheel] 程式保證交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 55854d9ab1a535767315941fe4ca5777a8069b5e
+source-git-commit: 07b964aca7f634a29342e4d09a5e5352570f4d79
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,18 @@ ht-degree: 0%
 查看廣告是否提交至 [!DNL Freewheel] 成功了。 您可以視需要重新提交任何廣告。
 
 如有重新提交的其他問題或問題，請連絡您的 [!DNL Adobe] 客戶經理。
+
+## 從 [!UICONTROL Ads] 檢視
+
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+
+1. 按一下促銷活動的名稱。
+
+1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
+
+1. 在廣告名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+
+1. （可選）要重新提交廣告以進行審批，請將游標停留在廣告行上，然後按一下 **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
 ## 從 [!UICONTROL Deals] 檢視
 
@@ -31,18 +43,6 @@ ht-degree: 0%
    此 [!UICONTROL Submission Status] 欄會指出廣告是否已提交和核准。
 
    若提交失敗， [!UICONTROL API] 回應欄會指出錯誤。 有關失敗提交的錯誤代碼的完整清單以及糾正錯誤的後續步驟，請參見「[的錯誤代碼 [!DNL FreeWheel] 廣告提交](freewheel-error-codes.md).&quot;
-
-1. （可選）要重新提交廣告以進行審批，請將游標停留在廣告行上，然後按一下 **[!UICONTROL More]>[!UICONTROL Resubmit]**.
-
-## 從 [!UICONTROL Ads] 檢視
-
-1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
-
-1. 按一下促銷活動的名稱。
-
-1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
-
-1. 在廣告名稱旁，按一下  **... >[!UICONTROL see Freewheel status]**.
 
 1. （可選）要重新提交廣告以進行審批，請將游標停留在廣告行上，然後按一下 **[!UICONTROL More]>[!UICONTROL Resubmit]**.
 
