@@ -3,9 +3,9 @@ title: 關於平台內報表
 description: 了解行銷活動管理檢視中包含的報表資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
+source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在每個實體索引標籤中，每一列預設包含步調和傳送量度，但您可以 [更改列視圖](column-view-change.md) 或 [建立自訂欄檢視](column-view-create.md) 以套用至促銷活動的所有子標籤。 您可以進一步 [自訂資料表](campaign-data-views-about.md) 以其他方式。 每個資料表都包含 [!UICONTROL Subtotals] 列，其中顯示所有可見列中每個量度的總和或平均值。
 
-對於每個促銷活動，您也可以使用三個度量來自訂時間序列趨勢圖，這些度量在每個實體檢視中都可用。 依預設， [!UICONTROL Net Spend], [!UICONTROL Impressions]，和 [!UICONTROL Net CPM] 都包含在單獨的圖表（網格圖表）中。 您可以選擇變更量度。
+對於每個促銷活動，您也可以使用三個度量來自訂時間序列趨勢圖，這些度量在每個實體檢視中都可用。 依預設， [!UICONTROL Net Spend], [!UICONTROL Impressions]，和 [!UICONTROL Net CPM] 都包含在單獨的圖表（網格圖表）中。 您可以選擇變更量度。 若要在時間序列趨勢圖中啟用每小時資料，請將日期選擇變更為單日([!UICONTROL Today], [!UICONTROL Yesterday]，或特定日期)。
 
 ![三個度量的獨立趨勢圖](/help/dsp/assets/trend-chart-separate.png)
 
