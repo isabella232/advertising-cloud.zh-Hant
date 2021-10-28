@@ -3,9 +3,9 @@ title: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising Clou
 description: 實作的必要條件和重要資訊 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 688aece01640647a61df730cbe464597b476b033
+source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ ht-degree: 0%
 請連絡您的 [!DNL Adobe] 客戶經理，了解每個管道中最新支援的廣告環境。
 
 ## 實作前須知
+
+* Advertising Cloud實作團隊將設定整合。
 
 * 此整合不需額外付費，伺服器呼叫也不會產生額外費用 [!DNL Analytics] 或Advertising Cloud費。
 
