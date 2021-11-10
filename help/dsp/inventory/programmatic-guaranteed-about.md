@@ -3,7 +3,7 @@ title: 關於程式化保證交易
 description: 了解程式化保證(PG)交易，以及哪些SSP經認證可提供這些交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 2ebcaa488499485b1da549e0324d15ca8160512a
+source-git-commit: 96f756b0f5239e2378d0a4da18335d909f96ab94
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,8 +19,8 @@ ht-degree: 0%
 * 交易一律需透過DSP付費。
 * 交易有固定的價格和數量。
 * 發佈商或供應端平台(SSP)會處理所有預算調整、預算限定和任何目標定位。
-* 通常，交易在發佈商的廣告伺服器中具有較高的優先順序
-* 競價請求不是單筆交易或購買者專屬的。
+* 通常，交易在發行商的廣告伺服器中具有較高的優先順序。
+* 競價請求並非單筆交易或買家專屬。
 * 單一交易ID支援多種類型的視訊。
 * SSP和發佈者有傳送SLA。
 
@@ -31,8 +31,8 @@ PG交易需要PG預設版位和廣告，這樣DSP就能傳回請求給每個競�
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (原 [!DNL Telaria]稱)
-* [!DNL Magnite DV+] (原 [!DNL Rubicon]稱)
+* [!DNL Magnite CTV] (原稱 [!DNL Telaria])
+* [!DNL Magnite DV+] (原稱 [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
