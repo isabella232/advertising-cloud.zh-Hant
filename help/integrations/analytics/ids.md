@@ -3,7 +3,7 @@ title: Advertising Cloud使用的ID [!DNL Analytics]
 description: Advertising Cloud使用的ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 1ba45d789c4ad365166df829ac74e0200cdc8851
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *適用於Advertising Cloud DSP和Advertising Cloud Search*
 
-Advertising Cloud使用兩個ID進行站上效能追蹤：EF ID和AMO ID。
+Advertising Cloud使用兩個ID進行站上效能追蹤：the *EF ID* 和 *AMO ID*.
 
 發生廣告曝光時，Advertising Cloud會建立AMO ID和EF ID值並加以儲存。 看過廣告的訪客未點按廣告就進入網站時， [!DNL Analytics] 從Advertising Cloud呼叫這些值，透過 [!DNL Analytics for Advertising Cloud] JavaScript程式碼。 若為閱覽流量， [!DNL Analytics] 產生補充ID(`SDID`)，此ID可用來將EF ID和AMO ID匯整至 [!DNL Analytics]. 若為點進流量，這些ID會包含在使用 `s_kwcid` 和 `ef_id` 查詢字串參數。
 
@@ -24,7 +24,7 @@ Advertising Cloud使用下列條件來區分網站的點進或閱覽項目：
 
 * 當使用者檢視廣告但未點按廣告後造訪網站時，會擷取閱覽項目。 [!DNL Analytics] 如果符合兩個條件，則記錄閱覽：
    * 訪客沒有 [!DNL DSP] 或 [!DNL Search] 廣告期間 [點按回顧期間](#lookback-a4adc).
-   * The visitor has seen at least one [!DNL DSP] ad during the [impression lookback window](#lookback-a4adc). 最後一次曝光會以閱覽傳遞。
+   * 訪客至少看到一個 [!DNL DSP] 廣告期間 [印象回顧期間](#lookback-a4adc). 最後一次曝光會以閱覽傳遞。
 * 當網站訪客進入網站前點按廣告時，會擷取點進項目。 [!DNL Analytics] 在下列任一情況發生時擷取點進：
    * 此URL包含EF ID和AMO ID，如Advertising Cloud所新增至登陸頁面URL。
    * URL不包含追蹤程式碼，但Advertising Cloud JavaScript程式碼會在過去兩分鐘內偵測到點按。
@@ -57,9 +57,9 @@ EF ID是唯一代號，Advertising Cloud用來將活動與線上點按或廣告�
 
    * `d` （顯示點進）
    * `i` （顯示檢視）以顯示DSP顯示廣告的曝光次數
-   * `s` for a click on a Search ad (search click-through).
+   * `s` ，以按一下搜尋廣告（搜尋點進）。
 
-Example `EF `ID: WcmibgAAAHJK1RyY:1551968087687:d
+範例 `EF `ID:WcmibgAAAHJK1RyY:1551968087687:d
 
 >[!NOTE]
 >
@@ -88,9 +88,9 @@ AMO ID也稱為 `s_kwcid`，有時稱為「魷魚」。
    * `AC` = Advertising Cloud DSP
    * `AL` 針對Advertising Cloud Search
 
-* &lt;*廣告ID*>是Advertising Cloud產生的廣告唯一識別碼。 It serves as a key for translating Advertising Cloud entity metadata into readable [!DNL Analytics] dimensions.
+* &lt;*廣告ID*>是Advertising Cloud產生的廣告唯一識別碼。 這是將Advertising Cloud實體中繼資料轉譯為可讀資料的索引鍵 [!DNL Analytics] 維度。
 
-* &lt;*Placement ID*> is an Advertising Cloud-generated unique identifier for an placement. 這是將Advertising Cloud實體中繼資料轉譯為可讀資料的索引鍵 [!DNL Analytics] 維度。
+* &lt;*版位ID*>是Advertising Cloud產生的版位唯一識別碼。 這是將Advertising Cloud實體中繼資料轉譯為可讀資料的索引鍵 [!DNL Analytics] 維度。
 
 <!-- <*Channel ID*>!<*Ad ID*>!<*Placement ID*>
 
@@ -147,7 +147,7 @@ where:
 
 在Analytics報表中，您可以搜尋 [!UICONTROL AMO ID] 維度和使用 [!UICONTROL AMO ID Instance] 量度。 此 [!UICONTROL AMO ID] 維度會儲存所有擷取的AMO ID值，而 [!UICONTROL AMO ID Instance] 量度會指出網站擷取AMO ID值的頻率。 例如，如果同一個搜尋廣告被點按了4次，但Analytics追蹤了7個網站項目，則 [!UICONTROL AMO ID Instance] 會是七(7) [!UICONTROL Clicks] 會是四(4)。
 
-針對內的任何報告或審核 [!DNL Analytics]，最佳實務是使用AMO ID及其對應的例項。 如需詳細資訊，請參閱[資料驗證 [!DNL Analytics for Advertising Cloud]](data-variances.md#data-validation)&quot;中 [!DNL Analytics] 和Advertising Cloud。」
+針對內的任何報告或審核 [!DNL Analytics]，最佳實務是使用AMO ID及其對應的例項。 如需詳細資訊，請參閱[資料驗證 [!DNL Analytics for Advertising Cloud]](data-variances.md#data-validation)」中， [!DNL Analytics] 和Advertising Cloud。」
 
 ## 關於Analytics分類
 
