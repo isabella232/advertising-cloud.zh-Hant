@@ -2,8 +2,7 @@
 title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單位。
 feature: DSP Ads
-exl-id: null
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -56,7 +55,7 @@ ht-degree: 0%
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
 | [!DNL Trueffect] |  | X |  |  |  |
-| [!DNL Undertone] |  |  | X |  | 自訂頁面抓取廣告單位已上傳為180x150(在Advertising Cloud DSP中)</br></br>當Index Exchange在拍賣中通過180x150的拍賣和DSP出價，並提供曝光時，創意會展開為全頁顯示廣告。</br></br>最初為頁面抓取器、可擴展粘合性和螢幕移位廣告單位認證。 這需要重新認證，並為程式標示步驟。 |
+| [!DNL Undertone] |  |  | X |  | 自訂頁面抓取廣告單位已上傳為180x150(在Advertising Cloud DSP中)</br></br>當Index Exchange在拍賣中通過180x150的拍賣和DSP出價並提供曝光時，創意內容會展開為全頁顯示廣告。</br></br>最初為頁面抓取器、可擴展粘合性和螢幕移位廣告單位認證。 這需要重新認證，並為程式標示步驟。 |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] 廣告單位 |
 | [!DNL Wunderkind] |  | X |  |  |  |
 

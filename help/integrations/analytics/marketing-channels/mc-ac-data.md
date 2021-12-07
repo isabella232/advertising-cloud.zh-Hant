@@ -1,40 +1,39 @@
 ---
-title: 搭配使用 [!DNL Marketing Channels] Advertising Cloud資料
-description: 了解如何在 [!DNL Analytics Marketing Channels]中使用Advertising Cloud資料。
+title: 使用 [!DNL Marketing Channels] 使用Advertising Cloud資料
+description: 了解如何在 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: null
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 搭配使用[!DNL Analytics Marketing Channels]Advertising Cloud資料
+# 使用 [!DNL Analytics Marketing Channels] 使用Advertising Cloud資料
 
 *僅具有Advertising Cloud-Adobe Analytics整合的廣告商*
 
-同時使用Advertising Cloud和[!DNL Marketing Channels]報表，即可獲得數位媒體如何影響網站活動的寶貴分析。
+同時使用Advertising Cloud和 [!DNL Marketing Channels] 報表，您就可獲得數位媒體如何影響網站活動的寶貴分析。
 
 <!-- from video: By using Marketing Channels with your Advertising Cloud data, you can get a more holistic view of how your advertising efforts are affecting site behavior. In particular, you can see the value of your view-through and click-through data, and how your advertising assists or is assisted by other channels. -->
 
-下圖顯示Advertising Cloud和[!DNL Marketing Channels]如何追蹤組成一個訪客歷程的個別造訪。 [!DNL Analytics]中的Advertising Cloud報表僅限使用AMO ID透過Advertising Cloud販運的付費顯示和搜尋廣告。 不過，[!DNL Marketing Channels]會追蹤「[!DNL Marketing Channels]處理規則」中設定的所有通道。
+下圖顯示Advertising Cloud和 [!DNL Marketing Channels] 追蹤組成一個訪客歷程的個別造訪。 Advertising Cloud報表 [!DNL Analytics] 僅限使用AMO ID透過Advertising Cloud販運的付費顯示和搜尋廣告。 不過， [!DNL Marketing Channels] 會追蹤中設定的所有通道 [!DNL Marketing Channels] 處理規則。
 
-![Advertising Cloud和 [!DNL Marketing Channels] 如何追蹤訪客歷程中的個別造訪](/help/integrations/assets/a4adc-mc-sample-journey2.png)
+![Advertising Cloud和 [!DNL Marketing Channels] 追蹤訪客歷程中的個別造訪](/help/integrations/assets/a4adc-mc-sample-journey2.png)
 
-在第一次瀏覽中，使用者透過電子郵件促銷活動進入網站，執行了10次頁面檢視，然後離開。 在第二次瀏覽中，使用者透過顯示廣告進入網站，執行10次頁面檢視，然後離開。 在第三次瀏覽中，使用者透過免費搜尋進入網站、執行五次頁面檢視、執行$250的轉換，然後在左邊。 請注意[!DNL Marketing Channels]與Advertising Cloud之間的追蹤差異。 Advertising Cloud在此歷程中唯一追蹤的管道為[!UICONTROL Display]。 Advertising Cloud會追蹤[!UICONTROL Display]管道造訪，並將後續的參與資料（例如頁面檢視）和轉換歸因於該廣告的影響。 [!DNL Marketing Channels]，則可提供所有管道的完整檢視。
+在第一次瀏覽中，使用者透過電子郵件促銷活動進入網站，執行了10次頁面檢視，然後離開。 在第二次瀏覽中，使用者透過顯示廣告進入網站，執行10次頁面檢視，然後離開。 在第三次瀏覽中，使用者透過免費搜尋進入網站、執行五次頁面檢視、執行$250的轉換，然後在左邊。 請注意 [!DNL Marketing Channels] 和Advertising Cloud。 Advertising Cloud在此歷程中唯一追蹤的管道是 [!UICONTROL Display]. Advertising Cloud追蹤 [!UICONTROL Display] 管道造訪並將後續的參與資料（例如頁面檢視）和轉換歸因於該廣告的影響。 [!DNL Marketing Channels]，則可提供所有管道的完整檢視。
 
 由於AMO ID會持續存在於訪客的歷程中，因此您可以使用AMO ID資料來了解Advertising Cloud對其他行銷管道的影響。 AMO ID [預設會持續60天](/help/integrations/analytics/overview.md)，但您可以視需要設定持續性。
 
 ## 如何結合Advertising Cloud和行銷管道資料以分析媒體效能
 
-在[!DNL Analytics]中，您可以結合Advertising Cloud持續付費廣告資料和[!DNL Marketing Channels]完整的造訪資料，以更好地分析您的媒體績效，以便更好地影響客戶歷程。
+內 [!DNL Analytics]，您可以結合Advertising Cloud持續付費廣告資料和 [!DNL Marketing Channels] 全面的造訪資料，以便更好地分析您的媒體效能，進而更好地影響客戶歷程。
 
 下列分析使用Advertising Cloud資料，顯示不同版本的顯示廣告如何影響網站轉換。 所有三欄都使用相同的轉換量度，但每一欄會呈現不同的動態：
 
-* 第1欄會查看在訪客歷程中持續存在的AMO ID資料。 第1欄指出有641個應用程式開始，曾經透過閱覽或點進事件，與Advertising Cloud廣告連結。 此檢視未考慮任何其他[!DNL Marketing Channels]屬性。
+* 第1欄會查看在訪客歷程中持續存在的AMO ID資料。 第1欄指出有641個應用程式開始，曾經透過閱覽或點進事件，與Advertising Cloud廣告連結。 這個觀點沒有其他觀點 [!DNL Marketing Channels] 歸因。
 
-* 但在[!DNL Marketing Channels]資料集中，641個應用程式啟動會歸因於其他行銷管道。 最後兩欄會採用641個應用程式啟動，並將資料限制在[!UICONTROL Display Click-Through]和[!UICONTROL Display View-Through]管道，顯示上次接觸歸因模型中發生的轉換。
+* 在 [!DNL Marketing Channels] 但是，資料集641個應用程式啟動會歸因於其他行銷管道。 最後兩欄會採用641個應用程式啟動，並將資料限制為 [!UICONTROL Display Click-Through] 和 [!UICONTROL Display View-Through] 管道，顯示上次接觸歸因模型中發生的轉換。
 
 ![顯示廣告如何影響網站轉換的範例](/help/integrations/assets/a4adc-mc-display-impact.png)
 

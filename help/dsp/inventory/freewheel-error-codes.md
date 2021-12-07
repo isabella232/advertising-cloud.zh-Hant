@@ -2,8 +2,7 @@
 title: 的錯誤代碼 [!DNL FreeWheel] 廣告提交
 description: 參考為廣告提交傳回的錯誤代碼 [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: null
-source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 2%
@@ -56,7 +55,7 @@ ht-degree: 2%
 | DATA_CREATIVE_UPDATE_FAILURE | 422 | 創意內容尚未更新。 檢查錯誤訊息以取得詳細資訊。 |
 | DATA_DSP_GET_失敗 | 422 | DSP不存在於系統內。 |
 | DATA_CREATIVE_UNLINK_FAILURE | 422 | 創意內容未與廣告單位解除連結。 |
-| DATA_CREATIVE_CATIVE_FAILURE_FAILURE | 422 | 創意內容沒有刪除。 |
+| DATA_CREATIVE_DELETE_失敗 | 422 | 創意內容沒有刪除。 |
 | DATA_CREATIVE_DETECTION_FAILURE | 422 | 未檢測到URL。 |
 | DATA_ENTITY_NOT_FOUND | 422 | 創意不存在。 |
 

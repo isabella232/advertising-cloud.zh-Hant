@@ -2,8 +2,7 @@
 title: 在中設定PG交易概觀 [!DNL Freewheel]
 description: '了解在以程式設計保證的交易與發佈商之間執行廣告所需的先決條件和額外步驟 [!DNL Freewheel]. '
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: null
-source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%

@@ -2,10 +2,9 @@
 title: 執行自訂報表
 description: 了解如何立即執行自訂報表。
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當您[create](report-create.md)或[edit](report-edit.md)時，也可以執行自訂報表。
+>您也可以在 [建立](report-create.md) 或 [編輯](report-edit.md) 它。
 
-1. 在主菜單中，按一下&#x200B;**[!UICONTROL Reports]**。
-1. 在報表列的[!UICONTROL Options]欄中，按一下&#x200B;**[!UICONTROL options]>[!UICONTROL Run Now]**。
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL OK]**。
+1. 在主功能表中，按一下 **[!UICONTROL Reports]**.
+1. 在 [!UICONTROL Options] 欄，按一下 **[!UICONTROL options]>[!UICONTROL Run Now]**.
+1. 在確認訊息中，按一下 **[!UICONTROL OK]**.
 
    報表完成時，會傳送至報表設定中指定的所有電子郵件地址。
 
