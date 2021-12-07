@@ -2,8 +2,8 @@
 title: SSP合作夥伴
 description: 請參閱可用供應端平台(SSP)和開放式exchange合作夥伴的清單。
 feature: DSP Private Inventory
-exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f,None
-source-git-commit: d084b5350e1e90414ce34a8357be2ed47c5e25fe
+exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
+source-git-commit: fa8c8c1637dfc7a3e9409f6637f77d751d96ae6c
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!DNL EMX Digital] |  | Adobe Advertising Cloud | 否 | 美國/加州 | USD | x | x | x |  |  |  |  |
 | [!DNL FreeWheel] (原稱 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元、歐元、澳元、英鎊 | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 否 | 全球 | USD | x | x |  |  |  |  |  |
-| [!DNL Google AdX] 現在 [!DNL Google Authorized Buyers]) | [!DNL Google] | AdobeNA - 44912714<br>AdobeEU - 94893418<br>AdobeAPAC - 89185975 | 是 | 全球 | 美元，巴西雷亞爾 | x | x | x | x | x |  | x |
+| [!DNL Google AdX] (now [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe EU - 94893418<br>Adobe APAC - 89185975 | 是 | Global | 美元，巴西雷亞爾 | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising Cloud | 否 | 美國/加州 | USD | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 否 | 全球 | USD | x | x | x | x | x |  |  |
 | [!DNL Magnite CTV] | [!DNL Magnite] (原稱 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 澳元，美元 | x | x | x |  |  |  |  |
