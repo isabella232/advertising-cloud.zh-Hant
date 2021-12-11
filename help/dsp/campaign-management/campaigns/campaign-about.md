@@ -3,9 +3,9 @@ title: 關於Advertising Cloud DSP中的Campaign管理
 description: 了解行銷活動管理。
 feature: DSP Campaigns
 exl-id: f9f3aba2-995c-45df-8e65-52999f9cc539
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ ht-degree: 0%
 
 您可以手動建立促銷活動，或複製現有促銷活動。 您也可以編輯現有的促銷活動。
 
-## [!UICONTROL Campaigns]控制面板
+## 此 [!UICONTROL Campaigns] 控制面板
 
 <!-- standardize on "dashboard" or "view" -->
-[!UICONTROL Campaigns]控制面板會集中所有促銷活動的效能和經濟報表，提供指定日期範圍內促銷活動執行情形的快速快照。
+此 [!UICONTROL Campaigns] 控制面板可集中所有促銷活動的效能和經濟報告，提供指定日期範圍內促銷活動執行情形的快速快照。
 
 ![促銷活動控制面板](/help/dsp/assets/campaign-dashboard.png)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以透過[自訂報表](/help/dsp/reports/report-about.md)進一步自訂行銷活動報表的內容和傳送。
+>您可以透過 [自訂報表](/help/dsp/reports/report-about.md).
 
 若要查看促銷活動中的所有套件、版位和廣告，請按一下促銷活動名稱。
 
@@ -35,4 +35,5 @@ ht-degree: 0%
 >
 >* [建立促銷活動](campaign-create.md)
 >* [促銷活動設定](campaign-settings.md)
+>* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 
