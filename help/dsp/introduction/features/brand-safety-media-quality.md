@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步了解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 7d158d5882bf23582c274ad49d632e0d937a1bd3
+source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -114,13 +114,13 @@ Advertising Cloud DSP會維護一份被全域封鎖的網站清單，列出在�
 
 ### 主題定位
 
-DSP主題鎖定目標可讓您利用我們領先業界的情境合作夥伴來鎖定或封鎖關鍵字清單 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] ([!DNL Grapeshot])。
-
-主題鎖定目標可協助您確保廣告總是在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保更佳結果的環境中花費。
+DSP主題鎖定目標可讓您利用我們領先業界的情境合作夥伴來鎖定或封鎖關鍵字清單 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] ([!DNL Grapeshot])。 主題鎖定目標可協助您確保廣告總是在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保更佳結果的環境中花費。
 
 主題鎖定目標需要您直接使用 [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 在合作夥伴平台中建立這些檔案後，您就可以 [在 [!UICONTROL Audience Targeting] 每個放置的區段](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需額外付費。
 
-* 建立 [!DNL Comscore] 帳戶和建立自訂區段時，您可以要求登入 [!DNL Activation Segment Manager] http://agents.comscore.com/。 請參閱 [[!DNL Comscore] 協助中心](https://comscoreactivation.zendesk.com/hc/) 以取得設定自訂區段的完整指示。 自訂區段的費用會顯示在 [!DNL Segment Manager] 當您建立時。
+若要建立自訂主題區段：
+
+* 建立 [!DNL Comscore] 帳戶和建立自訂區段時，您可以要求登入 [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). 請參閱 [[!DNL Comscore] 協助中心](https://comscoreactivation.zendesk.com/hc/) 以取得設定自訂區段的完整指示。 自訂區段的費用會顯示在 [!DNL Segment Manager] 當您建立時。
 
 * 若要開始使用 [!DNL Oracle Data Cloud]，聯絡 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客戶經理。
 
