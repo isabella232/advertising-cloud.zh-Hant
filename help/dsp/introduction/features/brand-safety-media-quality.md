@@ -3,9 +3,9 @@ title: 品牌安全與媒體品質
 description: 進一步了解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 7d158d5882bf23582c274ad49d632e0d937a1bd3
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Advertising Cloud DSP提供一套品牌保護功能，確保您的每個行銷活動都能在品牌安全的環境中觸及真正的使用者。
 
-Our Fraud Surveillance team works closely with industry leading partners, such as the [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)], and [!DNL WhiteOps], to carefully curate the inventory on our platform. 透過主動管理我們的供應，DSP可確保平台上的所有廣告商不受非人類流量（機器人、編目程式、資料中心流量和詐騙）的保護，並只在品牌安全的環境中傳送。
+我們的欺詐監控團隊與業界領先合作夥伴(例如 [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)]，和 [!DNL WhiteOps]，以謹慎組織平台上的詳細目錄。 透過主動管理我們的供應，DSP可確保平台上的所有廣告商不受非人類流量（機器人、編目程式、資料中心流量和詐騙）的保護，並只在品牌安全的環境中傳送。
 
-In addition to providing central quality management, we believe in empowering advertisers to design the controls that align with their brand. Adobe Advertising Cloud提供與 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud]，和 [!DNL Peer39]，確保每個廣告商都能選擇其所需的詐騙保護、情境篩選和關鍵字鎖定目標等級。
+除了提供集中品質管理外，我們相信讓廣告商能夠設計符合其品牌的控制項。 Adobe Advertising Cloud提供與 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud]，和 [!DNL Peer39]，確保每個廣告商都能選擇其所需的詐騙保護、情境篩選和關鍵字鎖定目標等級。
 
 ## Advertising Cloud DSP品質計畫
 
 ### 清單驗證 [!DNL Ads.txt] 支援
 
-[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 是由 [!DNL Interactive Advertising Bureau] ([!DNL IAB])，以促進存貨在公開市場上的適當代表，從而打擊非法的流量來源及網域欺騙。 參與的發行商和分銷商會公開宣佈獲授權銷售其數位庫存的公司，以及這些關係的性質，方法是維持 `ads.txt` 頁面(例如 `example.com/ads.txt`)。
+[[!DNL Ads.txt]，代表 [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 是由 [!DNL Interactive Advertising Bureau] ([!DNL IAB])，以促進存貨在公開市場上的適當代表，從而打擊非法的流量來源及網域欺騙。 參與的發行商和分銷商會公開宣佈獲授權銷售其數位庫存的公司，以及這些關係的性質，方法是維持 `ads.txt` 頁面(例如 `example.com/ads.txt`)。
 
 DSP支援 [!DNL ads.txt] 閱讀每個出版商的 `ads.txt` 檔案，並提供您僅從已驗證 [!DNL ads.txt] 賣家。 例如，透過比對我們看到可存取的賣家 `nytimes.com` 《紐約時報》 `ads.txt` 檔案中，我們可以識別哪些是合法的，哪些不是，而且，如果將版位設定為僅向經過驗證的賣家購買，我們將阻止違規者。 <!-- can we actually mention NY Times? -->
 
@@ -44,7 +44,7 @@ DSP與業界領先的廠商(例如 [!DNL Whiteops] 和 [!DNL Integral Ad Science
 
 此外，Adobe與 [!DNL IAB] 和 [!DNL TAG] 以利用工具(例如 [!DNL ads.txt] （請參閱上一節）、 [!DNL IAB] 機器人與編目程式清單，以及 [!DNL TAG] 資料中心IP清單。
 
-透過我們的多維度品質方法，我們的團隊會監控異常和無效的流量模式，確保受保護庫存上的無效流量少於3%。 Any inventory that is suspicious — including inventory on specific domains or from specific publishers or sellers — is immediately blocked across the platform.
+透過我們的多維度品質方法，我們的團隊會監控異常和無效的流量模式，確保受保護庫存上的無效流量少於3%。 任何可疑的清單（包括特定域的清單或特定發佈商或銷售商的清單）都會立即在整個平台上被阻止。
 
 ### 庫存映射、分層和分類
 
@@ -74,13 +74,13 @@ Advertising Cloud DSP提供全域封鎖的網站清單，以及為廣告商和�
 
 #### Advertising Cloud DSP全域封鎖的網站清單
 
-Advertising Cloud DSP會維護一份被全域封鎖的網站清單，列出在上執行廣告時認為不安全的網站。 此清單包含有令人反感的內容（例如仇恨或恐怖）的網站，以及受機器人、假前段、不相符的網域和其他欺詐活動感染的網站。
+Advertising Cloud DSP會維護一份被全域封鎖的網站清單，列出在上執行廣告時認為不安全的網站。 此清單包含具有不良內容（例如仇恨或恐怖）的網站，以及受機器人、假前段、不相符的網域和其他欺詐活動感染的網站。
 
 作為我們品牌安全計畫的一部分，以根除詐騙廣告商的活動，系統會使用圖表中已封鎖網站清單的測量來篩選所有網站。 未通過品牌安全檢查的所有網站都會新增至全域封鎖的網站清單。 由於Advertising Cloud DSP會以動態方式管理此清單，因此網站可能會根據最新的品牌安全分析隨時從清單上移動或移出。
 
 當您在全域封鎖的網站清單中加入網站作為版位目標時，系統會以紅色驚嘆號(!)標籤該網站。 這表示廣告不會在已標幟的網站上執行。
 
-#### Account-level and Advertiser-level Blocked Sites Lists
+#### 帳戶層級和廣告商層級封鎖的網站清單
 
 使用者也可以維護帳戶層級和廣告商層級的封鎖網站清單<!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) -->，會自動用於所有版位。 除了全局阻止的站點清單外，還會應用較低級別的阻止的站點清單。
 
@@ -108,7 +108,7 @@ Advertising Cloud DSP會維護一份被全域封鎖的網站清單，列出在�
 
 由我們領先業界的合作夥伴提供技術支援的出價前可檢視性篩選條件 [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat])和 [!DNL Integral Ad Science] 可讓廣告商確保其促銷活動符合其所需的視訊可檢視性效能目標，並顯示詳細目錄。
 
-You can set default viewability filters for each advertiser<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, and then optionally [customize the settings for each placement](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能時，可能需支付額外費用。
+您可以為每個廣告商設定預設的可檢視性篩選條件<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然後選擇性 [自訂每個版位的設定](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能時，可能需支付額外費用。
 
 ![DoubleVerify徽標](/help/dsp/assets/doubleverify-logo.png) ![Oracle廣告標誌](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science標誌](/help/dsp/assets/ias-logo.png)
 
@@ -118,9 +118,11 @@ DSP主題鎖定目標可讓您利用我們領先業界的情境合作夥伴來�
 
 主題鎖定目標可協助您確保廣告總是在符合您品牌的環境中提供，包括封鎖有害內容或確保在可確保更佳結果的環境中花費。
 
-主題定位需要您直接使用 [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 在合作夥伴平台中建立這些檔案後，您就可以 [在[!UICONTROL  Audience Targeting] 每個放置的區段](/help/dsp/campaign-management/placements/placement-settings.md). Additional fees may apply for this feature.
+主題鎖定目標需要您直接使用 [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 在合作夥伴平台中建立這些檔案後，您就可以 [在 [!UICONTROL Audience Targeting] 每個放置的區段](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需額外付費。
 
-若要開始使用，請連絡您偏好的廠商或 [!DNL Adobe] 客戶經理。
+* 建立 [!DNL Comscore] 帳戶和建立自訂區段時，您可以要求登入 [!DNL Activation Segment Manager] http://agents.comscore.com/。 請參閱 [[!DNL Comscore] 協助中心](https://comscoreactivation.zendesk.com/hc/) 以取得設定自訂區段的完整指示。 自訂區段的費用會顯示在 [!DNL Segment Manager] 當您建立時。
+
+* 若要開始使用 [!DNL Oracle Data Cloud]，聯絡 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客戶經理。
 
 ![Comscore標誌](/help/dsp/assets/comscore-logo.png) ![Grapeshot標誌](/help/dsp/assets/oracle-grapeshot-logo.png)
 
