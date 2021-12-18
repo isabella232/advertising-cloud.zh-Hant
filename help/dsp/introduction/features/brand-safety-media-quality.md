@@ -3,7 +3,7 @@ title: 品牌安全與媒體品質
 description: 進一步了解品牌安全和媒體品質功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
+source-git-commit: fac152a5e3d040bcfacda97f05f3990fd17f677d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -72,7 +72,7 @@ DSP與業界領先的廠商(例如 [!DNL Whiteops] 和 [!DNL Integral Ad Science
 
 Advertising Cloud DSP提供全域封鎖的網站清單，以及為廣告商和帳戶建立自訂封鎖網站清單的選項。
 
-#### Advertising Cloud DSP全域封鎖的網站清單
+#### Advertising Cloud DSP全域封鎖的網站清單 {#global-blocked-sites}
 
 Advertising Cloud DSP會維護一份被全域封鎖的網站清單，列出在上執行廣告時認為不安全的網站。 此清單包含具有不良內容（例如仇恨或恐怖）的網站，以及受機器人、假前段、不相符的網域和其他欺詐活動感染的網站。
 
