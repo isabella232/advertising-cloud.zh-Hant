@@ -2,7 +2,8 @@
 title: 為何管道資料可能因Advertising Cloud和 [!DNL Marketing Channels]
 description: 了解為何AMO ID追蹤的管道資料可能與 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 4605dc7d-43d7-414f-a509-6096c6cf5fd2
+source-git-commit: b99d0ce78dc2adc16e555ef618393ef2fc11067d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 * Advertising Cloud AMO ID:Advertising Cloud AMO ID資料的主要使用案例是饋送Advertising Cloud的進階 [!DNL Adobe Sensei]競標算法。 這些演算法會自動做出每日數千個微層級的出價決策，以最大化廣告支出並達成 [!DNL DSP] 行銷活動或 [!DNL Search] 作品集。 演算法將促銷活動連結到的轉換資料越多，演算法就越能做出這些競標決策。
 
-   若要收集此資料， [!DNL Analytics for Advertising Cloud] 整合會傳遞原始AMO ID，這些AMO ID可在Adobe Analytics的AMO ID維度中轉譯為點進和閱覽追蹤代碼，以自訂變數(eVar)或保留變數(rVar)的形式儲存。 其他管道的點進次數不會設定在AMO ID維度中，因此AMO ID維度無法追蹤來自這些其他管道的登入次數。 結果AMO ID會持續存在至 [!DNL Marketing Channes]l入口點。
+   若要收集此資料， [!DNL Analytics for Advertising Cloud] 整合會傳遞原始AMO ID，這些AMO ID可在Adobe Analytics的AMO ID維度中轉譯為點進和閱覽追蹤代碼，以自訂變數(eVar)或保留變數(rVar)的形式儲存。 其他管道的點進次數不會設定在AMO ID維度中，因此AMO ID維度無法追蹤來自這些其他管道的登入次數。 結果AMO ID會持續存在至 [!DNL Marketing Channels] 登入點。
 
 如需Advertising Cloud追蹤資料與 [!DNL Analytics] — 跟蹤的資料，請參閱[之間的預期資料差異 [!DNL Analytics] 和Advertising Cloud](../data-variances.md).&quot;
 
