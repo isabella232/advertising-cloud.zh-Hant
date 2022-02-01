@@ -1,8 +1,9 @@
 ---
 title: 認證廣告服務合作夥伴
-description: 查看所有經認證的廣告伺服器和廣告單位。
+description: 查看所有經認證的廣告伺服器和廣告單元。
 feature: DSP Ads
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # 認證廣告服務合作夥伴
 
-| 廣告伺服器 | 音訊 | 顯示 | 高影響顯示 | 影片 | 特殊要求和說明 |
+| 廣告伺服器 | 音頻 | 顯示 | 高衝擊顯示 | 視頻 | 特殊要求和說明 |
 | --- | --- | --- | --- | --- | --- |
 | [!DNL A Million Ads] | X |  |  |  |  |
 | [!DNL Adacado] |  | X |  |  |  |
@@ -34,29 +35,29 @@ ht-degree: 0%
 | [!DNL Flashtalking] | X | X |  | X |  |
 | [!DNL Frequency] | X |  |  |  |  |
 | [!DNL Gum Gum] |  |  | X |  |  |
-| [!DNL HUMAN] (先前 [!DNL White Ops]) | X | X |  | X |  |
+| [!DNL HUMAN] （以前） [!DNL White Ops]) | X | X |  | X |  |
 | [!DNL IAS] | X | X |  | X |  |
 | [!DNL IBM] |  | X |  | X |  |
 | [!DNL Innovid] | X | X |  | X |  |
-| [!DNL InSkin] |  |  | X |  | 必須從Inskin清點網路上的180x150顯示交易ID中提供高影響面板。 |
+| [!DNL InSkin] |  |  | X |  | 必須從Inskin清點網路中的180x150顯示交易ID中提供高影響外觀。 |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | 320x50錨點、BYOC、暫留、突破和Sidekick;300x250外流 </br></br>請連絡您的 [!DNL Adobe] 客戶經理，協助您設定廣告單位。 |
+| [!DNL Kargo] |  | X |  |  | 320x50 Anchor、BYOC、Hover、Breakout和Sidek;300x250外流 </br></br>聯繫您 [!DNL Adobe] 客戶團隊，幫助設定廣告單位。 |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |
 | [!DNL Moat] | X | X |  | X |  |
 | [!DNL PLAYGROUND XYZ] |  |  | X |  |  |
-| [!DNL Pubmatic] |  |  |  | X | 僅VAST |
-| [!DNL RevJet] |  |  |  | X | 僅VAST |
+| [!DNL Pubmatic] |  |  |  | X | 僅廣 |
+| [!DNL RevJet] |  |  |  | X | 僅廣 |
 | [!DNL Seedtag] |  | X |  |  |  |
-| [!DNL Sizmek] |  | X |  |  | 若要讓標籤在UI中呈現，請以 `<a>` 標籤（在開頭和結尾）。 請參閱下列標籤範例：</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Sizmek] |  | X |  |  | 要在UI中呈現標籤，請用 `<a>` 標籤（在開頭和結尾）。 請參閱下面的示例標籤：</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
 | [!DNL Spaceback] |  | X |  |  |  |
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
 | [!DNL Trueffect] |  | X |  |  |  |
-| [!DNL Undertone] |  |  | X |  | 自訂頁面抓取廣告單位已上傳為180x150(在Advertising Cloud DSP中)</br></br>當Index Exchange在拍賣中通過180x150的拍賣和DSP出價並提供曝光時，創意內容會展開為全頁顯示廣告。</br></br>最初為頁面抓取器、可擴展粘合性和螢幕移位廣告單位認證。 這需要重新認證，並為程式標示步驟。 |
+| [!DNL Undertone] |  |  | X |  | 自定義頁面捕獲和單元以180x150形式上傳到Advertising Cloud DSP</br></br>當Index Exchange通過180x150的拍賣和競DSP標，並呈現一種印象時，創意將擴展為全頁的展示廣告。</br></br>最初已為頁面抓取器、可擴展粘附性和螢幕移位和單位認證。 這需要重新確認，並為進程標籤步驟。 |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] 廣告單位 |
 | [!DNL Wunderkind] |  | X |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;

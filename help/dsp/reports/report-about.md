@@ -1,23 +1,23 @@
 ---
-title: 關於自訂報表
-description: 了解手動建立自訂報表或使用預先設定之報表範本的選項。
+title: 關於自定義報告
+description: 瞭解手動建立自定義報告或使用預配置的報告模板的選項。
 feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# 關於自訂報表
+# 關於自定義報告
 
-自訂報表可讓您使用促銷活動維度（例如廣告商、版位、網站或地標）和對您最重要的量度，來自訂報表資料的內容和傳送。 您可以：
+自定義報告允許您使用市場活動維度（如廣告商、位置、站點或geo）和對您最重要的指標自定義報告資料的內容和傳遞。 您可以：
 
-* 在精細層級完整設定促銷活動績效報表。
-* 從預先設定的報表範本中選擇，並可選擇進一步自訂。
+* 在細粒度級別完全配置市場活動績效報告。
+* 從預配置的報告模板中進行選擇，並根據需要進一步自定義這些模板。
 
-您只需產生一次報表，或排程在指定時區的03:00每天、每週或每月產生報表。 報表產生後，會傳送給每個指定的電子郵件收件者或連結的 [報告目的地](/help/dsp/reports/report-destinations/report-destination-about.md) 類型：
+您可以生成一次報告，或安排在指定時區的03:00每天、每週或每月生成報告。 生成報表後，它將發送給每個指定的電子郵件收件人或連結 [報告目標](/help/dsp/reports/report-destinations/report-destination-about.md) 類型：
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -26,68 +26,68 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以檢視促銷活動所有層級（促銷活動、套件、版位或廣告）的隨選資料 [在相關促銷活動管理檢視中](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>您還可以查看市場活動所有級別（市場活動、包、職位安排或廣告）的按需資料 [在相關市場活動管理視圖內](/help/dsp/campaign-management/reports/campaign-reports-about.md)。
 
-## 可用的報表類型
+## 可用報告類型
 
-* **[!UICONTROL Custom]:** 此報表是空白範本，可用來使用大部分的維度和量度建立自己的自訂報表。 [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]，和 [!UICONTROL Site] 報表是此範本的變體，其各自使用案例中預先選取的欄和維度。
+* **[!UICONTROL Custom]:** 此報表是一個空白模板，您可以使用大多數維和度量建立自己的自定義報表。 [!UICONTROL Conversion]。 [!UICONTROL Device]。 [!UICONTROL Geo], [!UICONTROL Site] 報告是此模板的變體，其中預選的列和維用於各自的使用情形。
 
-* 預先設定的報表範本
+* 預配置的報告模板
 
-   * **[!UICONTROL Billing]:** 使用此報表可了解關鍵計費量度，例如依促銷活動進行媒體計費的支出量度。
-
-      >[!NOTE]
-      >
-      >此報表包含有關帳單區段的資料。 如果提供屬於多個區段的使用者或裝置曝光數，則只有一個計費區段會計入曝光數。
-
-   * **[!UICONTROL Conversion]:** 根據使用Advertising Cloud轉換追蹤擷取的轉換量度，使用此報表來了解促銷活動的成效。 此報表包含多點接觸歸因。
-
-   * **[!UICONTROL Device]:** 使用此預先填入的範本，可依裝置相關維度查看關鍵量度。
-
-   * **[!UICONTROL Frequency (by Impression)]:** 使用此報表可了解向不重複檢視者顯示的曝光分佈（例如，有多少個不重複檢視者看過一次曝光、兩次曝光、三次曝光等）。 資料可依版位或行銷活動提供。
+   * **[!UICONTROL Billing]:** 使用此報告可以瞭解關鍵計費指標，如按市場活動開單的媒體計費支出指標。
 
       >[!NOTE]
       >
-      >* 資料可在2019年3月1日之後使用。
-      >* 根據資料的採樣來估計頻率。
-      >* 對於某些詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。 此報表僅包含有裝置識別碼可用的曝光數。
+      >此報表包括有關開單段的資料。 如果向用戶或設備提供屬於多個段的印象，則只有一個可計費的段被計入該印象。
 
+   * **[!UICONTROL Conversion]:** 使用此報表可瞭解您的市場活動如何根據使用Advertising Cloud轉換跟蹤獲取的轉換指標執行。 本報告包括多點觸控屬性。
 
-   * **[!UICONTROL Frequency (by App/Site)]:** 使用此報表可了解依應用程式或網站觸及的不重複使用者人數。 您也可以查看僅透過特定應用程式或網站（「不重複使用者」）觸及的不重複使用者數量。
+   * **[!UICONTROL Device]:** 使用此預填充的模板按與設備相關的維查看關鍵度量。
 
-      >[!NOTE]
-      >
-      >* 2018年11月15日之後可使用資料。
-      >* 對於某些私人詳細目錄，發佈者不會傳遞裝置識別碼，這會防止頻率追蹤。
-
-
-   * **[!UICONTROL Geo]**:使用此預先填入的範本，可依地理維度查看關鍵量度。
-
-   * **[!UICONTROL Margin]:** 使用此報表可依促銷活動或位置查看關鍵量度，例如利潤、利潤和其他支出量度。
-
-   * **[!UICONTROL Segment]:** 使用此預先填入的範本，即可依區段查看關鍵量度。
+   * **[!UICONTROL Frequency (by Impression)]:** 使用此報告可瞭解給獨特觀眾的印象的分發情況（例如，有多少獨特觀眾看到了一個印象、兩個印象、三個印象等）。 資料可通過職位安排或市場活動獲得。
 
       >[!NOTE]
       >
-      >* 此報表旨在顯示不同目標區段的執行方式。 會使用區段成員資格資料。 對屬於兩個或多個目標區段的人員或裝置顯示曝光時，此報表會為每個區段包含一列。 因此，此報表中的總計可能不符合實際傳送。
-      >* 區段的轉換量度和自訂目標資料可在2019年8月2日之後使用。 自2018年6月1日起，可使用區段的所有其他資料。
+      >* 2019年3月1日以後提供資料。
+      >* 基於資料的採樣來估計頻率。
+      >* 對於某些清單，發佈者不會傳遞設備標識符，這會阻止頻率跟蹤。 此報告僅包括設備標識符可用的印象。
 
 
-   * **[!UICONTROL Site]:** 預設情況下，包括標準量度、媒體淨支出總額和按站點列出的可計費淨支出總額。
+   * **[!UICONTROL Frequency (by App/Site)]:** 使用此報告可瞭解應用程式或站點訪問的唯一用戶數。 您還可以看到僅通過特定應用或站點（「不同的唯一用戶」）訪問了多少個獨特用戶。
+
+      >[!NOTE]
+      >
+      >* 2018年11月15日之後提供資料。
+      >* 對於某些專用清單，發佈者不會傳遞設備標識符，這會阻止頻率跟蹤。
+
+
+   * **[!UICONTROL Geo]**:使用此預填充的模板按地理維查看關鍵度量。
+
+   * **[!UICONTROL Margin]:** 使用此報表可以按市場活動或職位安排查看關鍵指標，如利潤、利潤和其他支出指標。
+
+   * **[!UICONTROL Segment]:** 使用此預填充的模板按段查看關鍵度量。
+
+      >[!NOTE]
+      >
+      >* 此報告旨在顯示不同目標段的執行情況。 它使用段成員資料。 當向屬於兩個或多個目標段的人員或設備提供印象時，此報表包括每個段的一行。 因此，此報表中的合計可能與實際交貨不匹配。
+      >* 2019年8月2日以後，可獲得段的轉換指標和自定義目標資料。 從2018年6月1日以後開始，所有其他資料都可供使用。
+
+
+   * **[!UICONTROL Site]:** 預設情況下，包括標準指標、介質淨支出總額和按站點列出的可計費淨支出總額。
 
 ## 跨帳戶報告 {#cross-account-reporting}
 
-任何具有多個DSP帳戶的組織均可根據組織的需求，選擇在自訂報表中啟用跨帳戶資料。 例如，您可以授予帳戶A存取帳戶B的資料，並授予帳戶B存取帳戶C（但不授予帳戶A）的資料。 若要啟用並設定此功能，請連絡您的帳戶管理員。
+具有多個帳戶DSP的任何組織都可以根據組織的需要，在自定義報告中選擇啟用交叉帳戶資料。 例如，您可以授予帳戶A對帳戶B資料的訪問權限，並授予帳戶B對帳戶C（但不授予帳戶A）資料的訪問權限。 要啟用和配置此功能，請與 [!DNL Adobe] 客戶團隊。
 
-為貴組織啟用功能後，您就可以 [篩選](report-settings.md) 下列任何報表類型（依帳戶）:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]，和 [!UICONTROL Conversion].
+為您的組織啟用該功能後，您可以 [濾波器](report-settings.md) 以下任何報表類型（按帳戶）:  [!UICONTROL Custom]。 [!UICONTROL Site]。 [!UICONTROL Segment]。 [!UICONTROL Geo]。 [!UICONTROL Device]。 [!UICONTROL Frequency (by Impression)], [!UICONTROL Conversion]。
 
-您的帳戶設定位於 [!UICONTROL Settings] > [!UICONTROL Account] 指出a)其資料可供您帳戶使用的其他帳戶，以及b)可存取您帳戶資料的其他帳戶。
+您的帳戶設定位於 [!UICONTROL Settings] > [!UICONTROL Account] 指示a)其資料可用於您的帳戶的其他帳戶，以及b)可訪問您帳戶資料的其他帳戶。
 
 >[!MORELIKETHIS]
 >
->* [建立自訂報表](/help/dsp/reports/report-create.md)
->* [自訂報表設定](/help/dsp/reports/report-settings.md)
->* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [可用報表欄](/help/dsp/reports/report-columns.md)
+>* [建立自定義報告](/help/dsp/reports/report-create.md)
+>* [自定義報表設定](/help/dsp/reports/report-settings.md)
+>* [關於平台內報告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [可用報表列](/help/dsp/reports/report-columns.md)
 >* [關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 

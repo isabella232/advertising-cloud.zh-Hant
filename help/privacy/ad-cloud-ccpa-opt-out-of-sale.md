@@ -3,7 +3,7 @@ title: Adobe Advertising Cloud支援《加利福尼亞消費者隱私法》：�
 description: 瞭解對捕獲消費者選擇退出銷售請求的支援。
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: adb3118d291d110e653a62cc1a323410b1a596b2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Advertising Cloud會生成客戶已提交的ID月度報告，以申請該帳戶�
 
 此功能可供使用 [!DNL Trafficking API]。 請參閱 [!DNL Trafficking API] 的子菜單。
 
-如果您的組織不使用 [!DNL Trafficking API] 但對更多資訊感興趣，請與 [!DNL Adobe] 客戶經理。
+如果您的組織不使用 [!DNL Trafficking API] 但對更多資訊感興趣，請與 [!DNL Adobe] 客戶團隊。
 
 ## 附錄：示例 [!UICONTROL CCPA Opt-Out-of-Sale] 請求Privacy ServiceAPI用戶
 
