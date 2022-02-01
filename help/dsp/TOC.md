@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: cf08c97a6a9fecd637f1776b186a18a5c5cc6435
+source-git-commit: c44113736f472c4971729403835a61ed6e07b47f
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 6%
@@ -168,19 +168,19 @@ ht-degree: 6%
             + [提交計畫保證交易的廣告以 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
             + [檢查廣告狀態 [!DNL FreeWheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md)
             + [FreeWheel廣告提交的錯誤代碼](/help/dsp/inventory/freewheel-error-codes.md)
-      + [編輯交易ID設定](/help/dsp/inventory/deal-id-edit.md)
-      + [指定交易ID的放置和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
-      + [編輯有權訪問交易ID的帳戶](/help/dsp/inventory/deal-id-share.md)
-      + [編輯有權訪問交易ID的廣告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
-      + [編輯交易ID的屬性標籤](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
-      + [列出私人交易的定位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
-      + [查看私人交易的詳細報告](/help/dsp/inventory/private-deal-view-report.md)
-      + [存檔或取消存檔私有交易](/help/dsp/inventory/private-deal-archive-unarchive.md)
+         + [編輯交易ID設定](/help/dsp/inventory/deal-id-edit.md)
+         + [指定交易ID的放置和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
+         + [編輯有權訪問交易ID的帳戶](/help/dsp/inventory/deal-id-share.md)
+         + [編輯有權訪問交易ID的廣告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
+         + [編輯交易ID的屬性標籤](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
       + [!UICONTROL Simple Ad Serving] 交易 {#sas}
          + [關於 [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
          + [建立 [!UICONTROL Simple Ad Serving] 交易](/help/dsp/inventory/simple-deal-create.md)
          + [[!UICONTROL Simple Ad Serving] 交易設定](/help/dsp/inventory/simple-deal-settings.md)
          + [查看事件跟蹤像素 [!UICONTROL Simple Ad Serving] 交易](/help/dsp/inventory/simple-deal-show-pixels.md)
+      + [列出私人交易的定位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
+      + [查看私人交易的詳細報告](/help/dsp/inventory/private-deal-view-report.md)
+      + [存檔或取消存檔私有交易](/help/dsp/inventory/private-deal-archive-unarchive.md)
 + 自定義報告 {#custom-reports}
    + [關於自定義報告](/help/dsp/reports/report-about.md)
    + [建立自定義報告](/help/dsp/reports/report-create.md)

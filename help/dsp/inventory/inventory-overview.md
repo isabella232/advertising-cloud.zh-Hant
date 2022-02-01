@@ -3,7 +3,7 @@ title: Advertising Cloud DSP庫存功能概述
 description: 瞭解可用的清單功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 877771cbd3a8e0668add8da15bc2abe02ab4380b
+source-git-commit: 3039557f4929b716d86840cd3cb4a5aa54125145
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Advertising Cloud DSP可以支援您的庫存需求，無論您是否希望通�
 
 * **[!DNL On Demand]庫存：** 探討Adobe與我們的高級發行商合作夥伴達成的預先協商、無擔保的交易。
 
-* **專用清單：** 設定和管理您與發佈者直接協商的私有市場交易(PMP)。
+* **專用清單 [!DNL Deal IDs]:** 設定和管理您與發佈者直接協商的私有市場交易(PMP)。
 
 * **[!DNL Simple Ad Serving]:** 在您的發佈者無法通過交易ID執行交易時，使用簡化的技術來提供有保證、未經決策的廣告交付和報告。
 
