@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 8e50b4bcd2ab1e27880f0f937ba3a0a83f4fbca3
+source-git-commit: b4d8b30ca4563b3b0d2ea1b03b8ef5f2810964a2
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 有關詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年12月31日 | 幫助 | 有關 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 的子菜單。 | 請參閱「庫存」>「專用庫存」的子章。 |
+| 2022年2月17日 | 視頻教程 | 「How to Create a Standard Display Placement」（如何建立標準顯示位置）的新視頻可用。 | 請參閱 [Advertising CloudTutorials](https://video.tv.adobe.com/v/340454)。 |
+| 2022年1月31日 | 幫助 | 有關 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 的子菜單。 | 請參閱「庫存」>「專用庫存」的子章。 |
 | 2021年12月10日 | 視頻教程 | 有新的視頻教程：&quot;Advertising Cloud DSP簡介&quot;、&quot;帳戶結構和用戶介面&quot;、&quot;How to Create a Package&quot;、&quot;How to Bulk Upload Third-Party Ad Tags&quot;和&quot;How to Edit Placements Using Bulk Edit Tools&quot;。 | 請參閱「」[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)&quot; |
-| 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 設定， &quot;[!DNL Rubicon]&quot;已更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 代表顯示、視頻和其他格式，如音頻。 這反映了 [!DNL Magnite] SSP。 **注：** [!DNL Magnite DV+] 仍列為「[!DNL Rubicon]的 [!UICONTROL Deal ID Inbox]。 | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
+| 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 設定， &quot;[!DNL Rubicon]&quot;已更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 表示顯示、視頻和其他格式，如音頻。 這反映了 [!DNL Magnite] SSP。 **注：** [!DNL Magnite DV+] 仍列為「[!DNL Rubicon]的 [!UICONTROL Deal ID Inbox]。 | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
 | 2021年10月27日 | 自定義報告 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳輸位置，稱為 *[!DNL report destinations]*&#x200B;的子菜單。 配置報告目標後，您可以設定每個新的自定義報告，以將其發送到單個目標類型的一個或多個位置或電子郵件收件人。 更新 [!DNL Amazon S3] 並且FTP憑據不會中斷報告傳遞。<br><br>您的現有報告仍會發送到指定的電子郵件收件人。 要配置到其他報告目標的傳遞，請使用新目標建立新報告。 | 請參閱「」[關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot;和&quot;[自定義報表設定](/help/dsp/reports/report-settings.md)&quot; |
 |  | [!UICONTROL Packages]。 [!UICONTROL Placements], [!UICONTROL Ads] 視圖 | 當您查看一天的資料時，趨勢圖現在包括每小時的資料。 將游標置於任意點上，查看該小時的資料。 | 請參閱「」[單個市場活動報告](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting)&quot; |
 |  | [!UICONTROL Placements] | 放置 [!UICONTROL Inspector] 現在包括 [!UICONTROL Inventory] 頁籤，其中顯示放置的所有交易及其關聯度量。 使用資訊快速調整或排除問題，而不生成自定義報告。 | 請參閱「」[放置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector)&quot; |
