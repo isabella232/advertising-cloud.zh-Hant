@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: b4d8b30ca4563b3b0d2ea1b03b8ef5f2810964a2
+source-git-commit: 3a4f9bf2d2889acde67a10ab0b5895a2c1024b56
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 有關詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年2月17日 | 視頻教程 | 「How to Create a Standard Display Placement」（如何建立標準顯示位置）的新視頻可用。 | 請參閱 [Advertising CloudTutorials](https://video.tv.adobe.com/v/340454)。 |
+| 2022年2月17日 | 視頻教程 | 「How to Create a Standard Display Placement」（如何建立標準顯示位置）的新視頻可用。 | 請參閱 [Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html)。 |
 | 2022年1月31日 | 幫助 | 有關 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 的子菜單。 | 請參閱「庫存」>「專用庫存」的子章。 |
 | 2021年12月10日 | 視頻教程 | 有新的視頻教程：&quot;Advertising Cloud DSP簡介&quot;、&quot;帳戶結構和用戶介面&quot;、&quot;How to Create a Package&quot;、&quot;How to Bulk Upload Third-Party Ad Tags&quot;和&quot;How to Edit Placements Using Bulk Edit Tools&quot;。 | 請參閱「」[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)&quot; |
 | 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 設定， &quot;[!DNL Rubicon]&quot;已更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 表示顯示、視頻和其他格式，如音頻。 這反映了 [!DNL Magnite] SSP。 **注：** [!DNL Magnite DV+] 仍列為「[!DNL Rubicon]的 [!UICONTROL Deal ID Inbox]。 | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
