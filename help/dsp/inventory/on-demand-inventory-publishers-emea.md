@@ -1,20 +1,20 @@
 ---
-title: '[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers'
-description: '[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers'
+title: '"[!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商」'
+description: '"[!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商」'
 feature: DSP On Demand Inventory
 exl-id: e56fd637-fb01-4bc0-9125-aa6844eeccc4
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers
+# [!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 發佈者 | 地理 |
+| 發佈者 | 吉奧 |
 |-------------------------|-------------|
 | [!DNL Aufeminin] | 法國 |
 | [!DNL BBC] | 法國 |
@@ -223,13 +223,13 @@ ht-degree: 0%
 | [!DNL Vungle] | 英國 |
 | [!DNL Yahoo] | 英國 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL On Demand] 關於Premium庫存](on-demand-inventory-about.md)
->* [訂閱並請求對Premium Inventory [!DNL On Demand] 的訪問權](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 亞太地區的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳大利亞和紐西蘭的Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 北美的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
+>* [關於 [!DNL On Demand] 高級庫存](on-demand-inventory-about.md)
+>* [訂閱和請求訪問 [!DNL On Demand] 高級庫存](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 亞太地區高級庫存出版商](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 北美的高級庫存出版商](on-demand-inventory-publishers-na.md)
 

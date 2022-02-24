@@ -1,20 +1,20 @@
 ---
-title: '[!DNL On Demand] 亞太地區的Premium Inventory Publishers'
-description: 請參閱亞太地區可用的 [!DNL On Demand] premium詳細目錄發佈商。
+title: '"[!DNL On Demand] 亞太地區高級庫存出版商"'
+description: 查看可用 [!DNL On Demand] 亞太地區的高級庫存出版商。
 feature: DSP On Demand Inventory
 exl-id: dda5f9fb-2efb-475b-9219-dfa6294f3e01
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 亞太地區的Premium Inventory Publishers{#on-demand-inventory-publishers-apac}
+# [!DNL On Demand] 亞太地區高級庫存出版商{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 發佈者 | 地理 |
+| 發佈者 | 吉奧 |
 |-----------------------------|---------------|
 | [!DNL BBC] | 大中華區 |
 | [!DNL Bloomberg] | 大中華區 |
@@ -146,7 +146,7 @@ ht-degree: 0%
 | [!DNL Investopedia] | 馬來西亞 |
 | [!DNL Malay Mail Online] | 馬來西亞 |
 | [!DNL Malaysiakini] | 馬來西亞 |
-| [!DNL Media Prima]群組 | 馬來西亞 |
+| [!DNL Media Prima]組 | 馬來西亞 |
 | [!DNL The Asian Parent - Malaysia] | 馬來西亞 |
 | [!DNL Thomson Reuters] | 馬來西亞 |
 | [!DNL Time Inc] | 馬來西亞 |
@@ -181,88 +181,88 @@ ht-degree: 0%
 | [!DNL VIKI] | 菲律賓 |
 | [!DNL WeGo] | 菲律賓 |
 | [!DNL Yahoo] | 菲律賓 |
-| [!DNL 24H] | SEA |
-| [!DNL ABS CBN] | SEA |
-| [!DNL Astro] | SEA |
-| [!DNL Astro Gempak] | SEA |
-| [!DNL Bangkok Post] | SEA |
-| [!DNL BBC] | SEA |
-| [!DNL BBTV] | SEA |
-| [!DNL Bloomberg] | SEA |
-| [!DNL Bola] | SEA |
-| [!DNL Brilio] | SEA |
-| [!DNL Carousell] | SEA |
-| [!DNL CBS Interactive] | SEA |
-| [!DNL China Press] | SEA |
-| [!DNL CNBC] | SEA |
-| [!DNL CNN International] | SEA |
-| [!DNL Coconuts] | SEA |
-| [!DNL Conde Nast] | SEA |
-| [!DNL DAZN] ([!DNL Perform Media]) | SEA |
-| [!DNL Dek-D] | SEA |
-| [!DNL Detik] | SEA |
-| [!DNL Doisongphapluat] | SEA |
-| [!DNL Dream] | SEA |
-| [!DNL EA] | SEA |
-| [!DNL Gameloft] | SEA |
-| [!DNL HOOQ] | SEA |
-| [!DNL Idntimes] | SEA |
-| [!DNL iFlix] | SEA |
-| [!DNL Investopedia] | SEA |
-| [!DNL Jakarta Post] | SEA |
-| [!DNL Kapanlagi] | SEA |
-| [!DNL Kapook] | SEA |
-| [!DNL Kaskus] | SEA |
-| [!DNL Kompas] | SEA |
-| [!DNL Line Today] | SEA |
-| [!DNL Line TV] | SEA |
-| [!DNL Liputan6] | SEA |
-| [!DNL Malay Mail Online] | SEA |
-| [!DNL Malaysiakini] | SEA |
-| [!DNL Media Prima] | SEA |
-| [!DNL Merdeka] | SEA |
-| [!DNL MSN] | SEA |
-| [!DNL Mthai] | SEA |
-| [!DNL New York Times] | SEA |
-| [!DNL Oona] | SEA |
-| [!DNL PPTV TH] | SEA |
-| [!DNL Rappler] | SEA |
-| [!DNL Sanook] | SEA |
-| [!DNL SethLui] | SEA |
-| [!DNL Siam Sport] | SEA |
-| [!DNL Sinar Harian] | SEA |
-| [!DNL SMX] | SEA |
-| [!DNL Spin.ph] | SEA |
-| [!DNL Spotify] | SEA |
-| [!DNL Star Media Group] | SEA |
-| [!DNL Tempo.co] | SEA |
-| [!DNL The Asian Parent - Malaysia] | SEA |
-| [!DNL The Inquirer] | SEA |
-| [!DNL The Philippine Star] | SEA |
-| [!DNL The Straits Times] | SEA |
-| [!DNL The Thao] | SEA |
-| [!DNL Thomson Reuters] | SEA |
-| [!DNL Time Inc] | SEA |
-| [!DNL TimeOut] | SEA |
-| [!DNL Tonton] | SEA |
-| [!DNL Tribun News] | SEA |
-| [!DNL Tripadvisor] | SEA |
-| [!DNL TrueID] | SEA |
-| [!DNL TVB Anywhere+] | SEA |
-| [!DNL Twitch] | SEA |
-| [!DNL U.S. News] | SEA |
-| [!DNL Vidio] | SEA |
-| [!DNL VIKI] | SEA |
-| [!DNL VIU] | SEA |
-| [!DNL Viva.co.id] | SEA |
-| [!DNL VNExpress] | SEA |
-| [!DNL VNG] | SEA |
-| [!DNL WeGo] | SEA |
-| [!DNL Wow Keren] | SEA |
-| [!DNL Yahoo] | SEA |
-| [!DNL Yan.vn] | SEA |
-| [!DNL Zalora] | SEA |
-| [!DNL Zing.vn] | SEA |
+| [!DNL 24H] | 海 |
+| [!DNL ABS CBN] | 海 |
+| [!DNL Astro] | 海 |
+| [!DNL Astro Gempak] | 海 |
+| [!DNL Bangkok Post] | 海 |
+| [!DNL BBC] | 海 |
+| [!DNL BBTV] | 海 |
+| [!DNL Bloomberg] | 海 |
+| [!DNL Bola] | 海 |
+| [!DNL Brilio] | 海 |
+| [!DNL Carousell] | 海 |
+| [!DNL CBS Interactive] | 海 |
+| [!DNL China Press] | 海 |
+| [!DNL CNBC] | 海 |
+| [!DNL CNN International] | 海 |
+| [!DNL Coconuts] | 海 |
+| [!DNL Conde Nast] | 海 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 海 |
+| [!DNL Dek-D] | 海 |
+| [!DNL Detik] | 海 |
+| [!DNL Doisongphapluat] | 海 |
+| [!DNL Dream] | 海 |
+| [!DNL EA] | 海 |
+| [!DNL Gameloft] | 海 |
+| [!DNL HOOQ] | 海 |
+| [!DNL Idntimes] | 海 |
+| [!DNL iFlix] | 海 |
+| [!DNL Investopedia] | 海 |
+| [!DNL Jakarta Post] | 海 |
+| [!DNL Kapanlagi] | 海 |
+| [!DNL Kapook] | 海 |
+| [!DNL Kaskus] | 海 |
+| [!DNL Kompas] | 海 |
+| [!DNL Line Today] | 海 |
+| [!DNL Line TV] | 海 |
+| [!DNL Liputan6] | 海 |
+| [!DNL Malay Mail Online] | 海 |
+| [!DNL Malaysiakini] | 海 |
+| [!DNL Media Prima] | 海 |
+| [!DNL Merdeka] | 海 |
+| [!DNL MSN] | 海 |
+| [!DNL Mthai] | 海 |
+| [!DNL New York Times] | 海 |
+| [!DNL Oona] | 海 |
+| [!DNL PPTV TH] | 海 |
+| [!DNL Rappler] | 海 |
+| [!DNL Sanook] | 海 |
+| [!DNL SethLui] | 海 |
+| [!DNL Siam Sport] | 海 |
+| [!DNL Sinar Harian] | 海 |
+| [!DNL SMX] | 海 |
+| [!DNL Spin.ph] | 海 |
+| [!DNL Spotify] | 海 |
+| [!DNL Star Media Group] | 海 |
+| [!DNL Tempo.co] | 海 |
+| [!DNL The Asian Parent - Malaysia] | 海 |
+| [!DNL The Inquirer] | 海 |
+| [!DNL The Philippine Star] | 海 |
+| [!DNL The Straits Times] | 海 |
+| [!DNL The Thao] | 海 |
+| [!DNL Thomson Reuters] | 海 |
+| [!DNL Time Inc] | 海 |
+| [!DNL TimeOut] | 海 |
+| [!DNL Tonton] | 海 |
+| [!DNL Tribun News] | 海 |
+| [!DNL Tripadvisor] | 海 |
+| [!DNL TrueID] | 海 |
+| [!DNL TVB Anywhere+] | 海 |
+| [!DNL Twitch] | 海 |
+| [!DNL U.S. News] | 海 |
+| [!DNL Vidio] | 海 |
+| [!DNL VIKI] | 海 |
+| [!DNL VIU] | 海 |
+| [!DNL Viva.co.id] | 海 |
+| [!DNL VNExpress] | 海 |
+| [!DNL VNG] | 海 |
+| [!DNL WeGo] | 海 |
+| [!DNL Wow Keren] | 海 |
+| [!DNL Yahoo] | 海 |
+| [!DNL Yan.vn] | 海 |
+| [!DNL Zalora] | 海 |
+| [!DNL Zing.vn] | 海 |
 | [!DNL BBC] | 新加坡 |
 | [!DNL Bloomberg] | 新加坡 |
 | [!DNL Carousell] | 新加坡 |
@@ -367,13 +367,13 @@ ht-degree: 0%
 | [!DNL Yan.vn] | 越南 |
 | [!DNL Zing.vn] | 越南 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL On Demand] 關於Premium庫存](on-demand-inventory-about.md)
->* [訂閱並請求對Premium Inventory [!DNL On Demand] 的訪問權](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 澳大利亞和紐西蘭的Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] 北美地區清單出版商](on-demand-inventory-publishers-na.md)
+>* [關於 [!DNL On Demand] 高級庫存](on-demand-inventory-about.md)
+>* [訂閱和請求訪問 [!DNL On Demand] 高級庫存](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand Premium] 北美的清單出版商](on-demand-inventory-publishers-na.md)
 
