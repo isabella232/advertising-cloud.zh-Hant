@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: c44113736f472c4971729403835a61ed6e07b47f
+source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '864'
 ht-degree: 6%
 
 ---
@@ -197,8 +197,14 @@ ht-degree: 6%
       + [刪除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + 管理 {#admin}
-   + [關於帳戶級和廣告商級被阻止的站點清單](/help/dsp/admin/blocked-sites-list-about.md)
-   + [編輯帳戶級或廣告商級被阻止站點清單](/help/dsp/admin/blocked-sites-list-edit.md)
+   + [編輯您的配置檔案](/help/dsp/admin/user-own-profile-edit.md)
+   + 用戶 {#users}
+      + [邀請新用戶](/help/dsp/admin/user-invite.md)
+      + [重新發送掛起的用戶邀請](/help/dsp/admin/user-resend-invite.md)
+      + [取消邀請掛起的用戶](/help/dsp/admin/user-uninvite.md)
+   + 阻止的站點 {#sites}
+      + [關於帳戶級和廣告商級被阻止的站點清單](/help/dsp/admin/blocked-sites-list-about.md)
+      + [編輯帳戶級或廣告商級被阻止站點清單](/help/dsp/admin/blocked-sites-list-edit.md)
 + [Adobe Experience Cloud 的整合](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [客戶支援](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
