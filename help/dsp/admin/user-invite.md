@@ -1,9 +1,9 @@
 ---
 title: 邀請組織帳戶的新用戶
 description: 瞭解如何邀請新用戶加入帳戶。
-source-git-commit: 65d5b9275b24d66972f464a07d6e1a751721ada2
+source-git-commit: cd1ded08b07735cb3e156ec401e3ea1a920183d3
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [為您的組織帳戶重新發送待定用戶邀請](user-resend-invite.md)
+>* [重新發送掛起的用戶邀請](user-resend-invite.md)
 >* [取消邀請掛起的用戶](user-uninvite.md)
 
 

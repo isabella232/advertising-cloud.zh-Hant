@@ -1,9 +1,9 @@
 ---
 title: 取消邀請掛起的用戶
 description: 瞭解如何撤銷掛起的用戶邀請。
-source-git-commit: baa351de79532352f28d2dc5691c2e425a8e3207
+source-git-commit: 315fd6189e1805f9f1f4184cc0aa47d12740616a
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [邀請組織帳戶的新用戶](user-invite.md)
->* [為您的組織帳戶重新發送待定用戶邀請](user-resend-invite.md)
+>* [重新發送掛起的用戶邀請](user-resend-invite.md)
 
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->
