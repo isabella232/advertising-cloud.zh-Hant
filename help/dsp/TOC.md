@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
+source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 6%
       + [可接受的健康部分指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 資料使用准則](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [高級測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ 市場活動管理 {#campaign-management}
++ Campaign Management {#campaign-management}
    + [市場活動管理結構概覽](/help/dsp/campaign-management/campaign-management-overview.md)
    + 市場活動 {#campaigns}
       + [關於市場活動管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -112,7 +112,7 @@ ht-degree: 6%
       + [已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
    + [鍵盤快捷鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [市場活動管理常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [關於Campaign Management的常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
 + 優化 {#optimization}
    + [如何 [!DNL DSP] 優化您的市場活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [優化目標及其使用方法](/help/dsp/optimization/optimization-goals.md)
@@ -205,6 +205,9 @@ ht-degree: 6%
    + 阻止的站點 {#sites}
       + [關於帳戶級和廣告商級被阻止的站點清單](/help/dsp/admin/blocked-sites-list-about.md)
       + [編輯帳戶級或廣告商級被阻止站點清單](/help/dsp/admin/blocked-sites-list-edit.md)
+   + 通知 {#notifications}
+      + [關於警報訂閱](/help/dsp/admin/alerts-about.md)
+      + [管理警報訂閱](/help/dsp/admin/alerts-manage.md)
 + [Adobe Experience Cloud 的整合](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [客戶支援](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
