@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8094e8ae6cf76594ac705a8a6d76b98620220250
+source-git-commit: 0ad7f3e37c189b3b0e5f07cf421dcc29cf61c3ba
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,4 +17,19 @@ https://adobeadcloud.zendesk.com/agent/tickets/14214預設情況下，Adobe Anal
 
 ## 標題
 
-https://adobeadcloud.zendesk.com/agent/tickets/21757將Analytics事件標籤置於與Ad Cloud像素相同的位置，以確保XXX匹配。
+https://adobeadcloud.zendesk.com/agent/tickets/24323將Analytics事件標籤置於與Ad Cloud像素相同的位置，以確保XXX匹配。
+
+## 標題
+
+https://adobeadcloud.zendesk.com/agent/tickets/24323
+
+問：在內部安全審計過程中，某些功能被標籤為安全問題，當我們將Ad Cloud整合到現有Adobe Analytics安裝中時，就啟用了這些功能。
+
+所討論的整合是AdCloud和Adobe Audience Manager之間。 此功能可提高AdCloud和Adobe Audience Manager之間訪問者ID的匹配率。 它通過將網路請求發送到pagead.l.doubleclick.net、star-mini.c10r.facebook.com和pug88000nf.pubmatic.com來確定這些服務是否具有可用於訪問者的現有ID。 這些網路請求已被標籤為安全風險，並且發生於所有站點訪問者。
+
+我們的審計員要求我們禁用此功能。 如果我們阻止這些網路請求會發生什麼？
+
+答：我們查閱了我們的產品，他們提到，所涉像素的目的是提高Ad Cloud、特定庫存/SSP合作夥伴(在DSP這方面)和之間的Cookie匹配率AAM。  如果刪除它們，客戶可能會看到AAC/AAM和庫存合作夥伴之間的匹配率有所降低，但他們不會認為匹配率會很大。
+
+對於Ad Cloud搜索，我們確實看到IMS組織是Mathworks的設定，但我們的產品團隊沒有看到Mathworks的設定來激活Ad Cloud的觀眾。 是否使用Adobe受眾經理將受眾發送到Ad Cloud搜索？ 否則，刪除這些內容不會影響當前工作流。 如AAM果您不希望解雇這些像素，「客戶保護」可以幫助刪除這些像素。
+
