@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
+source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '859'
 ht-degree: 6%
 
 ---
@@ -37,10 +37,10 @@ ht-degree: 6%
       + [可接受的健康部分指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 資料使用准則](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [高級測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ Campaign Management {#campaign-management}
++ 市場活動管理 {#campaign-management}
    + [市場活動管理結構概覽](/help/dsp/campaign-management/campaign-management-overview.md)
    + 市場活動 {#campaigns}
-      + [關於市場活動管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [關於Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [建立市場活動](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [編輯市場活動](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [複製市場活動](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -70,27 +70,23 @@ ht-degree: 6%
       + [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
    + 廣告 {#ads}
       + [關於廣告管理](/help/dsp/campaign-management/ads/ad-about.md)
-      + [可用廣告類型](/help/dsp/campaign-management/ads/ad-types.md)
-      + Advertising Cloud廣告 {#advertising-cloud-served}
-         + [建立廣告](/help/dsp/campaign-management/ads/ad-create.md)
-         + 廣告設定 {#ad-settings}
-            + [音頻廣告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
-            + [連接的電視設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
-            + [顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-display.md)
-            + [移動廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
-            + [本機廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
-            + [預滾動廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-         + [設計疊層的最佳做法](/help/dsp/campaign-management/ads/ad-best-practices-overlays.md)
-      + 批量第三方廣告 {#bulk-third-party}
-         + [建立多個第三方廣告](/help/dsp/campaign-management/ads/ad-create-third-party.md)
-         + [建立廣告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-         + [認證廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md)
-      + [將廣告附加到放置](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [認證廣告服務合作夥伴](/help/dsp/campaign-management/ads/certified-ad-servers.md)
+      + [建立單個廣告](/help/dsp/campaign-management/ads/ad-create.md)
+      + [建立多個第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)
+      + [建立廣告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [編輯廣告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [複製廣告](/help/dsp/campaign-management/ads/ad-duplicate.md)
+      + [將廣告附加到放置](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [列出與廣告關聯的放置](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看廣告的詳細報告](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [存檔或取消存檔廣告](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
+      + 廣告設定 {#ad-settings}
+         + [音頻廣告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+         + [連接的電視設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+         + [顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-display.md)
+         + [Mobile廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [本機顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
+         + [預滾動廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
       + [支援的廣告類型的規範](/help/dsp/assets/ad-specs.pdf)
    + 市場活動報告 {#campaign-reports}
       + [關於平台內報告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
@@ -112,7 +108,7 @@ ht-degree: 6%
       + [已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
    + [鍵盤快捷鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [關於Campaign Management的常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [市場活動管理常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
 + 優化 {#optimization}
    + [如何 [!DNL DSP] 優化您的市場活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [優化目標及其使用方法](/help/dsp/optimization/optimization-goals.md)

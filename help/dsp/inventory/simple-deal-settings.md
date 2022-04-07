@@ -1,11 +1,12 @@
 ---
-title: '"[!UICONTROL Simple Ad Serving] 交易設定」'
+title: '"[!UICONTROL Simple Ad Serving] 交易設定'''
 description: 瞭解的可用設定 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
-source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
+exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 0%
+source-wordcount: '471'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 | **[!UICONTROL Ad Creation]** | （僅限新交易）是否：<ul><li>*[!UICONTROL Create New]:* 為此交易建立廣告。</li><li>*[!UICONTROL Select Ads]:* 將現有廣告用於此交易。</li></ul> |
 | **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果要為交易建立新廣告，請根據要求包括廣告大小或持續時間。 可用選項因介質類型而異。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL Select Ad(s)]
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Select & Upload [Media Type]]
 
-（僅限新廣告）用於建立新廣告的螢幕 [第一方廣告](/help/dsp/campaign-management/ads/ad-create.md) 或 [第三方廣告](/help/dsp/campaign-management/ads/ad-create-third-party.md)。
+（僅限新廣告）用於建立新廣告的螢幕 [第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
 
 ### [!UICONTROL Feed Details]
 
