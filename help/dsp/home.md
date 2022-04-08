@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 3a4f9bf2d2889acde67a10ab0b5895a2c1024b56
+source-git-commit: b62597c3d10c18f024eebfe4c8935b513f9e3743
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 | 2021年5月26日 | 幫助 | 現在，「與Adobe Experience Cloud的整合」一章是單獨的指南，可從 [Advertising Cloud文檔首頁](https://experienceleague.adobe.com/docs/advertising-cloud.html)。 新指南包括關於&quot;在 [!DNL Analytics Marketing Channels]&quot;<br>本指南的目錄DSP包括指向新指南的連結。 | 請參閱「」[與Adobe Experience Cloud的整合](/help/integrations/home.md)&quot; |
 | 2021年5月24日 | 幫助 | 在「市場活動管理」一章中，提供了有關如何使用Excel QA電子錶格複查和編輯市場活動的關鍵位置設定的新主題。 | 請參閱「」[關於使用電子錶格更正市場活動的位置設定](/help/dsp/campaign-management/qa/qa-about.md)。[下載市場活動的位置設定](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;[上載市場活動的位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md)的[已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)。 |
 | 2021年5月5日 | 包設定 | 新的「調整填充策略」選項「略微提前」可用，是新包的預設選項。 此策略可加快交付速度，使其在飛行時間過半時完成55-65%。 | 請參閱「」[包設定](/help/dsp/campaign-management/packages/package-settings.md)&quot; |
-| 2021年3月17日 | 幫助 | 「市場活動管理」一章已擴展，以包括更多程式和參考資料。 | 在目錄中，開啟「市場活動管理」一章和子節。 |
+| 2021年3月17日 | 幫助 | 「市場活動管理」一章已擴展，以包括更多程式和參考資料。 | 在目錄中，開啟&quot;Campaign Management&quot;章和分節。 |
 | 2021年3月10日 | 庫存 | 您不能再建立 [!UICONTROL Smart Ad Serving] 使用VAST標籤的交易。 相反，請詢問您的發行商是否可以通過交易ID運行您的私人交易。 您可以使用 [!UICONTROL Deal ID inbox] 或手動輸入交易詳細資訊。<br><br>您現有的智慧廣告服務交易仍然可用，但今年晚些時候將失效。 | 請參閱「」[關於 [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)&quot;和&quot;[手動建立 [!UICONTROL Deal ID] 詳細資訊](/help/dsp/inventory/deal-id-create.md)&quot; |
 | 2021年2月25日 | 幫助 | 文檔關於 [!DNL Analytics for Advertising Cloud]Adobe Analytics和Adobe Advertising Cloud整合在一起，也可供選擇。 | 有關整合的概述，請參見「[概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md)&quot; 有關完整文檔，請參閱「與Adobe Experience Cloud的整合」> 「[!DNL Analytics for Advertising Cloud]&quot; |
 | 2020年10月28日 | 新建幫助 | 舊式幫助已替換為更新的頁面，這些頁面可從 [!DNL DSP] 主菜單，也可隨時從 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)。 | — |
@@ -53,4 +53,4 @@ ht-degree: 0%
 |  | 位置預測 | 對於具有放置級調步的放置， [!UICONTROL Forecast] 「放置設定」(Placement Settings)部分包含新 [!UICONTROL Estimated Maximums] 部分，該部分指示當前目標配置可用的容量。 | — |
 | 2020年9月2日 | 報表 | 具有多個帳戶DSP的任何組織都可以根據組織的需要，在自定義報告中選擇啟用交叉帳戶資料。 | 請參閱「 」中的「跨帳戶報告」部分[關於自定義報告](/help/dsp/reports/report-about.md#cross-account-reporting)&quot; |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
