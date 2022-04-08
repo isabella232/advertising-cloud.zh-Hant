@@ -3,9 +3,9 @@ title: JavaScript代碼 [!DNL Analytics for Advertising Cloud]
 description: JavaScript代碼 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: ac7f6110a523d63482f6c2e1a7d0bd5a12a0bab1
+source-git-commit: 0079f4bb37d213a994fefaa709b40c6b96184f7b
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ JavaScript庫由兩行組成，它們允許 [!DNL Analytics] 和Advertising Clou
 
 #### 如何確認代碼 [!DNL Adobe Experience Cloud Debugger]
 
-1. 開啟 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using/run-debugger.html) 首頁上。
+1. 開啟 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) 首頁上。
 1. 轉到 [!UICONTROL Network] 頁籤。
 1. 在 [!UICONTROL Solutions Filter] 工具欄，按一下 [!UICONTROL Advertising Cloud] 和 [!UICONTROL Analytics]。
 1. 在 [!UICONTROL Request URL – Hostname] 參數行，定位 `lasteventf-tm.everesttech.net`。
