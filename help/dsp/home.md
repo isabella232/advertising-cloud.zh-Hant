@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 81227f1d016a91b5359acf960db9ece2d732d23e
+source-git-commit: e26d6efff8bae08b89ba4bd72748ddf7ef769a87
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 有關詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年4月12日 | 市場活動管理 | 廣告規格已更新以反映當前支援。 | 請參閱「」[支援的廣告類型的規範](/help/dsp/campaign-management/ads/ad-specs.md)&quot; |
 | 2022年2月17日 | 視頻教程 | 「How to Create a Standard Display Placement」（如何建立標準顯示位置）的新視頻可用。 | 請參閱 [Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html)。 |
 | 2022年1月31日 | 幫助 | 有關 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 的子菜單。 | 請參閱「庫存」>「專用庫存」的子章。 |
 | 2021年12月10日 | 視頻教程 | 有新的視頻教程：&quot;Advertising Cloud DSP簡介&quot;、&quot;帳戶結構和用戶介面&quot;、&quot;How to Create a Package&quot;、&quot;How to Bulk Upload Third-Party Ad Tags&quot;和&quot;How to Edit Placements Using Bulk Edit Tools&quot;。 | 請參閱「」[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)&quot; |
@@ -40,9 +41,9 @@ ht-degree: 0%
 | 2021年6月7日 | 幫助 | 有關使用與發佈者的寫程式保證協定運行廣告的說明 [!DNL FreeWheel]。 | 請參閱「」[中計畫保證交易設定概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)," "[Submit an Ad for a Programmatic Guaranteed Deal to [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)," "[Check the Status of Ads for [!DNL Freewheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md),&quot;和&quot;[錯誤代碼 [!DNL FreeWheel] 廣告提交](/help/dsp/inventory/freewheel-error-codes.md)&quot; |
 | 2021年5月27日 | 幫助 | 可為可接受的與健康有關的受眾群體和戰術提供准則，以作為針對與健康有關的受眾群體的替代選擇。 | 請參閱「」[可接受的健康部分指南](/help/policies/health-segment-guidelines.md)&quot; |
 | 2021年5月26日 | 幫助 | 現在，「與Adobe Experience Cloud的整合」一章是單獨的指南，可從 [Advertising Cloud文檔首頁](https://experienceleague.adobe.com/docs/advertising-cloud.html)。 新指南包括關於&quot;在 [!DNL Analytics Marketing Channels]&quot;<br>本指南的目錄DSP包括指向新指南的連結。 | 請參閱「」[與Adobe Experience Cloud的整合](/help/integrations/home.md)&quot; |
-| 2021年5月24日 | 幫助 | 在「市場活動管理」一章中，提供了有關如何使用Excel QA電子錶格複查和編輯市場活動的關鍵位置設定的新主題。 | 請參閱「」[關於使用電子錶格更正市場活動的位置設定](/help/dsp/campaign-management/qa/qa-about.md)。[下載市場活動的位置設定](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;[上載市場活動的位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md)的[已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)。 |
+| 2021年5月24日 | 幫助 | 在「Campaign Management」一章中，提供了有關如何使用Excel QA電子錶格查看和編輯市場活動關鍵位置設定的新主題。 | 請參閱「」[關於使用電子錶格更正市場活動的位置設定](/help/dsp/campaign-management/qa/qa-about.md)。[下載市場活動的位置設定](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;[上載市場活動的位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md)的[已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)。 |
 | 2021年5月5日 | 包設定 | 新的「調整填充策略」選項「略微提前」可用，是新包的預設選項。 此策略可加快交付速度，使其在飛行時間過半時完成55-65%。 | 請參閱「」[包設定](/help/dsp/campaign-management/packages/package-settings.md)&quot; |
-| 2021年3月17日 | 幫助 | &quot;Campaign Management&quot;一章已擴大，以包括更多程式和參考資料。 | 在目錄中，開啟「市場活動管理」一章和子節。 |
+| 2021年3月17日 | 幫助 | &quot;Campaign Management&quot;一章已擴大，以包括更多程式和參考資料。 | 在目錄中，開啟&quot;Campaign Management&quot;章和分節。 |
 | 2021年3月10日 | 庫存 | 您不能再建立 [!UICONTROL Smart Ad Serving] 使用VAST標籤的交易。 相反，請詢問您的發行商是否可以通過交易ID運行您的私人交易。 您可以使用 [!UICONTROL Deal ID inbox] 或手動輸入交易詳細資訊。<br><br>您現有的智慧廣告服務交易仍然可用，但今年晚些時候將失效。 | 請參閱「」[關於 [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)&quot;和&quot;[手動建立 [!UICONTROL Deal ID] 詳細資訊](/help/dsp/inventory/deal-id-create.md)&quot; |
 | 2021年2月25日 | 幫助 | 文檔關於 [!DNL Analytics for Advertising Cloud]Adobe Analytics和Adobe Advertising Cloud整合在一起，也可供選擇。 | 有關整合的概述，請參見「[概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md)&quot; 有關完整文檔，請參閱「與Adobe Experience Cloud的整合」> 「[!DNL Analytics for Advertising Cloud]&quot; |
 | 2020年10月28日 | 新建幫助 | 舊式幫助已替換為更新的頁面，這些頁面可從 [!DNL DSP] 主菜單，也可隨時從 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)。 | — |
