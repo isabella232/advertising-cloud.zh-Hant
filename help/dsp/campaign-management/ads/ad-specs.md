@@ -2,9 +2,10 @@
 title: 廣告規格
 description: 參考一般廣告和發佈者特定的廣告規範。
 feature: DSP Ads
-source-git-commit: 2110a30cf41a5cc091ec6224a7cbaf9b170ef1db
+exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
+source-git-commit: f3d4dcfdaaaa4b9546e92ac6d1087e73e5054a26
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -110,7 +111,7 @@ ht-degree: 0%
 
 ### 支援的第三方廣告伺服器
 
-有關受支援供應商的完整清單，請參見[認證廣告服務合作夥伴](certified-ad-servers.md)&quot;
+您可以使用標籤頁 [!DNL DCM]。 [!DNL Flashtalking]。 [!DNL Innovid], [!DNL Sizmek]。 有關受支援供應商的完整清單，請參見[認證廣告服務合作夥伴](certified-ad-servers.md)&quot;
 
 ### 音頻資產要求（必需）
 
