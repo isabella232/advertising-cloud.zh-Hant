@@ -1,9 +1,9 @@
 ---
-title: Mobile廣告設定
+title: 移動廣告設定
 description: 請參閱移動廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Ad Options]
 
-### [!UICONTROL Basic]:Mobile顯示廣告
+### [!UICONTROL Basic]:移動顯示廣告
 
 **[!UICONTROL Ad Type]:** （只讀）您正在建立的廣告類型，它與廣告可附加到的放置類型相對應。
 
@@ -105,6 +105,6 @@ ht-degree: 0%
 >* [關於廣告管理](ad-about.md)
 >* [建立單個廣告](ad-create.md)
 >* [列出與廣告關聯的放置](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [廣告規格](/help/dsp/assets/ad-specs.pdf)
+>* [廣告規格](ad-specs.md)
 >* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
 

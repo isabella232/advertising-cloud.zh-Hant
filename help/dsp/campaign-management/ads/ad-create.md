@@ -3,7 +3,7 @@ title: 建立單個廣告
 description: 瞭解如何建立單個第三方廣告。
 feature: DSP Ads
 exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: 63c8b750c9d5e6816da29fe15416d43d6b3e3726
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -49,5 +49,5 @@ ht-degree: 0%
 >* [關於廣告管理](ad-about.md)
 >* [建立多個第三方廣告](ad-create-multiple.md)
 >* [編輯廣告](ad-edit.md)
->* [廣告規格](/help/dsp/assets/ad-specs.pdf)
+>* [廣告規格](ad-specs.md)
 

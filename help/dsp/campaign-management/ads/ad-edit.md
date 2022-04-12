@@ -3,7 +3,7 @@ title: 編輯廣告
 description: 瞭解如何編輯廣告。
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 8d6bb45d90f56331ff52e6514e4732f1ac32d022
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [建立多個第三方廣告](ad-create-multiple.md)
 >* [複製廣告](ad-duplicate.md)
 >* [列出與廣告關聯的放置](ad-list-placements.md)
->* [廣告規格](/help/dsp/assets/ad-specs.pdf)
+>* [廣告規格](ad-specs.md)
 

@@ -3,7 +3,7 @@ title: 預滾動廣告設定
 description: 請參閱預卷廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 638d5a3d-3dff-40b6-a3ba-7ab3f08282b9
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -87,6 +87,6 @@ ht-degree: 0%
 >* [關於廣告管理](ad-about.md)
 >* [建立單個廣告](ad-create.md)
 >* [列出與廣告關聯的放置](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [廣告規格](/help/dsp/assets/ad-specs.pdf)
+>* [廣告規格](ad-specs.md)
 >* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
 

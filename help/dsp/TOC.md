@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
+source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -37,8 +37,8 @@ ht-degree: 6%
       + [可接受的健康部分指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 資料使用准則](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [高級測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ 市場活動管理 {#campaign-management}
-   + [市場活動管理結構概覽](/help/dsp/campaign-management/campaign-management-overview.md)
++ Campaign Management {#campaign-management}
+   + [Campaign Management結構概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 市場活動 {#campaigns}
       + [關於Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [建立市場活動](/help/dsp/campaign-management/campaigns/campaign-create.md)
@@ -87,10 +87,10 @@ ht-degree: 6%
          + [Mobile廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [本機顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [預滾動廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-      + [支援的廣告類型的規範](/help/dsp/assets/ad-specs.pdf)
+      + [支援的廣告類型的規範](/help/dsp/campaign-management/ads/ad-specs.md)
    + 市場活動報告 {#campaign-reports}
       + [關於平台內報告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [從市場活動管理視圖導出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [從Campaign Management視圖導出資料](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [查看位置的站點、廣告和頻率詳細資訊](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [查看放置診斷報告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + 管理資料視圖 {#data-views}
