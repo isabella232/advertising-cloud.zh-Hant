@@ -2,14 +2,14 @@
 title: 廣告規格
 description: 參考一般廣告和發佈者特定的廣告規範。
 feature: DSP Ads
-source-git-commit: 212409be98cb6f48d5aaf13e3ba44e37d2c5342b
+source-git-commit: 2110a30cf41a5cc091ec6224a7cbaf9b170ef1db
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
 
-# 廣告規格
+# 支援的廣告類型的規範
 
 ## 視頻廣告（預卷和CTV）
 
@@ -108,7 +108,9 @@ ht-degree: 0%
 
 台式機、移動設備、平板電腦、智慧揚聲器和連接的電視
 
-### [支援的第三方廣告伺服器](certified-ad-servers.md)
+### 支援的第三方廣告伺服器
+
+有關受支援供應商的完整清單，請參見[認證廣告服務合作夥伴](certified-ad-servers.md)&quot;
 
 ### 音頻資產要求（必需）
 
