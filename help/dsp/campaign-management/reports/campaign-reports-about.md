@@ -1,101 +1,101 @@
 ---
-title: 關於平台內報表
-description: 了解行銷活動管理檢視中包含的報表資料。
+title: 關於平台內報告
+description: 瞭解市場活動管理視圖中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
+source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
 
-# 關於平台內報表
+# 關於平台內報告
 
 <!-- rename "About Performance Reports in Campaign Management Views?" -->
-行銷活動管理檢視包含完整的報表資料。 可用報表可協助您識別成效良好的套件和版位，以及需要您注意的套件和版位。 快速動作按鈕也可讓您更有效率。
+市場活動管理視圖包括全面的報表資料。 可用的報告可幫助您確定效能良好的包和放置以及需要您注意的那些。 快速操作按鈕還可提高工作效率。
 
-## 所有促銷活動清單
+## 所有市場活動清單
 
-此 [!UICONTROL Campaigns] 檢視會開啟，列出您帳戶內的所有促銷活動。 此 [!UICONTROL Subtotals] 列會顯示所有可見列中每個量度的總和或平均值。
+的 [!UICONTROL Campaigns] 「視圖」開啟帳戶中所有市場活動的清單。 的 [!UICONTROL Subtotals] 行顯示所有可見行中每個度量的總和或平均值。
 
-![行銷活動清單](/help/dsp/assets/campaigns-list.png)
+![市場活動清單](/help/dsp/assets/campaigns-list.png)
 
-依預設，每個行銷活動列都包含步調和傳送量度。 步調量度包括 [!UICONTROL Gross Spend (Lifetime)]，包括行銷活動中所有套件的實際目標上支出與預期目標上支出的量度，以便您一目瞭然地識別成效不佳的行銷活動。 您可以選擇 [更改列視圖](column-view-change.md) 或 [建立自訂欄檢視](column-view-create.md).
+預設情況下，每個市場活動行都包括調節和交付度量。 調整指標包括 [!UICONTROL Gross Spend (Lifetime)]，其中包括市場活動中所有一攬子計畫的實際目標支出與預期目標支出的衡量標準，因此您可以一目瞭然地確定業績不佳的市場活動。 您可以選擇 [更改列視圖](column-view-change.md) 甚至 [建立自定義列視圖](column-view-create.md)。
 
-您可以進一步 [自訂資料表](campaign-data-views-about.md) 以及 [篩選可見資料](campaign-data-filter.md).
+你可以 [自定義資料表](campaign-data-views-about.md) 以及 [篩選可見資料](campaign-data-filter.md)。
 
-若要檢視更詳細的促銷活動，請按一下促銷活動名稱。
+要查看更詳細的市場活動，請按一下市場活動名稱。
 
-## 單一促銷活動報告 {#single-campaign-reporting}
+## 單個市場活動報告 {#single-campaign-reporting}
 
-在促銷活動中，您可以根據促銷活動實體篩選資料： [!UICONTROL Packages], [!UICONTROL Placements]，和 [!UICONTROL Ads]. 您可以進一步 [篩選可見資料](campaign-data-filter.md) 僅包含您想要查看的套件、版位或廣告。
+在市場活動中，您可以根據市場活動實體篩選資料： [!UICONTROL Packages]。 [!UICONTROL Placements], [!UICONTROL Ads]。 你可以 [篩選可見資料](campaign-data-filter.md) 只包括您想看的包裝、放置或廣告。
 
-![促銷活動實體索引標籤](/help/dsp/assets/campaign-subtabs.png)
+![市場活動實體頁籤](/help/dsp/assets/campaign-subtabs.png)
 
-在每個實體索引標籤中，每一列預設包含步調和傳送量度，但您可以 [更改列視圖](column-view-change.md) 或 [建立自訂欄檢視](column-view-create.md) 以套用至促銷活動的所有子標籤。 您可以進一步 [自訂資料表](campaign-data-views-about.md) 以其他方式。 每個資料表都包含 [!UICONTROL Subtotals] 列，其中顯示所有可見列中每個量度的總和或平均值。
+在每個實體頁籤中，每行預設都包括調步和傳遞度量，但您可以 [更改列視圖](column-view-change.md) 甚至 [建立自定義列視圖](column-view-create.md) 要應用於市場活動的所有子標籤。 你可以 [自定義資料表](campaign-data-views-about.md) 以其他方式。 每個資料表包括 [!UICONTROL Subtotals] 行，顯示所有可見行中每個度量的和或平均值。
 
-對於每個促銷活動，您也可以使用三個度量來自訂時間序列趨勢圖，這些度量在每個實體檢視中都可用。 依預設， [!UICONTROL Net Spend], [!UICONTROL Impressions]，和 [!UICONTROL Net CPM] 都包含在單獨的圖表（網格圖表）中。 您可以選擇變更量度。 若要在時間序列趨勢圖中啟用每小時資料，請將日期選擇變更為單日([!UICONTROL Today], [!UICONTROL Yesterday]，或特定日期)。
+對於每個市場活動，您還可以使用三個指標自定義時間系列趨勢圖，這些指標在每個實體視圖中都可用。 預設情況下， [!UICONTROL Net Spend]。 [!UICONTROL Impressions], [!UICONTROL Net CPM] 包含在單獨的圖表（網格圖）中。 您可以根據需要更改度量。 要在時間系列趨勢圖中啟用小時資料，請將日期選擇更改為單日([!UICONTROL Today]。 [!UICONTROL Yesterday]或特定日)。
 
-![三個度量的獨立趨勢圖](/help/dsp/assets/trend-chart-separate.png)
+![三個指標的單獨趨勢圖](/help/dsp/assets/trend-chart-separate.png)
 
-您也可以選擇覆蓋這三個量度，以便輕鬆偵測異常和改善規模或效能的區域。
+您還可以選擇覆蓋這三個指標，以便輕鬆檢測異常和要改進規模或效能的區域。
 
-![覆蓋圖趨勢圖](/help/dsp/assets/trend-chart.png)
+![覆蓋趨勢圖](/help/dsp/assets/trend-chart.png)
 
-您可以 [自訂趨勢圖](campaign-data-visualization-manage.md) 依促銷活動，且相同量度在促銷活動的所有趨勢圖表中持續存在。
+你可以 [自定義趨勢圖](campaign-data-visualization-manage.md) 按市場活動，相同的指標將保留在市場活動的所有趨勢圖中。
 
-### 版位 [!UICONTROL Inspector] {#placement-inspector}
+### 放置 [!UICONTROL Inspector] {#placement-inspector}
 
-對於每個版位，您可以 [開啟（詳細資訊檢視） [!UICONTROL Inspector])](placement-details-view.md)，包含下列深入資料：
+對於每個位置， [開啟（詳細資訊視圖） [!UICONTROL Inspector])](placement-details-view.md)，包括以下深度資料：
 
-* **[!UICONTROL Sites]:** 投放位置有曝光的所有網站。
+* **[!UICONTROL Sites]:** 該網站的所有網站都有印象。
 
-   此 [!UICONTROL Sites] 索引標籤包含搜尋和篩選功能、首頁面上可用的相同標準和自訂欄檢視選項，以及 [!UICONTROL Exclude] 按鈕，以便快速從版位中排除網站。
+   的 [!UICONTROL Sites] 頁籤包括搜索和篩選功能、首頁上可用的相同標準和自定義列視圖選項，以及 [!UICONTROL Exclude] 按鈕，以便您可以從放置中快速排除站點。
 
-* **[!UICONTROL Ads]:** 版位中的所有廣告。
+* **[!UICONTROL Ads]:** 所有的廣告。
 
-   此 [!UICONTROL Ads] 索引標籤包含搜尋和篩選功能、首頁面上可用的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，例如 [!UICONTROL Pause] （以便您快速暫停廣告）。
+   的 [!UICONTROL Ads] 頁籤包括搜索和篩選功能、首頁上可用的相同標準和自定義列視圖選項以及每行中的快速操作按鈕，如 [!UICONTROL Pause] （這樣您就可以快速暫停廣告）。
 
-* **[!UICONTROL Frequency]:** 投放位置之每個廣告頻率層級的資料，包括：
-   * 廣告頻率層級（例如「1」，適用於使用者曾看過廣告一次的所有例項）
-   * 預估的裝置/瀏覽器或人員不重複數量(取決於指定 [!UICONTROL Cross Device Level] （適用於版位），在指定頻率層級接收曝光數
-   * 在指定頻率級別上的估計曝光次數
-   * 指定頻率級別的估計平均頻率。 此值等於（估計曝光數）/（估計唯一值）。
+* **[!UICONTROL Frequency]:** 放置的每個廣告頻率級別的資料，包括：
+   * 廣告頻率級別（如用戶一次看到廣告的所有實例的「1」）
+   * 估計的設備/瀏覽器或人員的唯一數量(取決於指定的 [!UICONTROL Cross Device Level] 在指定頻率級別接受印象
+   * 在指定頻率級別上的印次估計數
+   * 指定頻率電平的估計平均頻率。 此值等於（估計印數）/（估計單位）。
 
-* **[!UICONTROL Inventory]:** 投放位置所定位之所有交易的相關資訊。
+* **[!UICONTROL Inventory]:** 有關該位置所針對的所有交易的資訊。
 
-   此 [!UICONTROL Inventory] 索引標籤包含搜尋和篩選功能、首頁面上可用的相同標準和自訂欄檢視選項，以及每列中的快速動作按鈕，例如 [!UICONTROL Edit] 和 [!UICONTROL View Report]. 此 [!UICONTROL Inventory] 標籤可顯示效能統計資訊，如 [!UICONTROL Auctions], [!UICONTROL Bids]，和 [!UICONTROL Win Rate].
+   的 [!UICONTROL Inventory] 頁籤包括搜索和篩選功能、首頁上可用的相同標準和自定義列視圖選項以及每行中的快速操作按鈕，如 [!UICONTROL Edit] 和 [!UICONTROL View Report]。 的 [!UICONTROL Inventory] 頁籤通過顯示效能統計資訊來啟用快速故障排除 [!UICONTROL Auctions]。 [!UICONTROL Bids], [!UICONTROL Win Rate]。
 
-#### 疑難排解庫存
+#### 排除清單故障
 
-| 問題 | 可能的原因 | 要採取的動作 |
+| 問題 | 可能的原因 | 要採取的操作 |
 | -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | 發佈商尚未開始傳送競標請求。 | 請聯絡發佈商以啟動交易。 |
-|  | 交易設定不正確，例如輸入錯誤的外部交易ID。 | 確認交易詳細資訊並編輯交易。 |
-| [!UICONTROL Auctions but no Bids] | 版位定位不符合交易傳入的競標請求。 <br><br> 例如，版位可能會鎖定不符合交易資格的地理位置。 | 視需要編輯投放目標，以避免目標不匹配。 |
-|  | 版位沒有交易所需媒體類型的作用中廣告。 | 建立廣告，並將具有正確媒體類型的廣告附加至版位。 |
-|  | 這個職位沒有足夠的預算。 | 增加投放預算，以允許對傳入的請求進行投標。 |
-|  | 版位投放日期與交易的曝光傳送日期不重疊。 | 視需要編輯版位的投放日期。 |
-| [!UICONTROL Low Win Rate] | 配售的最高出價（最低或固定）低於交易要求的最低出價。 | 增加版位 [!UICONTROL Max Bid] 視需要。 |
-|  | 刊登版位使用限制競標的預先出價篩選條件。 | 降低預先出價篩選器的臨界值，以允許更多出價。 |
-|  | 版位的對象鎖定目標限制太嚴格。 | 檢查指定的對象目標是否有足夠的作用中使用者，並盡可能展開對象。 |
+| [!UICONTROL Zero Auctions] | 發佈者尚未開始發送投標請求。 | 聯繫發行商以激活交易。 |
+|  | 交易設定不正確，例如輸入了不正確的外部交易ID。 | 確認交易詳細資訊並編輯交易。 |
+| [!UICONTROL Auctions but no Bids] | 配售目標與該交易的傳入投標請求不匹配。 <br><br> 例如，職位安排可能針對的是不符合交易資格的地理位置。 | 根據需要編輯放置目標，以避免目標不匹配。 |
+|  | 該位置沒有具有交易所需媒體類型的活動廣告。 | 建立具有正確媒體類型的廣告並將其附加到位置。 |
+|  | 該職位沒有足夠的預算。 | 增加安置預算以允許對傳入請求進行投標。 |
+|  | 放行日期與交易的印象交付日期不重疊。 | 根據需要編輯放置的飛行日期。 |
+| [!UICONTROL Low Win Rate] | 配售的最高出價（最低或固定）低於交易要求的最低出價。 | 增加職位安排 [!UICONTROL Max Bid] 按需要。 |
+|  | 該置換使用限制投標的投標前過濾器。 | 降低預投標篩選器的閾值，以允許更多投標。 |
+|  | 受眾針對該職位的限制性太強。 | 檢查指定的受眾目標是否具有足夠的活動用戶，並在可能時擴展受眾。 |
 
-![位置檢查器](/help/dsp/assets/placement-inspector.png)
+![放置檢查器](/help/dsp/assets/placement-inspector.png)
 
-您可以匯出 [!UICONTROL Sites], [!UICONTROL Ads]，或 [!UICONTROL Frequency] 以XLSM格式的報表形式，將標籤定位至瀏覽器的預設下載資料夾。
+可以導出 [!UICONTROL Sites]。 [!UICONTROL Ads]或 [!UICONTROL Frequency] 的子菜單。
 
-### 其他類型的促銷活動層級報表
+### 其它類型的市場活動層報告
 
-對於其他資料劃分，請檢視 [舊式行銷活動層級報表頁面](/help/dsp/campaign-management/campaigns/campaign-view-report.md) 從 [!UICONTROL Campaigns Classic]. 舊式報表包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]，和 [!UICONTROL Audience Performance] 資料。
+對於其他資料斷開，請查看 [舊式市場活動級報告頁](/help/dsp/campaign-management/campaigns/campaign-view-report.md)。 舊版報告包括有關 [!UICONTROL Geography]。 [!UICONTROL Device]。 [!UICONTROL Viewability], [!UICONTROL Audience Performance] 資料。
 
 >[!MORELIKETHIS]
 >
->* [檢視版位的網站、廣告和頻率詳細資料](placement-details-view.md)
->* [關於促銷活動資料檢視](campaign-data-views-about.md)
->* [建立自訂欄檢視](column-view-create.md)
+>* [查看位置的站點、廣告和頻率詳細資訊](placement-details-view.md)
+>* [關於市場活動資料視圖](campaign-data-views-about.md)
+>* [建立自定義列視圖](column-view-create.md)
 >* [更改列視圖](column-view-change.md)
->* [管理資料視覺效果](campaign-data-visualization-manage.md)
->* [從促銷活動管理檢視匯出資料](campaign-export-data.md)
->* [檢視促銷活動的詳細報表](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [管理資料可視化](campaign-data-visualization-manage.md)
+>* [從Campaign Management視圖導出資料](campaign-export-data.md)
+>* [查看市場活動的詳細報表](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 
