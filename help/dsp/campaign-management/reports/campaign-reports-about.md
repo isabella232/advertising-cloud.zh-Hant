@@ -3,9 +3,9 @@ title: 關於平台內報告
 description: 瞭解市場活動管理視圖中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
+source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,21 @@ ht-degree: 0%
 <!-- rename "About Performance Reports in Campaign Management Views?" -->
 市場活動管理視圖包括全面的報表資料。 可用的報告可幫助您確定效能良好的包和放置以及需要您注意的那些。 快速操作按鈕還可提高工作效率。
 
-## 所有市場活動清單
+## 所有市場活動視圖
 
-的 [!UICONTROL Campaigns] 「視圖」開啟帳戶中所有市場活動的清單。 的 [!UICONTROL Subtotals] 行顯示所有可見行中每個度量的總和或平均值。
+的 [!UICONTROL Campaigns] 「視圖」開啟帳戶中所有市場活動的清單。 &lt;!— [!UICONTROL Subtotals] 行顯示所有可見行中每個度量的總和或平均值。  — 是否仍有「小計」行？ 我沒看見。—>
+
+### 圖表視圖 {#chart-view}
+
+你可以 [自定義時間系列趨勢圖](campaign-data-visualization-manage.md) 使用三個指標在所有市場活動中執行。 預設情況下， [!UICONTROL Net Spend]。 [!UICONTROL Impressions], [!UICONTROL Net CPM] 包含在單獨的圖表（網格圖）中。 您可以根據需要更改度量。 要在時間系列趨勢圖中啟用小時資料，請將日期選擇更改為單日([!UICONTROL Today]。 [!UICONTROL Yesterday]或特定日)。
+
+![三個指標的單獨趨勢圖](/help/dsp/assets/trend-chart-separate.png)
+
+您還可以選擇覆蓋這三個指標，以便輕鬆檢測異常和要改進規模或效能的區域。
+
+![覆蓋趨勢圖](/help/dsp/assets/trend-chart.png)
+
+### 表視圖
 
 ![市場活動清單](/help/dsp/assets/campaigns-list.png)
 
@@ -33,17 +45,15 @@ ht-degree: 0%
 
 ![市場活動實體頁籤](/help/dsp/assets/campaign-subtabs.png)
 
+### 圖表視圖
+
+對於每次活動， [自定義時間系列趨勢圖](campaign-data-visualization-manage.md) 具有三個度量，這些度量在每個實體視圖中可用。 在市場活動的所有趨勢圖中保留相同的指標。
+
+查看 [關於跨市場活動指標的「圖表視圖」部分](#chart-view) 的子菜單。
+
+### 表視圖
+
 在每個實體頁籤中，每行預設都包括調步和傳遞度量，但您可以 [更改列視圖](column-view-change.md) 甚至 [建立自定義列視圖](column-view-create.md) 要應用於市場活動的所有子標籤。 你可以 [自定義資料表](campaign-data-views-about.md) 以其他方式。 每個資料表包括 [!UICONTROL Subtotals] 行，顯示所有可見行中每個度量的和或平均值。
-
-對於每個市場活動，您還可以使用三個指標自定義時間系列趨勢圖，這些指標在每個實體視圖中都可用。 預設情況下， [!UICONTROL Net Spend]。 [!UICONTROL Impressions], [!UICONTROL Net CPM] 包含在單獨的圖表（網格圖）中。 您可以根據需要更改度量。 要在時間系列趨勢圖中啟用小時資料，請將日期選擇更改為單日([!UICONTROL Today]。 [!UICONTROL Yesterday]或特定日)。
-
-![三個指標的單獨趨勢圖](/help/dsp/assets/trend-chart-separate.png)
-
-您還可以選擇覆蓋這三個指標，以便輕鬆檢測異常和要改進規模或效能的區域。
-
-![覆蓋趨勢圖](/help/dsp/assets/trend-chart.png)
-
-你可以 [自定義趨勢圖](campaign-data-visualization-manage.md) 按市場活動，相同的指標將保留在市場活動的所有趨勢圖中。
 
 ### 放置 [!UICONTROL Inspector] {#placement-inspector}
 
