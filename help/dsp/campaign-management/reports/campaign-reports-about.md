@@ -3,9 +3,9 @@ title: 關於平台內報告
 description: 瞭解市場活動管理視圖中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
+source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ### 其它類型的市場活動層報告
 
-對於其他資料斷開，請查看 [舊式市場活動級報告頁](/help/dsp/campaign-management/campaigns/campaign-view-report.md)。 舊版報告包括有關 [!UICONTROL Geography]。 [!UICONTROL Device]。 [!UICONTROL Viewability], [!UICONTROL Audience Performance] 資料。
+對於其他資料斷開，請查看 [市場活動級報告頁](/help/dsp/campaign-management/campaigns/campaign-view-report.md)。 的 <!--legacy --> 報告包括部分 [!UICONTROL Geography]。 [!UICONTROL Device]。 [!UICONTROL Viewability], [!UICONTROL Audience Performance] 資料。
 
 >[!MORELIKETHIS]
 >
