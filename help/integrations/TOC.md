@@ -3,7 +3,7 @@ user-guide-title: Adobe Experience Cloud 的整合
 user-guide-description: 了解 Advertising Cloud DSP 和 Advertising Cloud Search 與其他 Adobe Experience Cloud 產品和服務的整合。
 breadcrumb-title: Experience Cloud 的整合
 index: true
-source-git-commit: e5f96bc9f34e568ff51b0b884114d3ebadf704d9
+source-git-commit: 0ede15cbc8031b20e82b8dd574469860ebd0aee6
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 20%
@@ -23,7 +23,7 @@ ht-degree: 20%
       + [實施的先決條件和關鍵資訊 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/prerequisites.md)
       + [JavaScript代碼 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/javascript.md)
       + [使用 [!DNL Last Event Service] 帶有Adobe Experience Platform的JavaScript庫 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + [廣告標籤的宏]{#macros}
+      + 廣告標籤的宏 {#macros}
          + [追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)
    + 資料交換 {#data}
       + [Advertising CloudAnalysis Workspace度量](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
