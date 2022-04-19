@@ -2,9 +2,9 @@
 title: 追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Google Campaign Manager 360] 廣告標籤
 description: 瞭解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] ad標籤
 feature: Integration with Adobe Analytics
-source-git-commit: 3c2dc9337794ca1a6d57ca76642f5a5e05ecbe9a
+source-git-commit: fe61dcd97d5509784a20bf8f68bea0ab2699dcfd
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 *僅適用於Advertising Cloud DSP*
 
-如果使用廣告標籤 [!DNL Google Campaign Manager 360] 對於您的Advertising Cloud DSP廣告，使用 [`%p` 宏](https://support.google.com/campaignmanager/table/6096962)。 這些參數使Advertising Cloud能夠將廣告的點擊資料發送到Adobe Analytics。
+如果使用廣告標籤 [!DNL Google Campaign Manager 360] 對於您的Advertising Cloud DSP廣告，使用 [`%p` 宏](https://support.google.com/campaignmanager/table/6096962)。 參數記錄 `s_kwcid` 和 `ef_id` 查詢登錄頁URL中的字串參數，使Advertising Cloud能夠將廣告的點擊資料發送到Adobe Analytics。
 
 使用宏 [!DNL Campaign Manager 360] 以下類型的顯示和視頻廣告 [!DNL Analytics for Advertising Cloud] 實現：
 
-* **廣告商 [!DNL Adobe] [!DNL Analytics for Advertising Cloud] 在其網站上實現的JavaScript代碼**:您應該在Adobe Analytics看到一些通過Advertising Cloud購買的廣告中的點擊資料，而不需要額外的宏。 要在不支援第三方Cookie的瀏覽器中捕獲點擊資料，因此不會通過JavaScript代碼捕獲，請將以下各節中的宏添加到 [!DNL Campaign Manager 360] 廣告標籤。
+* **廣告商 [!DNL Adobe] [!DNL Analytics for Advertising Cloud] 在其網站上實現的JavaScript代碼**:JavaScript代碼已記錄 `s_kwcid` 和 `ef_id` 查詢字串參數。 但是，當不支援第三方Cookie時，使用宏擴展了跟蹤以包括基於按一下的轉換。 最佳做法是將以下各節中的宏添加到廣告標籤中，以捕獲未通過JavaScript代碼捕獲的其他點擊式資料。
 
 >[!NOTE]
 >
->JavaScript代碼是僅在Cookie仍然可用時按一下跟蹤的解決方案。 一旦Advertising Cloud中止Cookie，就需要實施以下宏。
+>JavaScript代碼是僅在Cookie仍然可用時按一下跟蹤的解決方案。 一旦Cookie停止，就需要實施以下宏。
 
 * **網站不使用廣告的廣告商 [!DNL Analytics for Advertising Cloud] JavaScript代碼，而是依賴 [!DNL Analytics] 伺服器端轉發僅用於點擊式資料** （沒有任何查看資料）:需要以下宏來報告您通過Advertising Cloud購買的廣告中的現場點擊活動。
 
@@ -91,5 +91,6 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >[!MORELIKETHIS]
 >
 >* [概述 [!DNL Analytics for Advertising Cloud]](overview.md)
+>* [Advertising CloudID使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Flashtalking] 廣告標籤](macros-flashtalking.md)
 
