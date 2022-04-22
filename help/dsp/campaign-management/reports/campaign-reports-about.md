@@ -3,9 +3,9 @@ title: 關於平台內報告
 description: 瞭解市場活動管理視圖中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
+source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 所有市場活動視圖
 
-的 [!UICONTROL Campaigns] 「視圖」開啟帳戶中所有市場活動的清單。 &lt;!— [!UICONTROL Subtotals] 行顯示所有可見行中每個度量的總和或平均值。  — 是否仍有「小計」行？ 我沒看見。—>
+的 [!UICONTROL Campaigns] 「視圖」開啟一組績效資料圖表和帳戶內所有市場活動的清單。
 
 ### 圖表視圖 {#chart-view}
 
