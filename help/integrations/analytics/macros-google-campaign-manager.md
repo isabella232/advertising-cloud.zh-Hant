@@ -2,9 +2,9 @@
 title: 追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Google Campaign Manager 360] 廣告標籤
 description: 瞭解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] ad標籤
 feature: Integration with Adobe Analytics
-source-git-commit: fe61dcd97d5509784a20bf8f68bea0ab2699dcfd
+source-git-commit: 2ba5656704319584e475f8c6c68943f215196ae2
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 將宏追加到 [!DNL Google Campaign Manager 360] 廣告
 
-在 [!DNL Google Campaign Manager 360]，添加到登錄頁URL的以下參數： `%pamo=!;`
+在 [!DNL Google Campaign Manager 360]，將以下參數添加到每個顯示和視頻廣告的登錄頁URL中： `%pamo=!;`
 
 可以通過多種方式指定登錄頁URL。 以下子節中包含了每個選項的說明。
 
@@ -46,20 +46,20 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >* 如果在 `amo` 參數，然後在其後添加參數（例如，&amp;a=b）。 示例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
-## 配置廣告商級登錄頁URL尾碼
+### 配置廣告商級登錄頁URL尾碼
 
 1. 在主菜單中，按一下 [!UICONTROL Advertisers] 頁籤。
 1. 按一下廣告商名稱。
 1. 在 [!UICONTROL Landing page URL suffix] 設定，包括 `%pamo!;` 的 [!UICONTROL URL suffix] 的子菜單。
 
-## 配置市場活動級別登錄頁URL尾碼
+### 配置市場活動級別登錄頁URL尾碼
 
 1. 在主菜單中，按一下 [!UICONTROL Campaigns] 頁籤。
 1. 按一下市場活動名稱。
 1. 按一下 [!UICONTROL Properties].
 1. 在 [!UICONTROL Landing page URL suffix] 設定，包括 `%pamo!;` 的 [!UICONTROL URL suffix] 的子菜單。
 
-## 配置創意級登錄頁URL尾碼
+### 配置創意級登錄頁URL尾碼
 
 1. 在主菜單中，按一下 [!UICONTROL Campaigns] 頁籤。
 1. 按一下市場活動名稱。
