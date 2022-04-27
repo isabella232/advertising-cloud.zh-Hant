@@ -2,9 +2,9 @@
 title: 追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Google Campaign Manager 360] 廣告標籤
 description: 瞭解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] ad標籤
 feature: Integration with Adobe Analytics
-source-git-commit: 2ba5656704319584e475f8c6c68943f215196ae2
+source-git-commit: 2dfb609e73902fcd929d96c55fbc79588074c65e
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -52,12 +52,16 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 1. 按一下廣告商名稱。
 1. 在 [!UICONTROL Landing page URL suffix] 設定，包括 `%pamo!;` 的 [!UICONTROL URL suffix] 的子菜單。
 
+![廣告商級設定](/help/integrations/assets/macro-ggl360-advertiser.png)
+
 ### 配置市場活動級別登錄頁URL尾碼
 
 1. 在主菜單中，按一下 [!UICONTROL Campaigns] 頁籤。
 1. 按一下市場活動名稱。
 1. 按一下 [!UICONTROL Properties].
 1. 在 [!UICONTROL Landing page URL suffix] 設定，包括 `%pamo!;` 的 [!UICONTROL URL suffix] 的子菜單。
+
+![活動級別設定](/help/integrations/assets/macro-ggl360-campaign.png)
 
 ### 配置創意級登錄頁URL尾碼
 
@@ -66,6 +70,8 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 1. 在 [!UICONTROL Views] 菜單，選擇 [!UICONTROL Creatives]。
 1. 按一下創作名稱。
 1. 在 [!UICONTROL Click tags] 設定，包括 `%pamo!;` 的 [!UICONTROL Landing page] 的下界。
+
+![創意級設定](/help/integrations/assets/macro-ggl360-creative.png)
 
 ## 如何 [!DNL Analytics for Advertising Cloud] 宏在中展DSP開
 
