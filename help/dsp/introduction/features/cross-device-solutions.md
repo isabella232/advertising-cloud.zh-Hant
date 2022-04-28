@@ -3,9 +3,9 @@ title: 跨設備解決方案
 description: 瞭解有關跨設備功能的詳細資訊。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Advertising Cloud DSP整合 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允許
 
 ### 啟用基於人的屬性測量
 
-如果要激活跨設備屬性測量，請與 [!DNL Adobe] 客戶團隊。 對於 [!DNL Adobe Device Co-op] 帳戶，您需要提供您的簽名 [!DNL Adobe Device Co-op] 合同和Experience Cloud [!DNL Organization ID] (以前稱 [!DNL IMS org ID])。
+如果要激活跨設備屬性測量，請與 [!DNL Adobe] 客戶團隊。 對於 [!DNL Adobe Device Co-op] 帳戶，您需要提供您的簽名 [!DNL Adobe Device Co-op] 合同和組織的Experience CloudID(以前稱為 [!DNL IMS org ID])。
 
 要查看廣告商帳戶是否配置為使用設備圖表進行屬性測量：
 

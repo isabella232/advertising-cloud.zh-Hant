@@ -1,9 +1,9 @@
 ---
 title: 常見問題
 description: xx
-source-git-commit: 5dfc4e8f2e6d2532e40eb4da8748fec0ed096e71
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,5 @@ https://adobeadcloud.zendesk.com/agent/tickets/24323
 
 答：我們查閱了我們的產品，他們提到，所涉像素的目的是提高Ad Cloud、特定庫存/SSP合作夥伴(在DSP這方面)和之間的Cookie匹配率AAM。  如果刪除它們，客戶可能會看到AAC/AAM和庫存合作夥伴之間的匹配率有所降低，但他們不會認為匹配率會很大。
 
-對於Ad Cloud搜索，我們確實看到IMS組織是Mathworks的設定，但我們的產品團隊沒有看到Mathworks的設定來激活Ad Cloud的觀眾。 是否使用Adobe受眾經理將受眾發送到Ad Cloud搜索？ 否則，刪除這些內容不會影響當前工作流。 如AAM果您不希望解雇這些像素，「客戶保護」可以幫助刪除這些像素。
+對於Ad Cloud搜索，我們確實看到組織的Experience CloudID已設定為Mathworks，但我們的產品團隊看不到Mathworks設定以激活Ad Cloud的受眾。 是否使用Adobe受眾經理將受眾發送到Ad Cloud搜索？ 否則，刪除這些內容不會影響當前工作流。 如AAM果您不希望解雇這些像素，「客戶保護」可以幫助刪除這些像素。
 
