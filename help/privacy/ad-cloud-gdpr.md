@@ -3,9 +3,9 @@ title: Adobe Advertising Cloud支援一般資料保護條例
 description: 瞭解支援的資料請求類型、必需的設定和欄位值，以及使用舊產品ID和返回的資料欄位的API訪問請求示例
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ Adobe Experience Platform為企業提供了完成以下任務的能力：
    >
    >刪除個人資料與「選擇退出」不同，後者會阻止具有受眾段的最終用戶的目標。 但是，當資料主題要求從 [!DNL Creative]。 [!DNL DSP]或 [!DNL DCO]，該庫還向Advertising Cloud發出請求，要求其從段目標中選擇資料主題。 對於具有 [!DNL Search]，我們建議您提供資料主題的連結 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)，說明如何選擇不以受眾為目標。
 
-1. 確定您的Experience CloudID，並確保它已連結到您的Advertising Cloud帳戶。
+1. 確定您的Experience Cloud組織ID，並確保它已連結到您的Advertising Cloud帳戶。
 
-   Experience CloudID是附加有「@AdobeOrg」的24個字元的字母數字字串。 大多數Experience Cloud客戶已分配ID。 如果您的營銷團隊或內部Adobe系統管理員不知道您組織的ID，或者不確定是否已預配，請通過gdprsupport@adobe.com聯繫Adobe客戶服務。 您需要ID才能使用 `imsOrgID` 命名空間。
+   Experience Cloud組織ID是附加有「@AdobeOrg」的24個字元的字母數字字串。 大多數Experience Cloud客戶已分配了組織ID。 如果您的營銷團隊或內部Adobe系統管理員不知道您的組織ID，或者不確定是否已預配，請通過gdprsupport@adobe.com與Adobe客戶服務部聯繫。 您需要組織ID才能使用 `imsOrgID` 命名空間。
 
    >[!IMPORTANT]
    >
-   >聯繫您公司的Advertising Cloud代表，確認您公司的所有Advertising Cloud帳戶，包括 [!DNL DSP] 或者廣告商， [!DNL Search] 帳戶和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結到您的Experience CloudID。
+   >聯繫您公司的Advertising Cloud代表，確認您公司的所有Advertising Cloud帳戶，包括 [!DNL DSP] 或者廣告商， [!DNL Search] 帳戶和 [!DNL Creative] 或 [!DNL DCO] 帳戶 — 連結到您的Experience Cloud組織ID。
 
 1. 使用 [Adobe Experience Platform Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （用於自動請求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （特別請求）代表資料主題向Advertising Cloud提交訪問和刪除請求，並檢查現有請求的狀態。
 
@@ -69,7 +69,7 @@ Adobe Experience Platform為企業提供了完成以下任務的能力：
    提交資料主題的刪除請求時，會從伺服器中刪除與cookie關聯的Cookie ID或設備ID以及所有成本，按一下，並刪除與cookie關聯的收入資料。
 
    >[!NOTE]
-   如果您的公司具有多個Experience CloudID，則必須為每個API請求發送單獨的請求。 但是，您可以向多個Advertising Cloud子解決方案發出一個API請求([!DNL Search]。 [!DNL Creative]。 [!DNL DSP], [!DNL DCO])，每個子解決方案有一個帳戶。
+   如果您的公司具有多個Experience Cloud組織ID，則必須為每個API請求發送單獨的API請求。 但是，您可以向多個Advertising Cloud子解決方案發出一個API請求([!DNL Search]。 [!DNL Creative]。 [!DNL DSP], [!DNL DCO])，每個子解決方案有一個帳戶。
 
 所有這些步驟對Advertising Cloud來說都是必要的。 有關使用Adobe Experience Platform Privacy Service執行這些任務和其他相關任務的詳細資訊，以及在何處查找需要的項目，請參閱 [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html)。
 

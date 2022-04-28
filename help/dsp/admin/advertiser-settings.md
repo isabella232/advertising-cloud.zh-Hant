@@ -1,9 +1,9 @@
 ---
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 擁有Adobe Experience Cloud產品的廣告商可以使用該組織的唯一Experience CloudID在某些產品之間共用資料。 您可以在 [!UICONTROL Integrations] 的子菜單。
 
-**[!UICONTROL Account IMS org and ID]:** (具有通過多個廣告商的Experience Cloud帳戶獲得許可的附加Experience Cloud產品的廣告商；可選)組織的Experience CloudID。
+**[!UICONTROL Account IMS org and ID]:** (具有通過多個廣告商的Experience Cloud帳戶獲得許可的附加Experience Cloud產品的廣告商；可選)廣告商的Experience Cloud組織ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** (直接獲得附加Experience Cloud產品許可的廣告商；可選)組織的Experience CloudID。
+**[!UICONTROL Advertiser IMS org and ID]:** (直接獲得附加Experience Cloud產品許可的廣告商；可選)廣告商的Experience Cloud組織ID。
 
 ### [!UICONTROL Integrations]
 
-（可選）連結到帳戶的其他Experience CloudDSP產品。 產品必須與中提供的相同Experience CloudID關聯 [!UICONTROL Adobe IMS IDs] 的子菜單。
+（可選）連結到帳戶的其他Experience CloudDSP產品。 產品必須與中提供的相同Experience Cloud組織ID關聯 [!UICONTROL Adobe IMS IDs] 的子菜單。
 
 **[!UICONTROL Adobe Media Optimizer]:** (具有Advertising Cloud Search或使用Advertising Cloud轉換像素的廣告主)A [!DNL Search] 與之交DSP換屬性資料的帳戶。
 
