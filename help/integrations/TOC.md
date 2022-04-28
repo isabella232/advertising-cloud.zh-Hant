@@ -3,17 +3,16 @@ user-guide-title: Adobe Experience Cloud 的整合
 user-guide-description: 了解 Advertising Cloud DSP 和 Advertising Cloud Search 與其他 Adobe Experience Cloud 產品和服務的整合。
 breadcrumb-title: Experience Cloud 的整合
 index: true
-source-git-commit: 0ede15cbc8031b20e82b8dd574469860ebd0aee6
+source-git-commit: 9964887b777d430c138a08f7ff6cf53ac39defed
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Advertising Cloud與Adobe Experience Cloud {#integrations}
-<!--  and Adobe Experience Platform -->
-<!--          + [Append [!DNL Analytics for Advertising Cloud] Macros to [!DNL Google Campaign Manager 360] Ad Tags](/help/integrations/analytics/macros-google-campaign-manager.md) -->
+<!--  ADD LATER: and Adobe Experience Platform -->
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising Cloud] {#analytics}
@@ -25,6 +24,7 @@ ht-degree: 20%
       + [使用 [!DNL Last Event Service] 帶有Adobe Experience Platform的JavaScript庫 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
       + 廣告標籤的宏 {#macros}
          + [追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)
+         + [追加 [!DNL Analytics for Advertising Cloud] 宏到 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 資料交換 {#data}
       + [Advertising CloudAnalysis Workspace度量](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
       + [[!DNL Analytics] Advertising Cloud資料](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
