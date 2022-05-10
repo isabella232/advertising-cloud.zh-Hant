@@ -3,9 +3,9 @@ title: 設定計畫保證交易
 description: 瞭解如何設定您與發行商談判的計畫保證(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 81b1074f86685f863f89a07ecd33e892e4933512
+source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,7 @@ ht-degree: 0%
 
 1. （可選）通過按一下 ![「選項」菜單](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**。
 
->[!NOTE]
->
->可以附加支援不同類型（CTV、案頭、音頻等）的多個放置 同一筆交易。
+   交易可以針對支援任何媒體類型組合（如連接的電視、案頭和音頻）的多種放置。
 
 ## 手動設定計畫保證交易
 
@@ -56,10 +54,7 @@ ht-degree: 0%
 
 1. （可選）通過按一下 ![「選項」菜單](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**。
 
->[!NOTE]
->
->可以附加支援不同類型（CTV、案頭、音頻等）的多個放置 同一筆交易。
-
+   交易可以針對支援任何媒體類型組合（如連接的電視、案頭和音頻）的多種放置。
 
 >[!MORELIKETHIS]
 >
