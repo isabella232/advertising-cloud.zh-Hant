@@ -3,9 +3,9 @@ title: 廣告規格
 description: 參考一般廣告和發佈者特定的廣告規範。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: f3d4dcfdaaaa4b9546e92ac6d1087e73e5054a26
+source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,22 @@ ht-degree: 0%
 #### 連接電視廣告的其他發佈者要求
 
 * **斛律：** 參見斛律 [ad規範](https://advertising.hulu.com/ad-products/video-commercial/)。
+
+* **派拉蒙：** 查看派拉蒙 [ad規範](https://www.paramount.com/digital-ads)。
+
+* **發現：** 查看發現 [ad規範](/help/dsp/assets/discovery-networks-ad-specs.pdf)。
+
+* **HBO Max:** 參見HBO Max [ad規範](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)。
+
+* **A+E網路：** 請參閱A+E網路 [ad規範](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+
+* **NBCUniversal:**
+
+   * [數字視頻](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+
+   * [直播](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+
+   * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **迪士尼：**
 
