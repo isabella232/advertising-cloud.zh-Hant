@@ -2,7 +2,7 @@
 title: '從持久ID夥伴激活經過驗證的段 '
 description: 瞭解如何通過持久ID解決方案激活經過驗證的受眾。
 feature: DSP Audiences
-source-git-commit: 8550b539676588c3a6bc07abe088b38bd4251725
+source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->*[關於從受眾源激活經過驗證的段](source-about.md)
+>* [關於從受眾源激活經過驗證的段](source-about.md)
 >* [建立受眾源以激活第一方受眾](source-create.md)
 >* [受眾源設定](source-settings.md)
 >* [Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
