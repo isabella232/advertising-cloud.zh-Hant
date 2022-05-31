@@ -3,9 +3,9 @@ title: 關於Advertising Cloud DSP的受眾管理
 description: 瞭解受眾管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 3b44e8e019bfc4bab2ee65ac028313752cb4a0e0
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 0%
 
 ## 導入第一方和第三方資料段
 
-Advertising Cloud DSP可以從您的資料管理平台(DMP)中導入您自己的第一方資料段，並根據需要將它們提供給任何一組廣告商。
+可DSP以從資料管理平台(DMP)導入您自己的第一方資料段，並根據需要將它們提供給任何一組廣告商。
 
-Advertising Cloud DSP還可以進口定製的第三方分部，包括第三方分部的複雜組合。 您可以根據需要向任何一組廣告商提供這些片段。
+DSP是 [這樣 [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)允許您與經認證的廣告商和用戶共用經過身份驗證的第一方段，以便激活活動。 要瞭解有關Real-Time CDP整合的更多資訊，請參閱 [「源」部分](/help/dsp/audiences/sources/source-about.md)。
+
+還可DSP以導入自定義第三方段，包括第三方段的複雜組合。 您可以根據需要向任何一組廣告商提供這些片段。
 
 聯繫您 [!DNL Adobe] 帳戶團隊以獲取詳細資訊。
 
@@ -40,9 +42,9 @@ Advertising Cloud DSP還可以進口定製的第三方分部，包括第三方�
 
 您可以將放置目標定位到以下所有類型的受眾。
 
-* 保存在Advertising Cloud DSP的所有用戶建立的受眾集。
+* 保存在中的所有用戶建立的受眾集DSP。
 
-* 在Advertising Cloud DSP建立的所有用戶建立的受眾段：
+* 在以下位置建立的所有用戶建立的受眾DSP段：
 
    * 針對訪問特定網頁的用戶和接觸特定廣告印象的用戶的自定義段。
 
@@ -52,21 +54,21 @@ Advertising Cloud DSP還可以進口定製的第三方分部，包括第三方�
 
 * 所有導入的自定義第三方資料段。
 
-* （僅針對美國的配售） [從30多家供應商向Advertising Cloud DSP客戶提供的所有第三方資料段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom]。 [!DNL Datalogix]。 [!DNL eXelate] ([!DNL Nielsen]) [!DNL Lotame]。 [!DNL Oracle]。 [!DNL Quantcast]，以及更多。
+* （僅針對美國的配售） [從30多家供應商向客戶提供DSP的所有第三方資料段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom]。 [!DNL Datalogix]。 [!DNL eXelate] ([!DNL Nielsen]) [!DNL Lotame]。 [!DNL Oracle]。 [!DNL Quantcast]，以及更多。
 
    您可以針對特定的網段，這些網段基於受眾資料（例如，具有特定人口結構、興趣或意圖和/或行為配置檔案的用戶）來針對用戶。 您可以按資料提供程式和類別瀏覽、按名稱或段ID搜索段，或按資料提供程式、總段大小、Web瀏覽器計數或設備計數篩選結果。
 
    第三方分部產生額外費用，這些費用在每個分部名稱旁邊注明。
 
-* (只使用Advertising CloudJavaScript轉換標籤的Adobe Experience Cloud、Adobe Audience Manager或Adobe Analytics的廣告主)您所有可用的第一、第二或第三方受眾群在Adobe Experience Cloud建立、以Audience Manager建立或通過Audience Manager或發佈到Adobe Experience Cloud [!DNL Analytics]。
+* (Adobe Experience Platform和 [!DNL Real-Time CDP]、僅使用Advertising CloudJavaScript轉換標籤的Adobe Audience Manager或Adobe Analytics)在中建立的所有可用的第一、第二或第三方受眾段 [!DNL Real-Time CDP]、在Audience Manager中建立，或從Audience Manager或 [!DNL Analytics]。
 
-   使用分部的定價是預先商定的，在Advertising Cloud不可見。  <!-- Verify -->
+   使用分部之定價乃經預先磋商後釐定，且於中不可DSP見。
 
-   在Adobe Experience Cloud建立或發佈Adobe Experience Cloud的網段大約一小時後即可找到。 直接從Audience Manager獲取的段在建立後24小時左右可用。 <!-- Verify all -->
+   段自 [!DNL Analytics] 在建立或發佈它們作為Experience Cloud受眾後大約一小時內可用。 段直接來自Audience Manager或 [!DNL Real-Time CDP] 24小時內可供您分享。
 
    >[!NOTE]
    >
-   >請參閱文檔 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。 [分析](https://experienceleague.adobe.com/docs/analytics.html), [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 有關為這些解決方案中的段設定和收集資料的資訊。
+   >請參閱文檔 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)。 [分析](https://experienceleague.adobe.com/docs/analytics.html), [這樣 [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 有關為這些解決方案中的段設定和收集資料的資訊。
 
 ## 受眾大小資料
 

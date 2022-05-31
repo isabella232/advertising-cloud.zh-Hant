@@ -8,10 +8,10 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
+source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 6%
          + [音頻廣告設定](/help/dsp/campaign-management/ads/ad-settings-audio.md)
          + [連接的電視設定](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
          + [顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-display.md)
-         + [Mobile廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [移動廣告設定](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [本機顯示廣告設定](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [預滾動廣告設定](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
       + [支援的廣告類型的規範](/help/dsp/campaign-management/ads/ad-specs.md)
@@ -108,7 +108,7 @@ ht-degree: 6%
       + [已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
    + [鍵盤快捷鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [市場活動管理常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [關於Campaign Management的常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
 + 優化 {#optimization}
    + [如何 [!DNL DSP] 優化您的市場活動](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [優化目標及其使用方法](/help/dsp/optimization/optimization-goals.md)
@@ -131,6 +131,11 @@ ht-degree: 6%
       + [建立可重用的受眾](/help/dsp/audiences/reusable-audience-create.md)
       + [受眾設定](/help/dsp/audiences/audience-settings.md)
       + [受眾段邏輯的語法](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + 管理源 {#sources}
+      + [關於從受眾源激活經過驗證的段](/help/dsp/audiences/sources/source-about.md)
+      + [從持久ID夥伴激活經過驗證的段](/help/dsp/audiences/sources/source-durable-id.md)
+      + [建立受眾源以激活第一方受眾](/help/dsp/audiences/sources/source-create.md)
+      + [受眾源設定](/help/dsp/audiences/sources/source-settings.md)
    + [可用的第三方資料提供程式](/help/dsp/audiences/third-party-data-providers.md)
 + 庫存 {#inventory}
    + [庫存功能概覽](/help/dsp/inventory/inventory-overview.md)
