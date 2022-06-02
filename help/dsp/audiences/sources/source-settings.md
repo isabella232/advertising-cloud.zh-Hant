@@ -2,9 +2,10 @@
 title: 受眾源設定
 description: 瞭解訪問群體源的設定。
 feature: DSP Audiences
-source-git-commit: 285ececc74373be4dee9d0a4bce2c82605082630
+exl-id: 8b17d5cc-488b-4bd2-bada-ef51b35faf92
+source-git-commit: 932b1ff979cb9b617502f9797af29e88ef77adf0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 **[!UICONTROL Enter IMS Org Id]:** 的Experience Cloud組織ID [!DNL Adobe Experience Platform] 帳戶。
 
-**[!UICONTROL AAC Source Key]:** (只讀；在 [!UICONTROL Enter IMS Org Id] 欄位)可用的源鍵 [在中建立目標連接 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-dsp-destination.html) 把觀眾推到Advertising Cloud DSP。 可以將值複製到剪貼簿中以貼上到 [!DNL Adobe Real-Time CDP] 目標連接設定或檔案。
+**[!UICONTROL AAC Source Key]:** (只讀；在 [!UICONTROL Enter IMS Org Id] 欄位)可用的源鍵 [在中建立目標連接 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) 把觀眾推到Advertising Cloud DSP。 可以將值複製到剪貼簿中以貼上到 [!DNL Adobe Real-Time CDP] 目標連接設定或檔案。
 
 >[!MORELIKETHIS]
 >
