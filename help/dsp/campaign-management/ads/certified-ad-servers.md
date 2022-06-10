@@ -3,7 +3,7 @@ title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: f9b2dc85c71ac603609d3cd7168cb09b1b7cac16
+source-git-commit: ed8e81a87a03d604a002937c5071873fc530f100
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -41,10 +41,24 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL InSkin] |  |  | X |  | 必須從Inskin清點網路中的180x150顯示交易ID中提供高影響外觀。 |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | 320x50 Anchor、BYOC、Hover、Breakout和Sidek;300x250外流 |
-標準案頭顯示廣告經認證（不需要特定廣告插件ID）。
-</br></br>聯繫您 [!DNL Adobe] 客戶團隊，幫助設定廣告單位。 | | [!DNL Linkstorm] | | | X | | | | [!DNL mCanvas] | | | X | | | | [!DNL Medialets] | | X | | | | | [!DNL Moat] | X | X | | X | | | [!DNL PLAYGROUND XYZ] | | | X | | | | [!DNL Pubmatic] | | | | X |僅VAST | | [!DNL RevJet] | | | | X |僅VAST | | [!DNL Seedtag] | | X | | | | | [!DNL Sizmek] | | X | | | Sizmek經OLV和CTV認證。 未驗證音頻。
-要在UI中呈現標籤，請用 `<a>` 標籤（在開頭和結尾）。 請參閱下面的示例標籤：</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` | | [!DNL Spaceback] | | X | | | | | [!DNL Spirable] | | X | | | | | [!DNL SUBLIME] | | | X | | | | [!DNL SundaySky] | | | | X | | | [!DNL Teads] | | X | | | |經認證為「Display（顯示）」的文本。 Adobe不支援Outstream清點的VPAID。
-| [!DNL Trueffect] | | X | | | | | [!DNL Undertone] | | | X | |自定義頁面抓取和單元以180x150形式上傳到Advertising Cloud DSP</br></br>當Index Exchange通過180x150的拍賣和競DSP標，並呈現一種印象時，創意將擴展為全頁的展示廣告。</br></br>最初已為頁面抓取器、可擴展粘附性和螢幕移位和單位認證。 這需要重新確認，並為進程標籤步驟。 | | [!DNL Vox] | | | X | | [!DNL Athena] 廣告單位 | | [!DNL Wunderkind] | | X | | | |
+| [!DNL Kargo] |  | X |  |  | 320x50 Anchor、BYOC、Hover、Breakout和Sidek;300x250外流；標準案頭顯示廣告經認證（不需要特定廣告插件ID）。</br></br>聯繫您 [!DNL Adobe] 客戶團隊，幫助設定廣告單位。 |
+| [!DNL Linkstorm] |  |  | X |  |  |
+| [!DNL mCanvas] |  |  | X |  |  |
+| [!DNL Medialets] |  | X |  |  |  |
+| [!DNL Moat] | X | X |  | X |  |
+| [!DNL PLAYGROUND XYZ] |  |  | X |  |  |
+| [!DNL Pubmatic] |  |  |  | X | 僅廣 |
+| [!DNL RevJet] |  |  |  | X | 僅廣 |
+| [!DNL Seedtag] |  | X |  |  |  |
+| [!DNL Sizmek] |  | X |  |  | 已為OLV和CTV認證。</br></br>要在UI中呈現標籤，請用 `<a>` 標籤（在開頭和結尾）。 請參閱下面的示例標籤：</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Spaceback] |  | X |  |  |  |
+| [!DNL Spirable] |  | X |  |  |  |
+| [!DNL SUBLIME] |  |  | X |  |  |
+| [!DNL SundaySky] |  |  |  | X |  |
+| [!DNL Teads] |  | X |  |  |  | Advertising Cloud DSP不支援Outstream清點的VPAID。 |
+| [!DNL Trueffect] |  | X |  |  |  |
+| [!DNL Undertone] |  |  | X |  | 自定義頁面捕獲器和單元上載為180x150 DSPin</br></br>當Index Exchange通過180x150的拍賣和競DSP標，並呈現一種印象時，創意將擴展為全頁的展示廣告。</br></br>最初已為頁面抓取器、可擴展粘附性和螢幕移位和單位認證。 這需要重新確認，並為進程標籤步驟。 |
+| [!DNL Vox] |  |  | X |  | [!DNL Athena] 廣告單位 |
+| [!DNL Wunderkind] |  | X |  |  |  |
 
 {style=&quot;table-layout:auto&quot;}
