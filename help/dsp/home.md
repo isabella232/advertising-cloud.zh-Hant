@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 611589fd6fa7067a6e5c6ddfb1f8bb5ed700a44b
+source-git-commit: 602d2dd36a83f5f438c444e8ccaaec92054f0186
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,17 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 有關詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2022年5月31日 | 受眾源 | （Beta功能）Advertising Cloud DSP公司現在可以接收由在客戶資料平台(CDP)內構建的經過驗證的信號組成的第一方資料段。 | 請參閱「」[關於從受眾源激活經過驗證的段](/help/dsp/audiences/sources/source-about.md)&quot; |
+| 2022年5月25日 | 優化目標 | 現在，視頻和本地植入可以包含在具有定制目標Highest ROAS和Lows CPA的包中。 | 請參閱「」[優化目標及其使用方法](/help/dsp/optimization/optimization-goals.md)&quot; |
 | 2022年4月12日 | Campaign Management | 廣告規格已更新以反映當前支援。 | 請參閱「」[支援的廣告類型的規範](/help/dsp/campaign-management/ads/ad-specs.md)&quot; |
 | 2022年2月17日 | 視頻教程 | 「How to Create a Standard Display Placement」（如何建立標準顯示位置）的新視頻可用。 | 請參閱 [Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html)。 |
 | 2022年1月31日 | 幫助 | 有關 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 的子菜單。 | 請參閱「庫存」>「專用庫存」的子章。 |
 | 2021年12月10日 | 視頻教程 | 有新的視頻教程：&quot;Advertising Cloud DSP簡介&quot;、&quot;帳戶結構和用戶介面&quot;、&quot;How to Create a Package&quot;、&quot;How to Bulk Upload Third-Party Ad Tags&quot;和&quot;How to Edit Placements Using Bulk Edit Tools&quot;。 | 請參閱「」[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)&quot; |
-| 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 設定， &quot;[!DNL Rubicon]&quot;已更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 代表顯示、視頻和其他格式，如音頻。 這反映了 [!DNL Magnite] SSP。 **注：** [!DNL Magnite DV+] 仍列為「[!DNL Rubicon]的 [!UICONTROL Deal ID Inbox]。 | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
+| 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 設定， &quot;[!DNL Rubicon]&quot;已更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 表示顯示、視頻和其他格式，如音頻。 這反映了 [!DNL Magnite] SSP。 **注：** [!DNL Magnite DV+] 仍列為「[!DNL Rubicon]的 [!UICONTROL Deal ID Inbox]。 | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
 | 2021年10月27日 | 自定義報告 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳輸位置，稱為 *[!DNL report destinations]*&#x200B;的子菜單。 配置報告目標後，您可以設定每個新的自定義報告，以將其發送到單個目標類型的一個或多個位置或電子郵件收件人。 更新 [!DNL Amazon S3] 並且FTP憑據不會中斷報告傳遞。<br><br>您的現有報告仍會發送到指定的電子郵件收件人。 要配置到其他報告目標的傳遞，請使用新目標建立新報告。 | 請參閱「」[關於 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[建立 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md),&quot;和&quot;[自定義報表設定](/help/dsp/reports/report-settings.md)&quot; |
 |  | [!UICONTROL Packages]。 [!UICONTROL Placements], [!UICONTROL Ads] 視圖 | 當您查看一天的資料時，趨勢圖現在包括每小時的資料。 將游標置於任意點上，查看該小時的資料。 | 請參閱「」[單個市場活動報告](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting)&quot; |
 |  | [!UICONTROL Placements] | 放置 [!UICONTROL Inspector] 現在包括 [!UICONTROL Inventory] 頁籤，其中顯示放置的所有交易及其關聯度量。 使用資訊快速調整或排除問題，而不生成自定義報告。 | 請參閱「」[放置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector)&quot; |
 |  | [!UICONTROL Ads] | (具有包含權限的用戶 [!DNL Clearcast] 如果使用附加到另DSP一個廣告的時鐘號，則不再顯示錯誤。 **注：**  最佳做法是為每個視頻廣告使用唯一的時鐘號。 否則，發行商不會批准所有廣告。 | — |
-|  | [!UICONTROL Deal IDs] | 的 [!UICONTROL Deal ID] 設定和用戶介面中的其他位置反映了 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])現在為&quot;[!DNL Magnite CTV]&quot;</li><li>在接下來的幾週裡， [!DNL Rubicon]&quot;將更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 代表顯示、視頻和其他格式，如音頻。</li></ul> | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
+|  | [!UICONTROL Deal IDs] | 的 [!UICONTROL Deal ID] 設定和用戶介面中的其他位置反映了 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])現在為&quot;[!DNL Magnite CTV]&quot;</li><li>在接下來的幾週裡， [!DNL Rubicon]&quot;將更改為&quot;[!DNL Magnite DV+]的下界。 [!DNL DV+] 表示顯示、視頻和其他格式，如音頻。</li></ul> | 請參閱「」[SSP合作夥伴](/help/dsp/inventory/ssp-partners.md)&quot; |
 |  | [!DNL Freewheel] 有計畫的擔保交易 | 您現在可以提交廣告並檢查廣告的狀態 [!DNL Freewheel] 計畫擔保交易 [!UICONTROL Ads] 的子菜單。 以前，您只能從 [!UICONTROL Deals] 的子菜單。 | 請參閱「」[提交計畫保證交易的廣告以 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md)&quot; |
 | 2021年10月7日 | 幫助 | 全部 [DSP其他Advertising Cloud檔案](https://experienceleague.adobe.com/docs/advertising-cloud.html) 上 [!DNL Experience League] 現在是機器翻譯成所有可用語言。 要更改顯示的語言，請使用任何頁面左下角的「更改語言」菜單。<br>![更改語言](/help/dsp/assets/change-language.png) |
 | 2021年9月30日 | 品牌安全 | （9月22日發佈） [!DNL DoubleVerify] 品牌安全預購產品更新至 [!DNL Brand Suitability Tiers]它允許廣告商為特定的網段在三個風險級別（低、中和高）之間進行選擇，而不避免特定主題的所有實例。 歷史上，段不包括任何容差級別。<br><br>與新建對齊 [!DNL DoubleVerify] 網段結構DSP，將現有品牌安全網段遷移至新的、建議的 *介質*-level段。 您可以根據需要將段層調整為 *低* 或 *高*。<br><br>**注：** 一小組資料段沒有分層，但具有新名稱，如「Desaw/Spyware/Malware,Warez」> Incentivized/Malware/Clutter。」 | — |
