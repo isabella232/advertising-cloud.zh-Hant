@@ -3,9 +3,9 @@ title: 可用報表列
 description: 請參閱自定義報表中可用列的說明。
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 3daf6a25f883a7eef42dff1c95a98a4f5e65f67e
+source-git-commit: 966b4b4ca42b66880e1b7cf29005eeb256887149
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1659'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | 每1000次印次的平均淨介質成本，計算方法為 [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | 其他費用的每1000次印次平均淨成本，計算方式為 [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000。 |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 在Max CPM中投標的總投標百分比。 |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | 投標的不同用戶數。 |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | 投標放置的不同DSP用戶數。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | 通過Advertising Cloud計費的受眾分部資料費用的總淨成本。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | 通過Advertising Cloud計費的可計費媒體總淨成本，包括技術費。 |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | 通過Advertising Cloud計費的其他服務費（第三方驗證合作夥伴、廣告服務等）的總費用 |
