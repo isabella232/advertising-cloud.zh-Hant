@@ -1,77 +1,77 @@
 ---
-title: 建立可重複使用的受眾
-description: 了解如何建立可重複使用的對象，這些對象包含對象區段和其他儲存的對象。
+title: 建立可重用的受眾
+description: 瞭解如何建立由受眾段和其他已保存的受眾組成的可重用受眾。
 feature: DSP Audiences
 exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 37e5a4fbb7e2ccda77ab0afd49054ec4d1dabf76
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
-# 建立可重複使用的受眾
+# 建立可重用的受眾
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-您可以儲存和管理可重複使用的對象，這些對象是對象區段群組，甚至是其他已儲存的對象，您可將這些對象用作多個版位的目標或排除項目。
+您可以保存和管理可重複使用的受眾，這些受眾是受眾段的組，甚至是其他已保存的受眾，您可以將其用作多個放置的目標或排除。
 
-1. 在主菜單中，按一下「**[!UICONTROL Audiences]>[!UICONTROL All Audiences]**」。
+1. 在主菜單中，按一下 **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**。
 
-1. 在資料表上方，按一下&#x200B;**[!UICONTROL Create]**。
+1. 在資料表上方，按一下 **[!UICONTROL Create]**。
 
-1. 輸入唯一[!UICONTROL Audience Name]。
+1. 輸入唯一 [!UICONTROL Audience Name]。
 
-1. （選用）取消選取&#x200B;**[!UICONTROL Share with all advertisers in my account]**&#x200B;選項。
+1. （可選）取消選擇選項以 **[!UICONTROL Share with all advertisers in my account]**。
 
-   當您共用對象時，該對象將成為帳戶內所有廣告商的目標或排除項目。 不過，受眾中的個別區段僅供共用區段的使用者使用。 例如，如果您與未對應至相同[!DNL Analytics]帳戶的廣告商共用包含Adobe Analytics區段的對象，則該區段不會預覽於該廣告商的該對象。 只有該廣告商可用的區段才會在受眾中預覽。
+   當您共用受眾時，受眾將成為帳戶內所有廣告商的目標或排除對象。 但是，受眾中的各個段僅對共用這些段的用戶可用。 例如，如果您與未映射到同一廣告商共用包含Adobe Analytics網段的受眾 [!DNL Analytics] 帳戶，則該網段將不會在該廣告商的受眾中預覽。 只有該廣告商可用的網段才會在觀眾中預覽。
 
 1. 按一下 **[!UICONTROL Save]**.
 
-1. 建立對象：
+1. 構建受眾：
 
    >[!NOTE]
    >
-   >當您建立對象時，會在右側面板中更新詳細的[對象大小資料](audience-about.md)。
+   >在構建受眾時， [受眾大小資料](audience-about.md) 在右面板中更新
 
-   * 若要手動建立區段邏輯，請使用[[!UICONTROL Third Party Segments]、[!UICONTROL First Party Segments]、[!UICONTROL Adobe Segments]、[!UICONTROL Custom Segments]和[!UICONTROL Saved Audiences]標籤](audience-settings.md)上可用的區段，執行下列操作。
+   * 要手動建立段邏輯，請使用 [[!UICONTROL Third Party Segments]。 [!UICONTROL First Party Segments]。 [!UICONTROL Adobe Segments]。 [!UICONTROL Custom Segments], [!UICONTROL Saved Audiences] 頁籤](audience-settings.md)，執行以下操作。
 
-      * 若要新增第一個區段，請在左側面板中找出區段，然後選取區段名稱旁的核取方塊。
+      * 要添加第一個段，請在左面板中找到該段，然後選中段名稱旁邊的複選框。
 
-      * 若要將區段新增至現有區段群組：
+      * 要將段添加到現有段組，請執行以下操作：
 
-         1. 按一下右側面板中的區段群組。
+         1. 按一下右面板中的段組。
 
-         1. （可選）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
+         1. （可選）將組邏輯更改為 *[!UICONTROL Include Any]*。 *[!UICONTROL Include All]*&#x200B;或 *[!UICONTROL Exclude All]*，根據需要。
 
-            *[!UICONTROL Exclude All]* 不適用於第一個區段群組。針對僅包含排除的對象，將此對象建置為&#x200B;*[!UICONTROL Include Any]*，然後在版位內，從「排除的對象」功能表中選取該對象。
+            *[!UICONTROL Exclude All]* 不可用於第一個段組。 對於僅包括排除的受眾，將此受眾構建為 *[!UICONTROL Include Any]* 然後，在放置中，從「排除的受眾」菜單中選擇該受眾。
 
-         1. 在左側面板中找出新區段，並選取區段名稱旁的核取方塊。
+         1. 在左面板中找到新段，然後選中段名稱旁邊的複選框。
 
-            區段群組會自動以新區段更新。
-      * 若要新增區段群組：
+            段組將自動使用新段更新。
+      * 要添加新段組，請執行以下操作：
 
-         1. 按一下右側面板中的&#x200B;**[!UICONTROL + New Group]**。
+         1. 按一下 **[!UICONTROL + New Group]** 的下界。
 
-         1. （可選）視需要將上一個群組和新群組之間的邏輯變更為&#x200B;*[!UICONTROL And]*&#x200B;或&#x200B;*[!UICONTROL Or]*。
+         1. （可選）將上一個組和新組之間的邏輯更改為 *[!UICONTROL And]* 或 *[!UICONTROL Or]*，根據需要。
 
-         1. 在左側面板中找出新群組的區段，並選取區段名稱旁的核取方塊。
+         1. 在左面板中找到新組的段，然後選中段名稱旁邊的複選框。
 
-         1. （可選）視需要將群組邏輯變更為&#x200B;*[!UICONTROL Include Any]*、*[!UICONTROL Include All]*&#x200B;或&#x200B;*[!UICONTROL Exclude All]*。
-   * 若要使用現有對象的區段邏輯：
+         1. （可選）將組邏輯更改為 *[!UICONTROL Include Any]*。 *[!UICONTROL Include All]*&#x200B;或 *[!UICONTROL Exclude All]*，根據需要。
+   * 要使用現有受眾的段邏輯：
 
-      1. 以下列任何方式複製現有對象的區段邏輯：
+      1. 以下列任何方式從現有受眾複製段邏輯：
 
-         * 在「所有對象」檢視中，將游標停留在對象列上，然後按一下&#x200B;**[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**。
+         * 在「所有受眾」視圖中，將游標懸停在受眾行上，然後按一下 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**。
 
-         * 在現有對象的設定中，在區段邏輯面板頂端，按一下「**[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**」。
+         * 在現有受眾的設定中，在段邏輯面板頂部，按一下 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**。
 
-         * 在文字編輯器中，使用英數字元區段ID和[布林語法](audience-segment-logic-syntax.md)手動建立區段邏輯，並將其複製到剪貼簿。
-      1. 按一下「**[!UICONTROL paste in an audience rule to begin building]**」，將現有區段邏輯貼入輸入欄位，然後按一下「**[!UICONTROL Apply]**」。
+         * 在文本編輯器中，使用字母數欄位ID手動建立段邏輯， [布爾語法](audience-segment-logic-syntax.md)，然後複製到剪貼簿。
+      1. 按一下 **[!UICONTROL paste in an audience rule to begin building]**，將現有段邏輯貼上到輸入欄位，然後按一下 **[!UICONTROL Apply]**。
 
          >[!NOTE]
          >
-         >如果對象已包含任何區段邏輯，則貼入新區段邏輯會覆寫現有邏輯。
+         >如果受眾已經包括任何段邏輯，則貼上到新段邏輯會覆蓋現有邏輯。
 
 
 
@@ -80,11 +80,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [關於Audience Management](audience-about.md)
->* [對象設定](audience-settings.md)
->* [對象區段邏輯語法](audience-segment-logic-syntax.md)
->* [可用的第三方資料提供者](third-party-data-providers.md)
->* [建立和實作自訂區段](custom-segment-create.md)
->* [建立和實作區 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
->* [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [關於受眾管理](audience-about.md)
+>* [受眾設定](audience-settings.md)
+>* [受眾段邏輯的語法](audience-segment-logic-syntax.md)
+>* [可用的第三方資料提供程式](third-party-data-providers.md)
+>* [建立和實施自定義段](custom-segment-create.md)
+>* [建立和實施 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
+>* [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
 
