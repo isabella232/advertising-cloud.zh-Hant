@@ -8,10 +8,10 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
+source-git-commit: f4719ee56f340c5969795dfc482e2b409244757b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '886'
+ht-degree: 6%
 
 ---
 
@@ -165,10 +165,10 @@ ht-degree: 0%
             + [計畫保證交易談判技巧](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [設定計畫保證交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] 計畫擔保交易 {#freewheel}
-            + [中計畫保證交易設定概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-            + [提交計畫保證交易的廣告以 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-            + [檢查廣告狀態 [!DNL FreeWheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md)
-            + [FreeWheel廣告提交的錯誤代碼](/help/dsp/inventory/freewheel-error-codes.md)
+               + [中計畫保證交易設定概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [提交計畫保證交易的廣告以 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [檢查廣告狀態 [!DNL FreeWheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md)
+               + [FreeWheel廣告提交的錯誤代碼](/help/dsp/inventory/freewheel-error-codes.md)
          + [編輯交易ID設定](/help/dsp/inventory/deal-id-edit.md)
          + [指定交易ID的放置和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
          + [編輯有權訪問交易ID的帳戶](/help/dsp/inventory/deal-id-share.md)
