@@ -3,9 +3,9 @@ title: 關於專用清單
 description: 關於專用清單
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad4bdfdc637af34b02c42d6547c39301f2a0cf47
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 超出RTB的廣告商可以使用私有清單來促進獨家媒體交易。 私人交易所允許出版商建立專有的庫存庫，獲得批准的廣告商可通過即時平台購買。 私人交易提供了直接購買的信心，同時也帶來了高效、簡化的工作流和集中化的營銷活動分析等計畫性好處。
 
-## 私有交易的設定
-
-### 交易ID
+## 交易ID
 
 如果您與出版商有直接關係，則您可以在Advertising Cloud DSP的發佈中使用您自己的私人交易及其洽談的庫存和定價，來簡化媒體購買流程和工作流程。 在DSP設定帳戶時與所有發佈者整合。 如果您希望以後訪問其他發佈者，請與 [!DNL Adobe] 帳戶組以設定訪問權限。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
@@ -34,25 +32,14 @@ ht-degree: 0%
 
 您可以將每個私人交易用作指定廣告客戶間多個廣告活動的投放目標。 對於有保證的交易，在建立交易後必須建立預設放置，但您可以將同一交易添加到附加放置以忽略預設放置。
 
-### [!UICONTROL Simple Ad Serving]
-
-[!UICONTROL Simple Ad Serving] 為在Advertising Cloud DSP以外服務的媒體提供非決策、有保證的廣告交付和報告。
-
-每個廣告都由發佈者直接提供，並DSP提供一個事件跟蹤像素以發送給發佈者，發佈者必須實施該像素並傳播廣告。
-
-有關詳細資訊，請參閱「」[關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)&quot;
-
 ## 交易視圖
 
-在 [!UICONTROL Inventory] > [!UICONTROL Deals] 視圖，可以建立私人交易設定。 您還可以列出任何私人交易的放映和廣告，查看任何私人交易的報告，或存檔或取消存檔任何私人交易。
-
-對於交易ID，您還可以編輯交易設定、將廣告投放和廣告附加到交易、編輯可以訪問交易的廣告商和帳戶，以及編輯交易的屬性標籤。
-
-對於簡單的廣告服務交易，您可以查看交易的事件跟蹤像素。
+在 [!UICONTROL Inventory] > [!UICONTROL Deals] 視圖，可以建立私人交易設定。 您還可以編輯一些交易設定；列出廣告和廣告，並附加廣告和廣告；編輯能夠獲得交易的廣告商和賬戶；查看私人交易報告；或存檔或取消存檔交易。<!-- ; or edit the attribute tags for a deal -->
 
 >[!MORELIKETHIS]
 >
 >* [庫存功能概覽](/help/dsp/inventory/inventory-overview.md)
 >* [關於 [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
+>* [手動建立交易ID詳細資訊](deal-id-create.md)
 
