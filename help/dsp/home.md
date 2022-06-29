@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: e29853b728cd3efbb374179ca6af8d095b77df43
+source-git-commit: c5441225b9bf4013e81d0631ccb67c3505ee34f4
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 說明 | 有關詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
 | 2022年6月29日 | 庫存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 視圖包括與 [!UICONTROL Campaigns] 視圖，包括附加篩選器、列自定義以及保存自定義視圖、列排序和圖表視圖的選項。 通過按一下 [!UICONTROL ...] 在交易名後。 | 請參閱「」[庫存功能概覽](/help/dsp/inventory/inventory-overview.md)&quot; |
+|  | 庫存 [!UICONTROL Inspector] | 的 [!UICONTROL Inventory] 頁籤 [!UICONTROL Inspector] 現在包括可定製的資料可視化圖表和擴展的效能度量，如 [!UICONTROL Viewability Rate]。 [!UICONTROL Clicks], [!UICONTROL Yesterday's CPM]。 | 請參閱「」[查看位置的站點、廣告、頻率和清單詳細資訊](/help/dsp/campaign-management/reports/placement-details-view.md)&quot; |
 | 2022年5月31日 | 受眾源 | （Beta功能）Advertising Cloud DSP公司現在可以接收由在客戶資料平台(CDP)內構建的經過驗證的信號組成的第一方資料段。 | 請參閱「」[關於從受眾源激活經過驗證的段](/help/dsp/audiences/sources/source-about.md)&quot; |
 | 2022年5月25日 | 優化目標 | 現在，視頻和本地植入可以包含在具有定制目標Highest ROAS和Lows CPA的包中。 | 請參閱「」[優化目標及其使用方法](/help/dsp/optimization/optimization-goals.md)&quot; |
 | 2022年4月12日 | Campaign Management | 廣告規格已更新以反映當前支援。 | 請參閱「」[支援的廣告類型的規範](/help/dsp/campaign-management/ads/ad-specs.md)&quot; |
