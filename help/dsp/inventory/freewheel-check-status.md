@@ -3,9 +3,9 @@ title: 檢查[!DNL的廣告狀態 [!DNL FreeWheel]] PG交易
 description: 瞭解如何查找廣告的狀態 [!DNL Freewheel] 計畫擔保交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---

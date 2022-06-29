@@ -3,9 +3,9 @@ title: 已下載/已上載電子錶格中的列
 description: 引用已下載和已上載的Excel QA電子錶格中的列。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 15f1e22dbc742d372dcabf2c029f2f7d72ff1d2f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | 是否啟用站點安全塊： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*。<!-- Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one? --> | — |
 | [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | 附加到放置的第三方事件跟蹤像素的數量，或 *[!UICONTROL None]*。 | — |
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | 附加到放置的轉換跟蹤像素數，或 *[!UICONTROL None]*。 | — |
-| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 靜態第三方費率，如果適用，將作為每千次印次的不可計費成本進行跟蹤。 | — |
+| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 靜態第三方費率，如果適用，將作為每1000個印次的不可計費成本進行跟蹤。 | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | 附加到放置的廣告數（如果附加），或 *[!UICONTROL None]*。 | — |
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | 附加到放置的廣告的名稱（如果附加），或 *[!UICONTROL None]*。 | — |
 

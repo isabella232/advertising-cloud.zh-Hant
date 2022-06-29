@@ -3,7 +3,7 @@ title: 重新請求 [!DNL On Demand] 高級庫存交易
 description: 瞭解如何重新請求 [!DNL On Demand] 之前被拒絕的交易。
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 如果在您重新請求後未批准交易，請與 [!DNL Adobe] 帳戶團隊，查看發佈者是否有其他限制禁止您的帳戶訪問交易。
 
-一旦交易 [批准](/help/dsp/inventory/on-demand-inventory-view-status.md)，預設情況下，它作為新放置的目標包含 [!DNL On Demand] 庫存。 新交易也可用作現有放置的目標，但您需要手動編輯放置設定以將交易添加為目標。
+一旦交易 [批准](/help/dsp/inventory/on-demand-inventory-view-status.md)，預設情況下，它作為新放置的目標包含 [!DNL On Demand] 庫存。 新交易也可用作現有放置的目標，但必須手動編輯放置設定以將交易添加為目標。
 
 1. 向您確認 [!DNL Adobe] 客戶團隊 [!UICONTROL Account Type] 您組織的帳DSP戶正確。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 篩選可用交易以包括您請求的交易(**[!UICONTROL Currently subscribed to]**)**。
 
-   1. （可選）在 [!UICONTROL Subscriptio] 視圖，顯示所有發佈者的徽標（基於您的濾鏡），以及 [!UICONTROL Deal] 查看，其中根據篩選器列出每個發佈者的所有交易，方法是按一下 **[!UICONTROL Subscription view]** 和 **[!UICONTROL Deal view]**，根據需要。
+   1. （可選）在 [!UICONTROL Subscription] 視圖，顯示所有發佈者的徽標（基於您的濾鏡），以及 [!UICONTROL Deal] 查看，其中根據篩選器列出每個發佈者的所有交易，方法是按一下 **[!UICONTROL Subscription view]** 和 **[!UICONTROL Deal view]**，根據需要。
 
    1. 重新請求單筆交易：
    * 從 [!UICONTROL Deal] 視圖，按一下 **[!UICONTROL Rerequest]** 的 [!UICONTROL Action] 的子菜單。

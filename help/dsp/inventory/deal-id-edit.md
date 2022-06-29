@@ -1,30 +1,30 @@
 ---
-title: 編輯交易ID設定
-description: 瞭解如何編輯交易ID的詳細資訊。
+title: 編輯私有交易設定
+description: 瞭解如何編輯私人交易的詳細資訊。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# 編輯交易ID設定
+# 編輯私有交易設定
 
 對接受交易的更改未與SSP同步。 如果您接受了交易，但發佈者已發送了更改，則可以從中編輯交易設定的某些元素 [!UICONTROL Inventory] > [!UICONTROL Deals]。 您還可以隨時更名交易。
 
 1. 在主菜單中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals]。**
 
-1. 在交易行中，按一下  ![「選項」菜單](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit]**。
+1. 在交易行中，按一下  **[!UICONTROL ...]>[!UICONTROL edit]**。
 
 1. 編輯 [交易設定](deal-id-settings.md)。
 
    可以編輯 [!UICONTROL Deal Name]。 [!UICONTROL Media Type] （當交易包括多種介質類型時）, [!UICONTROL CPM] 值， [!UICONTROL Account email]。 [!UICONTROL Advertisers that can access this deal]。 [!UICONTROL Flight dates], [!UICONTROL Impressions]。
 
-   無法編輯 [!UICONTROL Deal ID]。 [!UICONTROL Publisher]。 [!UICONTROL SSP]或 [!UICONTROL Billing Method]。
+   無法編輯 [!UICONTROL Deal ID]。 [!UICONTROL Publisher]。 [!UICONTROL SSP]。 [!UICONTROL Deal Type]或 [!UICONTROL Billing Method]。
 
-1. 按一下 **[!UICONTROL Save and continue]**.
+1. 按一下 **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

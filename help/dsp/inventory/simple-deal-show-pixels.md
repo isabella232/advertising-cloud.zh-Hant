@@ -2,9 +2,10 @@
 title: 查看的事件像素 [!UICONTROL Simple Ad Serving] 交易
 description: 瞭解如何為 [!UICONTROL Simple Ad Serving] 成交。
 feature: DSP Simple Ad Serving
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -25,5 +26,7 @@ ht-degree: 0%
 >
 >* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [建立 [!UICONTROL Simple Ad Serving] 交易](simple-deal-create.md)
+>* [編輯 [!UICONTROL Simple Ad Serving] 交易設定](simple-deal-edit.md)
 >* [[!UICONTROL Simple Ad Serving] 設定](simple-deal-settings.md)
+>* [查看交易的詳細報表](/help/dsp/inventory/deal-view-report.md)
 

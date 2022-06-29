@@ -3,7 +3,7 @@ title: '"[!UICONTROL Simple Ad Serving] 交易設定'''
 description: 瞭解的可用設定 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
 exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
-source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
+source-git-commit: 17a73b5177b3dd79a32cd0b03bfa28d8ac8bf996
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 | **[!UICONTROL Media Quality Assessment?]** | （某些用戶）允許廣告在另一個上運DSP行以進行第三方驗證。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | 唯一的選擇是 *[!UICONTROL Site Serve (Event Pixels)]*。 |
 | **[!UICONTROL Ad Creation]** | （僅限新交易）是否：<ul><li>*[!UICONTROL Create New]:* 為此交易建立廣告。</li><li>*[!UICONTROL Select Ads]:* 將現有廣告用於此交易。</li></ul> |
-| **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果要為交易建立新廣告，請根據要求包括廣告大小或持續時間。 可用選項因介質類型而異。 |
+| **[!UICONTROL Ad Type]** | 此交易的廣告類型。 如果要為交易建立廣告，請根據要求包括廣告大小或持續時間。 可用選項因介質類型而異。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -40,10 +40,10 @@ ht-degree: 1%
 
 | 參數 | 說明 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 每千次印數(CPM)的成本，如合同的費率卡中所反映。 聯繫您 [!DNL Adobe] 此值的帳戶團隊。 <br><br>另指定交易的幣種。 所有用戶都可以選擇USD，或者，如果SSP支援其他貨幣，則選擇帳戶的DSP貨幣。 |
+| **[!UICONTROL Media CPM]** | 每1000次印數(CPM)的成本，如合同的費率卡中所反映。 聯繫您 [!DNL Adobe] 此值的帳戶團隊。 <br><br>另指定交易的幣種。 所有用戶都可以選擇USD，或者，如果SSP支援其他貨幣，則選擇帳戶的DSP貨幣。 |
 | **[!UICONTROL Third Party Billed Fees]** | （可選）要作為不可開單成本跟蹤的靜態第三方費用和交易幣種。<br><br>所有用戶都可以選擇USD，或者，如果SSP支援其他貨幣，則選擇帳戶的DSP貨幣。 **注：** 計費費用反映於 [!UICONTROL Net CPM] 度量。 |
 | **[!UICONTROL Third Party Fee Description]** | （可選）第三方費用的說明。 |
-| **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 航班日期必須包括在促銷航班日期中。 廣告標籤將僅在指定飛行期間返迴響應。<br><br> 最好的做法是建立一個單獨的簡單廣告服務市場活動，持續時間為一年，並在其中構建跟蹤像素。 |
+| **[!UICONTROL Flight Dates]** | 使用此交易的流量的開始和結束日期。 航班日期必須包括在促銷航班日期中。 廣告標籤僅在指定飛行期間返迴響應。<br><br> 最好的做法是建立一個單獨的簡單廣告服務市場活動，持續時間為一年，並在其中構建跟蹤像素。 |
 | **[!UICONTROL Impressions]** | （可選）您預計使用此交易運行的印數估計數。 此值僅用於跟蹤目的，用於在達到交付目標時標籤；發佈者控制實際廣告遞送。 最佳做法是輸入大量印數，使標籤保持活動狀態，DSP以便在需要時可以更新或擴展標籤。 |
 | **[!UICONTROL Deal Name]** | 交易名稱。 輸入名稱或選擇 *[!UICONTROL Auto Generate Deal Name]* 以便根DSP據交易詳細資訊生成名稱。<br><br>自動生成的名稱示例： `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | （只讀）交易中的廣告。 要編輯廣告，請按一下廣告名稱。 要從交易中刪除廣告，請按一下 **[!UICONTROL X]** 地址欄。 |
@@ -82,5 +82,10 @@ But I see:
 >
 >* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [建立 [!UICONTROL Simple Ad Serving] 交易](simple-deal-create.md)
->* [查看事件跟蹤像素 [!UICONTROL Simple Ad Serving] 交易](simple-deal-show-pixels.md)
+>* [編輯 [!UICONTROL Simple Ad Serving] 交易設定](simple-deal-edit.md)
+>* [查看交易的詳細報表](/help/dsp/inventory/deal-view-report.md)
 
+
+<!-- add back when reimplemented:
+>* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+-->

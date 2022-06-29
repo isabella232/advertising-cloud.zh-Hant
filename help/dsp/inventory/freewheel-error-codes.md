@@ -3,10 +3,10 @@ title: 錯誤代碼 [!DNL FreeWheel] 廣告提交
 description: 引用為廣告提交返回的錯誤代碼 [!DNL FreeWheel]。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 | [!DNL Ad with identifier] \&lt;*ad name（廣告名稱）*\> [!DNL was not found.] | 已提交的廣告鍵不存在或在Adobe端未處於活動狀態。 | 查找正確的廣告鍵，然後重新提交廣告。 |
 | [!DNL Pending Submission] | 提交仍在等待。 | 刷新頁面。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## [!DNL Freewheel] API錯誤
 

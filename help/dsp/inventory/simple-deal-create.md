@@ -3,9 +3,9 @@ title: '"建立 [!UICONTROL Simple Ad Serving] 交易"'
 description: 「瞭解如何為 [!UICONTROL Simple Ad Serving] 交易。」
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
+source-git-commit: 089d91f7d1b06e29d27ac95a46834127d19c141d
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
          * 對於新廣告，建立代理 [第三方廣告](/help/dsp/campaign-management/ads/ad-create-multiple.md)。
       >[!NOTE]
-      > 不DSP會真正為你指定的廣告服務。 發行商將提供廣告。
+      > 不DSP服務您指定的廣告。 出版商為廣告服務。
 
       1. 按一下 **[!UICONTROL Next]**.
    1. 在源詳細資訊中，編輯源詳細資訊，然後按一下 **[!UICONTROL Next]**。
@@ -48,7 +48,7 @@ ht-degree: 0%
          * 要將資訊貼上到設備上電子郵件應用程式中的電子郵件消息中，請按一下 **[!UICONTROL Email & Done]** 並選擇電子郵件應用程式。 的 [!UICONTROL CC:] 欄位中 [!DNL Adobe] 支援地址。 然後，您可以將消息發送給發佈者的相應聯繫人。
 
          * 要將資訊複製到剪貼簿，請按一下 **[!UICONTROL Copy Email]。** 然後，您可以手動將內容貼上到電子郵件中，並將其發送給發佈者的相應聯繫人。 必須將副本（抄送：）包含到 `publisher-support-global@adobe.com`。 複製完消息後，按一下 **[!UICONTROL Email & Done]**。
-      1. （如有必要）跟蹤發佈者，查看標籤是否包含相應的宏，以便該標籤與發佈者的廣告伺服器一起使用。
+      1. （如有必要）跟蹤發佈者，查看標籤是否包含相應的宏，以便標籤與發佈者的廣告伺服器一起工作。
    * （可選）手動將事件跟蹤像素發送到發佈者：
 
       1. 在 [!UICONTROL Deals] 視圖，按一下 ![「選項」菜單](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**。
@@ -63,5 +63,9 @@ ht-degree: 0%
 >
 >* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [[!UICONTROL Simple Ad Serving] 設定](simple-deal-settings.md)
->* [查看事件跟蹤像素 [!UICONTROL Simple Ad Serving] 交易](simple-deal-show-pixels.md)
+>* [查看交易的詳細報表](/help/dsp/inventory/deal-view-report.md)
 
+
+<!-- add back when reimplemented:
+>* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+-->

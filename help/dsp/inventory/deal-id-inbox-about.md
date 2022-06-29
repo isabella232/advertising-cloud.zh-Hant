@@ -3,9 +3,9 @@ title: 關於 [!UICONTROL Deal ID Inbox]
 description: 瞭解 [!UICONTROL Deal ID inbox] 功能，它允許您接受您已與發佈商就以下問題談判的私有協定 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (前稱 [!DNL AdX]), and [!DNL Magnite DV+] （以前） [!DNL Rubicon])。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ For each deal, you can select one publisher and one media type (Desktop Video, M
 
 ## 您可以對交易採取的操作
 
-* **審查交易** 驗證SSP是否已發送了正確的發佈者、飛行日期、CPM和其他交易詳細資訊。 如果出版商犯了錯誤，請在外部與他DSP們聯繫，以便他們能夠更正並重新發送交易。
+* **審查交易** 驗證SSP是否已發送了正確的發佈者、飛行日期、CPM和其他交易詳細資訊。 如果出版商犯了錯誤，請在外面聯繫他們DSP，以便他們能夠更正並重新發送交易。
 
 * **接受交易** 在審閱後，它們將不再出現在 [!UICONTROL Deal ID inbox]。 接受的交易列在 [!UICONTROL Inventory] > [!UICONTROL Deals] 並準備在廣告商的廣告投放中瞄準。
 
-* **忽略交易** 不需要的或是主動的。 忽略的交易將移至 [!UICONTROL Ignored Deals] 中 [!UICONTROL Deal ID inbox]作為存檔。 在忽DSP略交易時，不向SSP和發佈者發出警報。
+* **忽略交易** 不需要的或是主動的。 忽略的交易將移至 [!UICONTROL Ignored Deals] 中 [!UICONTROL Deal ID inbox]作為存檔。 在DSP忽略交易時不向SSP和發佈者發出警報。
 
 * **修改已接受交易的詳細資訊** 從 [!UICONTROL Inventory] > [!UICONTROL Deals] (在 [!UICONTROL Deal ID inbox])。 同樣，當出版商向交易發送變更時，廣告商負責實施這些變更 [!UICONTROL Inventory] > [!UICONTROL Deals] 因為 [!UICONTROL Deal ID inbox] 在設定交易後不同步SSP中的更改。
 

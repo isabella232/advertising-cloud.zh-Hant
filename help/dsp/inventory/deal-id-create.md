@@ -3,9 +3,9 @@ title: 手動建立交易ID詳細資訊
 description: 瞭解如何手動輸入交易ID的詳細資訊。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 593bfc03d2dd182b817be9eac4792dfd690132a2
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 1. 輸入 [交易設定](deal-id-settings.md):
 
-   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易詳細資訊和可以訪問交易的廣告商。 對於有保證的交易，您還必須指定計畫的飛行日期和印象估計值，僅用於跟蹤目的。
+   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易詳細資訊和可以訪問交易的廣告商。 對於有保證的交易，您還必須指定計畫的飛行日期和估計的印數，以僅用於跟蹤目的。
 
    1. (僅限管理員用戶；可選) [!UICONTROL Technical] 編輯預設設定。
 
    1. 按一下 **[!UICONTROL Save]**.
 
-1. （僅限保證交易）選擇將用於交易的廣告，並建立預設的計畫保證(PG)放置。
+1. （僅限保證交易）選擇要用於交易的廣告，並建立預設的計畫保證(PG)放置。
 
-   預設的PG放置確保您的交易將始終為每個投標請求返回投標。 如果您未建立預設的PG配售，則任何以交易為目標的配售將不會進行投標，除非它們設定正確。 應始終建立預設PG放置。 在 [!UICONTROL Placements] 視圖，預設PG放置 [!UICONTROL Sub-type] 列值&quot;[!UICONTROL PG Default]&quot;
+   預設的PG設定可確保您的交易始終為每個投標請求返回投標。 如果您未建立預設的PG放置，則任何以此交易為目標的放置都不會進行出價，除非它們設定正確。 應始終建立預設PG放置。 在 [!UICONTROL Placements] 視圖，預設PG放置 [!UICONTROL Sub-type] 列值&quot;[!UICONTROL PG Default]&quot;
 
    您可以根據需要將交易用作附加配售中的庫存目標，但必須正確設定它們才能進行投標。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       1. 選擇廣告商、市場活動和廣告類型。 （可選）選擇用於篩選廣告的廣告狀態。
 
-      1. 從可用廣告清單中，選中將用於交易的每個廣告旁邊的複選框。
+      1. 從可用廣告清單中，選中每個廣告旁邊的複選框以用於交易。
 
       1. 按一下 **[!UICONTROL Apply]**.
    1. 在放置設定螢幕中：
