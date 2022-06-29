@@ -8,15 +8,23 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: f4719ee56f340c5969795dfc482e2b409244757b
+source-git-commit: d72707f9628e8e39eae36115b057d1cd332012f5
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '874'
 ht-degree: 6%
 
 ---
 
 
 # Advertising Cloud DSP 指南 {#dsp}
+
+<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
+      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+-->
+
+<!-- add back to Inventory > SAS section when reimplemented:
+      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+-->
 
 + [新增功能](/help/dsp/home.md)
 + 導言 {#introduction}
@@ -169,19 +177,18 @@ ht-degree: 6%
                + [提交計畫保證交易的廣告以 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [檢查廣告狀態 [!DNL FreeWheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel廣告提交的錯誤代碼](/help/dsp/inventory/freewheel-error-codes.md)
-         + [編輯交易ID設定](/help/dsp/inventory/deal-id-edit.md)
-         + [指定交易ID的放置和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
-         + [編輯有權訪問交易ID的帳戶](/help/dsp/inventory/deal-id-share.md)
-         + [編輯有權訪問交易ID的廣告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
-         + [編輯交易ID的屬性標籤](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
-      + [!UICONTROL Simple Ad Serving] 交易 {#sas}
-         + [關於 [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-         + [建立 [!UICONTROL Simple Ad Serving] 交易](/help/dsp/inventory/simple-deal-create.md)
-         + [[!UICONTROL Simple Ad Serving] 交易設定](/help/dsp/inventory/simple-deal-settings.md)
-         + [查看事件跟蹤像素 [!UICONTROL Simple Ad Serving] 交易](/help/dsp/inventory/simple-deal-show-pixels.md)
+      + [編輯私有交易設定](/help/dsp/inventory/deal-id-edit.md)
+      + [指定私人交易的放置和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
+      + [編輯具有私人交易訪問權限的帳戶](/help/dsp/inventory/deal-id-share.md)
+      + [編輯可訪問私人交易的廣告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
       + [列出私人交易的定位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
-      + [查看私人交易的詳細報告](/help/dsp/inventory/private-deal-view-report.md)
       + [存檔或取消存檔私有交易](/help/dsp/inventory/private-deal-archive-unarchive.md)
+   + [!UICONTROL Simple Ad Serving] 交易 {#sas}
+      + [關於 [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
+      + [建立 [!UICONTROL Simple Ad Serving] 交易](/help/dsp/inventory/simple-deal-create.md)
+      + [編輯 [!UICONTROL Simple Ad Serving] 交易設定](/help/dsp/inventory/simple-deal-edit.md)
+      + [[!UICONTROL Simple Ad Serving] 交易設定](/help/dsp/inventory/simple-deal-settings.md)
+   + [查看交易的詳細報表](/help/dsp/inventory/deal-view-report.md)
 + 自定義報告 {#custom-reports}
    + [關於自定義報告](/help/dsp/reports/report-about.md)
    + [建立自定義報告](/help/dsp/reports/report-create.md)
