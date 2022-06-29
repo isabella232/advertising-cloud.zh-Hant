@@ -3,9 +3,9 @@ title: 放置設定
 description: 請參閱可用放置設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: c2fbaf3381ca4380c18d55931e9f4f662da892af
+source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3277'
 ht-degree: 0%
 
 ---
@@ -397,7 +397,7 @@ ht-degree: 0%
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (配置有 [!UICONTROL DoubleVerify Authentic Brand Safety] 選項)啟用 [!DNL DoubleVerify Authentic Brand Safety]，它使用為指定段ID配置的自定義品牌安全規則阻止投標後印象。 為DSP廣告商設定中指定的段ID向帳戶開單以瞭解使用情況。
 
-## [!UICONTROL Tracking]
+## [!UICONTROL Tracking] {#placement-tracking}
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ ht-degree: 0%
             廣告商的IT部門或其他組可能需要安排標籤部署，或獲得有關標籤部署的資訊。
    1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL 3rd-party Fees]:** （可選）靜態第三方費用率，以每千次印次的不計費成本進行跟蹤。 除非輸入其他值，否則在適用時，將自動應用包層預設值來新建放置。
+**[!UICONTROL 3rd-party Fees]:** （可選）靜態第三方費用率，以每1000個印次的不可計費成本進行跟蹤。 除非輸入其他值，否則在適用時，將自動應用包層預設值來新建放置。
 
 >[!NOTE]
 >
@@ -452,5 +452,5 @@ ht-degree: 0%
 >* [建立放置](placement-create.md)
 >* [編輯放置](placement-edit.md)
 >* [鍵盤快捷鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [市場活動管理常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [關於Campaign Management的常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
 

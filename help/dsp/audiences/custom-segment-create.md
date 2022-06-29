@@ -3,7 +3,7 @@ title: 建立和實施自定義段
 description: 瞭解如何建立和實施自定義網段，以跟蹤暴露在廣告中的用戶或訪問您網頁的用戶。
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: df83d5ad16ad41bcf4ffa6dad3df7c793897636c
+source-git-commit: b6e77b91ad5626bb9ece45ec3f01126715dbe37b
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
          1. 複製標籤為「」的印象跟蹤標籤[!UICONTROL Desktop or mobile ads]&quot;
 
-         1. 將標籤添加到 [!UICONTROL Pixel] 或 [!UICONTROL Event Pixels] 的下界 [[!UICONTROL Tracking] 每個相關放置的設定](/help/dsp/campaign-management/placements/placement-settings.html#tracking) 。 <!-- I'll add cross-reference to ad settings later. -->
+         1. 將標籤添加到 [!UICONTROL Pixel] 或 [!UICONTROL Event Pixels] 的下界 [[!UICONTROL Tracking] 每個相關放置的設定](/help/dsp/campaign-management/placements/placement-settings.html#placement-tracking)。
 
 
 實施跟蹤標籤後，您可以將受眾目標中的段或排除項用於任何位置。
