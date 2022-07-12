@@ -3,9 +3,9 @@ title: 放置設定
 description: 請參閱可用放置設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
+source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3301'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 可以選擇將目標站點和被阻止站點的清單導出為逗號分隔值(CSV)檔案。 要導出清單，請按一下 **[!UICONTROL Export full site list]**，然後根據瀏覽器的常規過程開啟或保存檔案。
 
-<!-- **[!UICONTROL Allow unscreened sites]:** (XXX placements only) Allows you to XXXX.   Optional available for https://advertising.adobe.com/configurator/placement/edit/2432022 -->
+**[!UICONTROL Allow unscreened sites]:** （僅限標準顯示放置）在非審核站點上啟用廣告交付。 當放置目標為私人庫存時，此選項可在被阻止的站點上投放廣告。
 
 **[!UICONTROL Paste list of targeted sites]:** 允許您僅針對特定站點。 啟用此選項後，其他站點目標選項將被禁用。
 

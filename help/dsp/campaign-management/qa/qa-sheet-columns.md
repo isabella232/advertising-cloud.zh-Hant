@@ -3,9 +3,9 @@ title: 已下載/已上載電子錶格中的列
 description: 引用已下載和已上載的Excel QA電子錶格中的列。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | 已排除的站點類別數（如果已指定），或 *[!UICONTROL All]*。 | — |
 | [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | 已排除的站點（如果已指定），或 *[!UICONTROL None]*。 | — |
 | [!UICONTROL Sites] | [!UICONTROL Language] | 目標站點語言。 | — |
-| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | 是否允許在非審核站點上進行廣告傳遞： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*。 | — |
+| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | （僅限標準顯示放置）是否允許在非審計站點上進行廣告交付： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*。 當放置目標為私人庫存時，此選項可在被阻止的站點上投放廣告。 | — |
 | [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | 指定的目標站點數，或 *[!UICONTROL None]*。 | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | 指定目標受眾（如果有），或 *[!UICONTROL None]*。 | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | 已排除的受眾（如果指定了），或 *[!UICONTROL None]*。 | — |

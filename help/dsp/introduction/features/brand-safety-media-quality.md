@@ -3,9 +3,9 @@ title: 品牌安全與媒體質量
 description: 瞭解有關品牌安全和媒體質量功能的更多資訊。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ Advertising Cloud DSP維護一個被全球屏蔽的網站清單，列出在上�
 作為我們的品牌安全計畫的一部分，我們將根除欺詐廣告商的活動，使用圖表阻止站點清單中的度量來篩選所有站點。 所有未通過品牌安全檢查的站點都將添加到全局阻止的站點清單中。 由於Advertising Cloud DSP動態管理此清單，因此根據最新的品牌安全分析，站點可能隨時會在清單上移動或移出。
 
 當您將一個站點作為放置目標包含在全局阻止的站點清單中時，該站點將標籤為紅色感嘆號(!)。 這表示廣告不會在標籤的站點上運行。
+
+>[!NOTE]
+>
+>通過啟用「」，您可以選擇繞過全局阻止站點清單，以獲取附加到可信私人交易的標準顯示廣告。[!UICONTROL Allow unscreened sites]選項 [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)。 如有必要， [!DNL Adobe] 帳戶團隊還可以在交易的發佈者設定中為公共（拍賣級別）交易禁用站點阻止。
 
 #### 帳戶級和廣告商級被阻止的站點清單
 

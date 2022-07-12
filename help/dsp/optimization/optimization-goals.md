@@ -3,7 +3,7 @@ title: 優化目標及其使用方法
 description: 參考可用的優化目標並查看何時使用這些目標。
 feature: DSP Optimization
 exl-id: 9bca09b5-9aa7-4009-a576-9b30cfddfd55
-source-git-commit: 335add8b85fd13941035cc2fffae4006789bd601
+source-git-commit: 3852df160ec242f4755800ed44a30f42dff749fc
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 0%
