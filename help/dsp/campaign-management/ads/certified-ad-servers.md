@@ -3,10 +3,10 @@ title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: eeb7b84e8090f0831aea75a731d022cc099709a3
+source-git-commit: 84a3cbce1993fbb7b1a3d526f3bf8a1266635ce9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 0%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
+| [!DNL Big Ads] |  |  | X |  |  | 立方（案頭）、立方（移動）、卡（案頭）、大展示（案頭）。 請注意，所有4個廣告都以300x250的AdobeUI設定。 僅通過菱鎂礦DV+認證 |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |
@@ -50,7 +51,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] |  |  |  | X | 僅廣 |
 | [!DNL RevJet] |  |  |  | X | 僅廣 |
 | [!DNL Seedtag] |  | X |  |  |  |
-| [!DNL Sizmek] |  | X |  | X | OLV和CTV</br></br>要在UI中呈現標籤，請用 `<a>` 標籤（在開頭和結尾）。 請參閱下面的示例標籤：</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Sizmek] | X | X |  | X | OLV和CTV</br></br>要在UI中呈現標籤，請用 `<a>` 標籤（在開頭和結尾）。 請參閱下面的示例標籤：</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
 | [!DNL Spaceback] |  | X |  |  |  |
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
