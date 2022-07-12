@@ -3,10 +3,10 @@ title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: 84a3cbce1993fbb7b1a3d526f3bf8a1266635ce9
+source-git-commit: d3b2941af8d27447301fd6a4080ebab6352d503d
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
-| [!DNL Big Ads] |  |  | X |  |  | 立方（案頭）、立方（移動）、卡（案頭）、大展示（案頭）。 請注意，所有4個廣告都以300x250的AdobeUI設定。 僅通過菱鎂礦DV+認證 |
+| [!DNL Big Ads] |  |  | X |  | 立方（案頭）、立方（移動）、卡（案頭）、大展示（案頭）。 以300x250設定所有這DSP些廣告類型。 僅通過 [!DNL Magnite DV+]。 |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |
