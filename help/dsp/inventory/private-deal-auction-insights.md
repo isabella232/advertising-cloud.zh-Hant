@@ -1,22 +1,18 @@
 ---
-title: 拍賣真知灼見
-description: 瞭解如何使用拍賣洞察力頁面進行私人交易。
+title: 查看私人交易的拍賣洞察
+description: 瞭解如何使用拍賣洞察力來分析私人交易的交易構成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: null
-source-git-commit: bea7de3fd5e6c5048b83e0eec2a88c0c9b422fc2
+source-git-commit: c2fe96c28004dee03ab94b4e5ed43bfbf3ee6e83
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-# 私人交易的拍賣洞見
+# 查看私人交易的拍賣洞察
 
-Auction Insights是專用庫存的故障排除工具，允許用戶分析擔保和非擔保私有交易的交易組成。
-它通過為來自發佈商的投標請求資料提供透明度而避免了耗時的故障排除步驟。
-使用資料可視化，此工具有助於觀察在特定時間段內為上述拍賣屬性（如下所述）接收的值的趨勢和相對比例。
-
-要訪問私人交易的「拍賣透視」頁，請執行以下步驟：
+Auction Insights是一種故障排除工具，它允許您分析有擔保和無擔保私人交易的交易組成。 使用資料可視化，此工具顯示為 [關鍵拍賣屬性](#auction-attributes) 在特定時間段內。
 
 1. 在主菜單中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals]。**
 
@@ -24,29 +20,31 @@ Auction Insights是專用庫存的故障排除工具，允許用戶分析擔保�
 
 >[!NOTE]
 >
->拍賣洞察」頁面也可通過放置檢查器工具獲得。 要訪問，用戶可以按一下位置檢查器的「清單」頁籤，然後按一下 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易行
+>拍賣洞察力也可通過拍賣 [!UICONTROL Inspector] 工具欄。 開啟它們， [開啟放置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然後按一下 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易排。
 
-在「拍賣透視」頁中，用戶可以查看以下拍賣屬性的面積圖資料可視化：
+## 拍賣屬性 {#auction-attributes}
 
-* **廣告類型：**	拍賣中請求的廣告類型。 例如顯示、音頻等
+區域圖可用於以下拍賣屬性：
 
-* **瀏覽器：**	拍賣發起的瀏覽器。 例如Chrome、Firefox等。
+* **廣告類型：** 拍賣中請求的廣告類型（如「顯示」或「音頻」）。
 
-* **作業系統：**	拍賣始自的作業系統。 例如Android、iOS等
+* **瀏覽器：** 拍賣發起的瀏覽器（如Chrome或Firefox）。
 
-* **設備：** 鍵入拍賣始自的設備。 例如，行動電話、台式機等。
+* **作業系統：** 拍賣發端的作業系統(如Android或iOS)。
 
-* **廣告持續時間：**	拍賣中請求的最大廣告持續時間。 例如15秒、30秒等。
+* **設備類型：** 拍賣始發的設備（如行動電話或案頭）。
 
-* **安全：**	表示拍賣是否需要安全的HTTPS URL建立資產。 例如安全、非安全
+* **廣告持續時間：** 拍賣時請求的最大廣告持續時間（例如15秒或30秒）。
 
-* **MIME類型：**	拍賣中請求的廣告創意MIME類型。 例如mp4、mov等。
+* **安全：** 表示拍賣是否需要安全的HTTPS URL建立資產。 值： <i>安全</i> 或 <i>不安全</i>。
 
-!![auction insights](/help/dsp/assets/Auction Insights.png)
+* **MIME類型：** 拍賣中請求的廣告創意MIME類型（如mp4或mov）。
+
+![拍賣洞察力](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
->用戶還可以在拍賣透視頁面上應用篩選器，通過隔離特定屬性值來縮小分析範圍。
+>可以對特定屬性值應用篩選器以縮小結果範圍。
 
 >[!MORELIKETHIS]
 >

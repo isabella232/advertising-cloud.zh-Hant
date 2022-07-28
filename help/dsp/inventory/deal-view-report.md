@@ -3,9 +3,9 @@ title: 查看私有、 [!UICONTROL On Demand]或 [!UICONTROL Simple Ad Serving] 
 description: 瞭解如何開啟交易級報告。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: f1fce966c8db2f4cde72ecf1cc900f3d5fb1a1a5
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [查看私人交易的拍賣洞察](/help/dsp/inventory/private-deal-auction-insights.md)
 >* [關於 [!DNL On Demand] 高級庫存](on-demand-inventory-about.md)
 >* [關於專用清單](private-inventory-about.md)
 >* [關於 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)

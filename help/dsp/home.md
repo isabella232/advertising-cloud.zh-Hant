@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 99c808d63e1d17d91832fdd38a2bce3fdf90aa44
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 有關詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年7月27日 | 庫存 | Auction Insights是一種新的故障排除工具，它使您能夠分析有擔保和無擔保私人交易的交易組成。 使用資料可視化，此工具顯示在特定時間段內為關鍵拍賣屬性接收的值的趨勢和相對比例。<br><br>通過透明化發佈商的投標請求資料，您可以避免耗時的故障排除步驟。 | 請參閱「」[查看私人交易的拍賣洞察](/help/dsp/inventory/private-deal-auction-insights.md)&quot; |
 | 2022年6月29日 | 庫存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 視圖包括與 [!UICONTROL Campaigns] 視圖，包括其他篩選器、列自定義以及保存自定義視圖、列排序和資料可視化（圖表）視圖的選項。 通過按一下 [!UICONTROL ...] 在交易名後。 | 請參閱「」[庫存功能概覽](/help/dsp/inventory/inventory-overview.md)&quot; |
 |  | 庫存 [!UICONTROL Inspector] | 的 [!UICONTROL Inventory] 頁籤 [!UICONTROL Inspector] 現在包括可定製的資料可視化圖表和擴展的效能度量，如 [!UICONTROL Viewability Rate]。 [!UICONTROL Clicks], [!UICONTROL Yesterday's CPM]。 | 請參閱「」[查看位置的站點、廣告、頻率和清單詳細資訊](/help/dsp/campaign-management/reports/placement-details-view.md)&quot; |
 | 2022年5月31日 | 受眾源 | （Beta功能）Advertising Cloud DSP公司現在可以接收由在客戶資料平台(CDP)內構建的經過驗證的信號組成的第一方資料段。 | 請參閱「」[關於從受眾源激活經過驗證的段](/help/dsp/audiences/sources/source-about.md)&quot; |

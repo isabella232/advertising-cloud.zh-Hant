@@ -3,9 +3,9 @@ title: 關於平台內報告
 description: 瞭解市場活動管理視圖中包含的報告資料。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Inventory]:** 有關該位置所針對的所有交易的資訊。
 
-   的 [!UICONTROL Inventory] 頁籤包括搜索和篩選功能、首頁上可用的相同標準和自定義列視圖選項以及每行中的快速操作按鈕，如 [!UICONTROL Edit] 和 [!UICONTROL View Report]。 的 [!UICONTROL Inventory] 頁籤通過顯示效能統計資訊來啟用快速故障排除 [!UICONTROL Auctions]。 [!UICONTROL Bids], [!UICONTROL Win Rate]。
+   的 [!UICONTROL Inventory] 頁籤通過顯示效能統計資訊來啟用快速故障排除 [!UICONTROL Auctions]。 [!UICONTROL Bids], [!UICONTROL Win Rate]。 該頁籤包括搜索和篩選功能、首頁上可用的相同標準和自定義列視圖選項以及每行中的快速操作按鈕，包括 [!UICONTROL Edit]。 [!UICONTROL View Report], [[!UICONTROL Auction Insights] 進一步排除故障](/help/dsp/inventory/private-deal-auction-insights.md)。
 
 #### 排除清單故障
 

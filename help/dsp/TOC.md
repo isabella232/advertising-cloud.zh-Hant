@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d72707f9628e8e39eae36115b057d1cd332012f5
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '881'
 ht-degree: 6%
 
 ---
@@ -181,6 +181,7 @@ ht-degree: 6%
       + [指定私人交易的放置和廣告](/help/dsp/inventory/deal-id-attach-placements.md)
       + [編輯具有私人交易訪問權限的帳戶](/help/dsp/inventory/deal-id-share.md)
       + [編輯可訪問私人交易的廣告商](/help/dsp/inventory/deal-id-edit-advertisers.md)
+      + [查看私人交易的拍賣洞察](/help/dsp/inventory/private-deal-auction-insights.md)
       + [列出私人交易的定位和廣告](/help/dsp/inventory/private-deal-view-placements.md)
       + [存檔或取消存檔私有交易](/help/dsp/inventory/private-deal-archive-unarchive.md)
    + [!UICONTROL Simple Ad Serving] 交易 {#sas}
