@@ -3,7 +3,7 @@ user-guide-title: Adobe Experience Cloud 的整合
 user-guide-description: 了解 Advertising Cloud DSP 和 Advertising Cloud Search 與其他 Adobe Experience Cloud 產品和服務的整合。
 breadcrumb-title: Experience Cloud 的整合
 index: true
-source-git-commit: c047238f0d92b5218df6245c004607ac1e48e345
+source-git-commit: 93ecc9f881ce8947235211903d242bd39ed6e5d2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 14%
@@ -35,7 +35,7 @@ ht-degree: 14%
       + [使用Advertising CloudID建立 [!DNL Marketing Channels] 處理規則](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [使用 [!DNL Marketing Channels] 使用Advertising Cloud資料](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [為什麼通道資料會因Advertising Cloud和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-+ [與Adobe Audience Manager] {#audience-manager}
++ 與Adobe Audience Manager {#audience-manager}
    + [Advertising Cloud與Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [將Audience Manager段導入Advertising Cloud](/help/integrations/audience-manager/import-audiences.md)
    + 與DSPAdobe Audience Manager的媒體資料整合 {#media-data-ingestion}
