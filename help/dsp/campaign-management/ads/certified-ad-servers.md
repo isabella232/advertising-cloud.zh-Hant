@@ -3,10 +3,10 @@ title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: d3b2941af8d27447301fd6a4080ebab6352d503d
+source-git-commit: 2ef6a194f02748de3f8fee072a5c7eb65ecb80f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
-| [!DNL Big Ads] |  |  | X |  | 立方（案頭）、立方（移動）、卡（案頭）、大展示（案頭）。 以300x250設定所有這DSP些廣告類型。 僅通過 [!DNL Magnite DV+]。 |
+| [!DNL Big Ads] |  |  | X |  | Cube（案頭）、Cube（移動）、Cards（案頭）、Big Reveal（案頭）、Cine-Cube（案頭）、Cinematics（案頭）。 以300x250設定所有這DSP些廣告類型。 僅通過 [!DNL Magnite DV+]。 |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!DNL IAS] | X | X |  | X |  |
 | [!DNL IBM] |  | X |  | X |  |
 | [!DNL Innovid] | X | X |  | X |  |
-| [!DNL InSkin] |  |  | X |  | 必須從Inskin清點網路中的180x150顯示交易ID中提供高影響外觀。 |
+| [!DNL Inskin] |  |  | X |  | Inskin清點網路中的180x150顯示交易ID必須提供高影響力外觀（包括Cavai對話廣告）。 |
 | [!DNL Jivox] |  | X |  |  |  |
 | [!DNL Kargo] |  | X |  |  | 320x50 Anchor、BYOC、Hover、Breakout和Sidek;300x250外流；標準案頭顯示（不需要特定廣告插件ID）。</br></br>聯繫您 [!DNL Adobe] 客戶團隊，幫助設定廣告單位。 |
 | [!DNL Linkstorm] |  |  | X |  |  |
