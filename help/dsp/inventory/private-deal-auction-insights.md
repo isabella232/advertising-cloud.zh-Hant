@@ -2,7 +2,7 @@
 title: 查看私人交易的拍賣洞察
 description: 瞭解如何使用拍賣洞察力來分析私人交易的交易構成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: null
+exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
 source-git-commit: c2fe96c28004dee03ab94b4e5ed43bfbf3ee6e83
 workflow-type: tm+mt
 source-wordcount: '255'
