@@ -1,17 +1,18 @@
 ---
-title: '"[!DNL Adobe][!DNL Audience Analytics] Advertising Cloud客戶」'
-description: 瞭解如何使用 [!DNL Adobe][!DNL Audience Analytics] 用於廣告使用案例
+title: '"[!DNL Adobe] [!DNL Audience Analytics] Advertising Cloud客戶'
+description: 瞭解如何使用 [!DNL Adobe] [!DNL Audience Analytics] 用於廣告使用案例
 feature: Integration with Adobe Audience Manager
-source-git-commit: d83e36847d0e14bc7e83106c0a221680060c2e58
+exl-id: e05ba560-d3d5-4024-b1ba-956e878a2578
+source-git-commit: 4a7766e92ffaa8f32f0fe8941f6c85405bd2df3e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe][!DNL Adobe] Advertising Cloud客戶
+# [!DNL Adobe] [!DNL Audience Analytics] Advertising Cloud客戶
 
-[[!DNL Adobe][!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 是Adobe Audience Manager和Adobe Analytics的整合，允許Audience Manager客戶將資料段發送到 [!DNL Analytics] 以豐富有關站點活動的資訊。
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 是Adobe Audience Manager和Adobe Analytics的整合，允許Audience Manager客戶將資料段發送到 [!DNL Analytics] 以豐富有關站點活動的資訊。
 
 Advertising Cloud客戶可通過 [!DNL Audience Analytics]。 整合允許您：
 
