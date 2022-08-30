@@ -3,16 +3,16 @@ title: 跨設備解決方案
 description: 瞭解有關跨設備功能的詳細資訊。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # 跨設備解決方案
 
-Advertising Cloud DSP整合 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允許您將受眾擴展到個人的所有已知設備，而不只是您的品牌跟蹤的設備。 該整合還提供跨所有設備的頻率封蓋和屬性測量。
+Advertising Cloud DSP與 [!DNL LiveRamp] 允許您將受眾擴展到個人的所有已知設備，而不只是您的品牌跟蹤的設備。 該整合還在所有設備上提供頻率封蓋和屬性測量。
 
 使用支援的基於人員的設備圖時，可以：
 
@@ -20,22 +20,19 @@ Advertising Cloud DSP整合 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允許
 * 通過瞭解和限制個人間的頻率來平衡和暴露。
 * Test策略，可以在不同頻道或設備間公開與轉換觀眾。
 
-## 每個設備圖的優勢
+## A. [!DNL LiveRamp] 設備圖
 
-* [!DNL Adobe Device Co-op]:
-   * 提供參與Adobe廣告商的確定性和概率性資料的可選擇加入池
-   * 提供由案頭和移動Web訪問者支援的強大Cookie ID連接
-   * 包括主要來自美國和加拿大的資料
-   * 沒有使用費
+* 提供確定性資料池，包括離線客戶資料
 
-* [!DNL LiveRamp] 設備圖形：
-   * 提供確定性資料池，包括離線客戶資料
-   * 在cookie ID和移動設備ID之間提供均勻的覆蓋
-   * 包括主要來自美國的資料
-   * 免費進行頻率封頂和屬性測量
-   * 價格為0.35美元的CPM，用於擴展印象(僅通過使用 [!DNL LiveRamp] 設備圖，而不是在目標受眾段中找到的設備上)
+* 在cookie ID和移動設備ID之間提供均勻的覆蓋
 
-      費率反映在您的帳戶費率卡上。
+* 包括主要來自美國的資料
+
+* 免費進行頻率封頂和屬性測量
+
+* 價格為0.35美元的CPM，用於擴展印象(僅通過使用 [!DNL LiveRamp] 設備圖，而不是在目標受眾段中找到的設備上)
+
+   費率反映在您的帳戶費率卡上。
 
 ## 基於人的頻率管理
 
@@ -85,15 +82,7 @@ Advertising Cloud DSP整合 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允許
 
 ### 啟用基於人的屬性測量
 
-如果要激活跨設備屬性測量，請與 [!DNL Adobe] 客戶團隊。 對於 [!DNL Adobe Device Co-op] 帳戶，您需要提供您的簽名 [!DNL Adobe Device Co-op] 合同和Experience Cloud組織ID(以前稱為 [!DNL IMS org ID])。
-
-要查看廣告商帳戶是否配置為使用設備圖表進行屬性測量：
-
-1. 在主菜單中，按一下 **[!UICONTROL Settings]>[!UICONTROL Advertiser]**。
-1. 將游標置於廣告商行上，然後按一下 **[!UICONTROL Edit]**。
-1. 在 [!UICONTROL Integrations] 的子目錄中，查看 [!UICONTROL Cross-Device Attribution] 設定處於活動狀態。
-
-   對於主動整合，表示設備圖。
+如果要激活跨設備屬性測量，請與 [!DNL Adobe] 客戶團隊。
 
 ### 設定跨設備轉換屬性的轉換報告
 

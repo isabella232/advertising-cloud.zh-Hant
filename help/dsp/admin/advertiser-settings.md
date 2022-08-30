@@ -1,9 +1,9 @@
 ---
 title: 廣告商帳戶設定
 description: 請參閱可用廣告商設定的說明。
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -38,25 +38,19 @@ ht-degree: 0%
 
 （可選）連結到帳戶的其他Experience CloudDSP產品。 產品必須與中提供的相同Experience Cloud組織ID關聯 [!UICONTROL Adobe IMS IDs] 的子菜單。
 
-**[!UICONTROL Adobe Media Optimizer]:** (具有Advertising Cloud Search或使用Advertising Cloud轉換像素的廣告主)A [!DNL Search] 與之交DSP換屬性資料的帳戶。
+**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (具有Advertising Cloud Search或使用Advertising Cloud轉換像素的廣告主)A [!DNL Search] 與之交DSP換屬性資料的帳戶。
 
-**[!UICONTROL Adobe Device Co-op or 3rd Party Graph]:** (使用Advertising Cloud轉換像素的廣告商；可選)您可以使用設備圖表，根據Advertising Cloud Search廣告商的帳戶設定進行基於個人的屬性測量。
+**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Adobe Analytics的廣告商；可選；僅適用於使用包括Advertising Cloud轉換跟蹤標籤的 [!DNL EF Redirect] 和僅標籤)一個或多個 [!DNL Analytics] 報告套件，DSP將向其發送從發行商和供應方合作夥伴收集的資料。 分析還會將它從客戶端站點收集的資料發送到DSP。
 
->[!NOTE]
->
-> * 設備屬性僅可用於使用Advertising Cloud轉換跟蹤服務跟蹤的轉換，而不適用於Adobe Analytics跟蹤的轉換。
-> * 您還可以選擇基於個人的設備圖形，以便在 [活動級別](/help/dsp/campaign-management/campaigns/campaign-settings.md)。 然後，可以設定跨設備目標 [放置級別](/help/dsp/campaign-management/placements/placement-settings.md) 還有更多的頻率 [包級別](/help/dsp/campaign-management/packages/package-settings.md) 和 [放置級別](/help/dsp/campaign-management/placements/placement-settings.md)。 跨設備目標和頻率管理不需要廣告商級別的屬性測量；相反，它們使用在市場活動設定中指定的設備圖形。
-
-
-**[!UICONTROL Adobe Analytics]:** (Adobe Analytics的廣告商；可選；僅適用於使用包括Advertising Cloud轉換跟蹤標籤的 [!DNL EF Redirect] 和僅標籤)一個或多個 [!DNL Analytics] 報告套件，DSP將向其發送從發行商和供應方合作夥伴收集的資料。 分析還會將它從客戶端站點收集的資料發送到DSP。
-
-要使資料顯示在報表套件中， [!DNL Search] 廣告商級設定為「」[!UICONTROL Enable tracking for SAINT feeds]必須啟用「 」。 此外，廣告商 [!DNL Analytics] 必須將帳戶配置為從Advertising Cloud接收資料。 <!-- from Advertising Cloud or DSP in particular? Add cross-reference to file in Integrations section. -->
+要使資料顯示在報表套件中， [!DNL Search] 廣告商級設定為「」[!UICONTROL Enable tracking for SAINT feeds]必須啟用「 」。 此外，廣告商 [!DNL Analytics] 必須將帳戶配置為從Advertising Cloud接收資料。
 
 >[!WARNING]
 >
->如果刪除以前連結的報表套件，DSP則不再與該套件交換資料。 預計會看到資料波動。 <!-- Fluctuations where? Clarify -->
+>如果刪除以前連結的報表套件，DSP則不再與該套件交換資料。 預計會看到資料波動。
 
-**[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager或Adobe Analytics的廣告商；可選)Audience Manager或 [!DNL Analytics] 從中獲取DSP廣告商所有Adobe受眾的段元資料、層次資料和唯一受眾資料的帳戶。 這包括以下資料：
+有關與整合的詳細資訊 [!DNL Analytics]，請參閱「」[概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md)&quot;
+
+**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager或Adobe Analytics的廣告商；可選)Audience Manager或 [!DNL Analytics] 從中獲取DSP廣告商所有Adobe受眾的段元資料、層次資料和唯一受眾資料的帳戶。 這包括以下資料：
 
 * Audience Manager段
 * [!DNL Analytics] 發表給Adobe Experience Cloud的部分
