@@ -1,456 +1,456 @@
 ---
-title: 放置設定
-description: 請參閱可用放置設定的說明。
+title: 版位設定
+description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
+source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
 workflow-type: tm+mt
-source-wordcount: '3301'
+source-wordcount: '3304'
 ht-degree: 0%
 
 ---
 
-# 放置設定
+# 版位設定
 
 ## [!UICONTROL Basics]
 
-**[!UICONTROL Placement name]** 放置名稱。
+**[!UICONTROL Placement name]** 版位名稱。
 
 >[!TIP]
->使用適合您情況的命名約定。 建議的命名約定是「*\&lt;campaign name=&quot;&quot;>:\&lt;ad unit=&quot;&quot;>:\&lt;duration>:\&lt;targeting>*&quot;
+>使用對您的情況有意義的命名慣例。 建議的命名慣例是「*\&lt;campaign name=&quot;&quot;>:\&lt;ad unit=&quot;&quot;>:\&lt;duration>:\&lt;targeting>*.&quot;
 
-**[!UICONTROL Status]:** 放置狀態： *[!UICONTROL Active]* （預設）或 *[!UICONTROL Paused]*。
+**[!UICONTROL Status]:** 版位狀態： *[!UICONTROL Active]* （預設）或 *[!UICONTROL Paused]*.
 
 >[!TIP]
->最佳做法是暫停放置，直到您準備好啟動它。
+>最佳實務是暫停版位，直到您準備好啟動為止。
 
-**[!UICONTROL Details]:** （只讀）適用的廣告類型、建立或建立職位安排的帳戶以及父市場活動。 要查看更多詳細資訊，請按一下 **[!UICONTROL Show more]**。
+**[!UICONTROL Details]:** （唯讀）適用的廣告類型、建立或建立版位的帳戶，以及父促銷活動。 若要查看更多詳細資訊，請按一下 **[!UICONTROL Show more]**.
 
-**[!UICONTROL Templates]:** 開啟現有放置模板的清單。 要從模板自動填充目標設定：
+**[!UICONTROL Templates]:** 開啟現有版位範本清單。 若要從範本自動填入目標設定：
 
 1. 執行下列任一操作：
 
-   * 要重新使用模板中的所有目標，請選中模板名稱旁邊的複選框。
+   * 要從模板中重複使用所有目標，請選擇模板名稱旁的複選框。
 
-   * 要從模板中重用單個目標類型，請展開模板名稱，然後選中要重用的目標類型旁邊的複選框。
+   * 要從模板中重複使用單個目標類型，請展開模板名稱，並選擇要重複使用的目標類型旁邊的複選框。
 
 1. 按一下 **[!UICONTROL Apply]**.
 
-**[!UICONTROL Ad specs for forecast]:** （僅視頻廣告格式）廣告持續時間和/或廣告規格，用於計算右側的預測投影。 欄位因廣告類型而異。
+**[!UICONTROL Ad specs for forecast]:** （僅限視訊廣告格式）廣告持續時間和/或廣告規格，用於計算右側的「預測」投影。 欄位依廣告類型而異。
 
-**[!UICONTROL Placement tags]:** （可選）用於幫助您定位此位置的關鍵字或暱稱。
+**[!UICONTROL Placement tags]:** （可選）可協助您找出此位置的關鍵字或暱稱。
 
 ## 目標
 
-**[!UICONTROL Package]:** （可選）分配了放置的包。 按一下 ![編輯](/help/dsp/assets/edit.png) 選擇和現有包或建立新包。 將放置指定給包時， [!UICONTROL Goals] 此部分將更新為航班日期、交貨目標和包中的預算。
+**[!UICONTROL Package]:** （可選）分配了版位的包。 按一下 ![編輯](/help/dsp/assets/edit.png) 選擇和現有包或建立新包。 將版位指派給套件時， [!UICONTROL Goals] 小節會更新為包裝的投放日期、交付目標和預算。
 
-**[!UICONTROL Flight Dates]:** 放置的開始日期和結束日期。 當放置處於活動狀態並分配給活動的包裝或市場活動時，批准的廣告有資格在飛行期間運行。
+**[!UICONTROL Flight Dates]:** 版位的開始日期和結束日期。 當版位處於作用中狀態且指派至作用中的套件或促銷活動時，已核准的廣告有資格在飛行期間執行。
 
-預設情況下，包（如果適用）或市場活動的日期將自動填充。
+預設會自動填入套件（若適用）或促銷活動的日期。
 
 >[!NOTE]
 >
->* 飛行日期必須包括在活動飛行日期和包裝飛行日期中。
+>* 投放日期必須包含在促銷活動投放日期和包裝投放日期中。
 
 
-### 分配給具有包級別調整的包的放置
+### 指派給具有套件層級步調的套件的位置
 
-**[!UICONTROL Placement Funding]:** 如何預算職位安排：
+**[!UICONTROL Placement Funding]:** 如何預算版位：
 
-* *[!UICONTROL Optimize based on performance]:* 在包級別控制預算。
-* *[!UICONTROL Set a fixed budget cap]:* 允許您設定每日、每週、每月或全時的職位安排預算。 輸入值和持續時間(*[!UICONTROL All time]*。 *[!UICONTROL Daily]*。 *[!UICONTROL Weekly]*。 *[!UICONTROL Monthly]*)。
+* *[!UICONTROL Optimize based on performance]:* 控制包級別的預算。
+* *[!UICONTROL Set a fixed budget cap]:* 可讓您設定每日、每週、每月或全時版位預算。 輸入值和持續時間(*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*)。
 
-**[!UICONTROL Max Bid]:** 最多要付1000個印象。
+**[!UICONTROL Max Bid]:** 1000次曝光的最高費用。
 
-**[!UICONTROL Placement Pre-bid Filters]:** 最多5個KPI閾值（例如最小可查看性度量或點擊率），必須滿足這些閾值才能進行投標。 您可以將投標前篩選器用作優化策略，但要瞭解，每個規則都可能限制此配售可以投標的機會。 要添加或編輯篩選器：
+**[!UICONTROL Placement Pre-bid Filters]:** 最多必須符合五個KPI臨界值（例如最低可見度量或點進率），才能進行競標。 您可以使用出價前篩選器作為最佳化策略，但請了解每個規則都可能限制此版位競標的機會。 若要新增或編輯篩選器：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
 1. 執行下列任一操作：
-   * 要添加篩選器：
+   * 若要新增篩選器：
       1. 按一下 **[!UICONTROL Add Filter]**.
-      1. 旁邊 **[!UICONTROL Only bid if]**，選擇度量，然後輸入值。
-   * 要刪除篩選器，請按一下 **[!UICONTROL X]** 的子菜單。
+      1. 旁邊 **[!UICONTROL Only bid if]**，請選取量度，然後輸入值。
+   * 若要移除篩選器，請按一下 **[!UICONTROL X]** 中。
 1. 按一下 **[!UICONTROL Save]**.
 
-請參閱「」中每個預投標篩選器的說明[位置級預投標過濾器及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;
+請參閱「[版位層級出價前篩選器及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot;
 
-### 所有其他放置
+### 所有其他版位
 
-**[!UICONTROL Budget Goal]:** 總預算上限和預算間隔(*[!UICONTROL All time]*。 *[!UICONTROL Daily]*。 *[!UICONTROL Weekly]*。 *[!UICONTROL Monthly]*)。
+**[!UICONTROL Budget Goal]:** 總預算上限和預算間隔(*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*)。
 
-**[!UICONTROL Gross Budget Goal]:** （僅限使用毛利管理的市場活動中的放置）總預算上限和預算間隔(*[!UICONTROL All time]*。 *[!UICONTROL Daily]*。 *[!UICONTROL Weekly]*。 *[!UICONTROL Monthly]*)。
+**[!UICONTROL Gross Budget Goal]:** （僅限使用毛利管理的促銷活動中的刊登版位）總預算上限和預算間隔(*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*)。
 
-**[!UICONTROL Optimization Goal]:**  包的優化目標。 請參閱「」中每個優化目標的說明[優化目標及其使用方法](/help/dsp/optimization/optimization-goals.md)。
+**[!UICONTROL Optimization Goal]:**  套件的最佳化目標。 請參閱「[最佳化目標及其使用方式](/help/dsp/optimization/optimization-goals.md)」。
 
-**[!UICONTROL Target Goal]:** 目標目標，用於跟蹤效能。
+**[!UICONTROL Target Goal]:** 目標目標，用於追蹤效能。
 
 >[!NOTE]
 >
 >此欄位僅是基準，不用於決策。
 
-**[!UICONTROL Pace on]:** 調步將基於：
+**[!UICONTROL Pace on]:** 哪些步調將基於：
 
-* **[!UICONTROL Budget goal]:** （預設）此選項在分配的預算內提供盡可能多的印象。
+* **[!UICONTROL Budget goal]:** （預設）此選項在分配的預算內提供盡可能多的曝光次數。
 
-* **[!UICONTROL Impressions]:** 此選項在指定的時間間隔內達到指定數量之前提供印數。 選擇此選項時，指定印次數和間隔： *[!UICONTROL All time]。* *[!UICONTROL Daily]。* *[!UICONTROL Monthly]。* 或 *[!UICONTROL Weekly]*。
+* **[!UICONTROL Impressions]:** 此選項會傳送曝光次數，直到在指定間隔內達到指定數量為止。 選取此選項時，請指定曝光次數和間隔： *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* 或 *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Max Bid]:** 最多要付1000個印象。
+**[!UICONTROL Max Bid]:** 1000次曝光的最高費用。
 
-**[!UICONTROL Pacing Fill Strategy]:** （僅包級調整的包）如何調整和交付：
+**[!UICONTROL Pacing Fill Strategy]:** （僅具有套件層級步調的套件）如何調整廣告投放速度：
 
-* *[!UICONTROL Even]:* （預設）在每次飛行中均勻地執行交付，目標是在飛行前半段執行50%的交付。
+* *[!UICONTROL Even]:* （預設值）在每次飛行中以50%的交貨目標均勻地進行交貨。
 
-* *[!UICONTROL Frontload]:* 加快交貨速度，在飛行中途完成65-75%。
+* *[!UICONTROL Frontload]:* 加速運送，使得在飛行途中完成65-75%。
 
-* *[!UICONTROL Aggressive Frontload]:* 加快交貨速度，在飛行中途完成75-85%。
+* *[!UICONTROL Aggressive Frontload]:* 加速運送，使得75-85%的航班在中途完成。
 
-**[!UICONTROL Placement Pre-bid Filters]:** （可選）最多必須滿足五個篩選條件才能進行投標。 您可以將投標前篩選器用作優化策略，但請記住，每個規則都可能限制此配售可以投標的機會。 要添加或編輯篩選器：
+**[!UICONTROL Placement Pre-bid Filters]:** （選用）最多必須符合五個篩選條件，才能進行競標。 您可以使用出價前篩選器作為最佳化策略，但請記住，每個規則都可能限制此版位可出價的機會。 若要新增或編輯篩選器：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
 1. 執行下列任一操作：
-   * 要添加篩選器：
+   * 若要新增篩選器：
       1. 按一下 **[!UICONTROL Add Filter]**.
-      1. 旁邊 **[!UICONTROL Only bid if]**，選擇度量，然後輸入值。
-   * 要刪除篩選器，請按一下 **[!UICONTROL X]** 的子菜單。
+      1. 旁邊 **[!UICONTROL Only bid if]**，請選取量度，然後輸入值。
+   * 若要移除篩選器，請按一下 **[!UICONTROL X]** 中。
 1. 按一下 **[!UICONTROL Save]**.
 
 ## [!UICONTROL Geo-Targeting]
 
-**[!UICONTROL Audience Location]:** （可選）要在放置中包括或排除廣告的特定位置。 如果未指定任何位置，則所有位置都是目標位置。
+**[!UICONTROL Audience Location]:** （選用）要在版位中包含或排除廣告的特定位置。 如果您未指定任何位置，則會鎖定所有位置。
 
 >[!NOTE]
 >
->城市和DMA位置不適用於Roku放置。
+>城市和DMA位置無法用於Roku位置。
 
 要指定位置：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
 1. 執行下列任一操作：
-   * 要包括或排除國家、州、市、DMA、聯邦立法區或州立法區：
-      1. 在左欄中選擇位置類型。
-      1. （根據需要）按一下某個位置展開它。
-      1. 在位置旁邊，按一下 *[!UICONTROL Include]* 將其作為目標或 *[!UICONTROL Exclude]* 將其排除為目標。
-   * 要搜索郵遞區號並包括或排除所有選定結果，請執行以下操作：
+   * 要包括或排除國家、州、市、DMA、聯邦立法區或州立法區，請執行以下操作：
+      1. 在左欄中選取位置類型。
+      1. （視需要）按一下位置以展開。
+      1. 在位置旁，按一下 *[!UICONTROL Include]* 將其納入目標或 *[!UICONTROL Exclude]* 將其排除為目標。
+   * 要搜索郵遞區號並包括或排除所有選定結果：
       1. 按一下 **[!UICONTROL Search Postal Code]**.
-      1. 選擇國家/地區。
-      1. 輸入城市名稱，然後按一下 ![編輯](/help/dsp/assets/search.png)。
+      1. 選取國家。
+      1. 輸入城市名稱，然後按一下 ![編輯](/help/dsp/assets/search.png).
       1. 按一下正確的搜索結果。
-      1. 按一下 *[!UICONTROL Include All]* 將所有位置作為目標或 *[!UICONTROL Exclude All]* 將所有位置排除為目標。
-   * 要輸入或貼上郵遞區號，並包括或排除所有郵遞區號：
+      1. 按一下 *[!UICONTROL Include All]* 將所有位置包括為目標或 *[!UICONTROL Exclude All]* 將所有位置排除為目標。
+   * 要輸入或貼上郵遞區號，並包括或排除它們，請執行以下操作：
       1. 按一下 **[!UICONTROL Paste Postal Code]**.
-      1. 選擇國家/地區。
+      1. 選取國家。
       1. 輸入或貼上最多1000個郵遞區號。
-每行包含一個郵遞區號，或輸入多個以逗號或制表符分隔的值。
-      1. 按一下 *[!UICONTROL Include All]* 將所有位置作為目標或 *[!UICONTROL Exclude All]* 將所有位置排除為目標。
-   * 從 [!UICONTROL Included] 或 [!UICONTROL Excluded] 清單，按一下 **[!UICONTROL X]** 的子菜單。
+每行包含一個郵遞區號，或輸入多個值（以逗號或分頁分隔）。
+      1. 按一下 *[!UICONTROL Include All]* 將所有位置包括為目標或 *[!UICONTROL Exclude All]* 將所有位置排除為目標。
+   * 從 [!UICONTROL Included] 或 [!UICONTROL Excluded] 清單，按一下 **[!UICONTROL X]** 位置旁邊。
 1. 按一下 **[!UICONTROL Done]**.
 
 >[!NOTE]
 >
 >* 並非所有國家/地區都有州、市或郵遞區號位置。
->* DMA（指定市場區）、聯邦立法區和州立法區僅可在美國提供。
+>* DMA（指定市場區域）、聯邦立法區和州立法區僅適用於美國地點。
 
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]:** 要包括或排除作為目標的庫存來源。 對於大多數放置類型，預設情況下包括所有庫存類型和每種類型的所有來源。 對於 [!DNL Roku] 放置，您必須指定庫存類型和來源。 您可以從以下類型的庫存中進行選擇：
+**[!UICONTROL Inventory Sources]:** 要包括或排除作為目標的庫存來源。 對於大多數版位類型，預設會包含每種類型的所有庫存類型和所有來源。 針對 [!DNL Roku] 版位，必須指定庫存類型和來源。 您可以從下列庫存類型中選擇：
 
-* [!UICONTROL Public]:（除Roku外的所有放置類型）Advertising Cloud有權訪問的所有開放交換庫存。 您可以包括和排除公用清單。
+* [!UICONTROL Public]:（Roku除外的所有版位類型）Advertising Cloud可存取的所有未結Exchange詳細目錄。 您可以包含和排除公用詳細目錄。
 
-   您可以按源或源查看清單。 按饋送查看清單時，可以按饋送名稱、饋送密鑰或選定的特徵標籤進行搜索。
+   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要金鑰或選取的特性標籤來搜尋。
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]:您現有的私有交易（或現有的私有交易） [!DNL Roku] 交易 [!DNL Roku] 與您所設定的出版商合DSP作。 您可以包括但不排除公共庫存。
+* [!UICONTROL Private] | [!UICONTROL Roku Private]:您現有的私人交易（或現有的私人交易） [!DNL Roku] 交易 [!DNL Roku] 版位)與您已在DSP中設定的發佈者。 您可以包含但不能排除公用詳細目錄。
 
-   您可以按關鍵字、鍵、交易ID或自定義標籤搜索清單。
+   您可以依關鍵字、索引鍵、交易ID或自訂標籤來搜尋清單。
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:全部 [溢價，無擔保 [!UICONTROL On Demand] 庫存](/help/dsp/inventory/on-demand-inventory-about.md) 或 [!UICONTROL On Demand] [!DNL] Roku交易 [!DNL Roku] 配售) [!DNL DSP]。 可以包括和排除 [!UICONTROL On Demand] 庫存。
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]:全部 [溢價，非擔保 [!UICONTROL On Demand] 詳細目錄](/help/dsp/inventory/on-demand-inventory-about.md) (或 [!UICONTROL On Demand] [!DNL] Roku交易 [!DNL Roku] 版位)，您已訂閱 [!DNL DSP]. 您可以包含和排除 [!UICONTROL On Demand] 詳細目錄。
 
-   您可以按源或源查看清單。 按源查看清單時，可以按源名稱、源鍵或選定的發佈者區域、類別標籤或特徵標籤進行搜索。
+   您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要金鑰或選取的發佈者地區、類別標籤或特徵標籤進行搜尋。
 
-要指定庫存目標，請執行以下操作：
+要指定庫存目標定位：
 
-* 要排除庫存類型，請清除名稱旁邊的複選框。
-* 要瞄準庫存類型：
-   1. 選中庫存類型名稱旁邊的複選框。
-   1. （可選）更改源以包括：
-      1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-      1. ([!UICONTROL Public] 和 [!UICONTROL On Demand] 清單)按一下 *[!UICONTROL *View by Source]**或 **[!UICONTROL View by Feed]** 更改源的清單方式。
-      1. （如果適用）根據需要篩選庫存。
-      1. 指定要包括和排除的源：
-         * 要包括 [!UICONTROL Public] 或 [!UICONTROL On Demand] 源，按一下 **[!UICONTROL Include]** 的子菜單。
-         * 要包括 [!UICONTROL Private] 源：
-            * 要在交易中包括所有庫存，請按一下 **[!UICONTROL Include all]** 地址欄。
-            * 要包括單個庫存來源，請展開交易名稱，然後按一下來源名稱旁邊的複選框。
-         * 排除 [!UICONTROL Public] 或 [!UICONTROL On ] 源，按一下 **[!UICONTROL Exclude]** 的子菜單。
-   1. （可選）要將包含目標資訊的CSV檔案下載到瀏覽器的「下載」位置，請按一下 **[!UICONTROL Save & Export]**。
+* 若要排除庫存類型，請清除名稱旁的核取方塊。
+* 要定位庫存類型，請執行以下操作：
+   1. 選擇庫存類型名稱旁的複選框。
+   1. （可選）將來源變更為包括：
+      1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+      1. ([!UICONTROL Public] 和 [!UICONTROL On Demand] 詳細目錄)按一下 *[!UICONTROL *View by Source]**或 **[!UICONTROL View by Feed]** 更改源的列出方式。
+      1. （若適用）視需要篩選庫存。
+      1. 指定要包括和排除的來源：
+         * 若要包含 [!UICONTROL Public] 或 [!UICONTROL On Demand] 源，按一下 **[!UICONTROL Include]** 源名稱旁邊。
+         * 要包括 [!UICONTROL Private] 來源：
+            * 要在交易中包括所有庫存，請按一下 **[!UICONTROL Include all]** 在交易名稱旁邊。
+            * 要包括單個庫存來源，請展開交易名稱，然後按一下來源名稱旁的複選框。
+         * 若要排除 [!UICONTROL Public] 或 [!UICONTROL On ] 源，按一下 **[!UICONTROL Exclude]** 源名稱旁邊。
+   1. （選用）若要將包含目標定位資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下 **[!UICONTROL Save & Export]**.
    1. 按一下 **[!UICONTROL Save]**.
 
 >[!TIP]
 >
->如果您訂閱 [!UICONTROL On Demand] 清單，但找不到要瞄準的發佈者或交易，然後檢查交易的狀態。 有關狀態的詳細資訊，請參閱 [關於 [!DNL On Demand] 高級庫存](/help/dsp/inventory/on-demand-inventory-about.md)。
+>如果您訂閱 [!UICONTROL On Demand] 清單，但無法找到要定位的發行者或交易，然後檢查交易的狀態。 如需狀態的詳細資訊，請參閱 [關於 [!DNL On Demand] Premium庫存](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** （僅視頻放置）排除流出流量。
+**[!UICONTROL Exclude out-stream]:** （僅限視訊版位）排除傳出資料流流量。
 
-外流廣告通常在內容上顯示為彈出窗口或填充到內容中（在本地體驗中），而不是像視頻播放器中的常規視頻廣告那樣出現。
+外流廣告通常在內容上顯示為快顯視窗或填入內容（在原生體驗中），而非視訊播放器中的一般視訊廣告。
 
 ## [!UICONTROL Site Targeting]
 
-**[!UICONTROL Traffic type]:** 目標通信的類型。 選項包括 **[!UICONTROL Websites]** 和 **[!UICONTROL Apps]**。
+**[!UICONTROL Traffic type]:** 要定位的流量類型。 選項包括 **[!UICONTROL Websites]** 和 **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (當 **[!UICONTROL Paste list of targeted sites]** 是 *[!UICONTROL Off]*)目標站點的質量。 第1至第3層都是品牌安全的，並經過地圖編製小組的審DSP核和批准。
+**[!UICONTROL Site tier]:** (可於 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)要定位的網站品質。 第1至第3層均為品牌安全，且已由DSP對應團隊審核及核准。
 
-* *[!UICONTROL Tier 1]:* 具有全國認知度的高級站點和應用程式。
-* *[!UICONTROL Tier 2]:* 目標是第1層，以及比第1層更不為人所知的高質量站點和應用程式。
-* *[!UICONTROL Tier 3]:* 目標是第1至2層，以及符合特定用戶需要的合法且品牌安全的站點和應用程式。 使用第3層進行訪問或資料目標購買。
-* *[!UICONTROL All Sites]:* 目標層1-3和未經過篩選或分類的新庫存，您可以使用這些庫存進行訪問。
+* *[!UICONTROL Tier 1]:* 國家認可的高級站點和應用程式。
+* *[!UICONTROL Tier 2]:* 目標是第1層，以及比第1層更不為人所熟知的高質量站點和應用程式。
+* *[!UICONTROL Tier 3]:* 鎖定第1至第2層，以及適合特定受眾的合法且品牌安全的網站和應用程式。 使用第3層進行觸及或資料目標鎖定購買。
+* *[!UICONTROL All Sites]:* 目標層1-3和尚未篩選或分類的新庫存，您可以用於觸及。
 
 >[!NOTE]
 >
->庫存特定於放置中的廣告單位。
+>詳細目錄是版位中的廣告單位。
 
 >[!TIP]
 >
->對於績效市場活動，最佳做法是選擇 *[!UICONTROL All Sites]*。
+>對於績效促銷活動，最佳實務是選取 *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (可選；可用 **[!UICONTROL Paste list of targeted sites]** 是 *[!UICONTROL Off]*)所選站點層中的站點類別，以包括或排除（但不包括兩者）作為目標。 從Advertising Cloud根據站點主題映射的垂直站點清單中進行選擇：
+**[!UICONTROL Site Categories]:** (可選；可用時間 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)所選網站層級內的網站類別，以包含或排除（但不包括兩者）作為目標。 從Advertising Cloud已根據網站主旨對應的垂直網站清單中選擇：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 指定要包括或排除的站點類別：
-   * 要包括站點類別：
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 指定要包括或排除的網站類別：
+   * 要包括網站類別：
       1. 按一下 **[!UICONTROL Include categories]**.
-      1. 選中每個目標類別旁邊的複選框。
-   * 要排除站點類別，請執行以下操作：
+      1. 選取每個要定位的類別旁的核取方塊。
+   * 要排除網站類別：
       1. 按一下 **[!UICONTROL Exclude categories]**.
-      1. 選中要排除的每個類別旁邊的複選框。
-1. （可選）要將包含目標資訊的CSV檔案下載到瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**。
+      1. 選取要排除之每個類別旁的核取方塊。
+1. （選用）若要將包含目標定位資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**.
 1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (可選；可用 **[!UICONTROL Paste list of targeted sites]** 是 *[!UICONTROL Off]*)要排除的站點。 您可以搜索和選擇站點，或輸入或貼上域名：
+**[!UICONTROL Exclude Sites]:** (可選；可用時間 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)要排除的網站。 您可以搜尋和選取網站，或輸入或貼上網域名稱：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 指定站點：
-   * 要搜索站點，請執行以下操作：
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 指定網站：
+   * 要搜索網站：
       1. 按一下 **[!UICONTROL Search]**.
-      1. 輸入關鍵字、選擇站點層和/或選擇站點類別。
-      1. 在搜索結果中，選擇要排除的站點：
-         * 要排除單個站點，請選中其旁邊的複選框。
-         * （當50個以上結果可用時）要排除前50個結果，請按一下 **[!UICONTROL Exclude these 50]**。 要排除所有搜索結果，請按一下 **[!UICONTROL Exclude these \<*非&#x200B;*\>]**。
-   * 要輸入域名：
+      1. 輸入關鍵字、選擇站點層，和/或選擇站點類別。
+      1. 在搜尋結果中，選取要排除的網站：
+         * 若要排除個別網站，請選取其旁的核取方塊。
+         * （可用結果超過50個時）若要排除前50個結果，請按一下 **[!UICONTROL Exclude these 50]**. 若要排除所有搜尋結果，請按一下 **[!UICONTROL Exclude these \<*NN *\>]**.
+   * 要輸入域名，請執行以下操作：
       1. 按一下 **[!UICONTROL Paste]**.
-      1. 在單獨的行上輸入一個或多個域名。
+      1. 在單行上輸入一個或多個域名。
       1. 按一下 **[!UICONTROL Exclude All]**.
-1. 按一下 **[!UICONTROL Done]** 你完事了。
+1. 按一下 **[!UICONTROL Done]** 等你做完。
 
 >[!NOTE]
 >
->* 除Advertising Cloud DSP外，還應用帳戶級和廣告商級被阻止的網站清單 [全局阻止的站點清單](/help/dsp/introduction/features/brand-safety-media-quality.md)包括廣告認為不安全的網站。
->* 阻止的站點清單始終覆蓋目標站點清單。 如果放置既排除廣告又包括同一廣告目標，則排除該目標。
+>* 除了Advertising Cloud DSP外，也會套用帳戶層級和廣告商層級封鎖的網站清單 [全局阻止的站點清單](/help/dsp/introduction/features/brand-safety-media-quality.md)，包括廣告認為不安全的網站。
+>* 被阻止的站點清單始終覆蓋目標站點清單。 如果版位同時排除和包含廣告的相同目標，則會排除該目標。
 
 
-**[!UICONTROL Language]:** （可選）要目標的單種語言。
+**[!UICONTROL Language]:** （選用）要定位的單一語言。
 
-**[!UICONTROL Site List Preview]:** （只讀）放置的所有目標站點和被阻止的站點。
+**[!UICONTROL Site List Preview]:** （唯讀）用於放置的所有已鎖定和已封鎖的網站。
 
-可以選擇將目標站點和被阻止站點的清單導出為逗號分隔值(CSV)檔案。 要導出清單，請按一下 **[!UICONTROL Export full site list]**，然後根據瀏覽器的常規過程開啟或保存檔案。
+您可以選擇將目標網站和封鎖網站的清單匯出為逗號分隔值(CSV)檔案。 若要匯出清單，請按一下 **[!UICONTROL Export full site list]**，然後根據瀏覽器的正常程式開啟或儲存檔案。
 
-**[!UICONTROL Allow unscreened sites]:** （僅限標準顯示放置）在非審核站點上啟用廣告交付。 當放置目標為私人庫存時，此選項可在被阻止的站點上投放廣告。
+**[!UICONTROL Allow unscreened sites]:** （僅限標準顯示版位）啟用非稽核網站的廣告傳送。 當版位鎖定私人詳細目錄時，此選項可能會在封鎖的網站上傳送廣告。
 
-**[!UICONTROL Paste list of targeted sites]:** 允許您僅針對特定站點。 啟用此選項後，其他站點目標選項將被禁用。
+**[!UICONTROL Paste list of targeted sites]:** 可讓您僅鎖定特定網站。 啟用此選項後，其他網站定位選項將被禁用。
 
-**[!UICONTROL Sites]:** (當 **[!UICONTROL Paste list of targeted sites]** 是 *[!UICONTROL On]*)目標站點。 您可以搜索和選擇站點，或輸入或貼上域名：
+**[!UICONTROL Sites]:** (可於 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL On]*)要定位的網站。 您可以搜尋和選取網站，或輸入或貼上網域名稱：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 指定站點：
-   * 要搜索站點，請執行以下操作：
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 指定網站：
+   * 要搜索網站：
       1. 按一下 **[!UICONTROL Search]**.
-      1. 輸入關鍵字、選擇站點層和/或選擇站點類別。
-      1. 在搜索結果中，選擇要包括的站點：
-         * 要排除單個站點，請選中其旁邊的複選框。
-         * （當50個以上結果可用時）要包括前50個結果，請按一下 **[!UICONTROL Include these 50]**。 要包括所有搜索結果，請按一下 **[!UICONTROL Include these \<*非&#x200B;*\>]**。
-   * 要輸入域名：
-      1. 按一下 **[!UICONTROL Paste]**。
-      1. 在單獨的行上輸入一個或多個域名。
+      1. 輸入關鍵字、選擇站點層，和/或選擇站點類別。
+      1. 在搜尋結果中，選取要包含的網站：
+         * 若要排除個別網站，請選取其旁的核取方塊。
+         * （可用結果超過50個時）若要納入前50個結果，請按一下 **[!UICONTROL Include these 50]**. 要包括所有搜索結果，請按一下 **[!UICONTROL Include these \<*NN *\>]**.
+   * 要輸入域名，請執行以下操作：
+      1. 按一下 **[!UICONTROL Paste]**.
+      1. 在單行上輸入一個或多個域名。
       1. 按一下 **[!UICONTROL Include All]**.
 1. 按一下 **[!UICONTROL Done]**.
 
 ## [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Included Audiences]:** 該職位的任何受眾目標，包括 [第三方段、第一方段、Adobe段、自定義段和已保存的受眾](/help/dsp/audiences/audience-settings.md)。 還會顯示所有選定段和已保存受眾的總和和活動的重複資料消除受眾大小。 您可以選擇現有受眾，建立稍後可以重新使用的新受眾，或選擇特定受眾群：
+**[!UICONTROL Included Audiences]:** 版位的任何對象目標，包括 [協力廠商區段、第一方區段、Adobe區段、自訂區段和已儲存的對象](/help/dsp/audiences/audience-settings.md). 也會顯示所有選取區段和已儲存對象之間去重複化的對象總數與作用中的對象大小。 您可以選取現有對象、建立新對象以供稍後重複使用，或選取特定對象區段：
 
-* 要選擇現有受眾，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下 [!UICONTROL Included Audiences]，然後選擇觀眾。
-* 要建立新受眾，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下 [!UICONTROL Included Audiences]，然後選擇 **[!UICONTROL + Create Audience]**。 有關說明，請參見 [建立可重用的受眾](/help/dsp/audiences/reusable-audience-create.md)，從步驟3開始。
-* 要選擇特定受眾段，請按一下 **[!UICONTROL Select segments for this placement only]**。 選擇段邏輯；有關說明，請參閱「」中的步驟6[建立可重用的受眾](/help/dsp/audiences/reusable-audience-create.md)&quot; 完成後，按一下 **保存**。
+* 若要選取現有對象，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下一頁 [!UICONTROL Included Audiences]，然後選取對象。
+* 若要建立新對象，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下一頁 [!UICONTROL Included Audiences]，然後選取 **[!UICONTROL + Create Audience]**. 如需指示，請參閱 [建立可重複使用的受眾](/help/dsp/audiences/reusable-audience-create.md)，從步驟3開始。
+* 若要選取特定對象區段，請按一下 **[!UICONTROL Select segments for this placement only]**. 選取區段邏輯；如需指示，請參閱[建立可重複使用的受眾](/help/dsp/audiences/reusable-audience-create.md).&quot; 完成後，按一下 **儲存**.
 
-**[!UICONTROL Excluded Audiences]:** 要排除的播放對象，包括與 [第三方段、第一方段、Adobe段、自定義段和已保存的受眾](/help/dsp/audiences/audience-settings.md)。 還顯示所有排除的受眾的總和和活動的重複資料消除受眾大小。 您可以選擇現有受眾或建立新受眾，以後可以重新使用：
+**[!UICONTROL Excluded Audiences]:** 為版位排除的任何對象，包括 [協力廠商區段、第一方區段、Adobe區段、自訂區段和已儲存的對象](/help/dsp/audiences/audience-settings.md). 也會顯示所有已排除對象之已刪除重複的對象總計和作用中大小。 您可以選取現有對象或建立新對象，以便稍後重複使用：
 
-* 要選擇現有受眾，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下 [!UICONTROL Excluded Audiences]，然後選擇觀眾。
-* 要建立新受眾，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下 [!UICONTROL Excluded Audiences]，然後選擇 **+建立受眾**。 有關說明，請參見 [建立可重用的受眾](/help/dsp/audiences/reusable-audience-create.md)，從步驟3開始。
+* 若要選取現有對象，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下一頁 [!UICONTROL Excluded Audiences]，然後選取對象。
+* 若要建立新對象，請按一下 ![選擇](/help/dsp/assets/chevron-down.png) 下一頁 [!UICONTROL Excluded Audiences]，然後選取 **+建立對象**. 如需指示，請參閱 [建立可重複使用的受眾](/help/dsp/audiences/reusable-audience-create.md)，從步驟3開始。
 
-**[!UICONTROL Cross Device Targeting]:** (當您至少選擇一個段或受眾和 [為基於人的跨設備目標配置活動](/help/dsp/campaign-management/campaigns/campaign-settings.md)。 允許您將目標擴展到人員的所有已知設備（根據市場活動設定中指定的設備圖表），甚至不在指定段中的設備。 根據市場活動指定的圖表，可以適用費用。 設備圖形資料目前僅在北美可用。
+**[!UICONTROL Cross Device Targeting]:** (當您選取至少一個區段或對象時，可用 [已針對以人物為基礎的跨裝置鎖定目標設定促銷活動](/help/dsp/campaign-management/campaigns/campaign-settings.md). 可讓您將目標延伸到所有人員的已知裝置（根據促銷活動設定中指定的裝置圖表），甚至不在指定區段的裝置。 視為促銷活動指定的圖表而定，可能需支付費用。 裝置圖表資料目前僅在北美地區提供。
 
-**[!UICONTROL Placement Cap]:** （可選）唯一設備或人員的次數(取決於指定的 [!UICONTROL Cross Device Level])將從該位置獲得廣告。 選項包括 *[!UICONTROL Unlimited]* 或每天、每週或每月的特定金額。
+**[!UICONTROL Placement Cap]:** （選用）不重複裝置或人員的次數(取決於指定 [!UICONTROL Cross Device Level] （針對促銷活動）將從版位提供廣告。 選項包括 *[!UICONTROL Unlimited]* 或每天、每週或每月的特定數量。
 
 >[!NOTE]
 >
-> 您可以在市場活動、包裝和放置層設定頻率上限。 會DSP尊重市場活動等級中最嚴格的頻率限制。
+> 您可以在促銷活動、封裝和位置層級設定頻率上限。 DSP將遵循促銷活動階層中最嚴格的頻率上限。
 
-**[!UICONTROL Secondary Cap]:** (可選；包含數字時可用 [!UICONTROL Placement Cap])在主放置帽的界限內附加限制。 選擇印數和時間段（例如每12小時3次）。
+**[!UICONTROL Secondary Cap]:** (可選；包含數值時可用 [!UICONTROL Placement Cap])主要放置上限範圍內的其他限制。 選取曝光次數和時段（例如每12小時3次）。
 
-**[!UICONTROL Day Parting]:** （可選）一週中特定的天數和一天中可能運行廣告的時間。 要指定日分隔間隔：
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 選擇適用的時區。
+**[!UICONTROL Day Parting]:** （選用）廣告可能執行的一週特定天數和一天中的時間。 要指定時段間隔：
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 選取適用的時區。
 1. 指定間隔：
-   * 要選擇預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**, *[!UICONTROL Weekdays]*。 *[!UICONTROL Morning]*。 *[!UICONTROL Lunch]*。 *[!UICONTROL Dinner]*&#x200B;或 *[!UICONTROL Prime]* （黃金時段）。
-   * 要手動選擇間隔，請在單元格內按一下，然後可選擇拖動以選擇間隔。
+   * 要選擇預設間隔，請按一下其中一個間隔按鈕。 選項包括*[!UICONTROL Weekends]**, *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]*, *[!UICONTROL Dinner]*，或 *[!UICONTROL Prime]* (primetime)。
+   * 若要手動選取間隔，請在儲存格內按一下，並可選擇拖曳以選取間隔。
 1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (可選；可用於配置有 [!DNL Comscore] 和 [!DNL Grapeshot] 段)特定段名稱或ID [!DNL Comscore] 和 [!DNL Grapeshot] 作為目標。 此功能可能需要額外費用。 要激活此功能並設定主題段，請與 [!DNL Adobe] 客戶團隊。
+**[!UICONTROL Topic Targeting]:** (可選；可用於配置有 [!DNL Comscore] 和 [!DNL Grapeshot] 區段)特定區段名稱或ID [!DNL Comscore] 和 [!DNL Grapeshot] 包含作為目標。 此功能可能需額外付費。 若要啟用此功能並設定主題區段，請連絡您的 [!DNL Adobe] 客戶團隊。
 
-要指定主題目標：
+要指定主題目標定位：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 指定目標段：
-   1. 在左欄中，選擇合作夥伴(*[!UICONTROL Comscore]* 或 *[!UICONTROL Grapeshot]*)。
-   1. 在輸入欄位中，輸入段名稱或段ID。
-1. （可選）要將包含主題資訊的CSV檔案下載到瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 指定要定位的區段：
+   1. 在左欄中，選取合作夥伴(*[!UICONTROL Comscore]* 或 *[!UICONTROL Grapeshot]*)。
+   1. 在輸入欄位中，輸入區段名稱或區段ID。
+1. （選用）若要將包含主題資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**.
 1. 按一下 **[!UICONTROL Save]**.
 
 >[!TIP]
 >
->* 主題目標限制了放置位置可以投標的庫存，因此，僅將主題目標用於購買總量的一小部分。
+>* 主題目標定位會限製版位可競標的詳細目錄，因此，主題目標定位只適用於整體購買的一小部分。
 >
->* 在上的段內設定任何負目標 [!DNL Comscore] 或 [!DNL Grapeshot]。
+>* 在上的區段內設定任何負面定位 [!DNL Comscore] 或 [!DNL Grapeshot].
 
 
-**[!UICONTROL Device Targeting]:** （可選）特定設備資訊，包括設備類型、製造商、作業系統、瀏覽器和連接類型，以包括和排除作為目標。 要指定設備目標：
+**[!UICONTROL Device Targeting]:** （可選）要包括和排除作為目標的特定裝置資訊，包括裝置類型、製造商、作業系統、瀏覽器和連接類型。 要指定設備目標定位：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 指定要包括和排除的設備詳細資訊：
-   1. 在左欄中，選擇類別。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 指定要包含和排除的裝置詳細資訊：
+   1. 在左欄中，選取類別。
    1. 指定目標：
-      * 要包括值，請按一下 **[!UICONTROL Include]** 值名稱旁邊。
-      * 要排除值，請按一下 **[!UICONTROL Exclude]** 值名稱旁邊。
-1. （可選）要將帶有設備目標資訊的CSV檔案下載到瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**。
+      * 若要包含值，請按一下 **[!UICONTROL Include]** 值名稱旁。
+      * 若要排除值，請按一下 **[!UICONTROL Exclude]** 值名稱旁。
+1. （選用）若要將含有裝置定位資訊的CSV檔案下載至瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**.
 1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL ISP Targeting]:** （可選）特定網際網路服務提供商(ISP)要麼包括或排除（但不包括兩者）作為目標。 要指定ISP目標：
+**[!UICONTROL ISP Targeting]:** （可選）特定網際網路服務提供者(ISP)，可納入或排除（但不包括兩者）作為目標。 要指定ISP目標：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
-1. 指定要包括或排除的ISP:
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
+1. 指定要包含或排除的ISP:
    * 要包括ISP:
       1. 按一下 **[!UICONTROL Include ISPs]**.
-      1. （可選）按關鍵字篩選清單。
-      1. 選中每個目標ISP旁邊的複選框。
-   * 要排除ISP:
+      1. （選用）依關鍵字篩選清單。
+      1. 選取要鎖定的每個ISP旁的核取方塊。
+   * 若要排除ISP:
       1. 按一下 **[!UICONTROL Exclude ISPs]**.
-      1. （可選）按關鍵字篩選清單。
-      1. 選中要排除的每個ISP旁邊的複選框。
-1. （可選）要將ISP目標資訊的CSV檔案下載到瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**。
+      1. （選用）依關鍵字篩選清單。
+      1. 選取要排除的每個ISP旁的核取方塊。
+1. （選用）若要下載CSV檔案（其中包含ISP目標定位資訊）至瀏覽器的「下載」位置，請按一下 **[!UICONTROL Export]**.
 1. 按一下 **[!UICONTROL Save]**.
 
 ## [!UICONTROL Brand Safety and Media Targeting]
 
-**[!UICONTROL Contextual filtering]:** 類型 [!DNL Comscore]。 [!DNL DoubleVerify]。 [!DNL Integral Ad Science], [!DNL Peer39] 要應用的上下文篩選器。 已為新廣告投放選擇廣告商級預設值，但您可以更改以下設定：
+**[!UICONTROL Contextual filtering]:** 類型 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]，和 [!DNL Peer39] 要套用的內容篩選。 系統會為新版位選取廣告商層級的預設值，但您可以變更設定：
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block sites that are]:** （可選）預設情況下要阻止的一種或多種類型的庫存上下文。 可能需要額外收費。
+   * **[!UICONTROL Block sites that are]:** （可選）預設要封鎖的一或多種庫存內容類型。 可能需支付額外費用。
 
 * [!UICONTROL Peer 39]:
 
-   * **目標站點：** （可選）預設情況下目標的一種或多種庫存屬性類型。 可能需要額外收費。
+   * **目標站點包括：** （可選）預設要定位的一或多種庫存屬性類型。 可能需支付額外費用。
 
 * [!UICONTROL ComScore]:
 
-   * **阻止以下站點：** （可選）預設情況下要阻止的一種或多種庫存屬性類型。 可能需要額外收費。
+   * **阻止以下站點：** （可選）預設要封鎖的一或多種庫存屬性類型。 可能需支付額外費用。
 
 * [!UICONTROL Integral Ad Science]
 
-   * **[!UICONTROL Adult Content]:** （可選）預設情況下要阻止廣告的成人內容的程度： *[!UICONTROL Do Not Block]* （預設值）, *[!UICONTROL Standard]*&#x200B;或 *[!UICONTROL Strict]*。 可能需要額外收費。
+   * **[!UICONTROL Adult Content]:** （可選）預設要封鎖廣告的成人內容程度： *[!UICONTROL Do Not Block]* （預設）、 *[!UICONTROL Standard]*，或 *[!UICONTROL Strict]*. 可能需支付額外費用。
 
-   * **[!UICONTROL Alcohol Content]:** （可選）預設情況下要阻止廣告的酒精含量程度： *[!UICONTROL Do Not Block]* （預設值）, *[!UICONTROL Standard]*&#x200B;或 *[!UICONTROL Strict]*。 可能需要額外收費。
+   * **[!UICONTROL Alcohol Content]:** （可選）預設要封鎖廣告的酒精含量程度： *[!UICONTROL Do Not Block]* （預設）、 *[!UICONTROL Standard]*，或 *[!UICONTROL Strict]*. 可能需支付額外費用。
 
-**[!UICONTROL Pre-bid fraud blocking]:** 根據通過測量的欺詐性流量和可疑活動來阻止的站點類型 [!DNL DoubleVerify]。 [!DNL Integral Ad Science], [!DNL Peer39]。 已為新廣告投放選擇廣告商級預設值，但您可以更改以下設定：
+**[!UICONTROL Pre-bid fraud blocking]:** 根據欺詐性流量和通過 [!DNL DoubleVerify], [!DNL Integral Ad Science]，和 [!DNL Peer39]. 系統會為新版位選取廣告商層級的預設值，但您可以變更設定：
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 預設情況下，會阻止所有100%的無效通信，包括快取設備上的通信，以用於新放置。 可能需要額外收費。
+   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 依預設，會封鎖所有100%無效流量，包括高位裝置上的新版位流量。 可能需支付額外費用。
 
-   * **[!UICONTROL Also block sites with]:** （可選）預設情況下會導致阻止廣告的額DSP外欺詐和無效流量：  *[!UICONTROL None]* （預設值，不阻止其他通信）, *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*。 *[!UICONTROL >4% Average Fraud/IVT levels]*。 *[!UICONTROL >6% Average Fraud/IVT levels]*。 *[!UICONTROL >10% Average Fraud/IVT levels]*&#x200B;或 *[!UICONTROL >25% Average Fraud/IVT levels]*。 可能需要額外收費。
+   * **[!UICONTROL Also block sites with]:** （選用）預設情況下，會導致DSP封鎖廣告的額外欺詐和無效流量：  *[!UICONTROL None]* （預設值，不會封鎖其他流量）, *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*，或 *[!UICONTROL >25% Average Fraud/IVT levels]*. 可能需支付額外費用。
 
 * [!UICONTROL Peer 39]:
 
-   * **[!UICONTROL Block sites that are]:** （可選）預設情況下導致阻止廣告的DSP一種或多種欺詐： *[!UICONTROL Fraud]* （它阻止所有站點存在欺詐） *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*，和 *[!UICONTROL Fraud: Zero Ads]*。 可能需要額外收費。
+   * **[!UICONTROL Block sites that are]:** （選用）依預設會導致DSP封鎖廣告的一或多種欺詐類型： *[!UICONTROL Fraud]* （會以欺詐方式阻止所有網站）, *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*，和/或 *[!UICONTROL Fraud: Zero Ads]*. 可能需支付額外費用。
 
 * [!UICONTROL Integral Ad Science]:
 
-   * **[!UICONTROL Block sites that are]:** （可選）預設情況下導致阻止廣告的可疑網DSP站或應用活動類型： *[!UICONTROL None]* （預設，不根據可疑活動阻止廣告）, *[!UICONTROL Suspicious Activity - High Risk]*&#x200B;或 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*。 可能需要額外收費。
+   * **[!UICONTROL Block sites that are]:** （可選）預設導致DSP封鎖廣告的可疑網站或應用程式活動類型： *[!UICONTROL None]* （預設值，不會根據可疑活動封鎖廣告）, *[!UICONTROL Suspicious Activity - High Risk]*，或 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 可能需支付額外費用。
 
 **[!UICONTROL Ads.txt filtering]:**
 
-哪個級別 [Ads.txt](https://iabtechlab.com/ads-txt-about/) 通過利用每個出版商的授權數字銷售商清單來使用的預報價過濾。 已為新廣告投放選擇廣告商級預設值，但您可以更改以下設定：
+哪一級 [Ads.txt](https://iabtechlab.com/ads-txt-about/) 透過運用每個發行者的「已授權數位賣家」清單來預先出價篩選。 系統會為新版位選取廣告商層級的預設值，但您可以變更設定：
 
-* *[!UICONTROL Opt out of ads.txt (default)]*:向所有賣家購買存貨。
-* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*:優先購買域授權直銷商和轉銷商的庫存。
-* *[!UICONTROL Ads.txt sellers only]*:僅從域的授權直銷商和轉銷商購買庫存。
-* *[!UICONTROL Ads.txt sellers only]*:僅從域的授權直銷商購買庫存。
+* *[!UICONTROL Opt out of ads.txt (default)]*:向所有賣家購買庫存。
+* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*:優先購買域授權的直銷商和經銷商的庫存。
+* *[!UICONTROL Ads.txt sellers only]*:僅向域授權的直銷商和經銷商購買庫存。
+* *[!UICONTROL Ads.txt sellers only]*:僅向域的授權直銷商購買庫存。
 
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:** (配置有 [!UICONTROL DoubleVerify Authentic Brand Safety] 選項)啟用 [!DNL DoubleVerify Authentic Brand Safety]，它使用為指定段ID配置的自定義品牌安全規則阻止投標後印象。 為DSP廣告商設定中指定的段ID向帳戶開單以瞭解使用情況。
+**[!UICONTROL DoubleVerify Authentic Brand Safety]:** (以 [!UICONTROL DoubleVerify Authentic Brand Safety] 選項)啟用 [!DNL DoubleVerify Authentic Brand Safety]，這會使用為指定區段ID設定的自訂品牌安全規則來封鎖出價後曝光數。 DSP會向您收取帳戶，以了解在廣告商設定中指定之區段ID的使用情形。
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
 >[!NOTE]
 >
->([!DNL Roku] 放置)第三方跟蹤供應商已獲得批准 [!DNL Roku] 包括 [!DNL Acxiom]。 [!DNL comScore]。 [!DNL Data Plus Math]。 [!DNL Experian]。 [!DNL Factual]。 [!DNL Kantar]。 [!DNL Marketing Evolution]。 [!DNL Neustar]。 [!DNL Nielsen]。 [!DNL Nielsen Catalina Solutions]。 [!DNL NinthDecimal]。 [!DNL Oracle]。 [!DNL Placed]。 [!DNL Polk], [!DNL Research Now]。
+>([!DNL Roku] 版位)經第三方追蹤廠商核准 [!DNL Roku] 包括 [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]，和 [!DNL Research Now].
 
-**[!UICONTROL Event Pixels]:** （可選）預設情況下將附加到放置中所有新廣告的第三方事件跟蹤像素。 要指定事件像素：
+**[!UICONTROL Event Pixels]:** （選用）依預設會附加至版位中所有新廣告的第三方事件追蹤像素。 若要指定事件像素：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
 1. 執行下列任一操作：
-   * 要選擇現有像素，請選中像素行中的複選框。
-   * 要建立新像素：
+   * 若要選取現有像素，請選取像素列中的核取方塊。
+   * 若要建立新像素：
       1. 按一下 **[!UICONTROL Create]**.
       1. 輸入以下資訊：
-         * **[!UICONTROL Pixel name]:** 像素名稱；最大長度為500個字元。 使用有助於輕鬆識別像素的名稱。
-         * **[!UICONTROL Pixel event fires on]:** 觸發像素觸發的事件。 可用事件因廣告類型而異。
-         * **[!UICONTROL Pixel type]:** 像素是否為 *[!UICONTROL IMG URL]* （1x1像素影像檔案）, *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*。
+         * **[!UICONTROL Pixel name]:** 像素名稱；長度上限為500個字元。 使用可協助您輕鬆識別像素的名稱。
+         * **[!UICONTROL Pixel event fires on]:** 觸發像素的事件。 可用事件會依廣告類型而異。
+         * **[!UICONTROL Pixel type]:** 像素是否為 *[!UICONTROL IMG URL]* （1x1像素影像檔案）, *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
          * **[!UICONTROL Pixel URL]:** 像素影像的URL。
       1. 按一下 **[!UICONTROL Create and attach]**.
    1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL Conversion Pixels]:** （可選）預設情況下將附加到放置中所有新廣告的轉換跟蹤像素。 要指定轉換像素：
+**[!UICONTROL Conversion Pixels]:** （選用）轉換追蹤像素，預設會附加至版位中的所有新廣告。 若要指定轉換像素：
 
-1. 按一下 ![編輯](/help/dsp/assets/edit.png)。
+1. 按一下 ![編輯](/help/dsp/assets/edit.png).
 1. 執行下列任一操作：
-   * 要選擇現有像素，請選中像素行中的複選框。
-   * 要建立新像素：
+   * 若要選取現有像素，請選取像素列中的核取方塊。
+   * 若要建立新像素：
       1. 按一下 **[!UICONTROL Create]**.
       1. 輸入以下資訊：
-         * **[!UICONTROL Conversion pixel name]:** 像素名稱；最大長度為500個字元。 使用有助於輕鬆識別像素的名稱。
-         * **[!UICONTROL Conversion category]:** 轉換類型。
-         * **[!UICONTROL Impression conversion window]:** 廣告印象後的天數，其中印象可歸因於轉換。 預設值為30天。
-         * **[!UICONTROL Click conversion window]:** 廣告按一下後的天數，在該天數內，按一下可歸屬於轉換。 預設值為30天。
-         * **[!UICONTROL Notes]:** （可選）有關像素的說明或其他資訊。
+         * **[!UICONTROL Conversion pixel name]:** 像素名稱；長度上限為500個字元。 使用可協助您輕鬆識別像素的名稱。
+         * **[!UICONTROL Conversion category]:** 轉換的類型。
+         * **[!UICONTROL Impression conversion window]:** 廣告曝光發生後的天數，可將曝光歸因於轉換。 預設為30天。
+         * **[!UICONTROL Click conversion window]:** 廣告點按發生後的天數，點按可歸因於轉換。 預設為30天。
+         * **[!UICONTROL Notes]:** （可選）像素的說明或其他資訊。
       1. 按一下 **[!UICONTROL Create and attach]**.
-      1. 在相關網頁上實現轉換像素：
-         1. 在主菜單中，轉到 **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**。
-         1. 在像素行中，按一下 **[!UICONTROL edit]**。
-         1. 複製 [!UICONTROL HTML Tag] 和 [!UICONTROL Flash Tag] 欄位，根據需要向廣告商或網站聯繫人提供。
+      1. 在相關網頁上實作轉換像素：
+         1. 在主功能表中，前往 **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**.
+         1. 在像素列中，按一下 **[!UICONTROL edit]**.
+         1. 複製 [!UICONTROL HTML Tag] 和 [!UICONTROL Flash Tag] 欄位，以提供給廣告商或網站連絡人。
 
-            廣告商的IT部門或其他組可能需要安排標籤部署，或獲得有關標籤部署的資訊。
+            廣告商的IT部門或其他群組可能需要排程標籤部署，或接收相關通知。
    1. 按一下 **[!UICONTROL Save]**.
 
-**[!UICONTROL 3rd-party Fees]:** （可選）靜態第三方費用率，以每1000個印次的不可計費成本進行跟蹤。 除非輸入其他值，否則在適用時，將自動應用包層預設值來新建放置。
+**[!UICONTROL 3rd-party Fees]:** （選用）靜態的第三方費用率，以每1000次曝光的不計費成本來追蹤。 除非您輸入不同值，否則新版位會自動套用套件層級預設值（若適用）。
 
 >[!NOTE]
 >
->計費費用反映於 [!UICONTROL Net CPM] 度量。
+>可結算費用反映於 [!UICONTROL Net CPM] 量度。
 
 >[!MORELIKETHIS]
 >
->* [關於放置管理](placement-about.md)
->* [建立放置](placement-create.md)
->* [編輯放置](placement-edit.md)
->* [鍵盤快捷鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [關於Campaign Management的常見問題](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [關於版位管理](placement-about.md)
+>* [建立版位](placement-create.md)
+>* [編輯位置](placement-edit.md)
+>* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+>* [Campaign Management常見問題集](/help/dsp/campaign-management/campaign-management-faq.md)
 
