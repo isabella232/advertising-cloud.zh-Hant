@@ -3,7 +3,7 @@ title: 已下載/已上載電子錶格中的列
 description: 參考下載和上傳的Excel QA試算表中的欄。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 6a0e9f1888da7b5fca28f69ef1320910a2a49fa0
+source-git-commit: 1f7b76cec0c9d9af0fcfbad1bafb30505ffb2036
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Optimization Target] | 目標的目標值。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Pace on] | 版位是否正朝 *[!UICONTROL Budget]* 或 *[!UICONTROL Impressions]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | 版位的最高出價。 | 是 |
-| [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 投放的飛行步調策略： *[!UICONTROL evenly]*, * *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*，或 *[!UICONTROL aggressive frontload]*. | 是 |
+| [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 投放的飛行步調策略： *[!UICONTROL evenly]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*，或 *[!UICONTROL aggressive frontload]*. | 是 |
 | [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | 要套用的任何出價前篩選條件。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | 競標規則（已廢止）是否 *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | 指定期間放置的主頻率上限 [!UICONTROL Frequency Cap Interval]. | 是 |
