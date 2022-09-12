@@ -3,9 +3,9 @@ title: 套件設定
 description: 請參閱可用套件設定的說明。
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
+source-git-commit: 6331166f563e1404c077eb848eed049b4eb0706d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -88,16 +88,25 @@ ht-degree: 0%
 
 * *[!UICONTROL Impressions]:* 此選項會傳送曝光次數，直到在指定間隔內達到指定數量為止。 選取此選項時，請指定曝光次數和間隔： *總是，* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* 或 *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Pacing Fill Strategy]:** （僅具有套件層級步調的套件）如何調整廣告投放速度：
+**[!UICONTROL Flight pacing]:** （僅包層級步調的套件）如何在整個飛行中步調和傳遞：
 
 * *[!UICONTROL Even]:* 在每次飛行中以50%的目標均勻地進行交付。
 
 * *[!UICONTROL Slightly Ahead]:* （預設）加速傳送，使得在飛行期間中途完成55-65%。
 
-<!-- replaced with ASAP -->
 * *[!UICONTROL Frontload]:* 加速運送，使得它在飛行途中完成65-75%。
 
 * *[!UICONTROL Aggressive Frontload]:* 加速運送，使得75-85%的人在飛行途中完成。
+
+**[!UICONTROL Intraday pacing]:** （僅限包裝層級步調的套件）如何在飛行期間以每天的時間來調整廣告投放：
+
+* *[!UICONTROL Even]:* （預設）根據庫存可用性調整交貨規模。 一般而言，當拍賣量較高時，白天每小時傳送的廣告數量會較多，而早上和晚上傳送的廣告數量則會較少。
+
+* *[!UICONTROL ASAP]:* 將傳送速度加快至 *平均*.
+
+   >[!CAUTION]
+   >
+   >此選項可能對效能產生負面影響。 只有在您完全排定傳送的優先順序時才使用它，並且花費在效能最佳化上。
 
 ## [!UICONTROL Flighting]
 

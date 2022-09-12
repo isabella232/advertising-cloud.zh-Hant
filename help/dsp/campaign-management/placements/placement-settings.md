@@ -3,9 +3,9 @@ title: 版位設定
 description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
+source-git-commit: 7bbeb3013ad7cd84bf3a25f5ebf8b16a82a6f591
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,13 +96,25 @@ ht-degree: 0%
 
 **[!UICONTROL Max Bid]:** 1000次曝光的最高費用。
 
-**[!UICONTROL Pacing Fill Strategy]:** （僅具有套件層級步調的套件）如何調整廣告投放速度：
+**[!UICONTROL Flight pacing]:** （僅限具刊登版位層級步調的刊登版位）如何調整廣告投放速度：
 
 * *[!UICONTROL Even]:* （預設值）在每次飛行中以50%的交貨目標均勻地進行交貨。
+
+* *[!UICONTROL Slightly Ahead]:* （預設）加速傳送，使得在飛行期間中途完成55-65%。
 
 * *[!UICONTROL Frontload]:* 加速運送，使得在飛行途中完成65-75%。
 
 * *[!UICONTROL Aggressive Frontload]:* 加速運送，使得75-85%的航班在中途完成。
+
+**[!UICONTROL Intraday pacing]:** （僅限具刊登版位層級步調的刊登版位）如何在飛行中逐日調整廣告投放速度：
+
+* *[!UICONTROL Even]:* （預設）根據庫存可用性調整交貨規模。 一般而言，當拍賣量較高時，白天每小時傳送的廣告數量會較多，而早上和晚上傳送的廣告數量則會較少。
+
+* *[!UICONTROL ASAP]:* （預設）將傳送速度加快至 *平均*.
+
+   >[!CAUTION]
+   >
+   >此選項可能對效能產生負面影響。 只有在您完全排定傳送的優先順序時才使用它，並且花費在效能最佳化上。
 
 **[!UICONTROL Placement Pre-bid Filters]:** （選用）最多必須符合五個篩選條件，才能進行競標。 您可以使用出價前篩選器作為最佳化策略，但請記住，每個規則都可能限制此版位可出價的機會。 若要新增或編輯篩選器：
 

@@ -3,9 +3,9 @@ title: 關於使用試算表更正促銷活動的位置設定
 description: 了解如何使用Excel QA試算表，檢閱及編輯行銷活動的索引鍵位置設定。
 feature: DSP Placements
 exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 051b8b6437a75177e3a4d0425e2b0091d0d22a30
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ QA試算表功能可讓您以XLSX（Excel試算表）格式下載行銷活動的
 * 版位開始傳送及停止的時間。
 * 哪些廣告附加至版位。
 
-然後，您可以對選取的欄位進行變更，並一次將它們發回DSP。 可編輯的欄位包括版位名稱、狀態、競標、預算、步調填入策略和頻率上限。
+然後，您可以對選取的欄位進行變更，並一次將它們發回DSP。 可編輯的欄位包括版位名稱、狀態、出價、預算、步調策略和頻率上限。
 
 >[!TIP]
 >
->要對位置設定進行更廣泛的更改，請使用批量編輯功能。<!-- add link once we have help on it -->
+>若要對版位設定進行更廣泛的變更，請使用大量編輯功能。<!-- add link once we have help on it -->
 
 >[!MORELIKETHIS]
 >
