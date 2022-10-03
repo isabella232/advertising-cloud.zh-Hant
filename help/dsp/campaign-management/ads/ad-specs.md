@@ -3,7 +3,7 @@ title: 廣告規格
 description: 參考一般和發佈商專屬的廣告規格。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 40228a7de376cd4884d4cf7141c75516bc1a97ec
+source-git-commit: 8bc43253f15859c3b7dd7441fcbb4f34ecc98566
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -116,36 +116,36 @@ ht-degree: 0%
 
 #### 其他發佈者需求
 
-* **[!DNL Spotify]**
-   * 長度：最多30秒
-   * 檔案類型：OGG
-   * 最大檔案大小：500MB
-   * 卷：RMS歸一化為–14;dBFS峰歸一化為–0.2 dBFS
-
-* **[!DNL SoundCloud]**
-   * 長度：6、15或30秒
-   * 檔案類型：MP3
-   * 最大檔案大小：5 MB
-
-* **[!DNL Pandora]**
-   * 長度：15或30秒
-   * 檔案類型：MP4（應用程式內）、MP3（案頭）
-   * 最大檔案大小：2.2 MB
-
-* **[!DNL TuneIn]**
-   * 長度：10、15或30秒
-   * 檔案類型：MP3, OGG
-   * 卷：44.1千赫
-
 * **[!DNL iHeartRadio]**
    * 長度：5、15、30或60秒
    * 檔案類型：MP3
    * 最大檔案大小：320 kbps
    * 卷：44.1千赫
 
+* **[!DNL Pandora]**
+   * 長度：15或30秒
+   * 檔案類型：MP4（應用程式內）、MP3（案頭）
+   * 最大檔案大小：2.2 MB
+
+* **[!DNL SoundCloud]**
+   * 長度：6、15或30秒
+   * 檔案類型：MP3
+   * 最大檔案大小：5 MB
+
+* **[!DNL Spotify]**
+   * 長度：最多30秒
+   * 檔案類型：OGG
+   * 最大檔案大小：500MB
+   * 卷：RMS歸一化為–14;dBFS峰歸一化為–0.2 dBFS
+
 * **[!DNL TargetSpot]**
    * 長度：15、30或60秒
    * 檔案類型：MP3
+
+* **[!DNL TuneIn]**
+   * 長度：10、15或30秒
+   * 檔案類型：MP3, OGG
+   * 卷：44.1千赫
 
 ### 隨附橫幅廣告的需求（選用）
 
@@ -153,29 +153,29 @@ ht-degree: 0%
 
 #### 其他發佈者需求
 
-* **[!DNL Spotify]:**
-   * 檔案類型：靜態JPG, PNG
-   * 最大檔案大小：200 KB
+* **[!DNL iHeartRadio]:**
+   * 檔案類型：JPEG,JPG, PNG,GIF,SWF,HTML
+   * 最大檔案大小：2.2 MB
    * Dimension:300x250
-
-* **[!DNL SoundCloud]:**
-   * 檔案類型：靜態JPG, PNG
-   * 最大檔案大小：400 KB以下
-   * Dimension:1024x1024
 
 * **[!DNL Pandora]:**
    * 檔案類型：JPEG,GIF
    * 最大檔案大小：大小：100 KB
    * Dimension:300x250（行動或案頭）或500x500（案頭）
 
+* **[!DNL SoundCloud]:**
+   * 檔案類型：靜態JPG, PNG
+   * 最大檔案大小：400 KB以下
+   * Dimension:1024x1024
+
+* **[!DNL Spotify]:**
+   * 檔案類型：靜態JPG, PNG
+   * 最大檔案大小：200 KB
+   * Dimension:300x250
+
 * **[!DNL TuneIn]:**
    * 檔案類型：JPEG,JPG, PNG,GIF,HTML
    * 最大檔案大小：2 MB
-   * Dimension:300x250
-
-* **[!DNL iHeartRadio]:**
-   * 檔案類型：JPEG,JPG, PNG,GIF,SWF,HTML
-   * 最大檔案大小：2.2 MB
    * Dimension:300x250
  
 
