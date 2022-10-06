@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: a3f676bd085571392a4add32f69fe0da4d4ae912
+source-git-commit: 3c951d738d5ef571b8f762df1f89ebd0360cd0f6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年10月6日 | 行銷活動 | 「行銷活動」檢視提供新的步調相關量度欄：「昨天的OTS」（目標支出）、「昨天的交付」、「昨天的目標」、「今天的OTS」（目標支出）、「今天的交付」和「今天的目標」。 | 請參閱「[建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2022年9月12日 | 封裝和放置步調 | 現在，可對飛行步調和當天步調分別進行步調控制。 以前，單一策略會同時控制兩者。 現有套件和版位的設定對應如下：<ul><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | 請參閱「[套件設定](/help/dsp/campaign-management/packages/package-settings.md)&quot;和&quot;[版位設定](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2022年7月27日 | 庫存 | 拍賣前瞻分析是新的疑難排解工具，可讓您分析有保證和無保證私人交易的交易組成。 此工具會使用資料視覺效果，顯示特定時段內關鍵拍賣屬性所收到值的趨勢和相對比例。<br><br>借由發佈商的競標請求資料具有透明度，您可以避免耗時的疑難排解步驟。 | 請參閱「[檢視私人交易的拍賣分析](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 2022年6月29日 | 庫存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視包含與 [!UICONTROL Campaigns] 檢視，包括其他篩選器、欄自訂，以及儲存自訂檢視、欄排序和資料視覺效果（圖表）檢視的選項。 您可以按一下「 」，開啟每一列的命令功能表 [!UICONTROL ...] 在交易名後。 | 請參閱「[庫存功能概觀](/help/dsp/inventory/inventory-overview.md).&quot; |
