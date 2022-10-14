@@ -3,9 +3,9 @@ title: SSP合作夥伴
 description: 請參閱可用供應端平台(SSP)和開放式exchange合作夥伴的清單。
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: f6319fdee2e8509e0d0a960b6855a2c28d05d50a
+source-git-commit: 2c539b39962e1c8c54d6b2e8f48c010c814ce531
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 0%
 | [!DNL DailyMotion] | n/a | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 美國+歐洲、中東和非洲 | 美元，歐元 | x | x | x |  |  |  |  |
 | [!DNL DistrictM] |  | Adobe | 否 | 美國/加州 | USD |  |  |  | x | x |  |  |
 | [!DNL EMX Digital] |  | Adobe Advertising Cloud | 否 | 美國/加州 | USD | x | x | x |  |  |  |  |
+| [!DNL Equativ] (原稱 [!DNL SmartAdServer]) |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元，歐元 | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (原稱 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元、歐元、澳元、英鎊 | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 否 | 全球 | USD | x | x |  |  |  |  |  |
 | [!DNL Google AdX] 現在 [!DNL Google Authorized Buyers]) | [!DNL Google] | AdobeNA - 44912714<br>AdobeEU - 94893418<br>AdobeAPAC - 89185975 | 是 | 全球 | 美元，巴西雷亞爾 | x | x | x | x | x |  | x |
@@ -39,7 +40,6 @@ ht-degree: 0%
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | USD | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD | x | x |  | x | x | x |  |
-| [!DNL Smart Ad Server] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元，歐元 | x | x |  | x | x |  |  |
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | 否 | 歐洲、中東和非洲 | 所有貨幣 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising Cloud | 否 | 歐洲、中東和非洲 | 歐元，美元 | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising Cloud | 否 | CA | USD |  |  |  | x | x |  |  |

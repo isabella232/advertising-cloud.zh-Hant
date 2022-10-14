@@ -3,9 +3,9 @@ title: 設定效能行銷活動的最佳實務
 description: 了解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的刊登版位。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
+source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,8 @@ Advertising Cloud能以最低的每次贏取成本(CPA)或最高的廣告投入�
 * **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
 
 ### 對象鎖定
+
+<!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
    * 若是探礦位置，請將類似的對象類別和類似的對象大小分組為一個位置。 然後，根據效能，執行下列其中一項操作：
