@@ -3,7 +3,7 @@ title: 建立自訂目標的最佳作法
 description: 了解建立自訂目標以定義成功事件的最佳實務。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 下列範例說明如何設定以單一屬性（量度）為目標的目標。
 
-### 具有「[!UICONTROL Highest ROAS - Custom Goal]」最佳化目標的促銷活動範例
+### 具有「[!UICONTROL Highest ROAS - Custom Goal]&quot;最佳化目標
 
-如果您的促銷活動目標是收入([!UICONTROL Highest ROAS - Custom Goal])，則您的自訂目標（目標）將包含加權為一(1)的「[!UICONTROL Revenue]」屬性。
+如果您的促銷活動目標是收入([!UICONTROL Highest ROAS - Custom Goal])，則您的自訂目標（目標）將包含「[!UICONTROL Revenue]」重量為一(1)的屬性。
 
 ![具有單一屬性的ROAS自訂目標範例](/help/dsp/assets/custom-goal-roas.png)
 
 >[!NOTE]
 >
-> 其中一個的[!UICONTROL Property Weight]相當於追蹤之每$1收入的1值。
+> A [!UICONTROL Property Weight] 相當於每個$1收入所追蹤的值為1。
 >
-> 例如，250美元的轉換（權重為1）會報告為250美元。 如果轉換量度的權重為0.5，則$250的轉換在Advertising Cloud中會報告為$125（$250的轉換* 0.5 [!UICONTROL Property Weight] = $125）。
+> 例如，250美元的轉換（權重為1）會報告為$250。 如果轉換量度的權重為0.5，則$250的轉換在Advertising Cloud中會報告為$125（$250的轉換* 0.5） [!UICONTROL Property Weight] = $125)。
 
-### 具有「[!UICONTROL Lowest CPA - Custom Goal]」最佳化目標的促銷活動範例
+### 具有「[!UICONTROL Lowest CPA - Custom Goal]&quot;最佳化目標
 
 如果您的促銷活動目標是每次贏取(CPA)成本最低，而且只需要一個成功事件，則您會納入該個量度（在以下範例中為「應用程式提交」）。 最佳實務是將權重設為一(1)。
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 其中一個的[!UICONTROL Property Weight]相當於追蹤之每個轉換的1值。
+> A [!UICONTROL Property Weight] 等於每個追蹤轉換的值為1。
 >
-> 例如，如果追蹤了10個「應用程式提交」轉換，則會報告10個「應用程式提交」轉換。  如果轉換量度的加權為0.5，則10次轉換在Advertising Cloud中會報告為五(5)次（10次轉換* 0.5 [!UICONTROL Property Weight] = 5）。
+> 例如，如果追蹤了10個「應用程式提交」轉換，則會報告10個「應用程式提交」轉換。  如果轉換量度的加權為0.5，則10次轉換在Advertising Cloud中會報告為五(5)次（10次轉換* 0.5） [!UICONTROL Property Weight] = 5)。
 
 ## 具有多個屬性的自訂目標
 
 在兩種情況下，您會在自訂目標中使用多個屬性：
 
-* 您的促銷活動目標有多個成功事件。 例如，您可能是針對多個站上動作進行廣告，且所有動作都歸因於您的CPA目標。 下列範例目標包含三個不同的屬性（PDF下載、聯絡我們和電子郵件註冊），每個屬性的權重為一(1)，這會告訴[!DNL Adobe Sensei]演算法每個屬性的重要性相等。 如果您包含具有不同成本或重要性的屬性，則可以相應地調整其相對權重。
+* 您的促銷活動目標有多個成功事件。 例如，您可能是為了多個站上動作而做廣告，而且所有動作都歸因於您的CPA目標。 下列範例目標包含三個不同的屬性(PDF下載、聯絡我們和電子郵件註冊)，每個屬性的權重為一(1)，這會告訴 [!DNL Adobe Sensei] 每個屬性具有同等重要性的演算法。 如果您包含具有不同成本或重要性的屬性，則可以相應地調整其相對權重。
 
    ![具有多個屬性的自訂目標範例](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![具有多個屬性的自訂目標範例](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
-   相反地，如果您對應用程式提交的著陸頁面造訪次數加權平均，則自然較高的著陸頁面造訪次數可能會壓倒您的目標，並扭曲至著陸頁面造訪次數。<!--reword-->
+   相反地，如果您對應用程式提交的著陸頁面瀏覽次數加權平均，則自然較高的著陸頁面瀏覽次數可能會壓倒您的目標，並扭曲至著陸頁面瀏覽次數。<!--reword-->
 
 >[!MORELIKETHIS]
 >
