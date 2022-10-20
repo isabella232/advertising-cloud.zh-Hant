@@ -21,5 +21,5 @@ ht-degree: 56%
 + [關於Advertising Cloud對消費者隱私的支援](/help/privacy/home.md)
 + [支援GDPR](/help/privacy/ad-cloud-gdpr.md)
 + 支援CCPA {#ccpa}
-   + [支援CCPA:使用者資料存取和刪除](/help/privacy/ad-cloud-ccpa-access-delete.md)
-   + [(DSP僅)支援CCPA:消費者選擇不銷售](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md)
+   + [支援CCPA:消費者資料存取和刪除](/help/privacy/ad-cloud-ccpa-access-delete.md)
+   + [(僅限DSP)支援CCPA:消費者選擇退出銷售](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md)
