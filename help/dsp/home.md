@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 3c951d738d5ef571b8f762df1f89ebd0360cd0f6
+source-git-commit: 9e1def0c5998ac35dbb2b466ed6ebc31f83fd026
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年10月27日 | 行銷活動 | 現在，每個套件和位置都可使用變更記錄，其中會顯示選取日期範圍期間所做的變更。 | 請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)&quot;和&quot;[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+|  |  | 您現在可以變更 [!UICONTROL Intraday Pacing] 同時設定多個版位。 | 請參閱「[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot;和&quot;[版位設定](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
+|  |  | An &quot;[!UICONTROL Intraday Pacing]「 」欄在Excel QA試算表中可用。 | 請參閱「[已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md).&quot; |
+|  |  | An &quot;[!UICONTROL Intraday Pacing]「促銷活動」檢視中會顯示「 」欄。 | 請參閱「[建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+|  |  | 您可以依 [!UICONTROL Intraday Pacing] 設定。 | 請參閱「[篩選促銷活動資料](/help/dsp/campaign-management/reports/campaign-data-filter.md).&quot; |
 | 2022年10月6日 | 行銷活動 | 「行銷活動」檢視提供新的步調相關量度欄：「昨天的OTS」（目標支出）、「昨天的交付」、「昨天的目標」、「今天的OTS」（目標支出）、「今天的交付」和「今天的目標」。 | 請參閱「[建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2022年9月12日 | 封裝和放置步調 | 現在，可對飛行步調和當天步調分別進行步調控制。 以前，單一策略會同時控制兩者。 現有套件和版位的設定對應如下：<ul><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>舊版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]*  — 現已設定為 **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | 請參閱「[套件設定](/help/dsp/campaign-management/packages/package-settings.md)&quot;和&quot;[版位設定](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2022年7月27日 | 庫存 | 拍賣前瞻分析是新的疑難排解工具，可讓您分析有保證和無保證私人交易的交易組成。 此工具會使用資料視覺效果，顯示特定時段內關鍵拍賣屬性所收到值的趨勢和相對比例。<br><br>借由發佈商的競標請求資料具有透明度，您可以避免耗時的疑難排解步驟。 | 請參閱「[檢視私人交易的拍賣分析](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |

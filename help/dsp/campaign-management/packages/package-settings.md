@@ -3,9 +3,9 @@ title: 套件設定
 description: 請參閱可用套件設定的說明。
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 6331166f563e1404c077eb848eed049b4eb0706d
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -120,5 +120,6 @@ ht-degree: 0%
 >* [建立套件](package-create.md)
 >* [編輯套件](package-edit.md)
 >* [將版位附加到包](package-attach-placement.md)
+>* [查看包的更改日誌](package-change-log.md)
 >* [Campaign Management常見問題集](/help/dsp/campaign-management/campaign-management-faq.md)
 

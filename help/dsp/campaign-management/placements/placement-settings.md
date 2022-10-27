@@ -3,9 +3,9 @@ title: 版位設定
 description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7bbeb3013ad7cd84bf3a25f5ebf8b16a82a6f591
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3403'
 ht-degree: 0%
 
 ---
@@ -463,6 +463,7 @@ ht-degree: 0%
 >* [關於版位管理](placement-about.md)
 >* [建立版位](placement-create.md)
 >* [編輯位置](placement-edit.md)
+>* [查看版位的更改日誌](placement-change-log.md)
 >* [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Campaign Management常見問題集](/help/dsp/campaign-management/campaign-management-faq.md)
 

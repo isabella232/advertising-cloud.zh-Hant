@@ -3,9 +3,9 @@ title: 封存或取消封存位置
 description: 了解如何封存或取消封存版位。
 feature: DSP Placements
 exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,27 @@ ht-degree: 0%
 
 ## 封存位置
 
-1. 在主菜單中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下促銷活動的名稱。
-1. 在子菜單中，按一下&#x200B;**[!UICONTROL Placements]**。
-1. 在版位名稱旁，按一下「**[!UICONTROL ...]>[!UICONTROL Archive]**」。
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Archive]**。
+1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 在確認訊息中，按一下 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->若要檢視已封存的版位，請篩選[!UICONTROL Placements]檢視：按一下![篩選按鈕](/help/dsp/assets/filter.png)，按一下&#x200B;**[!UICONTROL Placement status]**&#x200B;並選擇&#x200B;**[!UICONTROL Archived]**，然後按一下&#x200B;**[!UICONTROL Apply]。**
+>若要檢視已封存的版位，請篩選 [!UICONTROL Placements] 檢視：按一下 ![篩選按鈕](/help/dsp/assets/filter.png)，按一下 **[!UICONTROL Placement status]** 選取 **[!UICONTROL Archived]**，然後按一下 **[!UICONTROL Apply].**
 
 ## 取消封存位置
 
-1. 在主菜單中，按一下&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下促銷活動的名稱。
-1. 在子菜單中，按一下&#x200B;**[!UICONTROL Placements]**。
-1. 在版位名稱旁，按一下「**[!UICONTROL ...]>[!UICONTROL Unarchive]**」。
-1. 在確認訊息中，按一下&#x200B;**[!UICONTROL Unarchive]**。
+1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
+1. 在版位名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 在確認訊息中，按一下 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [暫停或啟動位置](placement-pause-activate.md)
 >* [編輯位置](placement-edit.md)
+>* [查看版位的更改日誌](placement-change-log.md)
 

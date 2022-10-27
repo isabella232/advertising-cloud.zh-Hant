@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
+source-git-commit: 8db395fce0006ce300b3e588c205ca9c87e30fb2
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '950'
 ht-degree: 6%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 6%
       + [複製套件](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [將版位附加到包](/help/dsp/campaign-management/packages/package-attach-placement.md)
       + [封存或取消封存套件](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
+      + [查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)
       + [套件設定](/help/dsp/campaign-management/packages/package-settings.md)
    + 版位 {#placements}
       + [關於版位管理](/help/dsp/campaign-management/placements/placement-about.md)
@@ -73,6 +74,7 @@ ht-degree: 6%
       + [將廣告附加至版位](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [編輯投放位置的廣告排程](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [檢視版位的詳細報表](/help/dsp/campaign-management/placements/placement-view-report.md)
+      + [查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [暫停或啟動位置](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [封存或取消封存位置](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)

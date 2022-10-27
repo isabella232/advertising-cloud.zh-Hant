@@ -3,9 +3,9 @@ title: 快速編輯金鑰位置設定
 description: 了解如何快速變更索引鍵位置設定。
 feature: DSP Placements
 exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 >* [復製版位](placement-duplicate.md)
 >* [編輯投放位置的廣告排程](placement-edit-ad-schedule.md)
 >* [暫停或啟動位置](placement-pause-activate.md)
+>* [查看版位的更改日誌](placement-change-log.md)
 >* [版位設定](placement-settings.md)
 >* [影片：如何使用大量編輯工具編輯版位](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 
