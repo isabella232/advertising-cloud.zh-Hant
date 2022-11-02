@@ -2,9 +2,10 @@
 title: 使用Advertising Cloud ID建立 [!DNL Marketing Channels] 規則
 description: 了解如何使用Advertising Cloud ID建立 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
+source-git-commit: d136b1fe6f6fd3861d0850e07efe7c320da4a7cc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ AMO EF ID(EF ID)是 [!DNL Analytics for Advertising Cloud] 整合。 其主要�
 
 #### 顯示閱覽規則
 
-若要建立「顯示」檢視管道，請建立EF ID結尾為「：i」的規則。 由於訪客未點按廣告，因此閱覽追蹤不包含 `ef_id` 或 `s_kwcid` 中。 因此，只需要一個條件。
+若要建立「顯示」檢視管道，請建立EF ID結尾為「：i」的規則。 由於訪客未點按廣告，因此閱覽追蹤不包含 `ef_id` 或 `s_kwcid` ，因此規則只需要一個條件。
 
 ![顯示檢視規則的範例](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 

@@ -3,7 +3,7 @@ title: 廣告規格
 description: 參考一般和發佈商專屬的廣告規格。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 8bc43253f15859c3b7dd7441fcbb4f34ecc98566
+source-git-commit: b867ace878a0c1e6391476e267c9161e5ecea921
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
