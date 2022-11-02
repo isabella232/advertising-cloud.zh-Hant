@@ -3,10 +3,10 @@ user-guide-title: Adobe Experience Cloud 的整合
 user-guide-description: 了解 Advertising Cloud DSP 和 Advertising Cloud Search 與其他 Adobe Experience Cloud 產品和服務的整合。
 breadcrumb-title: Experience Cloud 的整合
 index: true
-source-git-commit: 0ca3c49788cc5f688b72051e55d44b5768fead62
+source-git-commit: cc6042df60950ae09dccce262d6c32deed6bc313
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 14%
+source-wordcount: '201'
+ht-degree: 13%
 
 ---
 
@@ -43,4 +43,5 @@ ht-degree: 14%
       + [從DSP促銷活動收集曝光數和點按資料](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [使用案例](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [AdobeAudience Analytics給Advertising Cloud客戶](/help/integrations/audience-manager/audience-analytics.md)
++ [在Adobe Target中為Advertising Cloud DSP Ads設定A/B測試](/help/integrations/target/overview-ab-tests.md)
 + [影片Tutorials關於Advertising Cloud整合](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
