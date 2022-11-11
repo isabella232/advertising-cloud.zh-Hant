@@ -3,9 +3,9 @@ title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: 730ecb65f61216f140f463bc0d62a1d41e9338a1
+source-git-commit: 07d8194fff4f468cfb4b8262085f06be83761990
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 1%
 | [!DNL Adform] | X | X |  | X |  |
 | [!DNL ADITION Technologies] |  | X |  |  |  |
 | [!DNL ADman Media] | X |  |  |  |  |
+| [!DNL Adobe Advertising Cloud Creative] |  | X |  |  |  |
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
