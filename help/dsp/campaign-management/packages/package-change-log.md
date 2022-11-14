@@ -2,7 +2,8 @@
 title: 查看包更改日誌
 description: 了解如何檢視對套件所做的變更。
 feature: DSP Packages
-source-git-commit: 2f892f1f9521c4768c1cac4bd0cb0c35261ab147
+exl-id: 1d611c20-7857-41db-adf4-743dab44341e
+source-git-commit: 1098fa5fc9207300b5b9c75cf07f24ecfe1dfc69
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
 1. 按一下促銷活動的名稱。
-1. 在 **[!UICONTROL Placements]** 頁簽，在包名稱旁按一下  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. 在 **[!UICONTROL Packages]** 頁簽，在包名稱旁按一下  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >
