@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: b96bb5be747e59beb7bb626152dbab7aa49cb88e
+source-git-commit: f353912c0e5969a119b2b6018a2dfe2d7a0e9510
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 說明 | 如需詳細資訊 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年11月23日 | 交易 | 「清單>交易」檢視現在包含「交易狀況」欄，指出每個私人交易的狀況：「成功」、「警告」、「嚴重」或「不可用」。 您可以按一下狀態以查看更多詳細資訊，包括交易未如預期般執行或支出的原因，以及疑難排解潛在問題的步驟。 | — |
-| 2022年10月27日 | 行銷活動 | 現在，每個套件和位置都可使用變更記錄，其中會顯示選取日期範圍期間所做的變更。 | 請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)&quot;和&quot;[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+| 2022年11月23日 | 交易 | 此 [!UICONTROL Inventory] > [!UICONTROL Deals] 檢視現在包含「[!UICONTROL Deal Health]&quot;欄，指示每個私有交易的運行狀況：&quot;[!UICONTROL Success], &quot;[!UICONTROL Warning], &quot;[!UICONTROL Critical]，或&quot;[!UICONTROL Unavailable].&quot; 您可以按一下狀態以查看更多詳細資訊，包括交易未如預期般執行或支出的原因，以及疑難排解潛在問題的步驟。 | — |
+| 2022年10月27日 | [!UICONTROL Campaigns] | 現在，每個套件和位置都可使用變更記錄，其中會顯示選取日期範圍期間所做的變更。 | 請參閱「[查看包的更改日誌](/help/dsp/campaign-management/packages/package-change-log.md)&quot;和&quot;[查看版位的更改日誌](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 |  |  | 您現在可以變更 [!UICONTROL Intraday Pacing] 同時設定多個版位。 | 請參閱「[編輯位置](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot;和&quot;[版位設定](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 |  |  | An &quot;[!UICONTROL Intraday Pacing]「 」欄在Excel QA試算表中可用。 | 請參閱「[已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md).&quot; |
 |  |  | An &quot;[!UICONTROL Intraday Pacing]「促銷活動」檢視中會顯示「 」欄。 | 請參閱「[建立自訂欄檢視](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[編輯自訂欄檢視](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
