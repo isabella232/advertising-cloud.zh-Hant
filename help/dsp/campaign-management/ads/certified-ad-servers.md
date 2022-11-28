@@ -3,10 +3,10 @@ title: 認證廣告服務合作夥伴
 description: 查看所有經認證的廣告伺服器和廣告單位。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: d66da8302b08d1f3d9a90c5eaf9caee4c30e05a0
+source-git-commit: ffd88b7f3274740db2d91697b0e208f61b2260d5
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 1%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL Inskin] |  |  | X |  | Inskin詳細目錄網路上的180x150顯示交易ID必須提供高影響面板（包括Cavai對話廣告）。 |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  | X | 320x50 Anchor、BYOC、Hover、Breakout、Sequarit和Sidekick;300x250 Outstream, HighRise;標準案頭顯示（不需要特定廣告外掛程式ID）;視訊錨點（僅限VAST）。</br></br>請連絡您的 [!DNL Adobe] 帳戶團隊，協助設定廣告單位。 |
+| [!DNL Kargo] |  | X |  | X | 320x50 Anchor、BYOC、Hover、Breakout、Sequarit和Sidekick;300x250 Outstream, HighRise;標準案頭顯示（不需要特定廣告外掛程式ID）;視訊錨點（僅限VAST）</br></br>請連絡您的 [!DNL Adobe] 帳戶團隊，協助設定廣告單位。 |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |
-| [!DNL Minute Media] |  | X |  |  | 案頭外觀(970x250)。 |
+| [!DNL Minute Media] |  | X |  |  | 台式機外觀(970x250) |
 | [!DNL Moat] | X | X |  | X |  |
 | [!DNL PLAYGROUND XYZ] |  |  | X |  |  |
 | [!DNL Pubmatic] |  |  |  | X | 僅VAST |
