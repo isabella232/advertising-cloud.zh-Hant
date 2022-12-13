@@ -3,9 +3,9 @@ title: 建立單一廣告
 description: 了解如何建立單一第三方廣告。
 feature: DSP Ads
 exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: bf5cb724c51e4a91add7911157bd74c90314d07c
+source-git-commit: 65ae74c2b17f21f143fd7d5e43aff2ec8b05bb85
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在資料表格上方，按一下 **[!UICONTROL Create]**. 在 [!UICONTROL Ad Types] ，按一下 [廣告類型](ad-about.md#ad-types).
 
-1. 指定 [音訊廣告](ad-settings-audio.md), [連接電視](ad-settings-connected-tv.md), [顯示廣告](ad-settings-display.md), [行動廣告](ad-settings-mobile.md), [原生廣告](ad-settings-native.md), [前段廣告](ad-settings-pre-roll.md) 或 [通用視訊廣告](ad-settings-universal-video.md):
+1. 指定 [音訊廣告](ad-settings-audio.md), [連接電視](ad-settings-connected-tv.md), [顯示廣告](ad-settings-display.md), [行動廣告](ad-settings-mobile.md), [原生廣告](ad-settings-native.md), [前段廣告](ad-settings-pre-roll.md):
 
    1. 在 [!UICONTROL Insert Ad Tag] 畫面中，輸入經認證的第三方廣告服務合作夥伴的廣告相關資訊，然後按一下 **[!UICONTROL Go]**.
 

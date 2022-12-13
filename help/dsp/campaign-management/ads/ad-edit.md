@@ -3,9 +3,9 @@ title: 編輯廣告
 description: 了解如何編輯廣告。
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 77bbc4dec656463cc26ab62d0c7c75d2601cb219
+source-git-commit: 1211a541016836873fd818106ef0593ff42f3c25
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 1. 按一下促銷活動的名稱。
 1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
 1. 在廣告名稱旁，按一下  **... >[!UICONTROL Edit]**.
-1. 編輯的廣告設定 [音訊廣告](ad-settings-audio.md), [連接電視](ad-settings-connected-tv.md), [顯示廣告](ad-settings-display.md), [行動廣告](ad-settings-mobile.md), [原生廣告](ad-settings-native.md), [前段廣告](ad-settings-pre-roll.md) 或 [通用視訊廣告](ad-settings-universal-video.md)
+1. 編輯的廣告設定 [音訊廣告](ad-settings-audio.md), [連接電視](ad-settings-connected-tv.md), [顯示廣告](ad-settings-display.md), [行動廣告](ad-settings-mobile.md), [原生廣告](ad-settings-native.md), [前段廣告](ad-settings-pre-roll.md).
 
    >[!NOTE]
    >
