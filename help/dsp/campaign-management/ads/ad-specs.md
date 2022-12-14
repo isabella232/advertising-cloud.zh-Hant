@@ -3,16 +3,16 @@ title: 廣告規格
 description: 參考一般和發佈商專屬的廣告規格。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: b867ace878a0c1e6391476e267c9161e5ecea921
+source-git-commit: b25521d35134ca453c889fc1a71e4c81f982a77b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # 支援廣告類型的規格
 
-## 視訊廣告（前段和CTV）
+## 視訊廣告（前段、CTV和通用視訊）
 
 ### 支援的畫面
 

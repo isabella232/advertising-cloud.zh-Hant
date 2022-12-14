@@ -2,14 +2,16 @@
 title: 通用視訊廣告設定
 description: 請參閱通用視訊廣告可用廣告設定的說明。
 feature: DSP Ads
-source-git-commit: fa91f2c30841bde2b943dee31d373fec343bdc75
+source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
 # 通用視訊廣告設定
+
+*開放測試版功能*
 
 ## [!UICONTROL Insert Ad Tag]
 
