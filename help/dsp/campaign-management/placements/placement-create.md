@@ -3,10 +3,10 @@ title: 建立版位
 description: 了解如何建立版位。
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: cb77fd450db1798f190f3b6eb51054553440bac9
+source-git-commit: 86f8df0c438a68dabba8f5b2abeb106d3320d7ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '652'
+ht-degree: 1%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
       1. 按一下 **[!UICONTROL Create a New Ad].**
 
-      1. 指定 [音訊廣告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [連接電視](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [顯示廣告](/help/dsp/campaign-management/ads/ad-settings-display.md), [行動廣告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [原生廣告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前段廣告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)，或 [通用視訊廣告](ad-settings-universal-video.md).
+      1. 指定 [音訊廣告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [連接電視](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [顯示廣告](/help/dsp/campaign-management/ads/ad-settings-display.md), [行動廣告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [原生廣告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前段廣告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)，或 [通用視訊廣告](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
       1. 按一下 **[!UICONTROL Save & Submit for Review]**.
 
