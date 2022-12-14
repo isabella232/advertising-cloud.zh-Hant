@@ -8,10 +8,10 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 6996de4d7b3ee06bceb99292c4fe03878e7b61c9
+source-git-commit: 67c150ac363e4f3178c6eabda1321f7db97be4fb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
