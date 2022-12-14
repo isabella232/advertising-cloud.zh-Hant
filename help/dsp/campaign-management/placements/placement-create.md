@@ -3,10 +3,10 @@ title: 建立版位
 description: 了解如何建立版位。
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: cb77fd450db1798f190f3b6eb51054553440bac9
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
       1. 按一下 **[!UICONTROL Create a New Ad].**
 
-      1. 指定 [音訊廣告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [連接電視](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [顯示廣告](/help/dsp/campaign-management/ads/ad-settings-display.md), [行動廣告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [原生廣告](/help/dsp/campaign-management/ads/ad-settings-native.md)，或 [前段廣告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md).
+      1. 指定 [音訊廣告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [連接電視](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [顯示廣告](/help/dsp/campaign-management/ads/ad-settings-display.md), [行動廣告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [原生廣告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前段廣告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)，或 [通用視訊廣告](ad-settings-universal-video.md).
 
       1. 按一下 **[!UICONTROL Save & Submit for Review]**.
 
@@ -87,16 +87,25 @@ ht-degree: 1%
    * 若要附加行銷活動中的現有廣告：
 
       1. 按一下 **[!UICONTROL Select an Ad]**.
+
       1. 執行下列任一操作：
+
          * 一次新增一個廣告：
+
             1. 在廣告名稱旁，按一下 **[!UICONTROL Select].**
+
             1. （選用）若要附加的每個額外廣告，請按一下 **[!UICONTROL Attach Another Ad]**，然後重複此程式。
          * 一次最多新增20個廣告：
+
             1. 選取廣告清單上方的核取方塊。
+
             1. 選取每個要新增的廣告旁的核取方塊。
+
             1. 按一下 **[!UICONTROL Attach]**.
+
             1. 在廣告名稱旁，按一下 **[!UICONTROL Select]**.
       1. （選用）若要覆寫版位中特定廣告的預設投放期間和廣告輪換：
+
          1. 按一下 **[!UICONTROL Custom Schedule Ads]**.
 
          1. 執行下列任一操作：
@@ -113,6 +122,8 @@ ht-degree: 1%
          1. 在右上方，按一下 **[!UICONTROL Continue]**.
 
          1. 查看飛行詳細資訊，然後按一下 **[!UICONTROL Save & Finish]**.
+
+
 
 
 
