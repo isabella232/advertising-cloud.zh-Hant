@@ -3,9 +3,9 @@ title: 版位設定
 description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 0a191d8d058fdf04ced0bb4ae3dc793a31af77af
+source-git-commit: 0f5bdf041c0de60730efe5190d438a6d29752034
 workflow-type: tm+mt
-source-wordcount: '3403'
+source-wordcount: '3422'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL Apply]**.
 
 **[!UICONTROL Ad specs for forecast]:** （僅限視訊廣告格式）廣告持續時間和/或廣告規格，用於計算右側的「預測」投影。 欄位依廣告類型而異。
+
+**[!UICONTROL Environment]:** （僅限通用視訊廣告格式）要納入作為位置目標的裝置環境（案頭、行動裝置、連線電視）。
 
 **[!UICONTROL Placement tags]:** （可選）可協助您找出此位置的關鍵字或暱稱。
 
