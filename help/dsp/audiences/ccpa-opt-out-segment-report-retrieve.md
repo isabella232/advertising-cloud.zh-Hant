@@ -3,9 +3,9 @@ title: 擷取消費者選擇退出銷售報表
 description: 了解如何擷取針對選擇退出銷售請求而提交的ID報表。
 feature: CCPA, DSP Segments
 exl-id: 8ada787a-6dcf-455b-88f4-701743e68292
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
+>* [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa-opt-out-of-sale.md)
 >* [關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表](ccpa-opt-out-about.md)
 >* [建立和實作 [!UICONTROL CCPA Opt-Out-of-Sale] 區段](ccpa-opt-out-segment-create.md)
 >* [關於Audience Management](audience-about.md)

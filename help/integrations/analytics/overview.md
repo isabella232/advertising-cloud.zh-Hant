@@ -3,7 +3,7 @@ title: 概觀 [!DNL Analytics for Advertising]
 description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [Adobe廣告ID [!DNL Analytics]](ids.md) 如同其他eVar，具有自訂的持續有效期。 依預設，在「Adobe廣告」實作期間，歸因回顧期間會設為60天。 若要變更此設定，請使用 [!DNL Adobe] 客戶團隊。
 
-Adobe廣告維度會附加尾碼「(AMO ID)」(例如「廣告類型(AMO ID)」)。 請參閱「[AdobeAnalysis Workspace中的Advertising量度](advertising-cloud-metrics-in-analytics.md)「 」，以取得可用維度的清單。
+Adobe廣告維度會附加尾碼「(AMO ID)」(例如「廣告類型(AMO ID)」)。 請參閱「[AdobeAnalysis Workspace中的Advertising量度](advertising-metrics-in-analytics.md)「 」，以取得可用維度的清單。
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Adobe廣告維度會附加尾碼「(AMO ID)」(例如「廣告類型(AMO ID)」)
 
 您的Adobe廣告團隊將協助您識別並對應適用於付費媒體績效的事件至Adobe廣告，這些事件將出現在 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
-請參閱「[Adobe廣告中的Analytics量度](analytics-data-in-advertising-cloud.md)」，取得可用量度的清單。
+請參閱「[Adobe廣告中的Analytics量度](analytics-data-in-advertising.md)」，取得可用量度的清單。
 
 ### 網站重新定位的Analytics區段
 
@@ -111,6 +111,6 @@ Adobe廣告可擷取 [!DNL Analytics] 區段，以用於再行銷目的，以及
 >* [AdobeAnalytics使用的Advertising ID](ids.md)
 >* [Analytics for Advertising的JavaScript程式碼](/help/integrations/analytics/javascript.md)
 >* [之間的預期資料差異 [!DNL Analytics] 和Adobe廣告](data-variances.md)
->* [AdobeAnalysis Workspace中的Advertising量度](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [AdobeAnalysis Workspace中的Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)
 

@@ -2,13 +2,13 @@
 title: 報表目的地設定
 description: 依目的地類型，請參閱報表目的地所需的詳細資訊。
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+exl-id: 584c9c69-7b94-4e5c-bcc1-277ac2689d8e
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # 報表目的地設定
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 可協助您識別目的地的名稱。
 
-**[!UICONTROL S3 Bucket URL]:** 上資料夾的完整路徑 [!DNL Amazon Simple Storage Service] (S3)要上傳報表的貯體。 範例： `s3://adcloud_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 上資料夾的完整路徑 [!DNL Amazon Simple Storage Service] (S3)要上傳報表的貯體。 範例： `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** ([!DNL Amazon S3])貯體（提供者） [!DNL Amazon])。
 

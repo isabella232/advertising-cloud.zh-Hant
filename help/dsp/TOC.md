@@ -8,7 +8,7 @@ user-guide-title: Advertising DSP指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 5%
@@ -36,10 +36,10 @@ ht-degree: 5%
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
    + 支援消費者隱私權 {#privacy}
-      + [支援一般資料保護規範](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-gdpr.html)
+      + [支援一般資料保護規範](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
       + 支援CCPA {#ccpa}
-         + [支援加州消費者隱私法：消費者資料存取和刪除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-access-delete.html)
-         + [支援加州消費者隱私法：消費者選擇退出銷售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-opt-out-of-sale.html)
+         + [支援加州消費者隱私法：消費者資料存取和刪除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
+         + [支援加州消費者隱私法：消費者選擇退出銷售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
    + 原則和指導方針 {#policies}
       + [廣告需求政策](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
       + [可接受的健康區段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)

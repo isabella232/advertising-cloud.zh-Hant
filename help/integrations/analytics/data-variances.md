@@ -3,7 +3,7 @@ title: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 description: 之間的預期資料差異 [!DNL Analytics] 和Adobe廣告
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '3278'
 ht-degree: 0%
@@ -223,7 +223,7 @@ Adobe廣告報表只會擷取透過Adobe廣告(付費搜尋， [!DNL Advertising
 
 ### 將Adobe廣告流量量度用於非Adobe廣告Dimension
 
-Adobe廣告為Analytics提供 [DSP和[!DNL]中廣告專用的流量量度及相關維度 [!DNL Search]]](advertising-cloud-metrics-in-analytics.md). 由Adobe廣告提供的量度僅適用於指定的Adobe廣告維度，而且資料不適用於 [!DNL Analytics].
+Adobe廣告為Analytics提供 [DSP和[!DNL]中廣告專用的流量量度及相關維度 [!DNL Search]]](advertising-metrics-in-analytics.md). 由Adobe廣告提供的量度僅適用於指定的Adobe廣告維度，而且資料不適用於 [!DNL Analytics].
 
 例如，如果您檢視 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 「依帳戶」的量度(此為「Adobe廣告」維度)，您就會看到總計 [!UICONTROL AMO Clicks] 和 [!UICONTROL AMO Cost] 帳戶。
 
@@ -243,7 +243,7 @@ Adobe廣告為Analytics提供 [DSP和[!DNL]中廣告專用的流量量度及相�
 >
 >* [概觀 [!DNL Analytics for Advertising]](overview.md)
 >* [Adobe廣告ID：使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [AdobeAnalysis Workspace中的Advertising量度](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [AdobeAnalysis Workspace中的Advertising量度](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [為何Adobe廣告和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
 

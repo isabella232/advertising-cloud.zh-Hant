@@ -2,9 +2,9 @@
 title: 設定Adobe Target中Adobe廣告的A/B測試
 description: 了解如何在 [!DNL Target] 針對您的DSP [!DNL Search] 廣告。
 exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,7 @@ Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上
 * [A/B測試概觀](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 說明可用於DSP廣告的A/B測試活動。
 * [體驗與選件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html)  — 說明 [!DNL Target] 工具，以判斷DSP測試使用者要接觸到的站上內容。
 * [訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)  — 定義一些可協助進行DSP檢視測試的Audience Manager工具。
-* [Analytics for Advertising概觀](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)  — 推出Analytics for Advertising，可讓您追蹤Analytics例項中的點進和閱覽網站互動。
+* [Analytics for Advertising概觀](/help/integrations/analytics/overview.md)  — 推出Analytics for Advertising，可讓您追蹤Analytics例項中的點進和閱覽網站互動。
 
 <!-- 
 >[!MORELIKETHIS]

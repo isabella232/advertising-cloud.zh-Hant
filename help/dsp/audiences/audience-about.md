@@ -3,7 +3,7 @@ title: 關於Advertising DSP中的受眾管理
 description: 了解受眾管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * [CCPA選擇退出銷售區段](/help/dsp/audiences/ccpa-opt-out-segment-create.md) 若要根據加州消費者隱私法(CCPA)，在您的網站上追蹤來自消費者選擇退出銷售請求的使用者ID。 您可以從選擇退出銷售的請求中擷取使用者ID的每月報表。
 
-      如需CCPA選擇退出銷售請求的Adobe廣告支援詳細資訊，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md).
+      如需CCPA選擇退出銷售請求的Adobe廣告支援詳細資訊，請參閱 [加州消費者隱私法的Adobe廣告支援：消費者選擇退出支援](/help/privacy/ccpa-opt-out-of-sale.md).
 
 * 您可以建立對象庫 [可重複使用的對象](/help/dsp/audiences/reusable-audience-create.md). 已儲存的對象會由任何可用的對象區段和任何其他已儲存的對象組成。 您對儲存的對象所做的任何變更都會自動套用至鎖定或排除對象的所有版位，以及包含儲存對象的所有其他對象。
 

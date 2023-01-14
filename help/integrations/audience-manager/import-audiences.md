@@ -3,9 +3,9 @@ title: 匯入Adobe Audience Manager區段以用於廣告鎖定目標
 description: 了解如何匯入 [!DNL Adobe] Advertising DSP和使用Adobe Audience Manager搜尋對象
 feature: Integration with Adobe Audience Manager
 exl-id: 08a40148-b7d2-442b-81e8-f3aec4fca7df
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Segment membership data is sent only after one of the following events occurs:
 
 在DSP中，區段名稱是依Audience Manager分類法組織，並可搭配下列項目中對應的區段成員資格計數使用：
 
-* [版位設定](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/placement-settings.html?#audience-targeting):在 [!UICONTROL Adobe Segments] 的 [!UICONTROL Audience Targeting] 區段。
+* [版位設定](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting):在 [!UICONTROL Adobe Segments] 的 [!UICONTROL Audience Targeting] 區段。
 
 * 在 [對象設定](/help/dsp/audiences/audience-settings.md):在 [!UICONTROL Adobe Segments] 標籤。
 
