@@ -3,9 +3,9 @@ title: 關於私有清單
 description: 關於私有清單
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 7feb0e398c416805b376062d9f3dfec819fac2ee
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 交易ID
 
-如果您與發佈商有直接關係，則可在Advertising Cloud DSP版位中使用您自己的私人交易，搭配商定的存貨和定價，以簡化媒體購買流程和工作流程。 DSP會在您設定帳戶時與所有發佈者整合。 如果您稍後想要存取其他發佈者，請連絡您的 [!DNL Adobe] 帳戶團隊來設定存取權。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+如果您與發佈商有直接關係，則可在您的Advertising DSP版位中，使用您自己的私人交易及其議定存貨和定價，來簡化媒體購買流程和工作流程。 DSP會在您設定帳戶時與所有發佈者整合。 如果您稍後想要存取其他發佈者，請連絡您的 [!DNL Adobe] 帳戶團隊來設定存取權。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 您與交易ID的所有私人交易均由 [!DNL Adobe].
 

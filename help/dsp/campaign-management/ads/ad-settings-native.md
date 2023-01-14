@@ -1,66 +1,66 @@
 ---
-title: 本機顯示廣告設定
-description: 請參閱本機顯示廣告可用廣告設定的說明。
+title: 原生顯示廣告設定
+description: 請參閱原生顯示廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
-# 本機顯示廣告設定
+# 原生顯示廣告設定
 
 ## [!UICONTROL Ad Options]
 
 ### [!UICONTROL Basic]
 
-**[!UICONTROL Ad Type]:** （只讀）您正在建立的廣告類型，它與廣告可附加到的放置類型相對應。
+**[!UICONTROL Ad Type]:** （唯讀）您要建立的廣告類型，與廣告可附加的版位類型相對應。
 
-**[!UICONTROL Ad Name]:** 廣告名。 預設情況下使用廣告類型，但可以更改名稱。
+**[!UICONTROL Ad Name]:** 廣告名稱。 預設會使用廣告類型，但您可以變更名稱。
 
 >[!TIP]
 >
-> 使用在將廣告附加到位置時易於查找的名稱， [!UICONTROL Ads] 視圖和報表中。 例如，描述設備類型和某些關鍵屬性(如「假日產品預覽」：15秒本機」)。
+> 在 [!UICONTROL Ads] 檢視和報表。 例如，說明裝置類型和某些關鍵屬性(例如「假日產品預覽」：15秒本機」)。
 
-**[!UICONTROL Native Creative]:** 1200x627映像，可最大限度地提高移動庫存交付。 按一下 **[!UICONTROL Browse]** 並在設備或網路上找到檔案，然後按一下 **[!UICONTROL Upload]**。
+**[!UICONTROL Native Creative]:** 1200x627影像，可在行動裝置詳細目錄上將傳送作業最大化。 按一下 **[!UICONTROL Browse]** 並在您的裝置或網路上找到檔案，然後按一下 **[!UICONTROL Upload]**.
 
-**[!UICONTROL Title]:** 一個吸引觀眾眼球的標題。
+**[!UICONTROL Title]:** 吸引觀眾眼球的標題。
 
-**[!UICONTROL Description]:** 廣告的正文。 最大長度為100個字元。
+**[!UICONTROL Description]:** 廣告的正文。 長度上限為100個字元。
 
-**[!UICONTROL Landing Page]:** 查看者按一下廣告時登陸的URL。
+**[!UICONTROL Landing Page]:** 檢視器點按廣告時著陸的URL。
 
-**[!UICONTROL Final Landing Page]:** 的 [!UICONTROL Landing Page] 具有必要的URL [Advertising Cloud DSP跟蹤宏](/help/dsp/campaign-management/macros.md) 插入（如果適用）。
+**[!UICONTROL Final Landing Page]:** 此 [!UICONTROL Landing Page] 具有必要的URL [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 插入（如果適用）。
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 廣告的廣告商。
 
-**[!UICONTROL Call to Action]:** （可選）查看者在看到此廣告後要執行的步驟。
+**[!UICONTROL Call to Action]:** （選用）檢視者看到此廣告後，所要採取的步驟。
 
-**[!UICONTROL Advertiser Logo]:** （可選）1:1比率徽標，用於廣告，以獲得更多品牌認可。 按一下 **[!UICONTROL Browse]** 並在設備或網路上找到檔案，然後按一下 **[!UICONTROL Upload]**。
+**[!UICONTROL Advertiser Logo]:** （選用）1:1比例的標誌，可加入廣告以獲得更多品牌認可。 按一下 **[!UICONTROL Browse]** 並在您的裝置或網路上找到檔案，然後按一下 **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-位置的所有現有事件跟蹤像素都會自動附加。 您可以根據對單個廣告的跟蹤需求分離現有像素並根據需要建立新像素。
+版位的所有現有事件追蹤像素會自動附加。 您可以根據個別廣告的追蹤需求，分離現有像素並視需要建立新像素。
 
-以下設定適用於您建立或編輯的每個像素。
+下列設定會套用至您建立或編輯的每個像素。
 
-**[!UICONTROL Integration Event]:** 觸發像素觸發的事件。 對於此廣告類型，使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*。
+**[!UICONTROL Integration Event]:** 觸發像素的事件。 對於此廣告類型，請使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** 像素是否為 *[!UICONTROL IMG URL]* （1x1像素影像檔案）, *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*。
+**[!UICONTROL Pixel Type]:** 像素是否為 *[!UICONTROL IMG URL]* （1x1像素影像檔案）, *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** 像素影像的URL，格式與指定的 [!UICONTROL Pixel Type]。
+**[!UICONTROL Pixel URL or Code]:** 像素影像的URL，為指定的 [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** 像素名稱。 使用有助於輕鬆識別像素的名稱。
+**[!UICONTROL Pixel Name]:** 像素名稱。 使用可協助您輕鬆識別像素的名稱。
 
-**[!UICONTROL Pixel Provider]:** 像素提供器： *[!UICONTROL None]*。 *[!UICONTROL Nielsen]*&#x200B;或 *[!UICONTROL Comscore]*。
+**[!UICONTROL Pixel Provider]:** 像素提供者： *[!UICONTROL None]*, *[!UICONTROL Nielsen]*，或 *[!UICONTROL Comscore]*.
 
 >[!MORELIKETHIS]
 >
 >* [關於廣告管理](ad-about.md)
->* [建立單個廣告](ad-create.md)
->* [列出與廣告關聯的放置](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [建立單一廣告](ad-create.md)
+>* [列出與廣告相關聯的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [廣告規格](ad-specs.md)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
 

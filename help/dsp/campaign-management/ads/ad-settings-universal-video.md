@@ -2,9 +2,10 @@
 title: 通用視訊廣告設定
 description: 請參閱通用視訊廣告可用廣告設定的說明。
 feature: DSP Ads
-source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
+exl-id: 0be86b84-78f9-4429-a8b7-8195891875ca
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (僅使用VAST標籤的廣告；唯讀)您輸入做為廣告來源的第三方VAST標籤。
 
-**[!UICONTROL Final VAST Tag]:** (僅使用VAST標籤的廣告；唯讀)您輸入做為廣告來源的第三方VAST標籤，且必須 [Advertising Cloud DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 插入（如果適用）。
+**[!UICONTROL Final VAST Tag]:** (僅使用VAST標籤的廣告；唯讀)您輸入做為廣告來源的第三方VAST標籤，且必須 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 插入（如果適用）。
 
 **[!UICONTROL Wmode]:** 窗口模式： *[!UICONTROL window]*, *[!UICONTROL transparent]*，或 *[!UICONTROL opaque]*. 如果此設定不適用，請將其留空。
 
@@ -75,5 +76,5 @@ ht-degree: 0%
 >* [建立單一廣告](ad-create.md)
 >* [列出與廣告相關聯的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [廣告規格](ad-specs.md)
->* [Advertising Cloud DSP巨集](/help/dsp/campaign-management/macros.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
 

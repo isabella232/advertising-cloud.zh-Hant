@@ -3,16 +3,16 @@ title: 設定效能行銷活動的最佳實務
 description: 了解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的刊登版位。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # 設定效能行銷活動的最佳實務
 
-Advertising Cloud能以最低的每次贏取成本(CPA)或最高的廣告投入報酬率(ROAS)，最佳化您以效能為中心的促銷活動。
+DSP能以最低的每次贏取成本(CPA)或最高的廣告投入報酬率(ROAS)，最佳化您以效能為中心的促銷活動。
 
 請參閱下列效能促銷活動的最佳實務：
 
@@ -55,13 +55,13 @@ Advertising Cloud能以最低的每次贏取成本(CPA)或最高的廣告投入�
 
 #### 重新定位的建議刊登策略
 
-* 如果廣告商是Adobe Analytics或Adobe Audience Manager客戶，則您可以建立第一方區段（例如首頁訪客、產品頁面或購物車放棄者），並將其用作Advertising Cloud中的版位目標。
+* 如果廣告商是Adobe Analytics或Adobe Audience Manager客戶，則您可以建立第一方區段（例如首頁訪客、產品頁面或購物車放棄者），並將其用作DSP中的版位目標。
 
 * 請避免為目標對象版位指派太多預算。 一般規則是，每月每1,000名使用者預算30美元。
 
 ## 步驟3 — 建立套件
 
-最佳實務是為漏斗上部的勘察作業和漏斗下部的重新定位作業分別建立套件。 最佳化會在套件層級進行，因此會收集套件中所有位置的效能資料。 因此，將配置分組到具有類似預期效能的包中。
+最佳實務是為漏斗上部的勘察作業和漏斗下部的重新定位作業分別建立套件。 最佳化會在套件層級進行，因此套件中所有位置的效能資料會匯集在一起。 因此，將配置分組到具有類似預期效能的包中。
 
 ![用於探礦和重新定位的單獨包示例](/help/dsp/assets/p-r.png)
 

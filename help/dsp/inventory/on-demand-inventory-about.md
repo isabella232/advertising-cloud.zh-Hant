@@ -1,58 +1,63 @@
 ---
-title: 關於 [!DNL On Demand] 高級庫存
-description: 瞭解與高級發DSP行商合作夥伴預先談判的交易。
+title: 關於 [!DNL On Demand] Premium庫存
+description: 了解DSP與優質發行商合作夥伴預先協商的交易。
 feature: DSP On Demand Inventory
 exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# 關於 [!DNL On Demand] 高級庫存
+# 關於 [!DNL On Demand] Premium庫存
 
-*帳戶類型的用戶不可用 [!UICONTROL Ad Network]。 [!UICONTROL Publisher Audience Extension], [!UICONTROL Other];廣告商 [!UICONTROL Other];和轉銷商*
+*帳戶類型的使用者無法使用 [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]，和 [!UICONTROL Other];廣告商與類別 [!UICONTROL Other];和轉銷商*
 
-的 [!DNL On Demand] Gallery是一種高級庫存發現工具，用於探索Advertising Cloud DSP與高級出版商合作夥伴共同策劃的預約交易。 它允許您從區域內頂級發行商訪問非保證清單，而無需1:1的談判或合同。 您可以請求單筆交易，也可以訂閱發佈者一次請求發佈者的所有交易。
+此 [!DNL On Demand] Gallery是一種優質庫存發現工具，可探索DSP與優質發佈商合作夥伴策劃的預先協商交易。 它可讓您從地區內頂層發佈商存取未保證的庫存，而不需要1:1洽談或合約。 您可以申請個別交易，也可以訂閱發佈商以一次申請發佈商的所有交易。
 
-Advertising Cloud DSP高端市場允許您：
+DSP premium marketplace可讓您：
 
 * 快速、輕鬆地激活新庫存，以提高規模和效率
 
-   研究表明，在 [!DNL DSP] 平台省時，效率更高。
+   研究表明，在 [!DNL DSP] 平台可節省時間且更有效率。
 
-* 瀏覽新的發佈者和格式
-* 發現新的受眾和策略
-* 擴展獨特的觸角
-* 自動訪問在公開市場上不可用的發佈者
-* 自動訪問現場事件（如NBA 、 NFL和NHL事件）
-* 通過整合報告跟蹤效能
+* 探索新的發佈商和格式
 
-一旦交易獲得批准，它就可以作為現有配售的目標，並自動作為針對所有配售的新配售的目標 [!DNL On Demand] 庫存。 如果交易請求被拒絕，您可以 [!DNL Adobe] 客戶團隊解決問題，然後重新請求交易。
+* 探索新對象和策略
 
-## 按需視圖
+* 延伸不重複觸及
 
-在 [!UICONTROL Inventory] > [!UICONTROL On Demand]最近的交易和出版商 <!-- how recent? --> 可從頁面頂部的旋轉軸獲得。
+* 自動訪問公開市場中不提供的發佈商
 
-在旋轉木馬下方，您可以查看所有可用的交易和發行商。 您可以在 [!UICONTROL Subscription] 視圖，顯示所有可用的發佈者，並允許您快速訂閱發佈者的所有交易，以及 [!UICONTROL Deal] 視圖，其中列出每個發佈者的所有可用交易。 您可以按多個標準篩選視圖，例如只包括您已請求或已批准您的請求的發佈者或交易。
+* 自動訪問現場活動（如NBA、NFL和NHL活動）
 
-每個交易的詳細資訊包括以下列中的資料：
+* 使用整合的報告跟蹤效能
 
-* **[!UICONTROL TVB]:** 指示發佈者是電視廣播員的時間
-* **[!UICONTROL Tune]:** 指示發佈者何時接受「調諧」創意(例如，「今晚9點調諧」，以觀看\&lt;的新集&#x200B;*我們的節目*\>)
-* **[!UICONTROL LDA]:** （法定飲酒年齡）指明出版商何時應用21+目標並接受酒精廣告
-* **[!UICONTROL CPM]:** 指示在向廣告商授予交易訪問權之前，交易的底線或固定費率CPM何時不可見
+交易一經核准，即可作為現有版位的目標，並自動納入為所有目標的新版位的目標 [!DNL On Demand] 詳細目錄。 如果交易請求被拒絕，您可以與 [!DNL Adobe] 客戶團隊解決問題，然後重新請求交易。
+
+## 隨選檢視
+
+At [!UICONTROL Inventory] > [!UICONTROL On Demand]，即最近的交易與發佈商 <!-- how recent? --> 可從頁面頂端的輪播取得。
+
+在輪播下方，您可以檢視所有可用的交易和發佈商。 您可以在 [!UICONTROL Subscription] 檢視，可顯示所有可用的發佈商，並可讓您快速訂閱發佈商的所有交易，以及 [!UICONTROL Deal] 視圖，其中列出每個發佈商的所有可用交易。 您可以依多個條件來篩選檢視，例如僅包含您請求的發行者或交易，或是您的請求已獲核准的交易。
+
+每筆交易的詳細資訊包括下列各欄的資料：
+
+* **[!UICONTROL TVB]:** 指出發佈者是電視廣播員
+* **[!UICONTROL Tune]:** 指出發佈商何時接受「調整」創作元素(例如，「今晚9點調整」，播放新一集的「\&lt;」*我們的節目*\>)
+* **[!UICONTROL LDA]:** （法定飲酒年齡）指出發佈商何時已套用21以上目標並接受酒精廣告
+* **[!UICONTROL CPM]:** 指出在廣告商獲得交易存取權之前，交易的下限或固定比率CPM不會顯示
 * **[!UICONTROL Status]:** 訂閱請求的狀態（如果適用）
-* **[!UICONTROL Action]:** 您可以執行的任何可用操作(例如 [!UICONTROL Request] 或 [!UICONTROL Re-request])
+* **[!UICONTROL Action]:** 您可以採取的任何可用動作(例如 [!UICONTROL Request] 或 [!UICONTROL Re-request])
 
 >[!MORELIKETHIS]
 >
->* [訂閱和請求訪問 [!DNL On Demand] 高級庫存交易](on-demand-inventory-subscribe.md)
->* [按需重新請求高級庫存交易](on-demand-inventory-rerequest.md)
->* [查看您的狀態 [!DNL On Demand] 交易請求和訂閱](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] 亞太地區高級庫存出版商](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 歐洲、中東和非洲的高級庫存出版商](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美的高級庫存出版商](on-demand-inventory-publishers-na.md)
+>* [訂閱並要求存取 [!DNL On Demand] 高級庫存交易](on-demand-inventory-subscribe.md)
+>* [按需重新請求Premium庫存交易](on-demand-inventory-rerequest.md)
+>* [檢視您的 [!DNL On Demand] 交易要求與訂閱](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand] 亞太地區的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 澳大利亞和紐西蘭的Premium Inventory Publishers](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 歐洲、中東和非洲的Premium Inventory Publishers](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] 北美的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
 

@@ -1,19 +1,19 @@
 ---
-title: 特定於發佈者的廣告規範
-description: 參考支援的發佈器的廣告規範。
+title: 發佈商專用廣告規格
+description: 參考支援發佈商的廣告規格。
 feature: DSP Ads
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-# 特定於發佈者的廣告規範
+# 發佈商專用廣告規格
 
-一些出版商的廣告規格比Adverting Cloud的 [一般廣告規格](/help/dsp/campaign-management/ads/ad-specs.md)。  當發佈者規範比廣告雲更嚴格時，請確保遵循發佈者規範。
+有些發佈商的廣告規格比Adobe廣告更嚴格 [一般廣告規格](/help/dsp/campaign-management/ads/ad-specs.md). 當發佈商規格比Adobe廣告規格嚴格時，請務必遵循發佈商規格。
 
-以下連結將帶您查看一些要求更嚴格的出版商的廣告規格。
+下列連結會針對某些要求較嚴格的發佈者，提供廣告規格。
 
 * [!DNL Channel 10] ([!DNL Viacom];僅限AU):https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
 * 

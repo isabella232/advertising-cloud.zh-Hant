@@ -1,119 +1,119 @@
 ---
-title: 跨設備解決方案
-description: 瞭解有關跨設備功能的詳細資訊。
+title: 跨裝置解決方案
+description: 進一步了解跨裝置功能。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
-# 跨設備解決方案
+# 跨裝置解決方案
 
-Advertising Cloud DSP與 [!DNL LiveRamp] 允許您將受眾擴展到個人的所有已知設備，而不只是您的品牌跟蹤的設備。 該整合還在所有設備上提供頻率封蓋和屬性測量。
+Advertising DSP與 [!DNL LiveRamp] 可讓您將對象延伸至人員的所有已知裝置，而不只是您的品牌已追蹤的裝置。 整合也提供跨所有裝置的頻率限定和歸因測量。
 
-使用支援的基於人員的設備圖時，可以：
+使用支援的以人物為基礎的裝置圖表時，您可以：
 
-* 讓不同渠道和設備的受眾進行匹配，以向個人和家庭而不是設備投放廣告。
-* 通過瞭解和限制個人間的頻率來平衡和暴露。
-* Test策略，可以在不同頻道或設備間公開與轉換觀眾。
+* 比對跨管道和裝置的受眾，以將廣告傳送給人員和家庭，而非裝置。
+* 了解並限定個人間的頻率，以平衡和曝光。
+* 公開與轉換跨管道或裝置受眾的測試策略。
 
-## A. [!DNL LiveRamp] 設備圖
+## 優點 [!DNL LiveRamp] 裝置圖表
 
 * 提供確定性資料池，包括離線客戶資料
 
-* 在cookie ID和移動設備ID之間提供均勻的覆蓋
+* 提供Cookie ID與行動裝置ID之間的平均涵蓋範圍
 
 * 包括主要來自美國的資料
 
-* 免費進行頻率封頂和屬性測量
+* 頻率限定和歸因測量可免費使用
 
-* 價格為0.35美元的CPM，用於擴展印象(僅通過使用 [!DNL LiveRamp] 設備圖，而不是在目標受眾段中找到的設備上)
+* 延伸曝光數(僅透過使用 [!DNL LiveRamp] 裝置圖表，而非在目標受眾區段內找到的裝置上)
 
-   費率反映在您的帳戶費率卡上。
+   該費率會反映在您的帳戶費率卡上。
 
-## 基於人的頻率管理
+## 以人物為基礎的頻率管理
 
-基於人員的頻率管理允許您在人員級別指定頻率上限，而不是設備級別，以實現真正的媒體曝光控制。
+以人物為基礎的頻率管理可讓您指定人員層級的頻率上限，而非裝置層級，以真正控制媒體曝光。
 
-### 激活基於人員的頻率管理
+### 啟用以人物為基礎的頻率管理
 
-* **市場活動：** 建立新市場活動時，可以指定 [!UICONTROL Cross-Device Level] 的子菜單。 啟用「」[!UICONTROL Same Device]&quot;-> &quot;[!UICONTROL People]，並選擇一個設備圖形。 指定的設備圖用於在放置級別上的跨設備目標和在活動、包裝和放置級別上基於人的頻率管理。 頻率上限適用於所有已知設備。
+* **促銷活動：** 當您建立新促銷活動時，可以指定 [!UICONTROL Cross-Device Level] 設定。 啟用「[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]，並選取裝置圖表。 指定的裝置圖表可用於位置層級的跨裝置鎖定目標，以及行銷活動、封裝和位置層級的以人物為基礎的頻率管理。 頻率上限適用於人員的所有已知裝置。
 
-有關詳細資訊，請參見 [市場活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)。
+如需詳細資訊，請參閱 [促銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-保存市場活動後，無法更改其 [!UICONTROL Cross Device Level] 的子菜單。
+儲存促銷活動後，便無法變更其 [!UICONTROL Cross Device Level] 設定。
 
-* **包：**  您可以選擇在包層設定附加頻率上限。 會DSP尊重市場活動等級中最嚴格的頻率限制。
+* **套件：**  您可以選擇在封裝層級設定其他頻率上限。 DSP將遵循促銷活動階層中最嚴格的頻率上限。
 
-* **放置：** 您可以選擇在放置層設定附加的頻率大寫。 會DSP尊重市場活動等級中最嚴格的頻率限制。
+* **版位：** 您可以選擇在放置層級設定其他頻率上限。 DSP將遵循促銷活動階層中最嚴格的頻率上限。
 
-## 基於人的目標
+## 以人物為基礎的定位
 
-基於人的目標使您能夠在台式機和移動設備上找到客戶。
+以人物為基礎的鎖定目標可讓您在案頭和行動裝置間尋找客戶。
 
-### 激活基於人員的目標
+### 啟用以人物為基礎的鎖定目標
 
-* **市場活動：** 建立新市場活動時，可以指定 [!UICONTROL Cross-Device Level] 的子菜單。 啟用「」[!UICONTROL Same Device]&quot;-> &quot;[!UICONTROL People]，並選擇一個設備圖形。 指定的設備圖形用於在放置級別上的跨設備目標和基於人的頻率管理。
+* **促銷活動：** 當您建立新促銷活動時，可以指定 [!UICONTROL Cross-Device Level] 設定。 啟用「[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]，並選取裝置圖表。 指定的裝置圖表可用於位置層級的跨裝置鎖定目標，以及以人物為基礎的頻率管理。
 
-有關詳細資訊，請參見 [市場活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)。
+如需詳細資訊，請參閱 [促銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **放置：** 當您為市場活動中使用指定設備圖形的位置選擇受眾目標時， [!UICONTROL Cross-Device Targeting] 選項允許您將目標擴展到人員的所有已知設備（根據市場活動設定中指定的設備圖），甚至不在指定段中的設備。
+* **版位：** 使用指定的裝置圖表為行銷活動中的版位選取對象目標時， [!UICONTROL Cross-Device Targeting] 選項可讓您將目標延伸到所有人員的已知裝置（根據促銷活動設定中指定的裝置圖表），甚至不在指定區段的裝置。
 
-### 設定基於人員的目標報告
+### 設定以人物為基礎的定位報表
 
-您可以在自定義報告中包括以下度量：
+您可以在自訂報表中加入下列量度：
 
-* **擴展印象：** (在 [!UICONTROL Build Your Report] 節 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics])通過利用設備圖形（在原始受眾段中找不到）提供的增量印象量。 此度量還用於計算與使用第三方設備圖形相關的適用費用。
+* **延伸曝光次數：** (在 [!UICONTROL Build Your Report] 一節 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics])運用裝置圖表所傳遞的增量曝光次數量（在原始受眾區段內找不到）。 此量度也用於計算與使用協力廠商裝置圖表相關的適用費用。
 
-   要確定某段時間內擴展印象的成本，請運行包含 [!UICONTROL Extended Impressions] 列，然後將擴展印數總數乘以0.00035美元(0.35/1000印數)。
+   若要判斷某時段內延伸曝光次數的成本，請執行包含 [!UICONTROL Extended Impressions] 欄，然後將擴展曝光總數乘以0.00035美元(0.35/1000曝光數)。
 
-   總成本亦包括於綜合 [!UICONTROL Billable Other Net Spend] 列 [!UICONTROL Metrics] > [!UICONTROL Spend])，儘管該指標還包括您可能添加的其他促銷費用。
+   總成本亦包括於 [!UICONTROL Billable Other Net Spend] 欄（在下） [!UICONTROL Metrics] > [!UICONTROL Spend])，但該量度也包含您可能新增的其他促銷活動費用。
 
-* **設備圖形：** (在 [!UICONTROL Build Your Report] 節 [!UICONTROL Dimensions] > [!UICONTROL Campaign])特定市場活動、包或位置的所選設備圖表。
+* **裝置圖表：** (在 [!UICONTROL Build Your Report] 一節 [!UICONTROL Dimensions] > [!UICONTROL Campaign])特定促銷活動、套件或位置的所選裝置圖表。
 
-## 基於人的歸因度量
+## 以人物為基礎的歸因測量
 
-*僅具有Advertising Cloud轉換跟蹤的廣告商*
+*僅追蹤Adobe廣告轉換的廣告商*
 
-使用基於人的屬性，您可以在與媒體曝光發生的設備不同的設備上進行屬性轉換。 基於人的歸屬度測量可在DSPAdvertising Cloud Search和Advertising Cloud Creative為在其網站上實施了Advertising Cloud轉換像素的廣告商提供。
+透過以人物為基礎的歸因，您可以歸因發生在媒體曝光所在裝置以外的不同裝置上的轉換。 您可在各DSP中使用以人物為基礎的歸因測量， [!DNL Adobe Advertising Creative]，和 [!DNL Adobe Advertising Search] 若廣告商已在其網站上實作「Adobe廣告轉換像素」。
 
-### 啟用基於人的屬性測量
+### 啟用以人物為基礎的歸因測量
 
-如果要激活跨設備屬性測量，請與 [!DNL Adobe] 客戶團隊。
+如果您想要啟用跨裝置歸因測量，請連絡您的 [!DNL Adobe] 客戶團隊。
 
-### 設定跨設備轉換屬性的轉換報告
+### 設定跨裝置轉換歸因的轉換報表
 
 #### 轉換報表設定
 
-當設備圖被啟用用於屬性測量時， [!UICONTROL Conversion] 報告包括 [!UICONTROL Cross-Device Breakout] 設定，允許您為每個轉換度量包括最多三個單獨的列，包括：
+裝置圖表啟用歸因測量時， [!UICONTROL Conversion] 報表包括 [!UICONTROL Cross-Device Breakout] 設定，可讓您為每個轉換量度包含最多三個不同的欄，包括：
 
-* &lt;*轉換*>[!UICONTROL (tp)]:包括總轉換（人員總數），其中包括相同設備轉換和跨設備轉換（如果適用）。 在報告中， &quot;[!UICONTROL (tp)]&quot;被附加到轉換路徑中的轉換度量名稱、規則類型和轉換類型(例如，&quot;Responses(le)(tl)(tp))。
+* &lt;*轉換*>[!UICONTROL (tp)]:包括總轉換次數（總人數），其中包括相同裝置轉換次數和跨裝置轉換次數（若適用）。 在報告中，「[!UICONTROL (tp)]「 」會附加至轉換路徑中的轉換量度名稱、規則類型和轉換類型(例如「回應(le)(tl)(tp)」)。
 
-* &lt;*轉換*>[!UICONTROL (sd)]:（可選）僅包括在轉換路徑中僅跟蹤單個設備的轉換。 在報告中， &quot;[!UICONTROL (sd)]&quot;被附加到轉換路徑中的轉換度量名稱、規則類型和轉換類型(例如，&quot;Responses(le)(tl)(sd))。
+* &lt;*轉換*>[!UICONTROL (sd)]:（選用）僅包含轉換路徑中僅追蹤單一裝置的轉換。 在報告中，「[!UICONTROL (sd)]「 」會附加至轉換路徑中的轉換量度名稱、規則類型和轉換類型(例如「回應(le)(tl)(sd)」)。
 
-* &lt;*轉換*>[!UICONTROL (xd)]:（可選）僅包括在轉換路徑中跟蹤多個設備的轉換。 在報告中， &quot;[!UICONTROL (xd)]&quot;被附加到轉換路徑中的轉換度量名稱、規則類型和轉換類型(例如，&quot;Responses(le)(tl)(xd))。
+* &lt;*轉換*>[!UICONTROL (xd)]:（選用）僅包含在轉換路徑中追蹤超過一個裝置的轉換。 在報告中，「[!UICONTROL (xd)]「 」會附加至轉換路徑中的轉換量度名稱、規則類型和轉換類型(例如「回應(le)(tl)(xd)」)。
 
-#### 如何解釋轉換報告
+#### 如何解譯轉換報表
 
-如果對跨設備的總轉換百分比進行排序([!UICONTROL (xd)]/[!UICONTROL (tl)])從高到低，您將瞭解驅動高於平均值的跨設備轉換的因素。 您可以使用此策略來告知您的創意或目標策略，以便將消息傳遞和引導投資與用戶行為相匹配。
+如果您排序的是跨裝置轉換總數的百分比([!UICONTROL (xd)]/[!UICONTROL (tl)])從高到低，您將了解推動高於平均水準的跨裝置轉換的因素。 您可以利用此資訊來通知您的創意或目標策略，以符合訊息和管道投資與使用者行為。
 
-* 包 — 查看哪些包驅動著最大的總轉換，哪些包具有較高的跨設備轉換百分比。 這可以幫助您瞭解重點支出的位置。
+* 套件 — 查看哪些套件促成最多的總轉換，以及哪些套件具有高百分比的跨裝置轉換。 這可協助您了解要聚焦於何處。
 
-* 放置 — 比較放置效能和屬性（例如，移動Web廣告可能會推動案頭上的轉換）。 如果沒有用於屬性的設備圖表，您可能會錯過移動Web放置對案頭轉換的影響，或者，如果大多數用戶在案頭而不是移動Web上轉換，則可能會被隱藏。
+* 版位 — 比較版位效能和歸因（例如，行動網路廣告可能會在案頭推動轉換）。 若沒有用于歸因的裝置圖表，您可能會遺漏行動版網站版位對案頭轉換的影響，或是如果大部分的使用者在案頭轉換，而非行動版網路，則可能會隱藏。
 
-* 廣告 — 發現哪些廣告會推動更高轉換率，並量化它們在Web瀏覽器和移動應用環境中的價值和影響。
+* 廣告 — 探索哪些廣告能促進更高的轉換，並量化其價值及在網頁瀏覽器和行動應用程式環境中的影響。
 
-* 站點 — 跨站點優化，而不是手動完全排除站點。 如果網站驅動跨設備轉換，則您可以看到在哪些設備上發生此行為。
+* 網站 — 跨網站最佳化，而非手動完全排除網站。 如果網站推動跨裝置轉換，您便可查看此行為發生的裝置。
 
-* 交易 — 通過驗證哪些庫存交易提供跨設備轉換，然後確定是否應將目標擴展到這些交易中包括更多設備和渠道來改進手動優化。
+* 交易 — 驗證哪些庫存交易可提供跨裝置轉換，然後決定是否應將目標擴展至這些交易中包含更多裝置和管道，借此改善手動最佳化。
 
 >[!MORELIKETHIS]
 >
->* [報告設定](/help/dsp/reports/report-settings.md)
->* [市場活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [包設定](/help/dsp/campaign-management/packages/package-settings.md)
->* [放置設定](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [報表設定](/help/dsp/reports/report-settings.md)
+>* [促銷活動設定](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+>* [套件設定](/help/dsp/campaign-management/packages/package-settings.md)
+>* [版位設定](/help/dsp/campaign-management/placements/placement-settings.md)
 

@@ -1,19 +1,20 @@
 ---
 title: 基礎 [!DNL Marketing Channels]
-description: 了解關於 [!DNL Analytics Marketing Channels] that [!DNL Analytics for Advertising Cloud] 使用者應了解。
+description: 了解關於 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising] 使用者應了解。
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 27b6fb07-0b63-4ff1-a316-20b9a2b60fe9
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
 # 基礎 [!DNL Analytics Marketing Channels]
 
-*僅具有Advertising Cloud-Adobe Analytics整合的廣告商*
+*廣告商與Adobe廣告 — 僅Adobe Analytics整合*
 
-本頁面說明 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising Cloud] 使用者需要了解。
+本頁面說明 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising] 使用者需要了解。
 
 如需 [!DNL Marketing Channels]，請參閱「[開始使用 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
 
@@ -33,17 +34,17 @@ ht-degree: 0%
 
 行銷人員通常會將查詢字串參數追蹤程式碼附加至管道URL，以協助追蹤管道對其網站的影響。 您可以設定 [!DNL Marketing Channels] 處理規則，以監聽特定追蹤參數和值，以判斷管道而不需任何其他追蹤。 例如，如果所有電子郵件促銷活動URL都遵循格式 `www.adobe.com?cid=email…` (其中URL包含查詢字串參數和值 `cid=email`)，然後您可以建立規則來監聽此追蹤程式碼，並將造訪分段到 [!UICONTROL Email] 頻道。
 
-其他管道沒有可追蹤的URL路徑，需要進一步的邏輯才能識別。 例如， [!UICONTROL Earned Social]，而使用者點按另一個使用者在社交網路上有機共用的連結，則是重要的追蹤管道。 但行銷人員無法將查詢字串參數追蹤代碼附加至共用的URL。 在此情況下，您可以建立處理規則來監聽感興趣社交網路的反向連結網域，以及沒有付費追蹤代碼來判斷管道。 接著，在「行銷管道」報表中，將會以無償社交方式追蹤符合這些要求的造訪。
+其他管道沒有可追蹤的URL路徑，需要進一步的邏輯才能識別。 例如， [!UICONTROL Earned Social]，使用者點按另一個使用者在社交網路上有機共用的連結，是重要的追蹤管道。 但行銷人員無法將查詢字串參數追蹤代碼附加至共用的URL。 在此情況下，您可以建立處理規則來監聽感興趣社交網路的反向連結網域，以及沒有付費追蹤代碼來判斷管道。 接著，在「行銷管道」報表中，將會以無償社交方式追蹤符合這些要求的造訪。
 
 Adobe建議您與分析團隊合作，建立完整的 [!DNL Marketing Channels] 處理規則，以追蹤與您的業務相關的所有管道。 這麼做可讓您建立強大的歸因報表。
 
-若要了解Advertising Cloud如何對建立自訂行銷管道所需的訊號有所貢獻，請參閱[使用Advertising ID來建立 [!DNL Marketing Channels] 規則](mc-ids.md).&quot;
+若要了解Adobe廣告對建立自訂行銷管道所需訊號的貢獻方式，請參閱「[使用Advertising ID來建立 [!DNL Marketing Channels] 規則](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [使用Advertising Cloud ID建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
->* [為何管道資料可能因Advertising Cloud和 [!DNL Marketing Channels]](mc-data-variances.md)
->* [使用 [!DNL Analytics Marketing Channels] 使用Advertising Cloud資料](mc-ac-data.md)
->* [影片：使用Advertising Cloud製作報表 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [概觀 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md)
+>* [使用Adobe廣告ID來建立 [!DNL Marketing Channels] 處理規則](mc-ids.md)
+>* [為何Adobe廣告和 [!DNL Marketing Channels]](mc-data-variances.md)
+>* [使用 [!DNL Analytics Marketing Channels] 與Adobe廣告資料](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] AdobeAdvertising報表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [概觀 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
 

@@ -1,63 +1,64 @@
 ---
-title: '從持久ID夥伴激活經過驗證的段 '
-description: 瞭解如何通過持久ID解決方案激活經過驗證的受眾。
+title: 向耐用ID合作夥伴啟用已驗證的區段
+description: 了解如何透過持久ID解決方案啟用已驗證的受眾。
 feature: DSP Audiences
-source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
+exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
-# 從持久ID夥伴激活經過驗證的段
+# 向耐用ID合作夥伴啟用已驗證的區段
 
-*Beta功能*
+*測試版功能*
 
-要通過Advertising Cloud DSP內的持久ID解決方案激活經過驗證的受眾，必須將您的網段翻譯成 [!DNL RampIDs]，在易買的環境中可識別。 您可以通過以下任一方法完成此任務：
+若要透過Advertising DSP內的持久ID解決方案啟用已驗證的受眾，您的區段必須翻譯為 [!DNL RampIDs]，在可買的環境中可辨識。 您可以執行下列任一操作：
 
-* 利用與DSP [!DNL Adobe Real-Time Customer Data Profile (CDP)] 和 [!DNL Adobe-LiveRamp Retrieval API]。
+* 善用DSP與 [!DNL Adobe Real-Time Customer Data Profile (CDP)] 和 [!DNL Adobe-LiveRamp Retrieval API].
 
-* 手動將已驗證的段DSP從 [!DNL LiveRamp] [!DNL Connect] 控制項欄。
+* 手動傳送已驗證的區段至DSP [!DNL LiveRamp] [!DNL Connect] 控制面板。
 
-## 任務
+## 工作
 
-1. 對於任一選項，請聯繫 `adcloud-support@adobe.com` 在中啟用以下設DSP置，這將允許您在市場活動中針對經過驗證DSP的段 [激活工作流中的所有步驟都已完成](source-about.md#workflow-sources):
+1. 若為任一選項，請聯絡 `adcloud-support@adobe.com` 若要在DSP中啟用下列設定，這可讓您在DSP促銷活動中定位已驗證的區段一次 [啟動工作流程中的所有步驟皆已完成](source-about.md#workflow-sources):
 
-   1. [!DNL LiveRamp] [!DNL RampID] 市場活動配置，然後從 [!DNL Real-Time CDP]。
+   1. [!DNL LiveRamp] [!DNL RampID] 從 [!DNL Real-Time CDP].
 
-   1. 帳戶級別&quot;[!UICONTROL LiveRamp segments]選項。
+   1. 帳戶層級「[!UICONTROL LiveRamp segments]」。
 
-1. (用戶手動共用已驗證的段 [!DNL LiveRamp])完成以下步驟 [!DNL LiveRamp] [!DNL Connect] 儀表板：
+1. (使用者手動共用已驗證的區段，來自 [!DNL LiveRamp])在 [!DNL LiveRamp] [!DNL Connect] 控制面板：
 
-   1. 激活目標磁貼 **[!DNL AAC API 1P Onboarding]**。
+   1. 激活目標磁貼 **[!DNL AAC API 1P Onboarding]**.
 
-   1. 設定 [!DNL Identifier Settings] 至 **[!DNL Ramp ID]** 只是。
+   1. 設定 [!DNL Identifier Settings] to **[!DNL Ramp ID]** 只有。
 
-      ![標識符設定](/help/dsp/assets/liveramp-tile-settings.png)
+      ![識別碼設定](/help/dsp/assets/liveramp-tile-settings.png)
 
-   1. （可選）如果仍要接收基於cookie的標識符，請建立第二個 [!DNL AAC API 1P Onboarding] 目標磁貼（帶「」）[!DNL Cookies]「」[!DNL IDFA],&quot;和&quot;[!DNL AAID]的下界。
+   1. （選用）如果您仍要接收Cookie型識別碼，請建立第二個 [!DNL AAC API 1P Onboarding] 具有「[!DNL Cookies], &quot;[!DNL IDFA],&quot;和&quot;[!DNL AAID]」。
 
-## 測試和資料驗證的最佳做法
+## 測試和資料驗證的最佳實務
 
-* **目標 [!DNL RampID]不同市場活動中基於Cookie的市場細分。**
+* **目標 [!DNL RampID]個別促銷活動中的「以Cookie為基礎的區段」。**
 
-   * 市場活動設定只允許一個標識符按優先順序排列。
+   * 促銷活動設定僅允許排定優先順序一個識別碼。
 
-   * 目前， [!DNL RampIDs] 無法在現場事件期間檢索。 這意味著某些自定義目標（如最低CPA和ROAS）在使用經過身份驗證的段時不可用。 僅當具有限制性效能KPI時，才使用基於cookie的段。
+   * 目前， [!DNL RampIDs] 在站點事件期間無法檢索。 這表示某些自訂目標（例如最低CPA和ROAS）無法使用已驗證的區段。 只有在您有限制的效能KPI時，才使用Cookie型區段。
 
-* **在兩個 [!DNL RampID] 和基於曲奇的活動。**
+* **在 [!DNL RampID] 和Cookie型行銷活動。**
 
-   * 瞄準共用的段 [!DNL LiveRamp] 使用標準段激活過程。
+   * 定位從共用的區段 [!DNL LiveRamp] 使用標準區段啟用程式。
 
-   * 與您的Advertising Cloud支援團隊合作，驗證正確的資料分發。
+   * 與您的Adobe廣告支援團隊合作，驗證資料的分送是否正確。
 
-瞭解有關與整合的DSP詳細資訊 [!DNL LiveRamp]，聯繫人 `adcloud-support@adobe.com`。
+若要進一步了解DSP與 [!DNL LiveRamp]，聯絡 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
->* [關於從受眾源激活經過驗證的段](source-about.md)
->* [建立受眾源以激活第一方受眾](source-create.md)
->* [受眾源設定](source-settings.md)
->* [Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [關於受眾管理](/help/dsp/audiences/audience-about.md)
+>* [關於從受眾來源啟用已驗證的區段](source-about.md)
+>* [建立對象來源以啟用第一方對象](source-create.md)
+>* [對象來源設定](source-settings.md)
+>* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [關於Audience Management](/help/dsp/audiences/audience-about.md)
 

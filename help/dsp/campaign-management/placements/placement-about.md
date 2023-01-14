@@ -1,16 +1,16 @@
 ---
-title: 關於Advertising Cloud DSP中的版位管理
+title: 關於Advertising DSP中的版位管理
 description: 了解版位管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: c6a3d9703d06a44e38aae3bc6ec3f5f77e93082d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# 關於Advertising Cloud DSP中的版位管理
+# 關於Advertising DSP中的版位管理
 
 版位包含相同廣告類型之一或多個廣告的定位參數。 您可以建立單一促銷活動或套件的版位，然後指派廣告給該版位。 每個促銷活動或版位可包含多個版位，並具有指定的廣告輪換。 依預設，廣告會平均旋轉。
 

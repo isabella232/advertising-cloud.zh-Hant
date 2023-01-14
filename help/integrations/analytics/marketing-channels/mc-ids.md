@@ -1,26 +1,26 @@
 ---
-title: 使用Advertising Cloud ID建立 [!DNL Marketing Channels] 規則
-description: 了解如何使用Advertising Cloud ID建立 [!DNL Analytics Marketing Channels].
+title: 使用Adobe廣告ID來建立 [!DNL Marketing Channels] 規則
+description: 了解如何使用Adobe廣告ID來建立 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
-source-git-commit: d136b1fe6f6fd3861d0850e07efe7c320da4a7cc
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# 使用Advertising Cloud ID建立 [!DNL Marketing Channels] 處理規則
+# 使用Adobe廣告ID來建立 [!DNL Marketing Channels] 處理規則
 
-*僅具有Advertising Cloud-Adobe Analytics整合的廣告商*
+*廣告商與Adobe廣告 — 僅Adobe Analytics整合*
 
-您可以使用Advertising Cloud ID([AMO ID和EF ID](../ids.md))若要設定 [!DNL Marketing Channels] 處理規則。 使用Advertising Cloud ID作為Advertising Cloud促銷活動的特定規則。
+您可以使用Adobe廣告ID([AMO ID和EF ID](../ids.md))若要設定 [!DNL Marketing Channels] 處理規則。 針對您的Adobe廣告促銷活動的特定規則，使用Adobe廣告ID。
 
 ## 處理規則中的AMO ID
 
-AMO ID是主要追蹤代碼，用於報告內的Advertising Cloud資料 [!DNL Analytics]. AMO ID是由Adobe管理的動態值串連，以在內提供精細的報表 [!DNL Analytics]. 它儲存在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar維度(AMO ID)。 AMO ID可在 [!DNL Analytics] 有兩種方式：
+AMO ID是主要追蹤代碼，用於報告內的Adobe廣告資料 [!DNL Analytics]. AMO ID是由Adobe管理的動態值串連，以在內提供精細的報表 [!DNL Analytics]. 它儲存在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar維度(AMO ID)。 AMO ID可在 [!DNL Analytics] 有兩種方式：
 
-* 點進追蹤：Advertising Cloud設定 `s_kwcid` 連結中的查詢字串參數，以及 [!DNL Analytics] 點進發生時，會從登陸頁面URL中取用參數。
+* 點進追蹤：Adobe廣告會設定 `s_kwcid` 連結中的查詢字串參數，以及 [!DNL Analytics] 點進發生時，會從登陸頁面URL中取用參數。
 * 閱覽追蹤([!DNL DSP] 僅限):上次事件服務會偵測伺服器端的閱覽，並將AMO ID傳送至 [!DNL Analytics]. 在此情況下，URL不包含 `s_kwcid` 參數。
 
 AMO ID內的動態值會指出已追蹤的行銷管道：
@@ -62,7 +62,7 @@ AMO ID內的動態值會指出已追蹤的行銷管道：
 
 ## 處理規則中的EF ID
 
-AMO EF ID(EF ID)是 [!DNL Analytics for Advertising Cloud] 整合。 其主要用途是追蹤及通過 [!DNL Analytics] 事件資料匯入Advertising Cloud。 每次點進或閱覽發生時，都會產生唯一的EF ID，即使這是相同訪客的相同廣告亦然。 EF ID不會用於 [!DNL Analytics] 報告使用者介面，因為該介面通常超過 [!DNL Analytics]，導致無法用於報告。 Advertising Cloud量度和中繼資料不會套用至EF ID;它們只會套用至AMO ID。 在Advertising Cloud中，促銷活動最佳化需要新增的追蹤粒度，因此需要兩個ID。
+AMO EF ID(EF ID)是 [!DNL Analytics for Advertising] 整合。 其主要用途是追蹤及通過 [!DNL Analytics] 事件資料放入Adobe廣告。 每次點進或閱覽發生時，都會產生唯一的EF ID，即使這是相同訪客的相同廣告亦然。 EF ID不會用於 [!DNL Analytics] 報告使用者介面，因為該介面通常超過 [!DNL Analytics]，導致無法用於報告。 Adobe廣告量度和中繼資料不會套用至EF ID;它們只會套用至AMO ID。 在「Adobe廣告」中，促銷活動最佳化需要新增的追蹤粒度，因此需要兩個ID。
 
 雖然EF ID維度未直接用於 [!DNL Analytics] 報告時，EF ID在建立行銷管道時相當實用。 EF ID尾碼會指出管道（顯示或搜尋），以及造訪是由點進或閱覽所驅動。 EF ID中的分隔字元是冒號，而非AMO ID中的感嘆號。
 
@@ -91,8 +91,8 @@ AMO EF ID(EF ID)是 [!DNL Analytics for Advertising Cloud] 整合。 其主要�
 >[!MORELIKETHIS]
 >
 >* [基礎 [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [為何管道資料可能因Advertising Cloud和 [!DNL Marketing Channels]](mc-data-variances.md)
->* [使用 [!DNL Analytics Marketing Channels] 使用Advertising Cloud資料](mc-ac-data.md)
->* [影片：使用Advertising Cloud製作報表 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [Advertising Cloud使用的ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [為何Adobe廣告和 [!DNL Marketing Channels]](mc-data-variances.md)
+>* [使用 [!DNL Analytics Marketing Channels] 與Adobe廣告資料](mc-ac-data.md)
+>* [影片：使用 [!DNL Marketing Channels] AdobeAdvertising報表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Adobe廣告ID：使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md)
 

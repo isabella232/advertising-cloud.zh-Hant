@@ -3,16 +3,16 @@ title: 建立和實作自訂區段
 description: 了解如何建立和實作自訂區段，以追蹤對廣告公開的使用者或瀏覽您網頁的使用者。
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # 建立和實作自訂區段
 
-您可以建立並實作自訂Advertising Cloud區段，以收集您自己的第一方對象資料。 您可以使用區段來追蹤a)從案頭、行動裝置和CTV裝置公開廣告的使用者，以及b)瀏覽特定網頁的使用者。 您之後可以透過其他廣告重新定位區段中的使用者，或防止區段中的使用者收到其他廣告。
+您可以建立並實作自訂DSP區段，以收集您自己的第一方對象資料。 您可以使用區段來追蹤a)從案頭、行動裝置和CTV裝置公開廣告的使用者，以及b)瀏覽特定網頁的使用者。 您之後可以透過其他廣告重新定位區段中的使用者，或防止區段中的使用者收到其他廣告。
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ title: 重複版位
 description: 了解如何複製一或多個版位。
 feature: DSP Placements
 exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,16 +24,27 @@ ht-degree: 0%
 請參閱「[未重複的項目](#placement-not-duplicated)「 」，以取得未複製的版位設定清單。
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+
 1. 按一下促銷活動的名稱。
+
 1. 在子菜單中，按一下 **[!UICONTROL Placements]**.
+
 1. 執行下列任一操作：
+
    * 若要複製一個版位，請按一下  **[!UICONTROL ...]>[!UICONTROL Duplicate]** 包名稱旁邊。
+
    * 若要複製多個版位：
+
       1. 選取每個要複製之版位旁的核取方塊。
+
       1. 在大量動作工具列中，按一下 **[!UICONTROL Duplicate]**.
+
 1. 指定新版位設定：
+
    1. （單一版位）輸入新版位名稱。
+
    1. 在 **[!UICONTROL Choose Package (Required)]** 菜單，選擇父包或**[!UICONTROL No package]*.
+
    1. （選用）變更預設設定。
 
    設定會套用至所有選取的版位。

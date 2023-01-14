@@ -3,9 +3,9 @@ title: 版位設定
 description: 請參閱可用版位設定的說明。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 0f5bdf041c0de60730efe5190d438a6d29752034
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Sources]:** 要包括或排除作為目標的庫存來源。 對於大多數版位類型，預設會包含每種類型的所有庫存類型和所有來源。 針對 [!DNL Roku] 版位，必須指定庫存類型和來源。 您可以從下列庫存類型中選擇：
 
-* [!UICONTROL Public]:（Roku除外的所有版位類型）Advertising Cloud可存取的所有未結Exchange詳細目錄。 您可以包含和排除公用詳細目錄。
+* [!UICONTROL Public]:（Roku除外的所有版位類型）DSP可存取的所有未結Exchange詳細目錄。 您可以包含和排除公用詳細目錄。
 
    您可以依來源或摘要來檢視清單。 當您依摘要檢視清單時，可以依摘要名稱、摘要金鑰或選取的特性標籤來搜尋。
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 >
 >對於績效促銷活動，最佳實務是選取 *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (可選；可用時間 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)所選網站層級內的網站類別，以包含或排除（但不包括兩者）作為目標。 從Advertising Cloud已根據網站主旨對應的垂直網站清單中選擇：
+**[!UICONTROL Site Categories]:** (可選；可用時間 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)所選網站層級內的網站類別，以包含或排除（但不包括兩者）作為目標。 從DSP已根據網站主旨對應的垂直網站清單中選擇：
 
 1. 按一下 ![編輯](/help/dsp/assets/edit.png).
 1. 指定要包括或排除的網站類別：
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 除了Advertising Cloud DSP外，也會套用帳戶層級和廣告商層級封鎖的網站清單 [全局阻止的站點清單](/help/dsp/introduction/features/brand-safety-media-quality.md)，包括廣告認為不安全的網站。
+>* 除了DSP外，也會套用帳戶層級和廣告商層級封鎖的網站清單 [全局阻止的站點清單](/help/dsp/introduction/features/brand-safety-media-quality.md)，包括廣告認為不安全的網站。
 >* 被阻止的站點清單始終覆蓋目標站點清單。 如果版位同時排除和包含廣告的相同目標，則會排除該目標。
 
 

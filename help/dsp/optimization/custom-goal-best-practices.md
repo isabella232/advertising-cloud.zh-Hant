@@ -3,7 +3,7 @@ title: 建立自訂目標的最佳作法
 description: 了解建立自訂目標以定義成功事件的最佳實務。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 > A [!UICONTROL Property Weight] 相當於每個$1收入所追蹤的值為1。
 >
-> 例如，250美元的轉換（權重為1）會報告為$250。 如果轉換量度的權重為0.5，則$250的轉換在Advertising Cloud中會報告為$125（$250的轉換* 0.5） [!UICONTROL Property Weight] = $125)。
+> 例如，250美元的轉換（權重為1）會報告為$250。 如果轉換量度的權重為0.5，則$250的轉換在Adobe廣告中會報告為$125（$250的轉換* 0.5） [!UICONTROL Property Weight] = $125)。
 
 ### 具有「[!UICONTROL Lowest CPA - Custom Goal]&quot;最佳化目標
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > A [!UICONTROL Property Weight] 等於每個追蹤轉換的值為1。
 >
-> 例如，如果追蹤了10個「應用程式提交」轉換，則會報告10個「應用程式提交」轉換。  如果轉換量度的加權為0.5，則10次轉換在Advertising Cloud中會報告為五(5)次（10次轉換* 0.5） [!UICONTROL Property Weight] = 5)。
+> 例如，如果追蹤了10個「應用程式提交」轉換，則會報告10個「應用程式提交」轉換。  如果轉換量度的加權為0.5，則10次轉換在Adobe廣告（10次轉換* 0.5）中會報告為五(5)次 [!UICONTROL Property Weight] = 5)。
 
 ## 具有多個屬性的自訂目標
 

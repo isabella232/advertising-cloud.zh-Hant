@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising Cloud DSP 指南
-user-guide-description: 了解使用 Advertising Cloud DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
+user-guide-title: Advertising DSP指南
+user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e902deb79c42e8fb13697439198259004a957525
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 6%
+source-wordcount: '948'
+ht-degree: 5%
 
 ---
 
 
-# Advertising Cloud DSP 指南 {#dsp}
+# Advertising DSP指南 {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 + [新增功能](/help/dsp/home.md)
 + 簡介 {#introduction}
-   + [Adobe Advertising Cloud DSP簡介](/help/dsp/introduction/dsp-about.md)
+   + [AdobeAdvertising DSP簡介](/help/dsp/introduction/dsp-about.md)
    + 主要功能 {#features}
       + [最佳化](/help/dsp/introduction/features/optimization.md)
       + [品牌安全與媒體品質](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -117,7 +117,7 @@ ht-degree: 6%
       + [下載行銷活動的版位設定](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [行銷活動的上傳位置設定](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [已下載/已上載電子錶格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
-   + [Advertising Cloud DSP巨集](/help/dsp/campaign-management/macros.md)
+   + [DSP巨集](/help/dsp/campaign-management/macros.md)
    + [鍵盤快速鍵](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Campaign Management常見問題集](/help/dsp/campaign-management/campaign-management-faq.md)
 + 最佳化 {#optimization}

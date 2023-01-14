@@ -1,16 +1,16 @@
 ---
-title: 關於Advertising Cloud DSP中的套件管理
+title: 關於Advertising DSP中的套件管理
 description: 了解套件管理。
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# 關於Advertising Cloud DSP中的套件管理
+# 關於Advertising DSP中的套件管理
 
 使用套件將投放位置分組，以傳遞至設定的預算、效能目標及自訂步調策略。 DSP會將預算移至套件中成效最佳的版位，以最佳化套件。 您可以依版位格式、詳細目錄類型、資料提供者、角色或其他可區分的特性來組織套件。 套件為選用。
 

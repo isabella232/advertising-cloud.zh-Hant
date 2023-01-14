@@ -1,71 +1,71 @@
 ---
-title: 錯誤代碼 [!DNL FreeWheel] 廣告提交
-description: 引用為廣告提交返回的錯誤代碼 [!DNL FreeWheel]。
+title: 的錯誤代碼 [!DNL FreeWheel] 廣告提交
+description: 參考為廣告提交傳回的錯誤代碼 [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '677'
 ht-degree: 4%
 
 ---
 
-# 錯誤代碼 [!DNL FreeWheel] 廣告提交
+# 的錯誤代碼 [!DNL FreeWheel] 廣告提交
 
-失敗廣告提交的錯誤消息可能來自Advertising Cloud DSP或 [!DNL FreeWheel]。 錯誤消息顯示在 [!UICONTROL API Response] 列 [[!UICONTROL Freewheel Status] 對話](freewheel-check-status.md)。
+失敗廣告提交的錯誤訊息可能來自Advertising DSP或 [!DNL FreeWheel]. 錯誤訊息會顯示在 [!UICONTROL API Response] 欄中 [[!UICONTROL Freewheel Status] 對話](freewheel-check-status.md).
 
-## Advertising Cloud DSP內部錯誤
+## Advertising DSP內部錯誤
 
-| 錯誤消息 | 說明 | 後續步驟 |
+| 錯誤訊息 | 說明 | 後續步驟 |
 |--- |--- |--- |
-| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] 尚未答復提交成功或失敗。 | 10分鐘後再次檢查狀態。 |
-| [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] 不接受沒有指定時鐘號的英國廣告。 | 為廣告分配時鐘編號，然後重新提交廣告。 |
-| [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | 當您嘗試提交廣告時，代碼轉換器尚未完成廣告的代碼轉換。 | 等待10分鐘，然後重新提交廣告。 |
-| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | 提交的交易並非作為計畫性保證交易而成立。 [!DNL FreeWheel] 只接受有保證的交易。 | 將交易ID設定為可寫程式保證交易。 廣告將自動提交到 [!DNL FreeWheel] 在交易ID工作流結束時保存寫程式保證的預設位置。 |
-| [!DNL Invalid external_deal_id:] \&lt;deal_id> | 提交的交易ID在Adobe端不存在或未處於活動狀態。 | 確保交易處於活動狀態，然後重新提交廣告。 |
-| [!DNL \[public_id=]\&lt;deal>]不存在 | 提交的交易ID在上 [!DNL FreeWheel] 結束。 | 聯繫您 [!DNL FreeWheel] 代表確認交易ID。 |
-| [!DNL Ad with identifier] \&lt;*ad name（廣告名稱）*\> [!DNL was not found.] | 已提交的廣告鍵不存在或在Adobe端未處於活動狀態。 | 查找正確的廣告鍵，然後重新提交廣告。 |
-| [!DNL Pending Submission] | 提交仍在等待。 | 刷新頁面。 |
+| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] 尚未回應提交是否成功。 | 10分鐘後再次檢查狀態。 |
+| [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] 不接受沒有指定時鐘號的英國廣告。 | 為廣告指派時鐘編號，然後重新提交廣告。 |
+| [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | 當您嘗試提交廣告時，轉碼器尚未完成轉碼廣告。 | 等待10分鐘，然後重新提交廣告。 |
+| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | 提交的交易不是作為程式保證的交易而設定的。 [!DNL FreeWheel] 僅接受有保證的交易。 | 將交易ID設定為程式化的保證交易。 廣告會自動提交至 [!DNL FreeWheel] 當您在交易ID工作流程結束時儲存程式化保證的預設位置時。 |
+| [!DNL Invalid external_deal_id:] \&lt;deal_id> | 提交的交易ID不存在或在Adobe結束時未生效。 | 確定交易處於有效狀態，然後重新提交廣告。 |
+| [!DNL \[public_id=]\&lt;deal>]不存在 | 提交的交易ID不存在於 [!DNL FreeWheel] 結束。 | 請連絡您的 [!DNL FreeWheel] 確認交易ID的代表。 |
+| [!DNL Ad with identifier] \&lt;*廣告名稱*\> [!DNL was not found.] | 已提交的廣告金鑰不存在或在Adobe結束時未作用中。 | 找到正確的廣告金鑰，然後重新提交廣告。 |
+| [!DNL Pending Submission] | 提交仍在等待中。 | 重新整理頁面。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## [!DNL Freewheel] API錯誤
 
-| 代碼 | 意義 | 說明 | 後續步驟 |
+| 程式碼 | 意義 | 說明 | 後續步驟 |
 |--- |--- |--- |--- |
-| 401 | 未授權 | 訪問憑據不正確、缺失或無效。 | 聯繫您 [!DNL Adobe] 客戶團隊。 |
-| 403 | 禁止 | 伺服器理解請求，但拒絕授權。 | 聯繫您 [!DNL Adobe] 客戶團隊。 |
-| 404 | 未找到 | 您請求的資源不可用。 如果在PUT操作中找不到Creative ID ，則返回404。 | 聯繫您 [!DNL Adobe] 客戶團隊。 |
-| 405 | 不允許使用方法 | 使用該資源不支援的請求方法對資源發出請求(例如，對需要通過POST發送資料的方法使用GET，或對只讀資源使用PUT)。 | 聯繫您 [!DNL Adobe] 客戶團隊。 |
-| 408 | 請求超時 | 處理此請求時發生超時。 超時通常由對特定資源的獨佔訪問的併發請求引起。 | 收到此狀態後重新提交請求。 如果問題仍然存在，請與 [!DNL Adobe] 客戶團隊。 |
-| 422 | 不可處理實體 | 資源無效。 當請求正文無效或建立/更新的資源無效（例如，如果找不到交易ID）時，會發生此錯誤。 請參閱 [FreeWheel API 422錯誤](#freewheel-422-errors) 的子菜單。 | 聯繫您 [!DNL Adobe] 客戶團隊。 |
-| 500 | 內部伺服器錯誤 | API系統錯誤。 | 聯繫您 [!DNL Adobe] 客戶團隊。 |
+| 401 | 未授權 | 訪問憑據不正確、缺失或無效。 | 請連絡您的 [!DNL Adobe] 客戶團隊。 |
+| 403 | 禁止 | 伺服器理解請求，但拒絕授權。 | 請連絡您的 [!DNL Adobe] 客戶團隊。 |
+| 404 | 找不到 | 您請求的資源不可用。 如果在PUT操作中找不到創作ID，則會傳回404。 | 請連絡您的 [!DNL Adobe] 客戶團隊。 |
+| 405 | 不允許的方法 | 已使用該資源不支援的請求方法對資源提出請求(例如，在需要由POST傳送資料的方法上使用GET，或在唯讀資源上使用PUT)。 | 請連絡您的 [!DNL Adobe] 客戶團隊。 |
+| 408 | 請求逾時 | 處理此請求時發生超時。 逾時通常是由同時請求獨佔特定資源所導致。 | 在您收到此狀態時重新提交請求。 如果問題持續存在，請聯絡您的 [!DNL Adobe] 客戶團隊。 |
+| 422 | 不可處理的實體 | 資源無效。 當請求內文無效或建立/更新的資源無效（例如，如果找不到交易ID）時，就會發生此錯誤。 請參閱 [FreeWheel API 422錯誤](#freewheel-422-errors) 以取得更多資訊。 | 請連絡您的 [!DNL Adobe] 客戶團隊。 |
+| 500 | 內部伺服器錯誤 | API系統錯誤。 | 請連絡您的 [!DNL Adobe] 客戶團隊。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## [!DNL Freewheel] API 422錯誤 {#freewheel-422-errors}
 
-| 代碼 | HTTP代碼 | 說明 |
+| 程式碼 | HTTP程式碼 | 說明 |
 |--- |--- |--- |
-| DATA_UNMARSHALL_FAILURE | 422 | 請求資料是無效的json格式。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_VALIDATION_FAILURE | 422 | 請求資料缺少必填欄位或資料類型無效。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_DEAL_INVALID | 422 | 交易配置不正確或不存在。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_DEAL_FAILURE_DEAL_GET_FAILURE | 422 | 找不到交易或其配置有問題。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_CREATIVE_INGEST_FAILURE | 422 | 建立URL無效。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_CREATIVE_LINK_FAILURE | 422 | 創意並未與交易的廣告單元節點關聯。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_CREATIVE_UPDATE_FAILURE | 422 | 創意沒有更新。 檢查錯誤消息以瞭解詳細資訊。 |
-| DATA_DSP_GET_失敗 | 422 | 系DSP統中不存在。 |
-| DATA_CREATIVE_UNLINK_FAILURE | 422 | 創意沒有與廣告單元脫鈎。 |
-| DATA_CREATIVE_DELETE_失敗 | 422 | 創意未被刪除。 |
+| DATA_UNMARSHALL_FAILURE | 422 | 請求資料的json格式無效。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_VALIDATION_FAILURE | 422 | 請求資料缺少必需欄位或資料類型無效。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_DEAL_INVALID | 422 | 交易配置不正確或不存在。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_DEAL_FAILUREGET | 422 | 未找到交易或其配置有問題。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_CREATIVE_INGEST_FAILURE | 422 | 創作URL無效。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_CREATIVE_LINK_FAILURE | 422 | 創意素材與交易的廣告單位節點沒有連結。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_CREATIVE_UPDATE_FAILURE | 422 | 創意內容尚未更新。 檢查錯誤訊息以取得詳細資訊。 |
+| DATA_DSP_GET_失敗 | 422 | DSP不存在於系統內。 |
+| DATA_CREATIVE_UNLINK_FAILURE | 422 | 創意內容未與廣告單位解除連結。 |
+| DATA_CREATIVE_DELETE_失敗 | 422 | 創意內容沒有刪除。 |
 | DATA_CREATIVE_DETECTION_FAILURE | 422 | 未檢測到URL。 |
 | DATA_ENTITY_NOT_FOUND | 422 | 創意不存在。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 >[!MORELIKETHIS]
 >
->* [中計畫保證交易設定概述 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
->* [提交計畫保證交易的廣告以 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [檢查廣告狀態 [!DNL FreeWheel] 計畫擔保交易](/help/dsp/inventory/freewheel-check-status.md)
+>* [在中設定程式化保證交易概覽 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [在交易ID收件匣中接受交易](deal-id-inbox-accept.md)
+>* [提交程式化保證交易的廣告以 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [檢查廣告的狀態 [!DNL FreeWheel] 程式化保證交易](/help/dsp/inventory/freewheel-check-status.md)
 

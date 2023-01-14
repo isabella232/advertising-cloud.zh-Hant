@@ -3,9 +3,9 @@ title: 已下載/已上載電子錶格中的列
 description: 參考下載和上傳的Excel QA試算表中的欄。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 12056598ae436123a867e6eaefde47657242dc73
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Basic] | [!UICONTROL Package Name] | 父包的名稱（如果適用）。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Start Date] | 版位的開始日期。 | — |
 | [!UICONTROL Goals] | [!UICONTROL End Date] | 投放的結束日期。 | — |
-| [!UICONTROL Goals] | [!UICONTROL Day parting] | 日時段是否為 *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*.<br><b>注意：</b> 若要檢查實際的日分段排程，請開啟 [!DNL DSP]. | — |
+| [!UICONTROL Goals] | [!UICONTROL Day parting] | 日時段是否為 *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*.<br><b>注意：</b> 若要檢查實際的日分段排程，請開啟DSP中的版位設定。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Budget] | 版位預算（如果有）。 | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Budget Interval] | 預算間隔： &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*，或 *[!UICONTROL All Time]*.[!UICONTROL >Daily] | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | 包的目標。 | — |

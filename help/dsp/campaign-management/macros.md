@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP巨集
+title: Advertising DSP巨集
 description: 參考可用的巨集以用於一般追蹤，以及追蹤第三方顯示廣告的點按次數。
 feature: DSP Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: b3fc18cf84713adcff5a4208db537b03904cfa08
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP巨集
+# Advertising DSP巨集
 
-宏是指令的簡稱或簡稱，通常遵循格式 `${MACRO_NAME}`. 創意程式碼或點進URL中包含的巨集，會展開為廣告伺服器可了解的較長程式碼字串。 Advertising Cloud DSP廣告伺服器會在提供或點按廣告時執行巨集。
+宏是指令的簡稱或簡稱，通常遵循格式 `${MACRO_NAME}`. 創意程式碼或點進URL中包含的巨集，會展開為廣告伺服器可了解的較長程式碼字串。 DSP廣告伺服器會在提供或點按廣告時執行巨集。
 
 廣告伺服器巨集對於將重要資訊傳遞至DSP或協力廠商廣告伺服器很實用。 巨集最常用於販運第三方和自訂創意程式碼或中繼資料（例如第三方像素）。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 當您執行下列動作時，DSP會自動在協力廠商顯示標籤中插入顯示點按巨集：
 
-* 從Advertising Cloud廣告伺服器合作夥伴匯出廣告標籤 <!-- [Needs PM confirmation.] -->
+* 從廣告伺服器合作夥伴匯出廣告標籤 <!-- [Needs PM confirmation.] -->
 * 大量上傳 [!DNL Flashtalking] 或 [!DNL Google DoubleClick for Advertisers] 直接在DSP中的廣告標籤
 
 如果您在建立顯示廣告時遺失點按巨集，DSP會顯示警告訊息，提示您在標籤的正確區域手動插入適當的顯示點按巨集。

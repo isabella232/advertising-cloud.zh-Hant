@@ -1,22 +1,23 @@
 ---
-title: 在Adobe Target中設定Advertising Cloud DSP廣告的A/B測試
-description: 了解如何在 [!DNL Target] 的DSP廣告。
-source-git-commit: 465f3c18a7d85d54bca5ff2f565694a9b211a7ed
+title: 設定Adobe Target中Adobe廣告的A/B測試
+description: 了解如何在 [!DNL Target] 針對您的DSP [!DNL Search] 廣告。
+exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Target中為Advertising Cloud DSP Ads設定A/B測試
+# 在Adobe Target中設定A/B測試以用於Advertising DSP和 [!DNL Advertising Search] 廣告
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
 <!-- Break into sub-files, or just leave as one? -->
 
-*僅包含Advertising Cloud DSP的廣告商*
+*僅具有Advertising DSP的廣告商*
 
-Adobe Advertising Cloud DSP和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上訊息間提供個人化且互聯的體驗。 借由在這兩種產品之間共用訊號，您可以：
+Adobe廣告和Adobe Target可讓行銷人員更輕鬆地在付費媒體和站上訊息間提供個人化且互聯的體驗。 透過在產品之間共用訊號，您可以：
 
 * 將客戶的廣告曝光度從DSP促銷活動連結至其站上體驗，借此降低網站落後率。
 
@@ -34,7 +35,7 @@ Adobe Advertising Cloud DSP和Adobe Target可讓行銷人員更輕鬆地在付�
 
 * [!DNL Target]
 
-* [[!DNL Analytics] 針對Advertising Cloud](/help/integrations/analytics/overview.md) 整合<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* [[!DNL Analytics] 廣告](/help/integrations/analytics/overview.md) 整合<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 整合
 
@@ -50,15 +51,15 @@ Adobe Advertising Cloud DSP和Adobe Target可讓行銷人員更輕鬆地在付�
 
 ![點進URL附加至登陸頁面URL](/help/integrations/assets/target-ct-url.jpg)
 
-### 將DSP巨集新增至點進URL
+### (僅限DSP)將DSP巨集新增至點進URL
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
 在Flash談話或Google Campaign Manager 360中，手動更新每個廣告的點進URL，納入擷取AMO ID變數所需的巨集。 AMO ID變數可用來將點按資料傳送至Adobe Analytics，以及共用版位索引鍵以進行A/B測試。 如需指示，請參閱下列頁面：
 
-* [附加 [!DNL Analytics for Advertising Cloud] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)
+* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Flashtalking] 廣告標籤](/help/integrations/analytics/macros-flashtalking.md)
 
-* [附加 [!DNL Analytics for Advertising Cloud] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
+* [附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤](/help/integrations/analytics/macros-google-campaign-manager.md)
 
 請連絡您的DSP帳戶團隊和Advertising解決方案群組(aac-advertising-solutions-group@adobe.com)，以擷取所需的版位金鑰並完成設定，並確保每個點進URL都已填入版位金鑰。
 
@@ -72,7 +73,7 @@ Adobe Advertising Cloud DSP和Adobe Target可讓行銷人員更輕鬆地在付�
 
 1. 在您的廣告標籤和DSP位置設定中實作Audience Manager曝光事件像素。
 
-   有關說明，請參閱[從Advertising Cloud DSP促銷活動收集媒體曝光資料](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
+   有關說明，請參閱[從Advertising DSP促銷活動收集媒體曝光資料](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
 
    請務必新增 [DSP巨集](/help/dsp/campaign-management/macros.md) 擷取您要讓曝光事件像素傳回的所有資料，包括 `${TM_PLACEMENT_ID_NUM}` ，以取得數值位置ID。
 
@@ -181,11 +182,11 @@ Adobe Advertising Cloud DSP和Adobe Target可讓行銷人員更輕鬆地在付�
 
 #### 量度
 
-* 在工作區中建立面板，專用於執行測試的Advertising Cloud促銷活動、套件或位置。 使用摘要視覺效果，在與Target測試效能相同的報表中顯示Advertising Cloud量度。
+* 在工作區中建立面板，專用於執行測試的Adobe廣告促銷活動、套件或位置。 使用摘要視覺效果，在與Target測試效能相同的報表中顯示Adobe廣告量度。
 
 * 優先使用站上量度（例如造訪和轉換）來測量效能。
 
-* 了解來自Advertising Cloud的匯總媒體量度（例如曝光數、點按和成本）無法與Target量度相符。
+* 了解來自Adobe廣告的匯總媒體量度（例如曝光數、點按和成本）無法與Target量度相符。
 
 #### Dimension
 
@@ -219,7 +220,7 @@ Adobe Advertising Cloud DSP和Adobe Target可讓行銷人員更輕鬆地在付�
 * [A/B測試概觀](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 說明可用於DSP廣告的A/B測試活動。
 * [體驗與選件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html)  — 說明 [!DNL Target] 工具，以判斷DSP測試使用者要接觸到的站上內容。
 * [訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)  — 定義一些可協助進行DSP檢視測試的Audience Manager工具。
-* [Analytics for Advertising Cloud概觀](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)  — 推出Analytics for Advertising Cloud，可讓您追蹤Analytics例項中的點進和閱覽網站互動。
+* [Analytics for Advertising概觀](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)  — 推出Analytics for Advertising，可讓您追蹤Analytics例項中的點進和閱覽網站互動。
 
 <!-- 
 >[!MORELIKETHIS]

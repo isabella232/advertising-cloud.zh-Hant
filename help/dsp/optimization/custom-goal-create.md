@@ -3,24 +3,24 @@ title: 建立自訂目標
 description: 建立自訂目標
 feature: DSP Optimization
 exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 8aea9eb1358e23a5b25e0353ced80c1550fa0057
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # 建立自訂目標
 
-您可以將自訂目標建立為 *目標* 在Advertising Cloud Search。
+您可以將自訂目標建立為 *目標* with [!DNL Adobe Advertising Search].
 
-若要建立自訂目標，Advertising Cloud DSP帳戶必須連結至 [!DNL Search] 帳戶(使用相同的Adobe Experience Cloud組織ID)，從 [!DNL Search] 用戶端設定。 如果您的DSP帳戶未連結至 [!DNL Search] 帳戶，請連絡您的 [!DNL Adobe] 客戶團隊。
+若要建立自訂目標，DSP帳戶必須連結至 [!DNL Search] 帳戶(使用相同的Adobe Experience Cloud組織ID)，從 [!DNL Search] 用戶端設定。 如果您的DSP帳戶未連結至 [!DNL Search] 帳戶，請連絡您的 [!DNL Adobe] 客戶團隊。
 
 >[!TIP]
 >
 >請參閱 [建立自訂目標的最佳作法](custom-goal-best-practices.md) 以取得如何設定自訂目標的秘訣。
 
-1. 登入Advertising Cloud Search（美國公司） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他國家/地區的公司） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 登入 [!DNL Adobe Advertising Search] at（美國公司） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他國家/地區的公司） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 請確定您要包含在目標中的量度已受到追蹤、可在產品中使用，且包含顯示名稱：
    1. 在主功能表中，按一下 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
    1. 找出量度，並確定 **[!UICONTROL Show in UI and Reports]** 已針對量度啟用。
@@ -31,7 +31,7 @@ ht-degree: 0%
    1. 輸入目標設定：
       1. 在 **[!UICONTROL Change Objective Name]** 欄位，輸入目標名稱。
 
-         目標名稱將顯示在 [!UICONTROL Custom Goals] 清單(位於Advertising Cloud DSP套件設定中)。
+         目標名稱將顯示在 [!UICONTROL Custom Goals] 清單(位於DSP套件設定中)。
 
       1. 將屬性與目標關聯：
 
@@ -65,7 +65,7 @@ ht-degree: 0%
       1. 在設定底部，按一下 **[!UICONTROL Save]**.
 
 
-建立目標後，您就可以在最佳化目標為「[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+建立目標後，當最佳化目標為「[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
 
 >[!TIP]
 >

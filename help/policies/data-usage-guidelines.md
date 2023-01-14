@@ -1,21 +1,22 @@
 ---
-title: Adobe Advertising Cloud DSP資料使用准則
+title: AdobeAdvertising DSP資料使用准則
 description: 請參閱資料使用准則。
 feature: Policies
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 6b646988-4a53-4092-8bc6-bcd350ee4096
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Cloud DSP資料使用准則
+# AdobeAdvertising DSP資料使用准則
 
 *上次更新：2019年9月5日*
 
-*針對Adobe Advertising Cloud DSP*
+*針對AdobeAdvertising DSP*
 
-本資料使用准則（「資料准則」）說明使用透過Adobe的Advertising Cloud隨需服務（「服務」）存取的特定資料的需求。 本指引已參考併入Adobe與客戶之間使用隨需服務的協定中。 本指引中使用但本文未定義的資本化術語將具有該協定中所載的含義。
+本資料使用准則（「資料准則」）規定使用透過Adobe的Advertising DSP隨需服務（「服務」）存取的特定資料的需求。 本指引已參考併入Adobe與客戶之間使用隨需服務的協定中。 本指引中使用但本文未定義的資本化術語將具有該協定中所載的含義。
 
 Adobe保留自行判斷客戶使用資料是否違反本准則的權利。
 

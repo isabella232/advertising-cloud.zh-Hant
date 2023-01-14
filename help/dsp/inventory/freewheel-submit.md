@@ -2,9 +2,10 @@
 title: 提交PG交易的廣告以 [!DNL FreeWheel]
 description: 了解如何向發佈商申請程式化保證交易的廣告核准 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,11 @@ ht-degree: 0%
 1. 複製搭配使用之廣告的廣告金鑰 [!DNL Freewheel] 交易：
 
    1. 按一下促銷活動的名稱。
+
    1. 在子菜單中，按一下 **[!UICONTROL Ads]**.
+
    1. 按一下  **[!UICONTROL ...]>[!UICONTROL Edit]** 廣告名稱旁邊。
+
    1. 開啟廣告設定後，複製瀏覽器位址列所顯示URL中的英數字元廣告金鑰。
 
       例如，在下列URL中，廣告索引鍵為 `3NtNC5ZbaGZtqbei8jD3`
@@ -35,6 +39,7 @@ ht-degree: 0%
    1. 執行下列任一操作：
 
       * 在廣告名稱旁，按一下  **[!UICONTROL ...]** > **[!UICONTROL submit to FreeWheel]**.
+
       * 在主功能表中，按一下 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**. 在交易列中，按一下 ![選項功能表](/help/dsp/assets/options-menu.png) > **[!UICONTROL submit to FreeWheel]**.
    1. 驗證交易ID，輸入 **[!UICONTROL Ad Key]** 您在步驟1中複製，然後按一下 **[!UICONTROL Submit]**.
 

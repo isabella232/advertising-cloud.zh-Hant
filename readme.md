@@ -1,13 +1,13 @@
 ---
-source-git-commit: 0654347afd1caf5e9bd8ccabf41a8a591e604df5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
-# Advertising Cloud的協作檔案
+# Adobe廣告的協作檔案
 
-這是Adobe Advertising Cloud的檔案存放庫，包括跨產品和DSP檔案。 (稍後將包含搜尋的檔案，可能還會包含(?) （適用於創意內容。）
+這是Adobe廣告的檔案存放庫，包括跨產品和DSP檔案。 (稍後將包含搜尋的檔案，可能還會包含(?) （適用於創意內容。）
 
 **注意：此頁面未發佈在面向客戶的檔案中。**
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 如需更多發佈指示、樣式指南、範例和其他資源，請參閱：
 
-+ [貢獻作者准則 **專門針對Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
++ [貢獻作者准則 **專門用於Adobe廣告**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
 + [為所有Adobe撰寫人員協作編寫](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html)
 
 另請參閱：

@@ -1,16 +1,16 @@
 ---
-title: 關於Advertising Cloud DSP中的Campaign管理
+title: 關於Campaign Management在Advertising DSP中
 description: 了解行銷活動管理。
 feature: DSP Campaigns
 exl-id: f9f3aba2-995c-45df-8e65-52999f9cc539
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# 關於Advertising Cloud DSP中的Campaign管理
+# 關於Campaign Management在Advertising DSP中
 
 行銷活動是飛行設定的總體框架。 所有促銷活動層級設定都會自動套用至促銷活動中的每個套件和位置。 每個促銷活動都與特定廣告商相關聯。
 

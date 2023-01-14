@@ -3,7 +3,7 @@ title: 廣告規格
 description: 參考一般和發佈商專屬的廣告規格。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: b25521d35134ca453c889fc1a71e4c81f982a77b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->視將覆蓋的影像而定，在淺或深標誌資產之間進行選擇。
+>視重疊的影像而定，可在淺或深標誌資產之間進行選擇。
 
 #### 文字/複製
 

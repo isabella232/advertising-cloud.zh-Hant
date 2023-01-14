@@ -1,22 +1,22 @@
 ---
-title: 從Advertising Cloud DSP促銷活動收集點按和曝光資料
-description: 了解如何使用Audience Manager像素，從Advertising Cloud DSP廣告擷取Cookie型曝光次數和點擊事件
+title: 從Advertising DSP促銷活動收集點按和曝光資料
+description: 了解如何使用Audience Manager像素，從Advertising DSP廣告擷取Cookie型曝光和點擊事件
 feature: Integration with Adobe Audience Manager
 exl-id: eb717148-00ab-428a-97b9-e8396a5c47b0
-source-git-commit: 8de057df8bf2b67f20a915e6e711902f11176747
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-# 從Advertising Cloud DSP促銷活動收集媒體曝光資料
+# 從Advertising DSP促銷活動收集媒體曝光資料
 
-*僅包含Advertising Cloud DSP的廣告商*
+*僅具有Advertising DSP的廣告商*
 
-*僅具有Advertising Cloud-Adobe Audience Manager整合的廣告商*
+*廣告商與Adobe廣告 — 僅Adobe Audience Manager整合*
 
-本檔案說明如何標籤Advertising Cloud DSP廣告，以使用Audience Manager像素擷取Cookie型曝光和點按事件，以及使用資料所需的其他工作。
+本檔案說明如何標籤Advertising DSP廣告，以使用Audience Manager像素擷取Cookie型曝光和點擊事件，以及使用資料所需的其他工作。
 
 事件像素不會擷取在無Cookie環境(例如行動應用程式和已連線電視(CTV))中發生的事件。
 
@@ -77,7 +77,7 @@ with [其他可選參數](#parameters) 前置詞為 `&`
 
 這兩種像素都可包含其他參數，如 *索引鍵值配對* 收集特徵，或為其他報表提供行銷活動中繼資料（例如版位名稱或行銷活動名稱）。 機碼 — 值組包含兩個相關元素：a *key*，此為定義資料集的常數，以及 *value*，此為屬於集的變數。
 
-在機碼值組中，值變數可以是硬式編碼ID或 *宏*，這是自包含的程式碼的一小部分，當廣告標籤載入以進行促銷活動和使用者追蹤時，會以對應的值動態取代。 對於促銷活動相關參數，您可以使用 [DSP巨集](/help/dsp/campaign-management/macros.md) 不使用Audience Manager巨集，而是使用所有廣告中的單一像素，將促銷活動屬性與對應的曝光次數或點按資料一起傳送至Audience Manager。 您插入事件像素中的DSP巨集必須是像素中包含的索引鍵值組的適當值。 例如，對於 `d_placement` 鍵，您會使用DSP巨集 `${TM_PLACEMENT_ID_NUM}` 作為擷取Advertising Cloud巨集產生之放置ID的值。
+在機碼值組中，值變數可以是硬式編碼ID或 *宏*，這是自包含的程式碼的一小部分，當廣告標籤載入以進行促銷活動和使用者追蹤時，會以對應的值動態取代。 對於促銷活動相關參數，您可以使用 [DSP巨集](/help/dsp/campaign-management/macros.md) 不使用Audience Manager巨集，而是使用所有廣告中的單一像素，將促銷活動屬性與對應的曝光次數或點按資料一起傳送至Audience Manager。 您插入事件像素中的DSP巨集必須是像素中包含的索引鍵值組的適當值。 例如，對於 `d_placement` 鍵，您會使用DSP巨集 `${TM_PLACEMENT_ID_NUM}` 作為擷取「Adobe廣告」巨集產生之版位ID的值。
 
 如需Audience Manager支援曝光事件像素的巨集清單，請參閱「[透過像素呼叫擷取促銷活動的曝光資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).&quot;
 
@@ -87,7 +87,7 @@ with [其他可選參數](#parameters) 前置詞為 `&`
 >
 >* 最佳實務是納入促銷活動、版位、創意（廣告）和網站ID，讓您能使用促銷活動屬性來建立Audience Manager特徵。
 >* 若要建立Audience Optimization報表，需要其他參數。
->* 在機碼值組中，將值取代為相關 [DSP巨集](/help/dsp/campaign-management/macros.md) 因此，您可以在所有行銷活動中使用所有廣告的單一像素。 例如，變更 `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` 擷取Advertising Cloud巨集產生的促銷活動ID。
+>* 在機碼值組中，將值取代為相關 [DSP巨集](/help/dsp/campaign-management/macros.md) 因此，您可以在所有行銷活動中使用所有廣告的單一像素。 例如，變更 `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` 擷取「Adobe廣告」巨集產生的促銷活動ID。
 >* 如有需要，您可以使用硬式編碼值建立自己的參數。 範例： `d_DSP=AdCloud`
 
 
@@ -132,7 +132,7 @@ with [其他可選參數](#parameters) 前置詞為 `&`
 
 >[!MORELIKETHIS]
 >
->* [Advertising Cloud DSP巨集](/help/dsp/campaign-management/macros.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
 >* [傳送DSP媒體曝光資料至Adobe Audience Manager概述](overview.md)
 >* [使用案例](use-cases.md)
 

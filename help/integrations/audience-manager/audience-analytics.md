@@ -1,67 +1,67 @@
 ---
-title: '"[!DNL Adobe] [!DNL Audience Analytics] Advertising Cloud客戶'
-description: 瞭解如何使用 [!DNL Adobe] [!DNL Audience Analytics] 用於廣告使用案例
+title: '''[!DNL Adobe] [!DNL Audience Analytics] Adobe廣告客戶'
+description: 了解如何使用 [!DNL Adobe] [!DNL Audience Analytics] 用於advertising的使用案例
 feature: Integration with Adobe Audience Manager
 exl-id: e05ba560-d3d5-4024-b1ba-956e878a2578
-source-git-commit: 4a7766e92ffaa8f32f0fe8941f6c85405bd2df3e
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe] [!DNL Audience Analytics] Advertising Cloud客戶
+# [!DNL Adobe] [!DNL Audience Analytics] Adobe廣告客戶
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 是Adobe Audience Manager和Adobe Analytics的整合，允許Audience Manager客戶將資料段發送到 [!DNL Analytics] 以豐富有關站點活動的資訊。
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 是Adobe Audience Manager與Adobe Analytics的整合，可讓Audience Manager客戶將區段傳送至 [!DNL Analytics] 以擴充網站活動的深入分析。
 
-Advertising Cloud客戶可通過 [!DNL Audience Analytics]。 整合允許您：
+Adobe廣告客戶可透過以下方式獲益： [!DNL Audience Analytics]. 整合可讓您：
 
-* 將Advertising Cloud暴露資料直接發送到 [!DNL Analytics] 確定上漏斗活動對下游站點活動的影響。
+* 將Adobe廣告曝光資料直接傳送至 [!DNL Analytics] 以判斷上漏斗活動對下游網站活動的影響。
 
-* 從上漏斗廣告中確定營銷渠道和站點入口點。
+* 從漏斗上方曝光廣告中決定行銷管道和網站入口點。
 
-* 將整合與 [!DNL Analytics for Advertising Cloud] 將第三方人口部門 [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) 與 [!DNL Analytics for Advertising Cloud] 資料，以瞭解有關用戶配置檔案的更多見解。
+* 將整合分層為 [!DNL Analytics for Advertising] 若要合併第三方人口統計區段，請從 [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) with [!DNL Analytics for Advertising] 資料，以取得使用者設定檔的更多深入分析。
 
-   [!DNL Audience Marketplace] 通過「激活」訂閱模式提供對第三方資料源的訪問，該模式允許購買者將資料發送到目標。 如果資料在 [!DNL Analytics] 則不收取激活費。
+   [!DNL Audience Marketplace] 透過「啟用」訂閱模型提供對協力廠商資料饋送的存取，讓購買者可將資料傳送至目的地。 若在 [!DNL Analytics] 目的地後，即不會收取啟動費。
 
-* (Advertising Cloud DSP廣告商)添加更多曝光片段，以便獲得全面的旅程管理洞察力。
+* (具有Advertising DSP的廣告商)新增其他曝光區段，以獲得全方位的歷程管理分析。
 
-   Advertising Cloud DSP可以通過實施Adobe Experience Platform或Audience Manager印象跟蹤像素，將曝光資料作為可操作信號發送給Audience Manager。 將相同的資料轉發到 [!DNL Analytics] 啟用高級資料分析。 請參閱「」[Advertising Cloud與Adobe Audience Manager媒體資料整合概述](/help/integrations/audience-manager/media-data-integration/overview.md)的雙曲餘切值。
+   Advertising DSP可透過實作Adobe Experience Platform或Audience Manager曝光追蹤像素，將曝光資料傳送至Audience Manager，作為可操作的訊號。 將相同的資料轉送至 [!DNL Analytics] 啟用進階資料分析。 請參閱「[AdobeAdvertising Media資料與Adobe Audience Manager整合概述](/help/integrations/audience-manager/media-data-integration/overview.md)」以取得詳細資訊。
 
-有關 [!DNL Audience Analytics]，包括其先決條件和工作流，請參見「[Audience Analytics概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;
+如需 [!DNL Audience Analytics]，包括其先決條件和工作流程，請參閱「[Audience Analytics概述](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).&quot;
 
-## 如何使用示例 [!DNL Audience Analytics] 資料與Advertising Cloud資料
+## 使用方法範例 [!DNL Audience Analytics] 資料與Adobe廣告資料
 
-以下是如何在 [!DNL Analytics] [!DNL Analysis Workspace]。
+以下範例說明如何在中使用合併的資料 [!DNL Analytics] [!DNL Analysis Workspace].
 
 ### 請參閱上漏斗活動對下游活動的影響
 
-使用Audience Manager暴露段查看上漏斗狀站點活動對下游站點活動的影響。 在跟蹤像素中包括Advertising Cloud或第三方宏ID，以跟蹤對詳細級別（從市場活動級別到用戶暴露的站點級別）的影響。
+使用Audience Manager曝光區段來查看上漏斗網站活動對下游網站活動的影響。 在追蹤像素中加入Adobe廣告或第三方巨集ID，以追蹤對詳細層級（從促銷活動層級到使用者公開的網站層級）的影響。
 
-主要好處：
+主要優點：
 
-* 按漏斗/廣告類型跟蹤曝光和使用 [!DNL Audience Analytics] 確定入口率，並與客戶旅程的下一階段重疊。
+* 依漏斗/廣告類型追蹤曝光次數和使用 [!DNL Audience Analytics] 以決定登入率，並與客戶歷程的下一階段重疊。
 
-* 確定上漏斗活動對下游站點活動的影響。
+* 判斷上漏斗活動對下游網站活動的影響。
 
-* 連接 [!DNL Analytics for Advertising Cloud]<!-- which doesn't include the last exposure event --> 和 [!DNL Audience Analytics] 資料 <!-- (which includes the user's last exposure event) --> 確定一個整體的到達現場的旅程。
+* Connect [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event --> 和 [!DNL Audience Analytics] 資料 <!-- (which includes the user's last exposure event) --> 以決定整個網站歷程。
 
-以下是可在中建立的報告示例 [!DNL Analysis Workspace]。
+以下是您可在中建立的報表範例 [!DNL Analysis Workspace].
 
-![請參閱上漏斗活動對下游站點活動的影響](/help/integrations/assets/audience-analytics-upper-funnel-exposure.png)
+![請參閱上漏斗活動對下游網站活動的影響](/help/integrations/assets/audience-analytics-upper-funnel-exposure.png)
 
-### 使用 [!DNL Audience Analytics] 用於用戶配置檔案分析的第三方段資料
+### 使用 [!DNL Audience Analytics] 使用者設定檔分析的第三方區段資料
 
-使用第三方Audience Manager段更詳細地分析用戶與站點的交互方式。 您可以根據來自第三方部門的配置檔案與媒體活動站點的關鍵績效指標的聯繫方式，使用這些資訊來確定要激活媒體的新的第三方受眾。
+使用協力廠商Audience Manager區段，更詳細地分析使用者與您網站的互動方式。 您可以根據來自第三方區段的設定檔如何與媒體行銷活動網站的關鍵績效指標互動，使用資訊來判斷要啟用媒體的新第三方對象。
 
 >[!TIP]
-> 使用Audience Manager `Audiences ID` 和 `Audiences Name` 維 [!DNL Analytics]像其他任何維 [!DNL Analytics] 收集。
+> 使用Audience Manager `Audiences ID` 和 `Audiences Name` 維度 [!DNL Analytics]，如同 [!DNL Analytics] 收集。
 
-以下是可在中建立的報告示例 [!DNL Analysis Workspace]。
+以下是您可在中建立的報表範例 [!DNL Analysis Workspace].
 
-![使用第三方段豐富用戶配置檔案分析](/help/integrations/assets/audience-analytics-third-party-report.png)
+![使用協力廠商區段，以豐富使用者設定檔分析](/help/integrations/assets/audience-analytics-third-party-report.png)
 
 >[!MORELIKETHIS]
 >
->* [Advertising Cloud與Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
+>* [Adobe廣告整合Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
 

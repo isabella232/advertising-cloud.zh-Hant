@@ -1,25 +1,26 @@
 ---
 title: 使用 [!DNL Last Event Service] JavaScript程式庫搭配 [!DNL Web SDK]
-description: 了解從使用 [!DNL Analytics] [!DNL visitorAPI] library to the [!DNL Experience Platform] [!DNL Web SDK] library for your [!DNL Analytics for Advertising Cloud] 實作。
+description: 了解從使用 [!DNL Analytics] [!DNL visitorAPI] 程式庫 [!DNL Experience Platform] [!DNL Web SDK] 程式庫 [!DNL Analytics for Advertising] 實作。
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 96537244-1c5c-4d9a-a44e-ba7fcea9381d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # 使用 [!DNL Last Event Service] JavaScript程式庫與Adobe Experience Platform [!DNL Web SDK]
 
-*僅具有Advertising Cloud-Adobe Analytics整合的廣告商*
+*廣告商與Adobe廣告 — 僅Adobe Analytics整合*
 
 如果貴組織使用舊版Adobe Analytics `visitorAPI.js` 資料收集程式庫，您可以選擇切換至使用 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 程式庫(`alloy.js`)，可讓您透過與各種Experience Cloud服務互動 [!DNL Edge Network].
 
-此 [!DNL Analytics for Advertising Cloud] [!DNL Last Event Service] JavaScript程式庫原樣會記錄閱覽和點進事件，並使用補充ID將它們拼接至相關的轉換(`SDID`)。 此 [!DNL Web SDK] 不過，程式庫不提供 [!DNL stitch ID]. 若要使用 [!DNL Web SDK] for [!DNL Analytics for Advertising Cloud]，您需要修改1) [!DNL Last Event Service] 標籤，以及 [!DNL Web SDK] `sendEvent` 命令。
+此 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript程式庫原樣會記錄閱覽和點進事件，並使用補充ID將它們拼接至相關的轉換(`SDID`)。 此 [!DNL Web SDK] 不過，程式庫不提供 [!DNL stitch ID]. 若要使用 [!DNL Web SDK] for [!DNL Analytics for Advertising]，您需要修改1) [!DNL Last Event Service] 標籤，以及 [!DNL Web SDK] `sendEvent` 命令。
 
 ## 步驟1:編輯您的 [!DNL Last Event Service] 要產生的標籤 `[!DNL StitchID]`
 
-在 [!DNL Analytics for Advertising Cloud] [!DNL Last Event Service] 標籤，新增程式碼以產生 `[!DNL StitchID]` 使用程式庫中隨附的隨機ID產生器。
+在 [!DNL Analytics for Advertising] [!DNL Last Event Service] 標籤，新增程式碼以產生 `[!DNL StitchID]` 使用程式庫中隨附的隨機ID產生器。
 
 **舊標籤：**
 
@@ -72,6 +73,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [概觀 [!DNL Analytics for Advertising Cloud]](overview.md)
->* [適用於 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/javascript.md)
+>* [概觀 [!DNL Analytics for Advertising]](overview.md)
+>* [適用於 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
 

@@ -1,33 +1,33 @@
 ---
-title: 關於Adobe Advertising Cloud DSP
-description: 關於Adobe Advertising Cloud DSP
+title: 關於AdobeAdvertising DSP
+description: 關於AdobeAdvertising DSP
 feature: DSP Introduction
 exl-id: def006b2-eb51-4942-b277-a2e673bccc7f
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-# 關於Adobe Advertising Cloud DSP
+# 關於AdobeAdvertising DSP
 
-Adobe Advertising Cloud是唯一獨立的廣告平台，它在規模上統一和自動化了所有媒體、資料、觀眾和創意。 跨所有廣告渠道提供連接體驗，包括付費搜索、顯示、視頻、連接電視(CTV)、音頻和本機。
+Adobe廣告是唯一可大規模統一及自動化所有媒體、資料、對象和創意內容的獨立廣告平台。 跨所有廣告頻道提供連線體驗，包括付費搜尋、顯示、視訊、連線電視(CTV)、音訊和原生。
 
-Adobe Advertising Cloud DSP公司通過先進的第一方資料分割和激活能力，優質和差異化庫存以及直觀的跨渠道管理經驗來提升廣告商的媒體戰略。 一些關鍵功能包括：
+Adobe廣告DSP(DSP)透過進階的第一方資料分段和啟動功能、優質和差異化的詳細目錄，以及直覺式的跨頻道管理體驗，提升廣告商的媒體策略。 部分主要功能包括：
 
-* [**優化**](features/optimization.md):我們的新競選管理目標， [!DNL Campaign Home]，為您提供高級工具、分類和洞察力，以比以往任何時候都更快地優化您的市場活動。 此外，預測和支出建議還預測了預期效果良好的策略，而不一定是目前表現最好的策略，因此您可以利用資料進行優化。
+* [**最佳化**](features/optimization.md):我們的行銷活動管理新目的地， [!DNL Campaign Home]，可為您提供進階工具、排序和深入分析，讓您以前所未有的速度最佳化促銷活動。 此外，預測和支出建議可預測預期效能良好的策略，而不一定是目前效能最佳的策略，以便您能使用資料進行最佳化。
 
-* [**跨設備解決方案**](features/cross-device-solutions.md):Advertising Cloud DSP與 [!DNL LiveRamp] 使您能夠將受眾擴展到消費者的所有已知設備，並在這些設備上應用頻率上限和測量屬性。
+* [**跨裝置解決方案**](features/cross-device-solutions.md):DSP與 [!DNL LiveRamp] 可讓您將對象擴充至消費者的所有已知裝置，並在這些裝置上套用頻率上限並測量歸因。
 
-* [**媒體質量套件**](features/brand-safety-media-quality.md):Advertising Cloud DSP對可能影響您的品牌和廣告投資的問題採取積極主動的處理方式。 媒DSP體質量套件100%透明，採取多方面的方法，確保廣告商的投資得到保護。 這包括品牌安全性、可查看性、欺詐保護，以及 [!DNL Ads.Txt]。
+* [**媒體品質套裝**](features/brand-safety-media-quality.md):DSP會針對可能影響您的品牌和廣告投資的問題，採取主動式方法。 DSP媒體品質套裝100%透明，採取多方面的方式，確保廣告商的投資受到保護。 這包括品牌安全、可見性、欺詐保護，以及 [!DNL Ads.Txt].
 
-* **與 [Adobe Analytics](/help/integrations/analytics/overview.md)、Adobe Audience Manager和Adobe Experience Platform**:與現有Adobe產品的整合使您能夠最大限度地利用第一方資料並將廣告置於與其他業務洞察相同的級別。
+* **與 [Adobe Analytics](/help/integrations/analytics/overview.md)、Adobe Audience Manager和Adobe Experience Platform**:與您現有Adobe產品的整合，可讓您最大化第一方資料，並將廣告放在與其他業務分析相同的層級。
 
-* [**Premiere連接電視體驗 [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] 而Advertising Cloud DSP擁有獨特的合作夥伴關係，使您能夠在整個環境中激活您的第一方和第三方資料 [!DNL Roku] 清點，以便在大螢幕上高效地接觸觀眾。 通過利用唯一能夠與 [!DNL Roku] ID ，營銷人員可以利用確定性的1:1目標，精確、準確，以及訪問 [!DNL Roku] 清點和獨特的測量洞察力。
+* [**Premiere連接的電視體驗，使用 [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] 而DSP擁有獨特的合作夥伴關係，可讓您在整個 [!DNL Roku] 詳細目錄，以大規模有效觸及大螢幕上的受眾。 利用唯一能與同步的平台 [!DNL Roku] ID、行銷人員可運用確定性的1:1目標鎖定功能，其精確度和準確度以及存取權 [!DNL Roku] 詳細目錄和獨特測量分析。
 
 >[!MORELIKETHIS]
 >
->* [視頻：Advertising Cloud DSP簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/intro.html)
->* [視頻：帳DSP戶結構和用戶介面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
+>* [影片：Advertising DSP簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/intro.html)
+>* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 

@@ -1,32 +1,32 @@
 ---
-title: 受眾源設定
-description: 瞭解訪問群體源的設定。
+title: 對象來源設定
+description: 了解受眾來源的設定。
 feature: DSP Audiences
 exl-id: 8b17d5cc-488b-4bd2-bada-ef51b35faf92
-source-git-commit: 932b1ff979cb9b617502f9797af29e88ef77adf0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# 受眾源設定
+# 對象來源設定
 
-*Beta功能*
+*測試版功能*
 
-**[!UICONTROL Data Visibility Level]:** 這些網段是否可供訪問該帳戶的單個廣告商使用(*[!UICONTROL Advertiser]*)或所有有權訪問帳戶的廣告商 *[!UICONTROL Account]*。
+**[!UICONTROL Data Visibility Level]:** 區段是否可供具有帳戶存取權的單一廣告商使用(*[!UICONTROL Advertiser]*)或所有可存取帳戶的廣告商 *[!UICONTROL Account]*.
 
-**[!UICONTROL Advertiser]:** （僅限廣告商級別的可見性）可供其使用的廣告商。 從擁有帳戶訪問權限的廣告商清單中選擇一個。
+**[!UICONTROL Advertiser]:** （僅限廣告商層級可見性）可供其使用區段的廣告商。 從可存取帳戶的廣告商清單中選取一個。
 
-**[!UICONTROL Enter IMS Org Id]:** 的Experience Cloud組織ID [!DNL Adobe Experience Platform] 帳戶。
+**[!UICONTROL Enter IMS Org Id]:** Experience Cloud組織ID [!DNL Adobe Experience Platform] 帳戶。
 
-**[!UICONTROL AAC Source Key]:** (只讀；在 [!UICONTROL Enter IMS Org Id] 欄位)可用的源鍵 [在中建立目標連接 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) 把觀眾推到Advertising Cloud DSP。 可以將值複製到剪貼簿中以貼上到 [!DNL Adobe Real-Time CDP] 目標連接設定或檔案。
+**[!UICONTROL AAC Source Key]:** (唯讀；在 [!UICONTROL Enter IMS Org Id] 欄位)您可用來 [在中建立目的地連線 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) 推送對象至Advertising DSP。 您可以將值複製到剪貼簿以貼入 [!DNL Adobe Real-Time CDP] 目標連線設定或放入檔案中。
 
 >[!MORELIKETHIS]
 >
->* [建立受眾源以激活第一方受眾](source-create.md)
->* [關於從受眾源激活經過驗證的段](source-about.md)
->* [從持久ID合作夥伴激活經過驗證的段](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [關於受眾管理](/help/dsp/audiences/audience-about.md)
+>* [建立對象來源以啟用第一方對象](source-create.md)
+>* [關於從受眾來源啟用已驗證的區段](source-about.md)
+>* [向持久ID合作夥伴啟用已驗證的區段](source-durable-id.md)
+>* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [關於Audience Management](/help/dsp/audiences/audience-about.md)
 

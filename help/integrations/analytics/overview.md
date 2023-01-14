@@ -1,116 +1,116 @@
 ---
-title: 概述 [!DNL Analytics for Advertising Cloud]
-description: 概述 [!DNL Analytics for Advertising Cloud]
+title: 概觀 [!DNL Analytics for Advertising]
+description: 概觀 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
-# 概述 [!DNL Analytics for Advertising Cloud]
+# 概觀 [!DNL Analytics for Advertising]
 
-*Advertising Cloud DSP和Advertising Cloud Search的廣告商*
+*廣告商與Advertising DSP及[!DNL Advertising Search]*
 
-[!DNL Analytics for Advertising Cloud] 整合Adobe Analytics和Adobe Advertising Cloud，以擴展和增強每種產品的功能。
+[!DNL Analytics for Advertising] 整合Adobe Analytics和Adobe廣告，以擴充及增強每項產品的功能。
 
-這種整合使廣告商能夠跟蹤其中的點擊瀏覽和瀏覽網站交互 [!DNL Analytics] 例如，讓品牌瞭解其廣告支出如何帶來站點參與和關鍵業務目標。
+整合可讓廣告商追蹤其中的點進和閱覽網站互動 [!DNL Analytics] 例如，讓品牌了解其廣告支出如何帶來網站參與和關鍵業務目標。
 
-此外，Advertising Cloud還可以訪問大量的第一方資料 [!DNL Analytics] 收集 [!DNL Analytics] 已在站點上標籤。 這允許更強健的行程管理、第一方再營銷和付費媒體站點報告。 Advertising Cloud可以進一步 [!DNL Analytics] 用於支出和投標優化的資料。
+此外，Adobe廣告可存取大量的第一方資料， [!DNL Analytics] 收集使用 [!DNL Analytics] 標籤。 這可讓更健全的歷程管理、第一方再行銷和付費媒體網站報告。 Adobe廣告可進一步使用 [!DNL Analytics] 用於支出和競標最佳化的資料。
 
-當被妥善雇用時， [!DNL Analytics for Advertising Cloud] 模糊兩種傳統角色之間的界限：廣告旅程管理（通過廣告將用戶發送到站點的行為），並通過web分析瞭解該站點參與。
+如果適當使用， [!DNL Analytics for Advertising] 模糊兩種傳統角色之間的界限：advertising journey management（透過廣告將使用者傳送至網站的行為），並透過web analytics了解該網站的參與度。
 
-主要好處：
+主要優點：
 
-* 發送 [!DNL Analytics] 直接分銷給Advertising Cloud，以進行第一方網站的再營銷。
-* 使用 [!DNL Analytics] 將定制和標準事件用作優化付費媒體廣告的轉換信號。
-* 利用 [!DNL Analytics] Analysis Workspace將更好地瞭解網站入口點和訪問行為。
-* 實現網路分析員與付費媒體團隊之間更緊密的協作。
-* 在中使用持久的Advertising Cloud查看和點擊ID [!DNL Analytics] 瞭解現場參與。
-* 利用將資料或像素導出到廣告伺服器或其他伺服器時無法實現的自定義指標、自定義尺寸和站點活動，增強Analysis Workspace的傳統付費媒體報DSP告。
-* 利用 [!DNL Analytics] 已在您網站上，用於跟蹤和優化Advertising Cloud。
+* 傳送 [!DNL Analytics] 區段直接Adobe廣告，以進行第一方網站再行銷。
+* 使用 [!DNL Analytics] 將自訂和標準事件設為轉換訊號，以最佳化付費媒體廣告。
+* 善用 [!DNL Analytics] Analysis Workspace，以更清楚了解網站登入點和造訪行為。
+* 讓網路分析師與付費媒體團隊之間更密切的協作。
+* 在中使用永續性Adobe廣告閱覽和點進ID [!DNL Analytics] 了解網站參與。
+* 使用自訂量度、自訂維度以及將資料或像素匯出至廣告伺服器或其他DSP時無法實現的網站活動，增強Analysis Workspace中的傳統付費媒體報表。
+* 善用 [!DNL Analytics] 程式碼，以在Adobe廣告中追蹤和最佳化。
 
 >[!TIP]
 >
-> 觀看 [視頻簡介 [!DNL Analytics for Advertising Cloud]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics)。
+> 觀看 [影片簡介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
-## 使用分析進行付費媒體報告
+## 將Analytics用於付費媒體報表
 
-[!DNL Analytics for Advertising Cloud] 通過允許您：
+[!DNL Analytics for Advertising] 可讓您透過：
 
-* 在中使用持久的Advertising Cloud查看和點擊ID [!DNL Analytics] 瞭解現場參與。
-* 利用Analysis Workspace，更好地瞭解網站入口點和訪問行為。 您可以訪問付費媒體維和事件資料，包括Advertising Cloud市場活動實體名稱（直至投放和廣告）及其相關指標，如點擊量、印象和成本。
+* 在中使用永續性Adobe廣告閱覽和點進ID [!DNL Analytics] 了解網站參與。
+* 運用Analysis Workspace，更清楚了解網站登入點和造訪行為。 您可以存取付費媒體維度和事件資料，包括Adobe廣告促銷活動實體名稱（直至版位和廣告）及其相關量度，例如點按、曝光數和成本。
 
-要使用 [!DNL Analytics] 作為付費媒體報告工具，您的組織需要Experience Cloud登錄，並且可以訪問Analysis Workspace。 您的Advertising Cloud團隊將幫助您將Advertising Cloud資料映射到Analysis Workspace的單個報告套件。 您可以將Advertising Cloud資料發送到任何報告套件，但您應該知道已映射到Advertising Cloud的報告套件和尚未映射的報告套件。根據報告套件的不同，這可能會更改報告的資料。
+使用 [!DNL Analytics] 您的組織需要Experience Cloud登入才能存取Analysis Workspace，做為您的付費媒體報表工具。 您的Adobe廣告團隊會協助您將Adobe廣告資料對應至Analysis Workspace中的個別報表套裝。 您可以傳送Adobe廣告資料至任何報表套裝，但您應注意已對應至Adobe廣告的報表套裝，以及尚未對應的報表套裝。這可能會變更所報告的資料，視報表套裝而定。
 
-[Advertising CloudID [!DNL Analytics]](ids.md) 與其他eVar類似，具有自定義的持久過期。 預設情況下，在Advertising Cloud實施期間，屬性回望窗口設定為60天。 要更改此設定，請使用 [!DNL Adobe] 客戶團隊。
+[Adobe廣告ID [!DNL Analytics]](ids.md) 如同其他eVar，具有自訂的持續有效期。 依預設，在「Adobe廣告」實作期間，歸因回顧期間會設為60天。 若要變更此設定，請使用 [!DNL Adobe] 客戶團隊。
 
-Advertising Cloud維後面附加尾碼「(AMO ID)」(如「Ad Type(AMO ID)」)。 請參閱「」[Advertising CloudAnalysis Workspace度量](advertising-cloud-metrics-in-analytics.md)&quot;（圖表）。
-
->[!NOTE]
->
-> 查看Advertising Cloud資料（或任何資料集）時 [!DNL Analytics]，請注意，度量和報告基於在 [!DNL Analytics]。 資料可能與您在其他報告系統中看到的不同， [!DNL DSP] 報告或搜索引擎報告。 要瞭解 [!DNL Analytics]您需要知道eVar資料何時過期、什麼定義了訪問、什麼被視為最後一次訪問屬性與總持續屬性，以及其他因素。 有關詳細資訊，請參見 [預期資料差異 [!DNL Analytics] 和Advertising Cloud](data-variances.md)。
-
-## 使用分析為Advertising Cloud活動和Portfolio提供動力
-
-無需任何額外像素， [!DNL Analytics for Advertising Cloud] 通過向Advertising Cloud發送兩個主要信號，實現更好的優化和更方便的觀眾分割：
-
-* 要用作投標信號的轉換度量：
-   * 標準度量，如 [!UICONTROL Revenue] 和 [!UICONTROL Cart Views]。
-   * 站點項目度量，如頁面視圖和訪問度量。
-   * 自定義收入指標。
-   * 保留收入指標。
-* 建立於 [!DNL Analytics] 出版給Experience Cloud。
-
-   您可以使用 [!DNL Analytics] 第一方站點重新定位的段 [!DNL DSP] 以及付費搜索廣告。
-
-   (僅Advertising Cloud Search)廣告商 [!DNL Analytics] 但是，不能Audience Manager也從中建立基於Google網站標籤的受眾（重新營銷清單）和客戶匹配的受眾（客戶清單） [!DNL Analytics] 與Experience Cloud共用的段。
-
-### 作為投標信號的站點轉換度量
-
-您可以使用標準事件和自定義事件 [!DNL Analytics] 在Advertising Cloud建立加權目標。 目標為您的投標決策提供資訊 [!DNL DSP] 包和搜索包。
+Adobe廣告維度會附加尾碼「(AMO ID)」(例如「廣告類型(AMO ID)」)。 請參閱「[AdobeAnalysis Workspace中的Advertising量度](advertising-cloud-metrics-in-analytics.md)「 」，以取得可用維度的清單。
 
 >[!NOTE]
 >
-> 無法從 [!DNL Analytics] 進入Advertising Cloud。
+> 當您在 [!DNL Analytics]，請注意，量度和報表是根據 [!DNL Analytics]. 資料可能與您在其他報表系統（例如廣告伺服器報表）中看到的不同 [!DNL DSP] 報表或搜尋引擎報表。 若要了解 [!DNL Analytics]，您必須知道eVar資料何時過期、定義造訪的內容、上次接觸歸因與持續歸因總計的比較，以及其他因素。 如需詳細資訊，請參閱 [之間的預期資料差異 [!DNL Analytics] 和Adobe廣告](data-variances.md).
 
-您的Advertising Cloud團隊將幫助您確定適用於付費媒體表現的事件並將其映射到Advertising Cloud，這些事件將出現在 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties]。
+## 使用Analytics強化Adobe廣告促銷活動和Portfolio
 
-請參閱「」[Advertising Cloud分析指標](analytics-data-in-advertising-cloud.md)「 」，以查看可用度量的清單。
+無需任何額外像素， [!DNL Analytics for Advertising] 傳送兩個主要訊號給「Adobe廣告」，讓最佳化和更輕鬆的受眾細分：
 
-### 網站重定目標的分析段
+* 要用作競標訊號的轉換量度：
+   * 標準量度，例如 [!UICONTROL Revenue] 和 [!UICONTROL Cart Views].
+   * 網站參與量度，例如頁面檢視和造訪量度。
+   * 自訂收入量度。
+   * 保留收入量度。
+* 在中建立的區段 [!DNL Analytics] 並發佈至Experience Cloud。
 
-Advertising Cloud可以 [!DNL Analytics] 分類，以作再營銷用途，用於Advertising Cloud DSP [!DNL Search] 使用本地Experience Cloud受眾的廣告 [!DNL Analytics] 和Experience Cloud。
+   您可以使用 [!DNL Analytics] 中第一方網站重新定位的區段 [!DNL DSP] 付費搜索廣告。
 
-訪問 [!DNL Analytics] 段，廣告商帳戶需要 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 啟用。 啟用ID服務後，所有Experience Cloud段(包括在 [!DNL Analytics] 發佈至Experience Cloud，在Adobe Audience Manager建立的段，使用Experience Cloud建立的段 [!DNL People core service]以及在Adobe Experience Platform建立並通過Audience Manager發送到Advertising Cloud的片段)，在處理後即可在Advertising Cloud內獲得。
+   ([!DNL Search] 僅限)廣告商 [!DNL Analytics] 但不能Audience Manager也能建立Google網站標籤型對象（再行銷清單）和客戶比對對象（客戶清單），從 [!DNL Analytics] 共用給Experience Cloud的區段。
 
-[!DNL Analytics] 24小時內提供，並每日更新。
+### 網站轉換量度作為競標訊號
 
-有關Experience Cloud觀眾服務的詳細資訊，請參見 [Experience Cloud觀眾](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+您可以使用標準事件和自訂事件，來自 [!DNL Analytics] 在Adobe廣告中建立加權目標。 目標為您的競標決策提供資訊 [!DNL DSP] 套件和搜尋產品組合。
 
-## 如何使用整合示例
+>[!NOTE]
+>
+> 您無法映射 [!DNL Analytics] Adobe廣告。
 
-### 在Analysis Workspace使用Advertising Cloud資料
+您的Adobe廣告團隊將協助您識別並對應適用於付費媒體績效的事件至Adobe廣告，這些事件將出現在 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
-要瞭解如何使用Advertising Cloud資料在Analysis Workspace建立可視報告，請參閱視頻「 」[工作區和報告簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)&quot;
+請參閱「[Adobe廣告中的Analytics量度](analytics-data-in-advertising-cloud.md)」，取得可用量度的清單。
 
-### 建立Advertising Cloud儀表板
+### 網站重新定位的Analytics區段
 
-要瞭解如何根據Analysis Workspace的目標跟蹤Advertising Cloud資料，請參閱視頻「 」[使用Advertising Cloud建立Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html)&quot;
+Adobe廣告可擷取 [!DNL Analytics] 區段，以用於再行銷目的，以及 [!DNL Search] 廣告，使用的Experience Cloud對象整合 [!DNL Analytics] 和Experience Cloud。
 
-### 使用Advertising CloudID進行站點條目分析
+若要存取 [!DNL Analytics] 區段，廣告商帳戶需要 [Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html) 已啟用。 啟用ID服務時，所有Experience Cloud區段(包括 [!DNL Analytics] 發佈至Experience Cloud、在Adobe Audience Manager中建立的區段、在Experience Cloud中建立的區段，使用 [!DNL People core service]，以及在Adobe Experience Platform中建立並透過Audience Manager傳送至「Adobe廣告」的區段)，一經處理，即可在「Adobe廣告」中使用。
 
-要瞭解如何建立Advertising Cloud網站條目報告以監控一週中的一天、一天中的時間、瀏覽器和地理影響，請參閱視頻「 」[建立Advertising Cloud站點條目報告](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;
+[!DNL Analytics] 區段會在24小時內提供，且會每天更新。
+
+如需「Experience Cloud對象」服務的詳細資訊，請參閱 [Experience Cloud對象](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+
+## 如何使用整合的範例
+
+### 在Analysis Workspace中使用Adobe廣告資料
+
+若要了解如何使用Adobe廣告資料在Analysis Workspace中建立視覺化報表，請參閱影片「[工作區和報表簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+
+### 建立AdobeAdvertising控制面板
+
+若要了解如何根據您在Analysis Workspace中的目標追蹤Adobe廣告資料，請參閱影片「[使用Adobe Analytics建立AdobeAdvertising控制面板](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+
+### 使用Adobe廣告ID進行網站項目分析
+
+若要了解如何建立Adobe廣告網站項目報表，以監控一週中的某天、一天中的某天、瀏覽器以及地理位置的影響，請參閱影片「[建立Adobe廣告網站項目報表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [視頻：簡介 [!DNL Analytics for Advertising Cloud]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
->* [實施的先決條件和關鍵資訊 [!DNL Analytics for Advertising Cloud]](prerequisites.md)
->* [Advertising Cloud分析使用的ID](ids.md)
->* [用於Advertising Cloud分析的JavaScript代碼](/help/integrations/analytics/javascript.md)
->* [預期資料差異 [!DNL Analytics] 和Advertising Cloud](data-variances.md)
->* [Advertising CloudAnalysis Workspace度量](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Advertising Cloud資料](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [影片：簡介 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [實作的必要條件和重要資訊 [!DNL Analytics for Advertising]](prerequisites.md)
+>* [AdobeAnalytics使用的Advertising ID](ids.md)
+>* [Analytics for Advertising的JavaScript程式碼](/help/integrations/analytics/javascript.md)
+>* [之間的預期資料差異 [!DNL Analytics] 和Adobe廣告](data-variances.md)
+>* [AdobeAnalysis Workspace中的Advertising量度](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
+>* [[!DNL Analytics] Adobe廣告中的資料](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
 

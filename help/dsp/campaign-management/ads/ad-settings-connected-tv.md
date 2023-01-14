@@ -1,88 +1,88 @@
 ---
-title: 連接的電視廣告設定
-description: 請參閱連接電視廣告的可用廣告設定說明。
+title: 已連接的電視廣告設定
+description: 請參閱連線電視廣告可用廣告設定的說明。
 feature: DSP Ads
 exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# 連接的電視廣告設定
+# 已連接的電視廣告設定
 
 ## [!UICONTROL Insert Ad Tag]
 
-*僅新廣告*
+*僅限新廣告*
 
 **[!UICONTROL URL]**:VAST標籤URL。
 
-**[!UICONTROL Title]**:檔案的名稱，將在「廣告」視圖和報告中使用。
+**[!UICONTROL Title]**:檔案的名稱，將用於廣告檢視和報表。
 
 >[!TIP]
 >
-> 要檢查VAST標籤的有效性，請將其貼上到瀏覽器中，然後點擊 **[!UICONTROL Enter]** 按鈕 如果標籤有效，您將看到包含 `<VAST>` 靠近頂端。
+> 若要檢查VAST標籤的有效性，請將其貼到瀏覽器中，然後點擊 **[!UICONTROL Enter]** 鍵。 如果標籤有效，您會看到包含 `<VAST>` 靠近頂端。
 
 ## [!UICONTROL Ad Options]
 
 ### [!UICONTROL Basic]
 
-**[!UICONTROL Ad Type]:** （只讀）您正在建立的廣告類型，它與廣告可附加到的放置類型相對應。
+**[!UICONTROL Ad Type]:** （唯讀）您要建立的廣告類型，與廣告可附加的版位類型相對應。
 
-**[!UICONTROL Ad Name]:** 廣告名。 預設情況下，資產標題會被使用，但您可以更改名稱。
+**[!UICONTROL Ad Name]:** 廣告名稱。 預設會使用資產標題，但您可以變更名稱。
 
 >[!TIP]
 >
-> 使用將廣告附加到位置時容易找到的名稱， [!UICONTROL Ads] 視圖和報表中。 例如，描述設備類型和某些關鍵屬性(如「假日產品預覽」：30秒CTV」)。
+> 在 [!UICONTROL Ads] 檢視和報表。 例如，說明裝置類型和某些關鍵屬性(例如「假日產品預覽」：30秒CTV」)。
 
-**[!UICONTROL Width | Ad Unit Width]:** 整個廣告單元的寬度。 此選項可能會根據您選擇的廣告單元類型鎖定。
+**[!UICONTROL Width | Ad Unit Width]:** 整個廣告單位的寬度。 此選項可能會根據您選取的廣告單位類型而鎖定。
 
-**[!UICONTROL Height | Ad Unit Height]:** 整個廣告單元的高度。 此選項可能會根據您選擇的廣告單元類型鎖定。
+**[!UICONTROL Height | Ad Unit Height]:** 整個廣告單位的高度。 此選項可能會根據您選取的廣告單位類型而鎖定。
 
-**[!UICONTROL Player X]:** 廣告單元的X坐標。 保留預設設定。
+**[!UICONTROL Player X]:** 廣告單位的X座標。 保留預設設定。
 
-**[!UICONTROL Player Y]:** 廣告單位的Y坐標。 保留預設設定。
+**[!UICONTROL Player Y]:** 廣告單位的Y座標。 保留預設設定。
 
-**[!UICONTROL Player Width]:** 整個廣告單元的寬度。 此選項可能會根據您選擇的廣告單元類型鎖定。
+**[!UICONTROL Player Width]:** 整個廣告單位的寬度。 此選項可能會根據您選取的廣告單位類型而鎖定。
 
-這和 **[!UICONTROL Width]** 的子菜單。
+這與 **[!UICONTROL Width]** 欄位。
 
-**[!UICONTROL Player Height]:** 整個廣告單元的高度。 此選項可能會根據您選擇的廣告單元類型鎖定。
+**[!UICONTROL Player Height]:** 整個廣告單位的高度。 此選項可能會根據您選取的廣告單位類型而鎖定。
 
-這和 **[!UICONTROL Height]** 的子菜單。
+這與 **[!UICONTROL Height]** 欄位。
 
-**[!UICONTROL Show Controls]:** 廣告的視頻控制項包括的位置： *[!UICONTROL Under]*。 *[!UICONTROL Over]*。 *[!UICONTROL Bottom]*&#x200B;或 *[!UICONTROL None]* （預設）。
+**[!UICONTROL Show Controls]:** 廣告的視訊控制項的加入位置： *[!UICONTROL Under]*, *[!UICONTROL Over]*, *[!UICONTROL Bottom]*，或 *[!UICONTROL None]* （預設）。
 
-**[!UICONTROL Preserve Aspect Ratio]:** 是否保留視頻的寬度和高度比例(*[!UICONTROL Yes]*)或拉伸視頻以填充可用空間(*[!UICONTROL No]*)。
+**[!UICONTROL Preserve Aspect Ratio]:** 是否保留視訊的寬度和高度比例(*[!UICONTROL Yes]*)或拉伸視訊以填滿可用空間(*[!UICONTROL No]*)。
 
-**[!UICONTROL VAST Tag]:** (僅使用VAST標籤的廣告；只讀)作為廣告源輸入的第三方VAST標籤。
+**[!UICONTROL VAST Tag]:** (僅使用VAST標籤的廣告；唯讀)您輸入做為廣告來源的第三方VAST標籤。
 
-**[!UICONTROL Final VAST Tag]:** (僅使用VAST標籤的廣告；只讀)作為廣告源輸入的第三方VAST標籤 [Advertising Cloud DSP跟蹤宏](/help/dsp/campaign-management/macros.md) 插入（如果適用）。
+**[!UICONTROL Final VAST Tag]:** (僅使用VAST標籤的廣告；唯讀)您輸入做為廣告來源的第三方VAST標籤，且必須 [Advertising DSP追蹤巨集](/help/dsp/campaign-management/macros.md) 插入（如果適用）。
 
-**[!UICONTROL Clock Number]**:(僅在聯合王國使用；僅對具有權限的用戶可用)用於確保廣播正確廣告的唯一標識符。 如果此設定不適用，則將其留空。
+**[!UICONTROL Clock Number]**:(僅在聯合王國使用；僅限具有權限的使用者使用)用來確保廣告廣播的唯一識別碼。 如果此設定不適用，請將其留空。
 
 ### [!UICONTROL Pixel]
 
-位置的所有現有事件跟蹤像素都會自動附加。 您可以根據對單個廣告的跟蹤需求分離現有像素並根據需要建立新像素。
+版位的所有現有事件追蹤像素會自動附加。 您可以根據個別廣告的追蹤需求，分離現有像素並視需要建立新像素。
 
-以下設定適用於您建立或編輯的每個像素。
+下列設定會套用至您建立或編輯的每個像素。
 
-**[!UICONTROL Integration Event]:** 觸發像素觸發的事件。 對於此廣告類型，使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*。
+**[!UICONTROL Integration Event]:** 觸發像素的事件。 對於此廣告類型，請使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** 像素是否為 *[!UICONTROL IMG URL]* （1x1像素影像檔案）, *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*。
+**[!UICONTROL Pixel Type]:** 像素是否為 *[!UICONTROL IMG URL]* （1x1像素影像檔案）, *[!UICONTROL HTML]*，或 *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** 像素影像的URL，格式與指定的「像素類型」相同。
+**[!UICONTROL Pixel URL or Code]:** 像素影像的URL，以指定像素類型的適當格式。
 
-**[!UICONTROL Pixel Name]:** 像素名稱。 使用有助於輕鬆識別像素的名稱。
+**[!UICONTROL Pixel Name]:** 像素名稱。 使用可協助您輕鬆識別像素的名稱。
 
-**[!UICONTROL Pixel Provider]:** 像素提供器： *[!UICONTROL None]*。 *[!UICONTROL Nielsen]*&#x200B;或 *[!UICONTROL Comscore]*。
+**[!UICONTROL Pixel Provider]:** 像素提供者： *[!UICONTROL None]*, *[!UICONTROL Nielsen]*，或 *[!UICONTROL Comscore]*.
 
 >[!MORELIKETHIS]
 >
 >* [關於廣告管理](ad-about.md)
->* [建立單個廣告](ad-create.md)
->* [列出與廣告關聯的放置](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [建立單一廣告](ad-create.md)
+>* [列出與廣告相關聯的版位](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [廣告規格](ad-specs.md)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP巨集](/help/dsp/campaign-management/macros.md)
 

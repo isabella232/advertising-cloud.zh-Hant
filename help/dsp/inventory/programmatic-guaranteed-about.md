@@ -3,16 +3,16 @@ title: 關於程式化保證交易
 description: 了解程式化保證(PG)交易，以及哪些SSP經認證可提供這些交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 96f756b0f5239e2378d0a4da18335d909f96ab94
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # 關於程式化保證交易
 
-程式化保證(PG)交易是透過交易ID（而非透過廣告伺服器標籤）直接與發佈商保證購買。 PG對您和您的發行者而言更有彈性，而且比起一般的標籤購買，PG提供更高的透明度。 帳單和報表可透過Advertising Cloud DSP整合，為您節省時間。
+程式化保證(PG)交易是透過交易ID（而非透過廣告伺服器標籤）直接與發佈商保證購買。 PG對您和您的發行者而言更有彈性，而且比起一般的標籤購買，PG提供更高的透明度。 帳單和報表可透過DSP整合，節省您的時間。
 
 ## PG交易的功能
 

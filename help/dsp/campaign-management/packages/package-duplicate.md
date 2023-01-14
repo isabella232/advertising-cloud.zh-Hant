@@ -3,7 +3,7 @@ title: 複製套件
 description: 了解如何複製套件。
 feature: DSP Packages
 exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,18 +22,27 @@ ht-degree: 0%
 請參閱「[未重複的項目](#package-not-duplicated)「 」，以取得未複製的版位設定清單。
 
 1. 在主功能表中，按一下 **[!UICONTROL Campaigns]**.
+
 1. 按一下促銷活動的名稱以開啟 [!UICONTROL Packages] 檢視。
+
 1. 在套件名稱旁，按一下  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
 1. 指定新包設定：
+
    1. 輸入新包名。
+
    1. （選用）變更預設設定。
 
       依預設：
 
       * 新套件會指派給原始廣告商和促銷活動。
+
       * 新套件在當天開始作用。<!-- and the flight continues for NN  days. -->
+
       * 原始套件中的版位會複製到新套件。
+
       * 廣告和版位層級事件像素不會複製到新套件。
+
 1. 按一下 **[!UICONTROL Submit]**.
 
 ## 未重複的項目 {#package-not-duplicated}

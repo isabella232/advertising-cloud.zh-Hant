@@ -3,9 +3,9 @@ title: 自訂報表設定
 description: 請參閱自訂報表設定的說明。
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 4e389d687f8974028181a03534aff1abf6b43831
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 **[!UICONTROL Report Headers]:** 是否 *[!UICONTROL Include]* 或 *[!UICONTROL Do Not Include]* 欄標題。
 
-**[!UICONTROL Attribution Rule Settings]:** (全部 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]，和 [!UICONTROL Site] 報表 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；僅限具有Advertising Cloud轉換追蹤的廣告商)在報表內，如何歸因一系列導致轉換的事件中的轉換資料。 如果要比較規則之間的差異，可以選擇多個規則。
+**[!UICONTROL Attribution Rule Settings]:** (全部 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]，和 [!UICONTROL Site] 報表 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄；廣告商(僅限Adobe廣告轉換追蹤)在報表內，如何歸因導致轉換的一系列事件中的轉換資料。 如果要比較規則之間的差異，可以選擇多個規則。
 
 >[!NOTE]
 >
->轉換路徑包含廣告商曝光數和點按次數，或點按回顧期間(在Advertising Cloud Search中設定)。 點按次數會在轉換歸因期間受到曝光數的偏好。 轉換路徑中的任何點按都會根據歸因規則獲得滿分。 只有在轉換路徑中未追蹤任何點按時，曝光數才會獲得評分。
+>轉換路徑包含廣告商曝光數和點按次數，或點按回顧期間(在 [!DNL Adobe Advertising Search]. 點按次數會在轉換歸因期間受到曝光數的偏好。 轉換路徑中的任何點按都會根據歸因規則獲得滿分。 只有在轉換路徑中未追蹤任何點按時，曝光數才會獲得評分。
 
 * *[!UICONTROL Last Event]:* 將轉換歸因於轉換路徑中的上次點按或曝光。
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 * *[!UICONTROL U-shaped]:* 將轉換歸因於轉換路徑中的所有事件，但賦予第一個和最後一個事件最大的權重，並連續減少對轉換路徑中間事件的權重。
 
-* *[!UICONTROL Display Only]:*  將轉換歸因於轉換路徑中的上次DSP點按或曝光。 這包括視訊和連線電視廣告，並排除對Advertising Cloud Search廣告的點按。
+* *[!UICONTROL Display Only]:*  將轉換歸因於轉換路徑中的上次DSP點按或曝光。 這包括視訊和連線電視廣告，並排除點按次數 [!DNL Adobe Advertising Search] 廣告。
 
 * *[!UICONTROL Social Only]:* 過時
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising Cloud](). -->
+<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
 **[!UICONTROL Paths as Columns]:**  (全部 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]，和 [!UICONTROL Site] 報表 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 欄)在相同裝置上發生先前事件時要報告的轉換類型。 您最多可以包含三種類型。 對於每個選取的類型，每個轉換量度會包含個別的欄，並附加指定的尾碼([!UICONTROL (tl)], [!UICONTROL (ct)]，或 [!UICONTROL (vt)]):
 
