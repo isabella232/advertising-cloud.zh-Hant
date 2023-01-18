@@ -2,8 +2,7 @@
 title: 建立自訂目標的最佳作法
 description: 了解建立自訂目標以定義成功事件的最佳實務。
 feature: DSP Optimization, DSP Best Practices
-exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%

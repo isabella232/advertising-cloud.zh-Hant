@@ -2,10 +2,9 @@
 title: 關於使用試算表更正促銷活動的位置設定
 description: 了解如何使用Excel QA試算表，檢閱及編輯行銷活動的索引鍵位置設定。
 feature: DSP Placements
-exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: 051b8b6437a75177e3a4d0425e2b0091d0d22a30
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---

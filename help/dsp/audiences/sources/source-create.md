@@ -2,8 +2,7 @@
 title: 建立對象來源以啟用第一方對象
 description: 了解如何建立來源，將對象匯入您的帳戶或廣告商帳戶。
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%

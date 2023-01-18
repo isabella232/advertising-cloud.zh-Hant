@@ -2,8 +2,7 @@
 title: Adobe廣告可接受的健康狀況區段
 description: 請參閱可接受的健康相關受眾區段和策略的准則，以作為鎖定健康相關受眾區段的替代方案。
 feature: Policies
-exl-id: fd4fdf5e-9159-4a89-8447-12051deae61b
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

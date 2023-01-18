@@ -2,13 +2,12 @@
 title: 關於 [!UICONTROL Report Destinations]
 description: 了解如何管理自訂報表的傳送位置。
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # 關於 [!UICONTROL Report Destinations]
 
@@ -43,3 +42,4 @@ ht-degree: 0%
 >* [[!UICONTROL Report Destination] 設定](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [編輯 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [刪除 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+

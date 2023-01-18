@@ -2,8 +2,7 @@
 title: 關於自訂目標
 description: 了解自訂目標，以在針對最低CPA或最高ROAS最佳化的套件中定義成功事件。
 feature: DSP Optimization
-exl-id: 623cb1ef-85ab-4535-aa3a-8e6ec8ae15ee
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%

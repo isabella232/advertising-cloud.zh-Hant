@@ -2,13 +2,12 @@
 title: 刪除報表目的地
 description: 了解如何刪除報表目的地。
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # 刪除報表目的地
 

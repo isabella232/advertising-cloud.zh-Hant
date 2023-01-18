@@ -2,8 +2,7 @@
 title: 從Advertising DSP促銷活動收集點按和曝光資料
 description: 了解如何使用Audience Manager像素，從Advertising DSP廣告擷取Cookie型曝光和點擊事件
 feature: Integration with Adobe Audience Manager
-exl-id: eb717148-00ab-428a-97b9-e8396a5c47b0
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%

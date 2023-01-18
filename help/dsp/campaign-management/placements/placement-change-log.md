@@ -2,7 +2,7 @@
 title: 檢視版位變更記錄
 description: 了解如何檢視對版位所做的變更。
 feature: DSP Placements
-source-git-commit: ea77f93b72ffa9ffd755879a21b16cc28fac625e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

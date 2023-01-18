@@ -1,28 +1,27 @@
 ---
-title: 建立報告目標
-description: 瞭解如何建立交付自定義報告的目標。
+title: 建立報表目的地
+description: 了解如何建立傳送自訂報表的目的地。
 feature: DSP Custom Reports
-exl-id: 33c58a98-a7d3-4d05-99e7-5e55ba3e625a
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
 
 ---
 
-# 建立報告目標
+# 建立報表目的地
 
-1. 在主菜單中，按一下 **[!UICONTROL Reports]>[!UICONTROL Report Destinations]**。
+1. 在主功能表中，按一下 **[!UICONTROL Reports]>[!UICONTROL Report Destinations]**.
 
 1. 按一下 **[!UICONTROL Add Destination]**.
 
-1. 指定 [報告目標設定](/help/dsp/reports/report-destinations/report-destination-settings.md)，具體取決於目標類型。
+1. 指定 [報表目的地設定](/help/dsp/reports/report-destinations/report-destination-settings.md)，依目的地類型而異。
 
 1. 按一下 **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> 如果將報告配置為傳遞到任何類型的FTP或 [!DNL Amazon S3] 位置，如果由於錯誤而取消了報表，則您將不會收到通知。 如果您未收到您期望的報告，請與 [!DNL Adobe] 客戶團隊查找原因。
+> 如果報表已設定為傳遞至任何類型的FTP或 [!DNL Amazon S3] 位置，則如果報表因錯誤而取消，您將不會收到通知。 如果您未收到預期的報表，請連絡您的 [!DNL Adobe] 客戶團隊來找出原因。
 
 >[!MORELIKETHIS]
 >

@@ -2,8 +2,7 @@
 title: Adobe廣告支援一般資料保護規範
 description: 了解支援的資料請求類型、必要的設定和欄位值，以及使用舊版產品ID和傳回資料欄位的API存取請求範例
 feature: GDPR
-exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 0%

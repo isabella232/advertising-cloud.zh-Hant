@@ -2,8 +2,7 @@
 title: 顯示廣告設定
 description: 請參閱顯示廣告可用廣告設定的說明。
 feature: DSP Ads
-exl-id: ae88dfab-0b0c-42ab-9135-422b20a4b6cd
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%

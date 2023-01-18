@@ -2,8 +2,7 @@
 title: 基礎 [!DNL Marketing Channels]
 description: 了解關於 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising] 使用者應了解。
 feature: Integration with Adobe Analytics
-exl-id: 27b6fb07-0b63-4ff1-a316-20b9a2b60fe9
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -34,7 +33,7 @@ ht-degree: 0%
 
 行銷人員通常會將查詢字串參數追蹤程式碼附加至管道URL，以協助追蹤管道對其網站的影響。 您可以設定 [!DNL Marketing Channels] 處理規則，以監聽特定追蹤參數和值，以判斷管道而不需任何其他追蹤。 例如，如果所有電子郵件促銷活動URL都遵循格式 `www.adobe.com?cid=email…` (其中URL包含查詢字串參數和值 `cid=email`)，然後您可以建立規則來監聽此追蹤程式碼，並將造訪分段到 [!UICONTROL Email] 頻道。
 
-其他管道沒有可追蹤的URL路徑，需要進一步的邏輯才能識別。 例如， [!UICONTROL Earned Social]，使用者點按另一個使用者在社交網路上有機共用的連結，是重要的追蹤管道。 但行銷人員無法將查詢字串參數追蹤代碼附加至共用的URL。 在此情況下，您可以建立處理規則來監聽感興趣社交網路的反向連結網域，以及沒有付費追蹤代碼來判斷管道。 接著，在「行銷管道」報表中，將會以無償社交方式追蹤符合這些要求的造訪。
+其他管道沒有可追蹤的URL路徑，需要進一步的邏輯才能識別。 例如， [!UICONTROL Earned Social]，而使用者點按另一個使用者在社交網路上有機共用的連結，則是重要的追蹤管道。 但行銷人員無法將查詢字串參數追蹤代碼附加至共用的URL。 在此情況下，您可以建立處理規則來監聽感興趣社交網路的反向連結網域，以及沒有付費追蹤代碼來判斷管道。 接著，在「行銷管道」報表中，將會以無償社交方式追蹤符合這些要求的造訪。
 
 Adobe建議您與分析團隊合作，建立完整的 [!DNL Marketing Channels] 處理規則，以追蹤與您的業務相關的所有管道。 這麼做可讓您建立強大的歸因報表。
 

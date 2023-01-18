@@ -1,16 +1,15 @@
 ---
-title: 關於Campaign管理的常見問題集
+title: Campaign Management常見問題集
 description: 進一步了解行銷活動管理，包括變更的延遲期間，以及在飛行期間進行預算變更時會發生什麼事。
 feature: DSP Packages, DSP Placements
-exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# 關於Campaign管理的常見問題集
+# Campaign Management常見問題集
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
@@ -28,7 +27,7 @@ ht-degree: 0%
 
    預算分配是以刊登版位績效為基礎，而刊登版位績效是使用14天平均值評估。 版位的變更只會在14天平均期間導致效能變更時，才導致預算分配的變更。
 
-   當效能變更發生時，DSP會在下一個預算最佳化週期(大約在促銷活動時區的午夜(00:00))內，相應地重新分配版位之間的套件預算。
+   當效能變更發生時，DSP會在下一個預算最佳化週期(大約在促銷活動時區的午夜(00:00))內，相應地重新分配位置之間的套件預算。
 
 * 從套件移除版位並新增至其他套件時，如何重新分配預算？
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 * 在飛行的最後一天，包裝的步調會如何改變？
 
-   在飛行的最後一天，該天從24小時縮短為23小時，以便不超出包預算。 此外，包的步調填充策略會自動更改為&quot;[!UICONTROL Frontload]&quot;，即使它設定為&quot;[!UICONTROL even]&quot;。 這意味著65%的日預算應在美國東部標準時間上午11:30前交付。
+   在飛行的最後一天，該天從24小時縮短為23小時，以便不超出包預算。 此外，包的步調填充策略會自動更改為「[!UICONTROL Frontload]，即使設為「[!UICONTROL even].&quot; 這意味著65%的日預算應在美國東部標準時間上午11:30前交付。
 
 >[!MORELIKETHIS]
 >

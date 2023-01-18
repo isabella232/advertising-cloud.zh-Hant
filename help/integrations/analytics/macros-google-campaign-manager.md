@@ -2,8 +2,7 @@
 title: 附加 [!DNL Analytics for Advertising] 巨集至 [!DNL Google Campaign Manager 360] 廣告標籤
 description: 了解新增原因及方式 [!DNL Analytics for Advertising] 巨集 [!DNL Google Campaign Manager 360] 廣告標籤
 feature: Integration with Adobe Analytics
-exl-id: 05084a85-5890-4a82-b3eb-4520f44f9d66
-source-git-commit: 7c467f7a6eb2522fb998539ba01ceef8c89c3853
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%

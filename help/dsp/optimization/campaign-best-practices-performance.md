@@ -2,8 +2,7 @@
 title: 設定效能行銷活動的最佳實務
 description: 了解設定以效能為中心的行銷活動的最佳實務，包括針對最低CPA或最高ROAS最佳化的刊登版位。
 feature: DSP Optimization, DSP Best Practices
-exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%

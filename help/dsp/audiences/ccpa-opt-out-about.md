@@ -2,8 +2,7 @@
 title: 關於 [!UICONTROL CCPA Opt-out-of-Sale] 區段與報表
 description: 了解如何建立區段以追蹤CCPA選擇退出銷售請求的ID，以及如何擷取ID的報表。
 feature: CCPA, DSP Segments
-exl-id: 9256d34e-d0dd-4abf-bc96-2b599caf2a8e
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%

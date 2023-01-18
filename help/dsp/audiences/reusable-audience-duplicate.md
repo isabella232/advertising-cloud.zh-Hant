@@ -2,7 +2,7 @@
 title: 複製可重複使用的對象
 description: 了解如何複製可重複使用的對象。
 feature: DSP Audiences
-source-git-commit: a88ced7a895ada05eae44973b7f9a7790a947265
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%

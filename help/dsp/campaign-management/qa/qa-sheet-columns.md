@@ -2,8 +2,7 @@
 title: 已下載/已上載電子錶格中的列
 description: 參考下載和上傳的Excel QA試算表中的欄。
 feature: DSP Placements
-exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%

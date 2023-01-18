@@ -2,7 +2,7 @@
 title: 共用或停止共用區段
 description: 了解如何與其他DSP使用者帳戶共用或停止共用自訂或CCPA選擇退出銷售區段。
 feature: DSP Segments
-source-git-commit: a29258fd09efabafa0d9b44ac3c52506ac835167
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

@@ -2,13 +2,12 @@
 title: 編輯自訂報表
 description: 了解如何編輯自訂報表設定。
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%
 
 ---
-
 
 # 編輯自訂報表
 

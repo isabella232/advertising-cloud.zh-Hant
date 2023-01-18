@@ -2,8 +2,7 @@
 title: 提交PG交易的廣告以 [!DNL FreeWheel]
 description: 了解如何向發佈商申請程式化保證交易的廣告核准 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%

@@ -2,7 +2,7 @@
 title: 將可重複使用對象的區段索引鍵複製到剪貼簿
 description: 了解如何檢視可重複使用對象的設定和對象大小。
 feature: DSP Audiences
-source-git-commit: 2629fe2c188e04b7fbfd7e17f9a6b076d68b7396
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

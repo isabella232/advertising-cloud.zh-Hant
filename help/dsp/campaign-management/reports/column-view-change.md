@@ -2,8 +2,7 @@
 title: 更改列視圖
 description: 了解如何變更資料檢視。
 feature: DSP Campaign Data Views
-exl-id: e7a95ed3-82f5-4c5c-937b-3cc48f9a3470
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -12,7 +11,7 @@ ht-degree: 0%
 
 # 更改列視圖
 
-* 在「檢視」選取器中，按一下![向下箭頭](/help/dsp/assets/chevron-down.png)，然後按一下所需欄檢視的名稱。
+* 在檢視選取器中，按一下 ![向下箭頭](/help/dsp/assets/chevron-down.png)，然後按一下所需欄檢視的名稱。
 
 >[!MORELIKETHIS]
 >

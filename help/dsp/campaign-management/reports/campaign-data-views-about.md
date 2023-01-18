@@ -2,8 +2,7 @@
 title: 關於促銷活動資料檢視
 description: 了解如何自訂行銷活動、套件、版位和廣告的資料檢視。
 feature: DSP Campaign Data Views
-exl-id: acc312b9-2de4-4e2f-9b59-b91f23d82357
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -45,6 +44,6 @@ ht-degree: 0%
 >* [管理資料視覺效果](campaign-data-visualization-manage.md)
 >* [檢視版位的網站、廣告和頻率詳細資料](placement-details-view.md)
 >* [查看投放位置診斷報告](placement-diagnostics.md)
->* [從促銷活動管理檢視匯出資料](campaign-export-data.md)
+>* [從Campaign Management檢視匯出資料](campaign-export-data.md)
 >* [影片：DSP帳戶結構和使用者介面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 

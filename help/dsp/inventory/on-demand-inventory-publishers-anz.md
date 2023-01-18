@@ -1,20 +1,19 @@
 ---
-title: '"[!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商"'
-description: 查看可用 [!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商。
+title: '"[!DNL On Demand] Premium Inventory Publishers in Australia and New Zealand)一書'
+description: 查看可用 [!DNL On Demand] 澳洲和紐西蘭的premium詳細目錄發佈商。
 feature: DSP On Demand Inventory
-exl-id: e46ec570-38a7-4ea6-8c4c-d173971c48b7
-source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL On Demand] 澳大利亞和紐西蘭的高級庫存出版商{#on-demand-inventory-publishers-anz}
+# [!DNL On Demand] 澳大利亞和紐西蘭的Premium Inventory Publishers{#on-demand-inventory-publishers-anz}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| 發佈者 | 吉奧 |
+| 發佈者 | 地理 |
 |------------------------------|--------------|
 | [!DNL Allure Media] | 澳大利亞/紐西蘭 |
 | [!DNL APN News and Media] | 澳大利亞/紐西蘭 |
@@ -92,13 +91,13 @@ ht-degree: 0%
 | [!DNL WWE] | 澳大利亞/紐西蘭 |
 | [!DNL Yahoo] | 澳大利亞/紐西蘭 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 >[!MORELIKETHIS]
 >
->* [關於 [!DNL On Demand] 高級庫存](on-demand-inventory-about.md)
->* [訂閱和請求訪問 [!DNL On Demand] 高級庫存](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] 亞太地區高級庫存出版商](on-demand-inventory-publishers-apac.md)
+>* [關於 [!DNL On Demand] Premium庫存](on-demand-inventory-about.md)
+>* [訂閱並要求存取 [!DNL On Demand] Premium庫存](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 亞太地區的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand Premium] 歐洲、中東和非洲的庫存出版商](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] 北美的高級庫存出版商](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] 北美的Premium Inventory Publishers](on-demand-inventory-publishers-na.md)
 

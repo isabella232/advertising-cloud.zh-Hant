@@ -1,26 +1,25 @@
 ---
-title: 查看的事件像素 [!UICONTROL Simple Ad Serving] 交易
-description: 瞭解如何為 [!UICONTROL Simple Ad Serving] 成交。
+title: 檢視事件像素 [!UICONTROL Simple Ad Serving] 交易
+description: 了解如何取得 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# 查看事件跟蹤像素 [!UICONTROL Simple Ad Serving] 交易
+# 檢視事件追蹤像素(適用於 [!UICONTROL Simple Ad Serving] 交易
 
-可以獲取事件跟蹤像素的副本 [!UICONTROL Simple Ad Serving] 交易發送給您的發佈者以執行。 像素應用於由交易生成的位置中的所有廣告。
+您可以取得 [!UICONTROL Simple Ad Serving] 交易傳送至您的發佈商以進行實作。 像素會套用至交易產生之版位中的所有廣告。
 
-事件像素包括 [!UICONTROL Clickthrough] 像素和 [!UICONTROL Impression] 像素。 視頻和音頻廣告還包括按完成四分之一(從 [!UICONTROL 25% Complete] 至 [!UICONTROL 100% Complete])。
+事件像素包括 [!UICONTROL Clickthrough] 像素和 [!UICONTROL Impression] 像素。 視訊和音訊廣告也包含按完成四分位數的事件像素(來自 [!UICONTROL 25% Complete] to [!UICONTROL 100% Complete])。
 
-1. 在主菜單中，按一下 **[!UICONTROL Inventory]>[!UICONTROL Deals]**。
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
 
-1. 在交易行中，按一下 ![「選項」菜單](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**。
+1. 在交易列中，按一下 ![選項功能表](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
-1. 複製事件跟蹤像素，並將它們提供給發佈者。
+1. 複製事件追蹤像素並提供給您的發佈者。
 
 >[!MORELIKETHIS]
 >

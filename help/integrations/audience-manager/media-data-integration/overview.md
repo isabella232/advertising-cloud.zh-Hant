@@ -2,8 +2,7 @@
 title: 傳送DSP媒體曝光資料至Adobe Audience Manager概述
 description: 了解如何使用Audience Manager事件像素，擷取Advertising DSP行銷活動的曝光層級和點擊層級資料
 feature: Integration with Adobe Audience Manager
-exl-id: 916b7deb-511e-4fbf-96d9-b274a48dc748
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%

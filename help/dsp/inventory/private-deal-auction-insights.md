@@ -1,55 +1,54 @@
 ---
-title: 查看私人交易的拍賣洞察
-description: 瞭解如何使用拍賣洞察力來分析私人交易的交易構成。
+title: 檢視私人交易的拍賣分析
+description: 了解如何運用拍賣分析來分析私人交易的交易構成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: c2fe96c28004dee03ab94b4e5ed43bfbf3ee6e83
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-# 查看私人交易的拍賣洞察
+# 檢視私人交易的拍賣分析
 
-Auction Insights是一種故障排除工具，它允許您分析有擔保和無擔保私人交易的交易組成。 使用資料可視化，此工具顯示為 [關鍵拍賣屬性](#auction-attributes) 在特定時間段內。
+「拍賣前瞻分析」是一項疑難排解工具，可讓您分析有保證和無保證私人交易的交易組成。 此工具會使用資料視覺效果，顯示 [關鍵拍賣屬性](#auction-attributes) 特定時段內。
 
-1. 在主菜單中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals]。**
+1. 在主功能表中，按一下 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
-1. 在交易行中，按一下  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**。
+1. 在交易列中，按一下  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->拍賣洞察力也可通過拍賣 [!UICONTROL Inspector] 工具欄。 開啟它們， [開啟放置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然後按一下 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易排。
+>此外，您也可透過配售 [!UICONTROL Inspector] 工具。 為了開啟它們， [開啟投放位置 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然後按一下 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易行。
 
 ## 拍賣屬性 {#auction-attributes}
 
 區域圖可用於以下拍賣屬性：
 
-* **廣告類型：** 拍賣中請求的廣告類型（如「顯示」或「音頻」）。
+* **廣告類型：** 拍賣中請求的廣告類型（例如顯示或音訊）。
 
-* **瀏覽器：** 拍賣發起的瀏覽器（如Chrome或Firefox）。
+* **瀏覽器：** 拍賣的來源瀏覽器（例如Chrome或Firefox）。
 
-* **作業系統：** 拍賣發端的作業系統(如Android或iOS)。
+* **作業系統：** 拍賣始發的作業系統(OS)(例如Android或iOS)。
 
-* **設備類型：** 拍賣始發的設備（如行動電話或案頭）。
+* **設備類型：** 拍賣的來源裝置（例如行動電話或案頭）。
 
-* **廣告持續時間：** 拍賣時請求的最大廣告持續時間（例如15秒或30秒）。
+* **廣告期間：** 拍賣中請求的最大廣告持續時間（例如15秒或30秒）。
 
-* **安全：** 表示拍賣是否需要安全的HTTPS URL建立資產。 值： <i>安全</i> 或 <i>不安全</i>。
+* **安全：** 表示拍賣是否需要安全的HTTPS URL創意資產。 值： <i>安全</i> 或 <i>不安全</i>.
 
-* **MIME類型：** 拍賣中請求的廣告創意MIME類型（如mp4或mov）。
+* **Mime類型：** 拍賣中請求的廣告創意MIME類型（如mp4或mov）。
 
-![拍賣洞察力](/help/dsp/assets/auction-insights.png)
+![拍賣分析](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
->可以對特定屬性值應用篩選器以縮小結果範圍。
+>您可以套用特定屬性值的篩選器，以縮小結果範圍。
 
 >[!MORELIKETHIS]
 >
->* [關於專用清單](private-inventory-about.md)
->* [指定交易ID的放置和廣告](deal-id-attach-placements.md)
+>* [關於私有清單](private-inventory-about.md)
+>* [指定交易ID的版位和廣告](deal-id-attach-placements.md)
 >* [查看交易的詳細報表](deal-view-report.md)
->* [關於平台內報告](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [關於平台內報表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 

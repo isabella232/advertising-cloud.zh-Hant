@@ -2,8 +2,7 @@
 title: 行動廣告設定
 description: 請參閱行動廣告可用廣告設定的說明。
 feature: DSP Ads
-exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
