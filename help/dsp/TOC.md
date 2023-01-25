@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising DSP指南
+user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: f04fdb7f4f9787804e526b49da2aad0f4e15679a
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
 
-# Advertising DSP指南 {#dsp}
+# Advertising DSP 指南 {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -36,14 +36,14 @@ ht-degree: 5%
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
    + 支援消費者隱私權 {#privacy}
-      + [支援一般資料保護規範](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
+      + [支援一般資料保護規範](/help/privacy/advertising-gdpr.md)
       + 支援CCPA {#ccpa}
-         + [支援加州消費者隱私法：消費者資料存取和刪除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [支援加州消費者隱私法：消費者選擇退出銷售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
+         + [支援加州消費者隱私法：消費者資料存取和刪除](/help/privacy/ccpa-access-delete.md)
+         + [支援加州消費者隱私法：消費者選擇退出銷售](/help/privacy/ccpa-opt-out-of-sale.md)
    + 原則和指導方針 {#policies}
-      + [廣告需求政策](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [可接受的健康區段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] 資料使用准則](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+      + [廣告需求政策](/help/policies/ad-requirements-policy.md)
+      + [可接受的健康區段指南](/help/policies/health-segment-guidelines.md)
+      + [[!DNL DSP] 資料使用准則](/help/policies/data-usage-guidelines.md)
    + [進階測量解決方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management結構概觀](/help/dsp/campaign-management/campaign-management-overview.md)
