@@ -8,10 +8,10 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、最佳化和報告展示廣告策略所需的主要功能、工作、設定和其他資源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
+source-git-commit: d928b19b868ffc87d5962391f06d765f9da7c13a
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 6%
+source-wordcount: '930'
+ht-degree: 5%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 6%
    + [帳戶資金](/help/dsp/introduction/billing/account-funding.md)
    + [支援的貨幣](/help/dsp/currency.md)
    + 支援消費者隱私權 {#privacy}
-      + [支援一般資料保護規範](/help/privacy/gdpr.md)
+      + [支援一般資料保護規範](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
       + 支援CCPA {#ccpa}
-         + [支援加州消費者隱私法：消費者資料存取和刪除](/help/privacy/ccpa/ccpa-access-delete.md)
-         + [支援加州消費者隱私法：消費者選擇退出銷售](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+         + [支援加州消費者隱私法：消費者資料存取和刪除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
+         + [支援加州消費者隱私法：消費者選擇退出銷售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
    + 原則和指導方針 {#policies}
       + [廣告需求政策](/help/policies/ad-requirements-policy.md)
       + [可接受的健康區段指南](/help/policies/health-segment-guidelines.md)
