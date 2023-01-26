@@ -3,9 +3,9 @@ title: 建立並實作CCPA選擇退出銷售區段
 description: 了解如何建立和實作區段，以追蹤使用者ID，使其免受消費者選擇退出銷售的請求影響。
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
+source-git-commit: 1b5f5a56045616a2d67d9bfc5840bb1f06436fbb
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 如需如何使用Adobe Experience Platform Privacy Service API向Adobe廣告傳達CCPA選擇退出銷售請求的相關資訊，請參閱 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+>* 如需如何使用Adobe Experience Platform Privacy Service API向Adobe廣告傳達CCPA選擇退出銷售請求的相關資訊，請參閱 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* 若要追蹤出於與追蹤CCPA選擇退出銷售事件無關的目的而造訪網頁的使用者，以及透過桌上型電腦、行動裝置和CTV裝置公開廣告的使用者，請建立 [自訂區段](/help/dsp/audiences/custom-segment-create.md).
 
 
